@@ -1,6 +1,7 @@
 # Kartaverse Fuses
 
 ## kvrCropStereo
+
 The kvrCropStereo fuse allows you to re-crop stereo 3D footage with individual control over the left and right eye content.
 
 This makes it easy to pre-process production footage before applying image projection conversions.
@@ -10,6 +11,7 @@ This makes it easy to pre-process production footage before applying image proje
 ![kvrCropStereo Image View](images/fuse-kvrCropStereo-viewer.png)
 
 ## kvrLens
+
 Apply lens distortion correction using brown-conrady, syntheyes, and panotools lens models.
 
 ![kvrLens Fuse](images/fuse-kvrLens.png)
@@ -19,20 +21,42 @@ Apply lens distortion correction to stereo 3D footage using Brown-Conrady, Synth
 
 ![kvrLensStereo Fuse](images/fuse-kvrLensStereo.png)
 
+## kvrSTMapGenerator
+
+The "kvrSTMapGenerator" fuse allows you to generate an initial STMap template.
+
+![kvrSTMapGenerator Fuse](images/fuse-kvrSTMapGenerator.png)
+
+For more information about STMap warping workflows check out the document:  
+[Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)
+
+An STMap gradient image is able to hold pre-computed warping data in an image's red and green channels. You need to save an STMap in a 16-bit or 32-bit per-channel image with lossless compression to avoid artifacts.
+
+![kvrSTMapGenerator Fuse](images/fuse-kvrSTMapGenerator-viewer.png)
+
+Bonus DCTLs: Resolve Edit and Color page compatible DCTL files are included in the folder:
+
+        Reactor:/Deploy/Bin/Kartaverse/LUT/
+
 ## kvrGrade
+
 The kvrGrade fuse allows you to quickly color correct stereo 3D footage with individual control over the left and right eye content.
 
 ![kvrGrade Fuse](images/fuse-kvrGrade.png)
 
 ## kvrViewer
+
 Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node can be used to reframe VR footage with onscreen controls. 
 
 You can also convert stereo 3D circular fisheye content into 360VR and 180VR output. This is great if you want a parametric way to process media from lenses like the Canon RF 5.2mm dual fisheye lens.
 
+This node can be used to generate "Tiny Planet" views of a scene.
+
 ![kvrViewer Fuse](images/fuse-kvrViewer.png)
 
 ## kvrReframe360Ultra
-Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays.
+
+Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays. This node can be used to generate "Tiny Planet" views of a scene.
 
 ![kvrReframe360Ultra Fuse](images/fuse-kvrReframe360Ultra.png)
 
@@ -70,6 +94,7 @@ In the inspector view, if you click the little magic wand icon next to the right
 Vonk Ultra includes a node that allows you to read timecode synced closed caption subtitle .srt data. The output is a text datatype that can be connected to the StyledText field on a Text+ node.
 
 Typical Node Connections:
+
         vTextFromFile > vTextFromSubtitle > Text+
 
 The vTextFromSubtitles node supports both "flat" and immersive 360VR text caption creation through the use of image projection conversion nodes.

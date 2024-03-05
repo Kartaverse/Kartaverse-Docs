@@ -16,7 +16,13 @@ Apply lens distortion correction using brown-conrady, syntheyes, and panotools l
 
 ![kvrLens Fuse](images/fuse-kvrLens.png)
 
+Lens distortion correction can be used to correct for barrel or pincushion effects:
+
+![kvrLens Viewer 1](images/fuse-kvrLens-viewer-1.png)
+![kvrLens Viewer 2](images/fuse-kvrLens-viewer-2.png)
+
 ## kvrLensStereo
+
 Apply lens distortion correction to stereo 3D footage using Brown-Conrady, Syntheyes, and Panotools lens models.
 
 ![kvrLensStereo Fuse](images/fuse-kvrLensStereo.png)
@@ -59,6 +65,8 @@ This node can be used to generate "Tiny Planet" views of a scene.
 Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays. This node can be used to generate "Tiny Planet" views of a scene.
 
 ![kvrReframe360Ultra Fuse](images/fuse-kvrReframe360Ultra.png)
+
+![kvrReframe360Ultra Viewer](images/fuse-kvrReframe360Ultra-viewer.jpg)
 
 ## kvrWarpStichUltra
 

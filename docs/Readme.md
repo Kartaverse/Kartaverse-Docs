@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7** - Released 2024-02-28  
+**Version 5.7** - Released 2024-03-05  
 by Andrew Hazelden  
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
@@ -82,9 +82,10 @@ When the Reactor folder is opened in an Explorer/Finder window you can then navi
 ## Table of Contents
 
 - [Overview](#overview)
-- [KartaVR Macros](macros-guide)
-- [KartaVR Scripts](scripts)
-- [KartaVR Compositing Examples](examples)
+- [Scripts](scripts)
+- [Fuses](fuses)
+- [Legacy Macros](macros-guide)
+- [Compositing Examples](examples)
 - [What's New](new)
 - [Version History](version_history)
 - [Open Source Tools](opensource_tools)

@@ -1,15 +1,15 @@
-# Renderer3D Macros #
+# Renderer3D Macros
 
-## <a name="AcerWMRStereoRenderer3D"></a>AcerWMRStereoRenderer3D ##
+## <a name="AcerWMRStereoRenderer3D"></a>AcerWMRStereoRenderer3D
 
 ![OculusDK2StereoRenderer3D GUI](images/macro-acer-wmr-stereo-renderer3d.png)
 
 
-This roller coaster ride example shows how the "AcerWMRStereoRenderer3D" macro allows you to use an Acer Windows Mixed Reality HMD display as the output device from the Fusion 3D system. 
+This roller coaster ride example shows how the "AcerWMRStereoRenderer3D" macro allows you to use an Acer Windows Mixed Reality HMD display as the output device from the Fusion 3D system.
 
-To use this macro you need to mount the AcerWMR as a regular monitor on Mac/Windows/Linux. 
+To use this macro you need to mount the AcerWMR as a regular monitor on Mac/Windows/Linux.
 
-In Fusion select the "Windows  > New Image View"  menu item. Then drag this floating image view onto the AcerWMR display monitor and then resize the image view to be fullscreen.  You can now load the rendered image in Fusion on the new view using the 3 hotkey and the content will show up on the Rift's screen. It helps to turn off the View window's "Show Controls" (Command+K) and "Show Checker Underlay" options. 
+In Fusion select the "Windows  > New Image View"  menu item. Then drag this floating image view onto the AcerWMR display monitor and then resize the image view to be fullscreen.  You can now load the rendered image in Fusion on the new view using the 3 hotkey and the content will show up on the Rift's screen. It helps to turn off the View window's "Show Controls" (Command+K) and "Show Checker Underlay" options.
 
 Clicking on the view and selecting the Fit (Command+F) option will make sure the image fills the HMD screen.
 
@@ -17,7 +17,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![OculusDK2StereoRenderer3D Output](images/macro-acer-wmr-stereo-renderer3d-gui.png)
 
-## <a name="CubicRenderer3D"></a>CubicRenderer3D ##
+## <a name="CubicRenderer3D"></a>CubicRenderer3D
 
 ![CubicRenderer3D GUI](images/macro-cubic-renderer3d-gui.png)
 
@@ -51,7 +51,7 @@ This example shows how you might route elements from the Fusion 3D system into t
 
 ![CubicRenderer3D Node 2](images/macro-cubic-renderer3d-to-latlong-node.png)
 
-## <a name="CylindricalRenderer3D"></a>CylindricalRenderer3D ##
+## <a name="CylindricalRenderer3D"></a>CylindricalRenderer3D
 
 ![CylindricalRenderer3D GUI](images/macro-cylindrical-renderer3d-gui.png)
 
@@ -75,7 +75,7 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 ![CylindricalRenderer3D Node](images/macro-cylindrical-renderer3d-node.png)
 
-## <a name="CylindricalRenderer3DAdvanced"></a>CylindricalRenderer3DAdvanced ##
+## <a name="CylindricalRenderer3DAdvanced"></a>CylindricalRenderer3DAdvanced
 
 ![CylindricalRenderer3D GUI](images/macro-cylindrical-renderer3d-advanced-gui.png)
 
@@ -104,10 +104,10 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 ![CylindricalRenderer3DAdvanced Node](images/macro-cylindrical-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
- 
+
 The ChannelBoolean node can be used to extract one of these additional channels from the rendered image.
 
-## <a name="DomemasterRenderer3D"></a>DomemasterRenderer3D ##
+## <a name="DomemasterRenderer3D"></a>DomemasterRenderer3D
 
 ![DomemasterRenderer3D GUI](images/macro-domemaster-renderer3d-gui.png)
 
@@ -136,7 +136,7 @@ This example shows how you might route elements from the Fusion 3D system into t
 ![DomemasterRenderer3D Node](images/macro-domemaster-renderer3d-node.png)
 
 
-## <a name="DomemasterRenderer3DAdvanced"></a>DomemasterRenderer3DAdvanced ##
+## <a name="DomemasterRenderer3DAdvanced"></a>DomemasterRenderer3DAdvanced
 
 ![DomemasterRenderer3DAdvanced GUI](images/macro-domemaster-renderer3d-advanced-gui.png)
 
@@ -167,11 +167,11 @@ This example shows how you might route elements from the Fusion 3D system into t
 ![DomemasterRenderer3DAdvanced Node](images/macro-domemaster-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
- 
+
 The ChannelBoolean node can be used to extract one of these additional channels from the rendered image.
 
 
-## <a name="EquirectangularRenderer3D"></a>EquirectangularRenderer3D ##
+## <a name="EquirectangularRenderer3D"></a>EquirectangularRenderer3D
 
 ![EquirectangularRenderer3D GUI](images/macro-equirectangular-renderer3d-gui.png)
 
@@ -200,7 +200,7 @@ This example shows how you might route elements from the Fusion 3D system into t
 ![EquirectangularRenderer3D Node](images/macro-equirectangular-renderer3d-node.png)
 
 
-## <a name="EquirectangularRenderer3DAdvanced"></a>EquirectangularRenderer3DAdvanced ##
+## <a name="EquirectangularRenderer3DAdvanced"></a>EquirectangularRenderer3DAdvanced
 
 ![EquirectangularRenderer3DAdvanced GUI](images/macro-equirectangular-renderer3d-advanced-gui.png)
 
@@ -231,18 +231,18 @@ This example shows how you might route elements from the Fusion 3D system into t
 ![EquirectangularRenderer3DAdvanced Node](images/macro-equirectangular-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
- 
+
 The ChannelBoolean node can be used to extract one of these additional channels from the rendered image.
 
 
 
-## <a name="OculusDK1MonoRenderer3D"></a>OculusDK1MonoRenderer3D ##
+## <a name="OculusDK1MonoRenderer3D"></a>OculusDK1MonoRenderer3D
 
 ![OculusDK1MonoRenderer3D Output](images/macro-oculus-dk1-mono-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
-The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene. 
+The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene.
 
 Another way to deal with camera animation is to place a Transform3D node in your composite just before the renderer3D node. Then you could animate this camera by connecting the Transform3D node to other cameras in your Fusion scene, or by importing an FBX Mesh or Alembic mesh into your composite that has an existing keyframe animated camera that was created using a motion path. This has the benifit that the renderer3D node's own  XYZ Rotation and XYZ Offset controls would be available to let you "look around" in the virtual world.
 
@@ -252,7 +252,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![OculusDK1MonoRenderer3D GUI](images/macro-oculus-dk1-mono-renderer3d-gui.png)
 
-## <a name="OculusDK1StereoRenderer3D"></a>OculusDK1StereoRenderer3D ##
+## <a name="OculusDK1StereoRenderer3D"></a>OculusDK1StereoRenderer3D
 
 ![OculusDK1StereoRenderer3D Output](images/macro-oculus-dk1-stereo-renderer3d.png)
 
@@ -260,7 +260,7 @@ This node allows you to take content from inside of Fusion's 3D workspace and us
 
 The "Camera Separation" control is used to adjust the eye spacing in the stereo renderings. The default Camera Separation value is 0.65 units of distance in Fusion's 3D workspace but this setting can be easily adjusted to any value that is comfortable for your eyes based upon your scene's scale and the proximity of the geometry in the scene to the camera rig.
 
-The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene. 
+The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene.
 
 Another way to deal with camera animation is to place a Transform3D node in your composite just before the renderer3D node. Then you could animate this camera by connecting the Transform3D node to other cameras in your Fusion scene, or by importing an FBX Mesh or Alembic mesh into your composite that has an existing keyframe animated camera that was created using a motion path. This has the benifit that the renderer3D node's own  XYZ Rotation and XYZ Offset controls would be available to let you "look around" in the virtual world.
 
@@ -270,13 +270,13 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![OculusDK1StereoRenderer3D GUI](images/macro-oculus-dk1-stereo-renderer3d-gui.png)
 
-## <a name="OculusDK2MonoRenderer3D"></a>OculusDK2MonoRenderer3D ##
+## <a name="OculusDK2MonoRenderer3D"></a>OculusDK2MonoRenderer3D
 
 ![OculusDK2MonoRenderer3D Output](images/macro-oculus-dk2-mono-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
-The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene. 
+The XYZ Rotation and XYZ Offset controls in the node allow you to control the panning and camera translation applied to the renderer3d node's camera. If you want to animate the Oculus Rift renderer3D node's position in the scene, you can use either keyframes on the attributes directly, or you could use expressions to link these translation controls to moving elements in the scene.
 
 Another way to deal with camera animation is to place a Transform3D node in your composite just before the renderer3D node. Then you could animate this camera by connecting the Transform3D node to other cameras in your Fusion scene, or by importing an FBX Mesh or Alembic mesh into your composite that has an existing keyframe animated camera that was created using a motion path. This has the benifit that the renderer3D node's own  XYZ Rotation and XYZ Offset controls would be available to let you "look around" in the virtual world.
 
@@ -286,7 +286,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![OculusDK2MonoRenderer3D GUI](images/macro-oculus-dk2-mono-renderer3d-gui.png)
 
-## <a name="OculusDK2StereoRenderer3D"></a>OculusDK2StereoRenderer3D ##
+## <a name="OculusDK2StereoRenderer3D"></a>OculusDK2StereoRenderer3D
 
 ![OculusDK2StereoRenderer3D Output](images/macro-oculus-dk2-stereo-renderer3d.png)
 
@@ -300,13 +300,13 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![OculusDK2StereoRenderer3D GUI](images/macro-oculus-dk2-stereo-renderer3d-gui.png)
 
-## <a name="YouTube180Renderer3D"></a>YouTube180Renderer3D ##
+## <a name="YouTube180Renderer3D"></a>YouTube180Renderer3D
 
 ![YouTube180Renderer3D Roller Coaster Scene](images/macro-youtube-180-renderer-3d.png)
 
 The YouTube180Renderer3D node allows you to render out monoscopic 2D content from Fusion's 3D system to the YouTube 180 based equirectangular 180&deg;x180&deg; horizontally cropped 1:1 aspect ratio frame format.
 
-## <a name="YouTube180StereoRenderer3D"></a>YouTube180StereoRenderer3D ##
+## <a name="YouTube180StereoRenderer3D"></a>YouTube180StereoRenderer3D
 
 ![YouTube180StereoRenderer3D Roller Coaster Scene](images/macro-youtube-180-stereo-renderer-3d.png)
 

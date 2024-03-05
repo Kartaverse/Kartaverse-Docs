@@ -1,6 +1,6 @@
-# Filter Macros #
+# Filter Macros
 
-## <a name="BlurPanoramicWrap"></a>BlurPanoramicWrap ##
+## <a name="BlurPanoramicWrap"></a>BlurPanoramicWrap
 
 ![BlurPanoramicWrap GUI](images/macro-blur-panoramic-wrap-gui.png)
 
@@ -24,7 +24,7 @@ You can also use the effect mask control input to add your own vector mask or gr
 
 ![BlurPanoramicWrap Node](images/macro-blur-panoramic-wrap-node.png)
 
-## <a name="ColorCorrectorMasked"></a>ColorCorrectorMasked ##
+## <a name="ColorCorrectorMasked"></a>ColorCorrectorMasked
 
 ![ColorCorrectorMasked GUI](images/macro-color-corrector-masked-gui.png)
 
@@ -84,7 +84,7 @@ To use the ColorCorrectorMasked node, the source imagery is connected to the nod
 
 
 
-## <a name="DefocusPanoramicWrap"></a>DefocusPanoramicWrap ##
+## <a name="DefocusPanoramicWrap"></a>DefocusPanoramicWrap
 
 ![DefocusPanoramicWrap GUI](images/macro-defocus-panoramic-wrap-gui.png)
 
@@ -100,7 +100,7 @@ The "Bloom Level" and "Bloom Threshold" allow you to control how the highlights 
 
 The "Lens Type" control allows you to choose the shape of the bokeh blur effect. You can choose to use a polygonal shape with a variable number of sides, or a pure circular bokeh blur geometry.
 
-The "Lens Angle", "Lens Sides", and "Lens Shape" controls adjust the look of the shaped blur region. 
+The "Lens Angle", "Lens Sides", and "Lens Shape" controls adjust the look of the shaped blur region.
 
 The Lens Sides control only applies when you have the Lens Type control set to one of the NGon options. This lets you have a hexagon, octogon, or higher number of polygon sides present in each bokeh spot.
 
@@ -114,7 +114,7 @@ You can also use the effect mask control input to add your own vector mask or gr
 
 ![DefocusPanoramicWrap node](images/macro-defocus-panoramic-wrap-node.png)
 
-## <a name="DepthBlurPanoramicWrap"></a>DepthBlurPanoramicWrap ##
+## <a name="DepthBlurPanoramicWrap"></a>DepthBlurPanoramicWrap
 
 ![DepthBlurPanoramicWrap GUI](images/macro-depth-blur-panoramic-wrap-gui.png)
 
@@ -139,7 +139,7 @@ The DepthBlurPanoramicWrap node has three inputs: An "image" input for the panor
 
 ![DepthBlurPanoramicWrap Node](images/macro-depth-blur-panoramic-wrap-node.png)
 
-## <a name="DisplaceEquirectangular"></a>DisplaceEquirectangular ##
+## <a name="DisplaceEquirectangular"></a>DisplaceEquirectangular
 
 ![DisplaceEquirectangular GUI](images/macro-displace-equirectangular-gui.png)
 
@@ -167,7 +167,7 @@ The DisplaceEquirectangular node has three inputs: An "image" input for the pano
 
 ![DisplaceEquirectangular Node](images/macro-displace-equirectangular-node.png)
 
-## <a name="GlowPanoramicWrap"></a>GlowPanoramicWrap ##
+## <a name="GlowPanoramicWrap"></a>GlowPanoramicWrap
 
 ![GlowPanoramicWrap GUI](images/macro-glow-panoramic-wrap-gui.png)
 
@@ -201,7 +201,7 @@ You can also use the effect mask control input to add your own vector mask or gr
 
 
 
-## <a name="SharpenPanoramicWrap"></a>SharpenPanoramicWrap ##
+## <a name="SharpenPanoramicWrap"></a>SharpenPanoramicWrap
 
 ![SharpenPanoramicWrap GUI](images/macro-sharpen-panoramic-wrap-gui.png)
 
@@ -209,7 +209,7 @@ The SharpenPanoramicWrap node applies a sharpening effect that is panoramic 360&
 
 (As a tip, the UnSharpenMaskPanoramicWrap node is also a nice node to use to improve the overall crispness of an image too and can be a little more nuanced in it's sharpening effect.)
 
-This image has the sharpening effect cranked up really high so the effect is easily visible but harsh. The SharpenPanoramicWrap node should be used subtly for a gentle improvement of clarity. 
+This image has the sharpening effect cranked up really high so the effect is easily visible but harsh. The SharpenPanoramicWrap node should be used subtly for a gentle improvement of clarity.
 
 ![SharpenPanoramicWrap](images/macro-sharpen-panoramic-wrap.jpg)
 
@@ -227,14 +227,14 @@ You can also use the effect mask control input to add your own vector mask or gr
 ![SharpenPanoramicWrap Node](images/macro-sharpen-panoramic-wrap-node.png)
 
 
-## <a name="UnSharpenMaskPanoramicWrap"></a>UnSharpenMaskPanoramicWrap ##
+## <a name="UnSharpenMaskPanoramicWrap"></a>UnSharpenMaskPanoramicWrap
 
 ![UnSharpenMaskPanoramicWrap GUI](images/macro-unsharpen-mask-panoramic-wrap-gui.png)
 
 The UnSharpenMaskPanoramicWrap node applies a sharpening effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in un-sharpen mask node.
 
 
-The UnSharpenMaskPanoramicWrap node should be used subtly for a gentle improvement of clarity. 
+The UnSharpenMaskPanoramicWrap node should be used subtly for a gentle improvement of clarity.
 
 ![UnSharpenMaskPanoramicWrap](images/macro-unsharpen-mask-panoramic-wrap.jpg)
 

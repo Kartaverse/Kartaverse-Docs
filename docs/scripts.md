@@ -1,4 +1,4 @@
-# KartaVR Scripts #
+# KartaVR Scripts
 
 ----
 
@@ -6,7 +6,7 @@ This document is a summary of the scripts included with the KartaVR toolset. Onc
 
 ![Fusion Scripts Menu](images/dfm-scripts-menu.gif)
 
-## <a name="pano-view"></a>PanoView ##
+## <a name="pano-view"></a>PanoView
 
 The PanoView script will send the imagery from the currently selected Fusion node to an Oculus Rift HMD using an external media viewer / playback tool.
 
@@ -15,7 +15,7 @@ The [Panoview script is described on its own separate documentation page here](p
 ![PanoView Script](images/panoview-gopro.png)
 
 <a name="edit-panoview-preferences"></a>
-## Edit PanoView Preferences ##
+## Edit PanoView Preferences
 
 The Edit PanoView Preferences script lets you customize the default settings for the PanoView image viewing script.
 
@@ -24,13 +24,13 @@ The [Edit PanoView Preferences script is described on its own separate documenta
 ![Edit PanoView Preferences](images/script-edit-panoview-preferences.png)
 
 <a name="edit-send-media-to-preferences"></a>
-## Edit Send Media to Preferences ##
+## Edit Send Media to Preferences
 
 ![Edit Send Media to Preferences Menu](images/script-menu-send-media-to-preferences.png)
 
 The Edit Send Media to Preferences script lets you customize the settings for the "Send Frame to" and "Send Media to" collection of scripts.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -38,7 +38,7 @@ The Edit Send Media to Preferences script lets you customize the settings for th
 
 **Step 3.** In the Edit Send Media to Preferences dialog window you need to define the executable file path location for each of the "Send Frame to" and "Send Media to" tools you want to use.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 ![Edit Send Media to Preferences Menu](images/script-send-media-to-preferences.png)
 
@@ -82,17 +82,17 @@ The "OK" button will save the revised preferences.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-## <a name="batch-builder-creator"></a>PTGui BatchBuilder Creator ##
+## <a name="batch-builder-creator"></a>PTGui BatchBuilder Creator
 
 ![Convert Image Sequences to PTGui BatchBuilder](images/scripts-ptgui-batchbuilder-creator.png)
 
-The `PTGui BatchBuilder Creator` script converts your currently selected loader and saver node based image sequences into a format that works easily with PTGui's BatchBuilder mode that is used for panoramic sequence stitching. 
+The `PTGui BatchBuilder Creator` script converts your currently selected loader and saver node based image sequences into a format that works easily with PTGui's BatchBuilder mode that is used for panoramic sequence stitching.
 
 As an example an image sequence named in the format of: `name.####.ext` will be renamed and placed in a PTGui BatchBuilder sequence numbered folder with a hierarchy of: `####/name.ext`
 
 ![PTGui BatchBuilder Example Folder Names](images/ptgui-batch-builder-folders.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Select loader or saver nodes in the flow view.
 
@@ -102,7 +102,7 @@ As an example an image sequence named in the format of: `name.####.ext` will be 
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "Sound Effect" control allows you to choose if you want to have an audio alert played when an error happens or when the script task completes. You can choose one of the following audio playback options: "None", "On Error Only", "Steam Train Whistle Sound", "Trumpet Sound", or "Braam Sound".
 
@@ -116,7 +116,7 @@ The "Frame Padding" control allows you to specify the number of leading zeros on
 
 The "Open Output Folder" checkbox will display the containing folder where the BatchBuilder files were saved in an Explorer/Finder/Nautilus folder browser view.
 
-## <a name="batch-builder-extractor"></a>PTGui BatchBuilder Extractor ##
+## <a name="batch-builder-extractor"></a>PTGui BatchBuilder Extractor
 
 ![Convert PTGui BatchBuilder to Image Sequences](images/scripts-ptgui-batchbuilder-extractor.png)
 
@@ -126,7 +126,7 @@ As an example a PTGui BatchBuilder "folderized" image sequence named in the form
 
 ![PTGui BatchBuilder Example Folder Names](images/ptgui-batch-builder-folders.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Select loader or saver nodes in the flow view.
 
@@ -136,7 +136,7 @@ As an example a PTGui BatchBuilder "folderized" image sequence named in the form
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "Sound Effect" control allows you to choose if you want to have an audio alert played when an error happens or when the script task completes. You can choose one of the following audio playback options: "None", "On Error Only", "Steam Train Whistle Sound", "Trumpet Sound", or "Braam Sound".
 
@@ -152,7 +152,7 @@ The "Frame Padding" control allows you to specify the number of leading zeros on
 
 The "Open Output Folder" checkbox will display the containing folder where the BatchBuilder files were saved in an Explorer/Finder/Nautilus folder browser view.
 
-## <a name="ptgui-mask-importer"></a>PTGui Mask Importer ##
+## <a name="ptgui-mask-importer"></a>PTGui Mask Importer
 
 ![PTGui Mask Example](images/script-ptgui-mask-importer.png)
 
@@ -166,27 +166,27 @@ There is a KartaVR provided MatteControl node named [PTGuiMatteControl](macros-g
 
 ![PTGui Mask Importer Nodes](images/script-ptgui-mask-importer-nodes.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Then run the **Script > KartaVR > Stitching > PTGui Mask Importer** menu item.
 
-**Step 2.** In the PTGui Mask Importer dialog window you need to select a PTGui .pts file using the **PTGui Project File** text field. 
+**Step 2.** In the PTGui Mask Importer dialog window you need to select a PTGui .pts file using the **PTGui Project File** text field.
 
-**Step 3.** After customizing the settings in the this dialog you can click the "OK" button to process the PTGui document. The resulting node based composite that is created is placed into your copy/paste clipboard buffer. 
+**Step 3.** After customizing the settings in the this dialog you can click the "OK" button to process the PTGui document. The resulting node based composite that is created is placed into your copy/paste clipboard buffer.
 
-**Step 4.** Select the **Edit > Paste** menu item, or use the Command + P (macOS) or Ctrl + P (Windows/Linux) hotkey to instantly add the masking image loader nodes to your active Fusion composite. 
+**Step 4.** Select the **Edit > Paste** menu item, or use the Command + P (macOS) or Ctrl + P (Windows/Linux) hotkey to instantly add the masking image loader nodes to your active Fusion composite.
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Windows Installation Requirements ###
+### Windows Installation Requirements
 
-The PTGui Mask Importer script uses the **base64** decoder library  to read the image masking data that is stored in a PTGui project file. On Windows there is no built-in base64 decoder library available so the open source **Cygwin** library is used by KartaVR to provide this feature. 
+The PTGui Mask Importer script uses the **base64** decoder library  to read the image masking data that is stored in a PTGui project file. On Windows there is no built-in base64 decoder library available so the open source **Cygwin** library is used by KartaVR to provide this feature.
 
 There is a note in the KartaVR [Windows Manual Install guide on Step 4.](install#win-env-variables) that explains how to add the KartaVR bundled Cygwin "bin" folder to your systems `%PATH%` environment variable.
 
 MacOS and Linux systems come with a built-in version of the **base64** decoder library so no additional steps are required to use the tool.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "PTGui Project File" text field and file browser button allow you to select a PTGui .pts file from your hard disk.
 
@@ -201,7 +201,7 @@ The "Mask Numbering Starts on 1" checkbox allows you to choose if you want each 
 The "Open Output Folder" checkbox will display the containing folder where the PTgui mask images files were saved in an Explorer/Finder/Nautilus folder browser view.
 
 
-## <a name="ptgui-project-importer"></a>PTGui Project Importer ##
+## <a name="ptgui-project-importer"></a>PTGui Project Importer
 
 ![Under the Bridge](images/preview-under-the-bridge.jpg)
 
@@ -209,7 +209,7 @@ With the PTGui Project Importer script you can stitch 360° panoramic video and 
 
 The PTGui Project Importer script is self standing and does not need PTGui to be installed on the computer in order to run. This is useful if you are on Linux and can't natively run PTGui on the Fusion workstation, or if you only have one copy of PTGui that was used to create the initial camera rig template .pts file but want to have multiple video stitching artists use Fusion to process the footage and build 360&deg; composites.
 
-You can watch a YouTube preview video that shows how the PTGui Project Importer script works here:  
+You can watch a YouTube preview video that shows how the PTGui Project Importer script works here:
 [https://www.youtube.com/watch?v=-hu1-M3yq74](https://www.youtube.com/watch?v=-hu1-M3yq74)
 
 **Note:** Fusion does not read in or interpret EXIF image rotation metadata. You need to bake in and flatten the EXIF image rotation value into the image and remove that metadata setting in advance if you want PTGui and Fusion to use the exact same portrait/landscape style rotation setting when importing the imagery into a composite.
@@ -222,23 +222,23 @@ Right now the PTGui Project Importer script is designed primarily for use with i
 
 ![PTGui Project Importer Dialog](images/script-ptgui-project-importer-gui.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Then run the **Script > KartaVR > Stitching > PTGui Project Importer** menu item.
 
-**Step 2.** In the PTGui Project Importer dialog window you need to select a PTGui .pts file using the **PTGui Project File** text field. 
+**Step 2.** In the PTGui Project Importer dialog window you need to select a PTGui .pts file using the **PTGui Project File** text field.
 
 **Step 3.** The only other control you need to adjust is the "Edge Blending" control which is used to define the blending radius used with the vector masks during a panoramic stitch.
 
-**Step 4.** After customizing the settings in the this dialog you can click the "OK" button to process the PTGui document. The resulting node based composite that is created is placed into your copy/paste clipboard buffer. 
+**Step 4.** After customizing the settings in the this dialog you can click the "OK" button to process the PTGui document. The resulting node based composite that is created is placed into your copy/paste clipboard buffer.
 
-**Step 5.** Select the **Edit > Paste** menu item, or use the Command + P (macOS) or Ctrl + P (Windows/Linux) hotkey to instantly add the panoramic stitching nodes to your active Fusion composite. 
+**Step 5.** Select the **Edit > Paste** menu item, or use the Command + P (macOS) or Ctrl + P (Windows/Linux) hotkey to instantly add the panoramic stitching nodes to your active Fusion composite.
 
 **Step 6.** You may have to select the new Loader nodes and relink the footage to switch from working with the PTGui imported still frame camera view images, over to using image sequences or movie files.
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "PTGui Project File" text field and file browser button allow you to select a PTGui .pts file from your hard disk.
 
@@ -266,11 +266,11 @@ The "Add Cropping Nodes" checkbox will load in the PTGui view cropping settings 
 
 The "Add Vector Masks" checkbox will add a masking shape to composite for each of the images imported from the PTGui project. If you are loading in Circular Fisheye imagery then a "FisheyeCroppedMask" node will be loaded and automatic cropping and feathering settings will be used to handle lenses that have part of the circular border cropped off by the image sensor. If you are loading in a Rectilinear image then a rectangle node will be added as the mask for each image.
 
-The "Add Stitching Nodes" checkbox will add the required panoramic warping nodes to the Fusion composite. If you are loading in Circular Fisheye imagery from the PTGui project file you will have a series of "Fisheye2Equirectangular" nodes created when the "Add Stitching Nodes" checkbox is enabled. If you are working with regular perspective "rectilinear" camera lenses then a "Rectilinear2Equirectangular" node will be added to the comp when the "Add Stitching Nodes" checkbox is enabled. 
+The "Add Stitching Nodes" checkbox will add the required panoramic warping nodes to the Fusion composite. If you are loading in Circular Fisheye imagery from the PTGui project file you will have a series of "Fisheye2Equirectangular" nodes created when the "Add Stitching Nodes" checkbox is enabled. If you are working with regular perspective "rectilinear" camera lenses then a "Rectilinear2Equirectangular" node will be added to the comp when the "Add Stitching Nodes" checkbox is enabled.
 
 The "Add GridWarp Nodes" checkbox is a convenience feature that will add a grid warper to each of the imported camera views in the automatically created Fusion comp. This is handy if you want to reduce stitching parallax artifacts on a specific camera view. If you use the GridWarper approach in your stitching projects it is a good idea to occasionally set the Merge node for that camera view to the Apply Mode "Difference" setting so you can verify how close the alignment is for this image compared to the background imagery.
 
-The "Add Camera3D Nodes" checkbox will import the PTGUi camera rig's yaw/pitch/roll data into Fusion 3D workspace's and build a set of camera3D nodes based upon each your your camera rig views. The Camera3D nodes are then grouped together with a Merge3D node. This option is useful to get a visual idea of the layout and placement of the individual cameras in a live action video rig. 
+The "Add Camera3D Nodes" checkbox will import the PTGUi camera rig's yaw/pitch/roll data into Fusion 3D workspace's and build a set of camera3D nodes based upon each your your camera rig views. The Camera3D nodes are then grouped together with a Merge3D node. This option is useful to get a visual idea of the layout and placement of the individual cameras in a live action video rig.
 
 The "Mask Numbering Starts on 1" checkbox allows you to choose if you want each mask image name to start counting from 0 or 1. This control will have more use in the future but can be ignored at the moment.
 
@@ -278,7 +278,7 @@ The "Use Relative Paths for Loaders" checkbox will re-write the loader file path
 
 The "Open Output Folder" checkbox will display the containing folder where the PTGui files are located in an Explorer/Finder/Nautilus folder browser view.
 
-### <a name="camera3d-node-rig-view"></a>Camera3D Node Rig Views ###
+### <a name="camera3d-node-rig-view"></a>Camera3D Node Rig Views
 
 When the "Add Camera3D Nodes" checkbox is enabled in the PTGui Project Importer tool a re-creation of the original panoramic camera rig geometry is created in Fusion's 3D workspace. You are able to pan the view and see how the individual cameras are oriented. This can give the Fusion compositing artist a visual idea of the overall image coverage from the rig and also clarify how much overlap you have in the Zenith/nadir zones by seeing the camera view vectors projected out from each camera.
 
@@ -307,13 +307,13 @@ The PTGUi Project Importer Lua script's "showCamera3DViewVector" variable can be
     > showCamera3DViewVector = 1
     > -- showCamera3DViewVector = 0
 
-## <a name="render-selected"></a>Render Selected ##
+## <a name="render-selected"></a>Render Selected
 
 The `Render Selected` script will render the actively selected node in Fusion Standalone/Resolve's Fusion page Nodes view. This means you can output content in Resolve's Fusion Page directly to disk using nodes like the FBXExporter, Saver, LifeSaver, PutFrame, or custom EXRIO based Fuse.
 
 You can access this script via a tools script in the right-click contextual menu `Script > KartaVR > Render Selected` menu. You can also use this script as a comp script using the `Script > KartaVR > Stitching > Render Selected` menu item.
 
-## <a name="combine-stereo-movies"></a>Combine Stereo Movies ##
+## <a name="combine-stereo-movies"></a>Combine Stereo Movies
 
 The `Combine Stereo Movies` script lets you take separate left and right stereo videos and merge them into Over/Under or Side by Side stereo videos. At the same time you can also transcode the video into H.264, H.265, and QuickTime ProRes 422 video formats.
 
@@ -323,7 +323,7 @@ If you are using Fusion (free) this script is special in that it can allow you t
 
 ![Combine Stereo Movies](images/scripts-combine-stereo-movies.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -333,7 +333,7 @@ If you are using Fusion (free) this script is special in that it can allow you t
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "Left Movie" text field and file browser button allow you to select a left camera view movie from your hard disk.
 
@@ -359,13 +359,13 @@ The "OK" button will start processing the video files.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-## <a name="convert-movies-to-image-sequences"></a>Convert Movies to Image Sequences ##
+## <a name="convert-movies-to-image-sequences"></a>Convert Movies to Image Sequences
 
 The `Convert Movies to Image Sequences` script lets you extract image sequences from a folder of movie files.
 
 ![Convert Movies to Image Sequences](images/scripts-convert-movies-to-image-sequences.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -375,7 +375,7 @@ The `Convert Movies to Image Sequences` script lets you extract image sequences 
 
 **Note:** The close X box on the dialog window does not work. You have to hit the "Cancel" button to close the window.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "Movie Folder" text field and folder browser button allow you to select a folder from your hard disk. This is the folder that will be scanned for movie files and then used for the output of the image sequences.
 
@@ -397,30 +397,29 @@ The "OK" button will start processing the video file into an image sequence.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-
-## <a name="video-snapshot"></a>Video Snapshot ##
+## <a name="video-snapshot"></a>Video Snapshot
 
 The `KartaVR Video Snapshot` script allows you to capture imagery from an HDMI/SDI/USB video capture device using the MacOS (AV Foundation) and Windows (DirectShow) libraries. The script has a UI Manager GUI and uses FFMPEG from the command line to do the capture task.
 
 ![Video Snapshot](images/scripts-video-snapshot.png)
 
-## GUI Controls ##
+### GUI Controls
 
-### Video Input Device ###
+#### Video Input Device
 
 On macOS, the "Video Input Device" list includes entries like "Capture screen 0", or possibly even "Capture screen 1" or "Capture screen 2" (if you have a multi-monitor setup). You can use these capture sources to perform a monitor based frame-grab which can then be loaded back into Fusion. This can be used as a simulated input device that will let you frame grab content shown on a 2nd display by another application.
 
 ![Video Snapshot ](images/scripts-video-snapshot-video-input-device.png)
 
 
-### Media Type ###
+#### Media Type
 
 The "Media Type" list allows you to choose the image/movie format that will be saved to disk. Options include: "`JPEG Image`", "`PNG Image`", "`TIFF Image`", "`TGA Image`", "`BMP Image`", "`JPEG2000 Image`", "`GIF Movie`", "`MP4 H.264 Movie`", "`MP4 H.265 Movie`", "`MOV H.264 Movie`", "`MOV ProRes 422 Movie`", and "`MOV ProRes 422 HQ Movie`".
 
 ![Video Snapshot Media Type](images/scripts-video-snapshot-media-type.png)
 
 
-### Resolution ###
+#### Resolution
 
 The "Resolution" control allows you to set the captured image/movie's width and height.
 
@@ -429,40 +428,40 @@ The "Resolution" control allows you to set the captured image/movie's width and 
 ![Video Snapshot Resolution](images/scripts-video-snapshot-resolution.png)
 
 
-### FPS ###
+#### FPS
 
 The "FPS" control defines the video capture frame rate that is used when a movie is saved, or when an image sequence is captured.
 
 **Note:** *Some video sources are very picky about this setting so you may not get a successful capture if you set the FPS control to a value outside of the bounds of your video input device's capabilites. In this case you will see an FFmpeg error message in the "Capture Log" window listing the issue.*
 
 
-### Format ###
+#### Format
 
 The "Format" control allows you to customize the pixel format used in the video capture frame buffer. This is an advanced control you shouldn't need to adjust.
 
 ![Video Snapshot Format](images/scripts-video-snapshot-format.png)
 
 
-### PathMap ###
+#### PathMap
 
 The "PathMap" ComboBox menu allows you to choose a location where your media will be saved. You could choose to save your video framegrabs into the current "`Comp:/`" PathMap location, or to other places like your operating system's temporary folder using the "`Temp:/`" PathMap.
 
 ![Video Snapshot PathMap](images/scripts-video-snapshot-pathmap.png)
 
 
-### Image Prefix ###
+#### Image Prefix
 
 The "Image Prefix:" text field allows you to customzie the starting part of the Screenshot filename. By default this setting is "Snapshot" and will result in the incrementing filename of "Snapshot_Take_1.0001.jpg" being written to disk.
 
 **Note:* *You can add intermediate folder names at the start of the "Image Prefix" field, and each of those folders will be created on-the-fly like "`Project_77/Snapshot`".*
 
 
-### Take ###
+#### Take
 
 The "Take" number field control allows you to auto-increment the filename captured to disk.
 
 
-### Cam Warmup Delay ###
+#### Cam Warmup Delay
 
 The "Cam Warmup Delay" number field expects a value entered in seconds. It is used with self-powered cameras that need a few moments to adjust auto-exposure/auto white balance after they are turned on.
 
@@ -471,12 +470,12 @@ The default "Cam Warmup Delay" value is 0.5 seconds which means after you press 
 If you are capturing footage from a self-powered USB webcam, you might need to set the "Cam Warmup Delay" to a value of 1 second or 2 seconds+ so a slight a recording delay happens before the image stream is snapshotted and saved. This delay allows the camera to adjust the auto-exposure so your stop-motion style of capture has a more consistent brightness between takes.
 
 
-### Capture Duration ###
+#### Capture Duration
 
 The "Capture Duration" number field expects a value entered in frames. The is the length of the recording.
 
 
-### Capture Modes ###
+#### Capture Modes
 
 The "Capture Mode" label is a heads up tip that summarizes how the footage will be captured based upon the combination of the "Media Type" and "Capture Duration" settings.
 
@@ -487,7 +486,7 @@ If the "Media Type" is set to an image format, and you set the "Capture Duration
 If the "Media Type" is set to a movie format, the "Capture Mode: Movie Take" text will appear to the right of this field.  The script will then capture a short burst of imagery and save it to an MP4 or MOV formatted video file. The frame length of the video recording is defined by the "Capture Duration" number field's value.
 
 
-### Overwrite Mode ###
+#### Overwrite Mode
 
 The "Overwrite Mode" button has a "checked" status that allows it to stay pressed/unpressed to toggle the setting.
 
@@ -496,47 +495,47 @@ If the Overwrite mode is unpressed and disabled, each new capture you do will be
 If the Overwrite mode is pressed down and enabled, each new capture you do will overwrite the example same file on disk.
 
 
-### Image Filename ###
+#### Image Filename
 
 The "Image Filename" textual label is non-editable and is used to provide a preview of the recorded image's folder location on disk along with the auto-generated filename.
 
 
-### Capture Image ###
+#### Capture Image
 
 The "Capture Image" button saves a new image or movie framegrab to your chosen PathMap location using the current "Video Input Device" as your video recording source.
 
 
-### Add Loader Node ###
+#### Add Loader Node
 
 The "Add Loader Node" button will create a new Fusion Loader node in your composite and set the clip to use the current filename of your captured image sequence. The new Loader node footage will be shown automatically on the left Fusion image viewer window. Also, the Loader clip and Fusion timeline frame range will be set to the number of screenshots saved in the current sequence.
 
 
-### Update Selected Loader ###
+#### Update Selected Loader
 
 The "Update Selected Loader" button allows you to refresh an existing Loader node in your composite with the revised capture settings based filename and clip frame ranges. This button is used by first selecting the Loader node in the Nodes view, and then pressing the "Update Selected Loader".
 
 
-### Show Output Folder ###
+#### Show Output Folder
 
 The "Show Output Folder" button will open up the PathMap based folder where the screenshots are saved to using a new Windows Explorer/macOS Finder based folder browser window.
 
 
-### Edit ###
+#### Edit
+
 The "Edit" button loads the "Video Snapshot.lua" script in the default script editor program that is defined in the Fusion Preferences "Global and Default Settings > Script > Editor Path" section.
 
+#### Help (?)
 
-### Help (?) ###
 If you click the "?" button at the top right of the Video Snapshow window, a new HTML based help documentation window will be displayed.
 
 ![Video Snapshot Help](images/scripts-video-snapshot-help.png)
 
-
-### Capture Log ###
+#### Capture Log
 
 The "Capture Log" region is updated when the "Capture Image" button is pressed. This read-only text field shows the captured results log from each time FFmpeg is run. If you press the "Capture Image" button, and no image/movie clip is saved to disk, you can troubleshoot the issue by scrolling down in the Capture Log to see diagnostic information that indicates if an invalid combination of the "Video Input Device", "Resolution", "FPS", and "Format" controls are selected.
 
 
-## <a name="send-geometry-to-meshlab"></a>Send Geometry to MeshLab ##
+## <a name="send-geometry-to-meshlab"></a>Send Geometry to MeshLab
 
 ![MeshLab](images/script-send-geometry-to-meshlab-program-screenshot.png)
 
@@ -550,7 +549,7 @@ The "OK" button will start MeshLab.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Make sure MeshLab has been closed and is not running.
 
@@ -562,25 +561,25 @@ The "Cancel" button will close the script GUI and stop the script.
 
 A new .mlp MeshLab Project file will be created in the Temp:/KartaVR/ folder and then it will be loaded in a new MeshLab editing session.
 
-## <a name="send-geometry-to-instantmeshes"></a>Send Geometry to Instant Meshes ##
+## <a name="send-geometry-to-instantmeshes"></a>Send Geometry to Instant Meshes
 
 ![Instant Meshes](images/script-send-geometry-to-instantmeshes-program-screenshot.png)
 
 The `Send Geometry to Instant Meshes` script is used to allow Fusion FBXMesh3D and AlembicMesh3D node based polygon meshes to be loaded and edited in the [Instant Meshes](https://github.com/wjakob/instant-meshes) program. Instant Meshes is a cross-platform open-source automatic mesh retopology program. It's an Interactive field-aligned mesh generator that runs either from a GUI session or CLI (command-line)
 
-## <a name="send-geometry-to-cloudcompare"></a>Send Geometry to Cloud Compare ##
+## <a name="send-geometry-to-cloudcompare"></a>Send Geometry to Cloud Compare
 
 ![Cloud Compare](images/script-send-geometry-to-cloudcompare-program-screenshot.png)
 
 The `Send Geometry to Cloud Compare` script is used to allow Fusion FBXMesh3D and AlembicMesh3D node based polygon meshes to be loaded and edited in the [Cloud Compare](http://www.cloudcompare.org/) program. CloudCompare is an open source 3D point cloud and mesh processing program. CloudCompare has a CLI interface that can be used to batch process 3D assets
 
-## <a name="send-geometry-to-cloudcompare-viewer"></a>Send Geometry to Cloud Compare Viewer ##
+## <a name="send-geometry-to-cloudcompare-viewer"></a>Send Geometry to Cloud Compare Viewer
 
 ![Cloud Compare Viewer](images/script-send-geometry-to-cloudcompare-viewer-program-screenshot.png)
 
 The `Send Geometry to Cloud Compare Viewer` script is used to allow Fusion FBXMesh3D and AlembicMesh3D node based polygon meshes to be viewed in the [ccViewer](http://www.cloudcompare.org/) program. CloudCompare Viewer is an open source 3D point cloud and mesh viewing program.
 
-## <a name="send-geometry-to-ac3d"></a>Send Geometry to AC3D ##
+## <a name="send-geometry-to-ac3d"></a>Send Geometry to AC3D
 
 ![AC3D](images/script-send-geometry-to-ac3d-program-screenshot.png)
 
@@ -598,7 +597,7 @@ The "OK" button will start AC3D.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Make sure AC3D has been closed and is not running.
 
@@ -610,9 +609,9 @@ The "Cancel" button will close the script GUI and stop the script.
 
 AC3D will be launched and the mesh file will be opened up in a new editing session.
 
-## <a name="convert-pfm-depth-images"></a>Convert PFM Depth Images ##
+## <a name="convert-pfm-depth-images"></a>Convert PFM Depth Images
 
-The `Convert PFM Depth Images` script converts a folder full of greyscale depthmap .pfm Portable Float Map images into image formats like exr/tiff/jpg/tga/png/psd/dpx that can actually be used in Fusion. If possible, the converted images will be saved into a 16-bit per channel format. 
+The `Convert PFM Depth Images` script converts a folder full of greyscale depthmap .pfm Portable Float Map images into image formats like exr/tiff/jpg/tga/png/psd/dpx that can actually be used in Fusion. If possible, the converted images will be saved into a 16-bit per channel format.
 
 This script is useful if you have a next generation 6DOF camera rig, or a custom OpenCV based computational imagery workflow that outputs .pfm imagery. You can use PFM converted depthmap imagery as part of a Z360 and stereo 3D stitching workflow in KartaVR.
 
@@ -642,7 +641,7 @@ The "OK" button will start processing the imagery.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -650,7 +649,7 @@ The "Cancel" button will close the script GUI and stop the script.
 
 **Step 3.** In the Convert PFM Depth Images dialog window you need to define the output formats and settings for the imagery.
 
-### <a name="pfmtopsd-command-line-tool"></a>pfmtopsd Command Line Tool ###
+### <a name="pfmtopsd-command-line-tool"></a>pfmtopsd Command Line Tool
 
 If you want to work directly from the command prompt when batch converting .pfm images/image sequences you can use the underlying KartaVR `pfmtopsd` program that powers the `Convert PFM Depth Images` lua script.
 
@@ -665,16 +664,16 @@ The `pfmtopsd` program converts a portable float map image into a greyscale Phot
 Windows Program:
 
     Reactor:/Bin/KartaVR/tools/pfmtopsd.exe
-    
+
 macOS Program:
 
     Reactor:/Bin/KartaVR/mac_tools/pfmtopsd
-    
+
 Linux Program:
 
     Reactor:/Bin/KartaVR/linux_tools/pfmtopsd
 
-**Step 3.** Run the `pfmtopsd` tool again in the terminal and this time specify your source .pfm image and destination photoshop .psd image filenames. **Note:** The `>` character in the examples below is used to redirect the "stdio" standard output from the pfmtopsd program to a file on disk which is how the final image is saved to disk. 
+**Step 3.** Run the `pfmtopsd` tool again in the terminal and this time specify your source .pfm image and destination photoshop .psd image filenames. **Note:** The `>` character in the examples below is used to redirect the "stdio" standard output from the pfmtopsd program to a file on disk which is how the final image is saved to disk.
 
 Windows Command:
 
@@ -697,7 +696,7 @@ Convert a PFM image to a JPEG image:
 Convert a PFM image to a PNG image:
 
     pfmtopsd "$HOME/Desktop/pfm/depth.0000.pfm" | convert psd:- png:"$HOME/Desktop/pfm/image.0000.png"
-    
+
 Convert a PFM image to a TIFF image:
 
     pfmtopsd "$HOME/Desktop/pfm/depth.0000.pfm" | convert psd:- tif:"$HOME/Desktop/pfm/image.0000.tif"
@@ -710,7 +709,7 @@ Convert a PFM image to a TGA image:
 
     pfmtopsd "$HOME/Desktop/pfm/depth.0000.pfm" | convert psd:- tga:"$HOME/Desktop/pfm/image.0000.tga"
 
-## <a name="generate-panoramic-blending-masks"></a>Generate Panoramic Blending Masks ##
+## <a name="generate-panoramic-blending-masks"></a>Generate Panoramic Blending Masks
 
 The `Generate Panoramic Blending Masks` script sends your currently selected loader and saver node based images to the [enblend](http://enblend.sourceforge.net/enblend.doc/enblend_4.2.xhtml/enblend) tool. A set of seamless blending mask images are then generated which allows you to stitch together your multi-camera panoramic rig footage without the need for drawing manual B-Spline masks for each of the camera views.
 
@@ -728,11 +727,11 @@ The "Image Format" control allows you to customize the image format used for the
 
 The "Compression" control allows you to choose if you want to save the images with no compression, the RLE/Packbits compression format, or the LZW compression format. Generally speaking, the LZW option works the best at shrinking the file size of tiff images while still preserving the image detail. The menu options are "None", "Deflate", "LZW", and "RLE".
 
-The "Edge Wrap" control allows you to choose if the enblend generated alpha masks will wrap around the horizontal or vertical panoramic frame borders. 
+The "Edge Wrap" control allows you to choose if the enblend generated alpha masks will wrap around the horizontal or vertical panoramic frame borders.
 
-The "Seam Blend" control allows you to choose what system enblend will use when creating the alpha blending masks. 
+The "Seam Blend" control allows you to choose what system enblend will use when creating the alpha blending masks.
 
-On most images you are blending you will want to have Seam Blend control set to use the "Graph-Cut (GC)" option along with having the "Create Fine Mask" checkbox enabled. This will create a very nice clean seam mask. 
+On most images you are blending you will want to have Seam Blend control set to use the "Graph-Cut (GC)" option along with having the "Create Fine Mask" checkbox enabled. This will create a very nice clean seam mask.
 
 If you are processing a very large number of panoramic source images at high resolution and are in a low memory situation you can change the Seam Blend control over to using the "Nearest Feature Transform (NFT)" option.
 
@@ -754,13 +753,13 @@ The "Use Current Frame" checkbox lets you decide if you want to use the automati
 
 ![Alpha Blending Mask Example](images/alpha-blending-mask-example.png)
 
-The blending images are saved to an 8-bit greyscale image format that doesn't have an alpha channel. 
+The blending images are saved to an 8-bit greyscale image format that doesn't have an alpha channel.
 
 To use these blending masks in your Fusion composite you would typically connect each of the generated mask images to a **ChannelBoolean** node. The ChannelBoolean node's **To Alpha** input will then be set to use **Lightness BG**. Then the ChannelBoolean node would be connected to the purple EffectMask input on a **Merge** node.
 
 ![Fusion Loading the Blending Mask Nodes](images/loading-blending-masks-in-fusion.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a comp.
 
@@ -768,7 +767,7 @@ To use these blending masks in your Fusion composite you would typically connect
 
 **Step 3.** Run the **Script > KartaVR > Stitching > Generate Panoramic Blending Masks**  menu item.
 
-## <a name="generate-uv-pass-in-ptgui"></a>Generate UV Pass in PTGui ##
+## <a name="generate-uv-pass-in-ptgui"></a>Generate UV Pass in PTGui
 
 The `Generate UV Pass in PTGui` script will use Imagemagick and PTGui Pro 10 to create a collection of UV Pass maps that can be used in Fusion or other programs like After Effects, Nuke, or TouchDesigner to quickly and efficiently warp and stitch multi-camera rig panoramic 360 degree imagery.
 
@@ -784,17 +783,17 @@ A nice feature of the script is that it is able to re-interpolate the position o
 
 Floating point .exr images can have strange settings added to the PTGui based .pts files. This can confuse the Generate UV Pass in PTGui script and will cause the script to have a hard time overriding those settings when generating the UV Pass images.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
 **Step 2.** Run the **Script > KartaVR > Stitching > Generate UV Pass in PTGui**  menu item.
 
-**Step 3.** In the Generate UV Pass in PTGui dialog window you need to select a PTGui .pts file using the "PTGui Project File" text field. 
+**Step 3.** In the Generate UV Pass in PTGui dialog window you need to select a PTGui .pts file using the "PTGui Project File" text field.
 
 **Step 4.** After customizing the settings like the image width and height controls you can click the "OK" button to generate your UV Pass maps. The images are rendered to the same folder as your original PTGui .pts file.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 The "PTGui Project File" text field and file browser button allow you to select a PTGui .pts file from your hard disk. This is the file that will be used to generate the UV pass maps in PTGui Pro.
 
@@ -836,27 +835,27 @@ The "OK" button will start processing the PTGui Project File that was specified 
 
 The "Cancel" button will close the script GUI and stop the script.
 
-## <a name="open-360-video-metadata-tool"></a>Open 360 Video Metadata Tool ##
+## <a name="open-360-video-metadata-tool"></a>Open 360 Video Metadata Tool
 
 The `Open 360 Video Metadata Tool` LUA script will launch the YouTube 360 / Facebook 360 spatial media metadata embedding program. This makes it a quick process to add the required tags to your panoramic 360 &deg; movie files so you can view them correctly on streaming video sites.
 
 ![Open 360 Video Metadata Tool](images/scripts-open-360-video-metadata-tool.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
 **Step 2.** Run the **Script > KartaVR > Send Media to > Open 360 Video Metadata Tool** menu item to launch the YouTube 360 metadata program.
 
-### Downloading the Metadata Tool ###
+### Downloading the Metadata Tool
 
-To learn more about YouTube 360 degree video metadata and uploading the content to YouTube, check out this YouTube support page:  
+To learn more about YouTube 360 degree video metadata and uploading the content to YouTube, check out this YouTube support page:
 [https://support.google.com/youtube/answer/6178631](https://support.google.com/youtube/answer/6178631)
 
-or go to the Google Spatial Media GitHub site:  
+or go to the Google Spatial Media GitHub site:
 [https://github.com/google/spatial-media](https://github.com/google/spatial-media)
 
-### Installing the Metadata Tool ###
+### Installing the Metadata Tool
 
 On macOS the metadata tool has to be copied to:
 
@@ -866,13 +865,13 @@ On Windows the metadata tool has to be copied to:
 
 `C:\Program Files\Spatial Media Metadata Injector.exe`
 
-## <a name="open-containing-folder"></a>Open Containing Folder ##
+## <a name="open-containing-folder"></a>Open Containing Folder
 
 The `Open Containing Folder` LUA script will open a file browser window to show the folder that holds the selected Loader, Saver, FBXMesh3D, or  media file.
 
 ![Open Containing Folder Script](images/scripts-open-containing-folder.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Select and activate a node in the flow view.
 
@@ -880,7 +879,7 @@ The `Open Containing Folder` LUA script will open a file browser window to show 
 
 If a Loader, Saver, FBXMesh3D, or AlembicMesh3D node is selected in the flow, the existing media file will be displayed in a file browser window.
 
-## <a name="open-temp-folder"></a>Open KartaVR Temp Folder ##
+## <a name="open-temp-folder"></a>Open KartaVR Temp Folder
 
 The `Open KartaVR Temp Folder` LUA script will open a file browser window to show the `%TEMP%/KartaVR/` folder. This temporary folder holds the live viewport snapshot image frames that are created each time the `Send Frame to ...` scripts are run.
 
@@ -890,7 +889,7 @@ This temporary folder is also the location where the dynamic `after_effects_comp
 
 **Step 2.** Run the **Script > KartaVR > Open KartaVR Temp Folder** menu item to see a new file browser window appear with the contents of the `%TEMP%/KartaVR/` folder.
 
-## <a name="open-vr-view-publishing-folder"></a>Open VR View Publishing Folder ##
+## <a name="open-vr-view-publishing-folder"></a>Open VR View Publishing Folder
 
 The `Open VR View Publishing Folder` LUA script will open a file browser window to show the Web Sharing folder that has been specified in the [Publish Media to Google Cardboard VR View](google-cardboard-vr-view) script GUI. This folder holds the VR View exported webpages and temporary media files.
 
@@ -902,7 +901,7 @@ It is a good idea to empty out the contents of the VR View Publishing Folder as 
 
 **Step 2.** Run the **Script > KartaVR > Open VR View Publishing Folder** menu item to see a new file browser window appear with the contents of the Web Sharing folder.
 
-## <a name="google-cardboard-vr-view"></a>Publish Media to Google Cardboard VR View ##
+## <a name="google-cardboard-vr-view"></a>Publish Media to Google Cardboard VR View
 
 The Publish Media to Google Cardboard VR View script lets you customize the settings and generate a Google Cardboard VR View webpage.
 
@@ -910,7 +909,7 @@ The [Publish Media to Google Cardboard VR View script is described on its own se
 
 ![Google Cardboard VR View Script](images/publish_vr_view_dialog.png)
 
-## <a name="send-media-to-photoscan"></a>Send Media to Photoscan ##
+## <a name="send-media-to-photoscan"></a>Send Media to Photoscan
 
 ![Send Media to Photoscan](images/script-send-media-to-photoscan.png)
 
@@ -928,7 +927,7 @@ You can watch a YouTube video tutorial on how the `Send Media to Photoscan` scri
 
 ![Send Media to Photoscan](images/script-send-media-to-photoscan-tutorial.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -936,31 +935,31 @@ You can watch a YouTube video tutorial on how the `Send Media to Photoscan` scri
 
 **Step 3.** Run the **Script > KartaVR > Photogrammetry > Send Media to Photoscan** menu item.
 
-### Tips ###
+### Tips
 
 If you are working in a new Fusion composite you need to save it to disk once so the comp file has a name. The new Photoscan .psx document is given the same filename prefix as the Fusion composite.
 
 If you want to send saver node based media to Photoscan you need to view it once in Fusion so the width and height have been calculated. This information is used by the Send Media to Photoscan script to configure the .psx project's image dimensions.
 
-## <a name="reset-lua-script-settings-to-defaults"></a>Reset LUA Script Settings to Defaults ##
+## <a name="reset-lua-script-settings-to-defaults"></a>Reset LUA Script Settings to Defaults
 
 The `Reset LUA Script Settings to Defaults` LUA script clears all of the custom settings for the scripts included with the KartaVR. This will reset every LUA script dialog setting back to their original defaults.
 
 ![Reset LUA Script Settings to Defaults Script](images/scripts-reset-lua-script-settings-to-defaults.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp. Then run the **Script > KartaVR > Reset LUA Script Settings to Defaults** menu item.
 
 **Step 2.** Click the "Okay" button in the dialog to clear the KartaVR script preferences.
 
-## <a name="send-frame-to-affinity-designer"></a>Send Frame to Affinity Designer ##
+## <a name="send-frame-to-affinity-designer"></a>Send Frame to Affinity Designer
 
 The `Send Frame to Affinity Designer` LUA script will send the currently selected file loader or saver node file to Affinity Designer. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Affinity Designer.
 
 ![Send Frame to Affinity Designer Script](images/scripts-send-frame-to-affinity-designer.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -972,13 +971,13 @@ The `Send Frame to Affinity Designer` LUA script will send the currently selecte
 
 ![Affinity Designer Script](images/script-affinity-designer-image-in-use.png)
 
-## <a name="send-frame-to-affinity-photo"></a>Send Frame to Affinity Photo ##
+## <a name="send-frame-to-affinity-photo"></a>Send Frame to Affinity Photo
 
 The `Send Frame to Affinity Photo` LUA script will send the currently selected file loader or saver node file to Affinity Photo. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Affinity Photo.
 
 ![Send Frame to Affinity Photo Script](images/scripts-send-frame-to-affinity-photo.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -990,7 +989,7 @@ The `Send Frame to Affinity Photo` LUA script will send the currently selected f
 
 ![Affinity Photo Script](images/script-affinity-photo-image-in-use.png)
 
-## <a name="send-frame-to-aftereffects"></a>Send Frame to After Effects ##
+## <a name="send-frame-to-aftereffects"></a>Send Frame to After Effects
 
 The `Send Frame to After Effects` LUA script will send the currently selected file loader or saver node file to After Effects. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to After Effects.
 
@@ -1000,7 +999,7 @@ This is useful for taking a Fusion composited image into After Effects to build 
 
 ![Send Frame to After Effects](images/send-frame-to-after-effects.png)
 
-## <a name="send-frame-to-autopano"></a>Send Frame to Autopano Pro ##
+## <a name="send-frame-to-autopano"></a>Send Frame to Autopano Pro
 
 The `Send Frame to Autopano Pro` LUA script will send the currently selected file loader or saver node file to Autopano Pro. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Autopano Pro.
 
@@ -1010,7 +1009,7 @@ The `Send Frame to Autopano Pro` LUA script will send the currently selected fil
 
 ![Send Frame to Autopano Pro Script](images/send-frame-to-autopano-pro.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1020,7 +1019,7 @@ The `Send Frame to Autopano Pro` LUA script will send the currently selected fil
 
 If a loader or saver node is selected in the flow, the existing media file will be opened up in the viewer tool. Otherwise, if any other node is active in the flow, a snapshot of the current viewer image will be saved to the temporary image directory and sent to the viewer tool.
 
-## <a name="send-frame-to-corel"></a>Send Frame to Corel Photo Paint ##
+## <a name="send-frame-to-corel"></a>Send Frame to Corel Photo Paint
 
 The `Send Frame to Corel Photo Paint` LUA script will send the currently selected file loader or saver node file to Corel Photo Paint. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Corel Photo Paint.
 
@@ -1028,7 +1027,7 @@ This is useful for taking a Fusion composited image into Corel Photo Paint for f
 
 **Note:** You can change the version of Corel Photo Paint that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1038,13 +1037,13 @@ This is useful for taking a Fusion composited image into Corel Photo Paint for f
 
 If a loader or saver node is selected in the flow, the existing media file will be opened up in the viewer tool. Otherwise, if any other node is active in the flow, a snapshot of the current viewer image will be saved to the temporary image directory and sent to the viewer tool.
 
-## <a name="send-frame-to-hugin"></a>Send Frame to Hugin ##
+## <a name="send-frame-to-hugin"></a>Send Frame to Hugin
 
 The `Send Frame to Hugin` LUA script will send your currently selected file loader or saver node file to the Hugin stitching program. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Hugin.
 
 ![Send Frame to Hugin Script](images/scripts-send-frame-to-hugin.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1058,7 +1057,7 @@ If a loader or saver node is selected in the flow, the existing media file will 
 
 ![Hugin Warning Message](images/scripts-send-frame-hugin-save-changes-dialog.png)
 
-## <a name="send-frame-to-illustrator"></a>Send Frame to Illustrator ##
+## <a name="send-frame-to-illustrator"></a>Send Frame to Illustrator
 
 The `Send Frame to Illustrator` LUA script will send the currently selected file loader or saver node file to Illustrator. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Illustrator.
 
@@ -1068,13 +1067,13 @@ This is useful for taking a Fusion composited image into Illustrator to build a 
 
 ![Send Frame to Illustrator](images/send-frame-to-illustrator.png)
 
-## <a name="send-frame-to-photoshop"></a>Send Frame to Photoshop ##
+## <a name="send-frame-to-photoshop"></a>Send Frame to Photoshop
 
 The `Send Frame to Photoshop` LUA script will send the currently selected file loader or saver node file to Adobe Photoshop. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Photoshop.
 
 ![Send Frame to Photoshop Script](images/scripts-send-frame-to-photoshop.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1086,13 +1085,13 @@ If a loader or saver node is selected in the flow, the existing media file will 
 
 **Note:** You can change the version of Adobe Photoshop that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
-## <a name="send-frame-to-photomatixpro"></a>Send Frame to Photomatix Pro ##
+## <a name="send-frame-to-photomatixpro"></a>Send Frame to Photomatix Pro
 
 The `Send Frame to Photomatix Pro` LUA script will send the currently selected file loader or saver node file to Photomatix Pro 5. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to Photomatix Pro.
 
 ![Send Frame to Photomatix Pro Script](images/send-to-photomatix-pro.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1104,13 +1103,13 @@ If a loader or saver node is selected in the flow, the existing media file will 
 
 **Note:** You can change the version of Photomatix Pro that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
-## <a name="send-frame-to-ptgui"></a>Send Frame to PTGui ##
+## <a name="send-frame-to-ptgui"></a>Send Frame to PTGui
 
 The `Send Frame to PTGui` LUA script will send the currently selected file loader or saver node file to the PTGui stitching program. The script can take a live left viewer window snapshot of any of the nodes in a Fusion comp and send that image to PTGui.
 
 ![Send Frame to PTGui Script](images/scripts-send-frame-to-ptgui.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1120,13 +1119,13 @@ The `Send Frame to PTGui` LUA script will send the currently selected file loade
 
 If a loader or saver node is selected in the flow, the existing media file will be opened up in the viewer tool. Otherwise, if any other node is active in the flow, a snapshot of the current viewer image will be saved to the temporary image directory and sent to the viewer tool.
 
-## <a name="send-media-to-affinity-designer"></a>Send Media to Affinity Designer ##
+## <a name="send-media-to-affinity-designer"></a>Send Media to Affinity Designer
 
 The `Send Media to Affinity Designer` LUA script will send all of the currently selected file loader or saver node files to Affinity Designer. This is useful for taking still images or movie files from inside of your current Fusion project and using them to build a new composite in Affinity Designer.
 
 ![Send Media to Affinity Designer Script](images/scripts-send-media-to-affinity-designer.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1138,13 +1137,13 @@ The `Send Media to Affinity Designer` LUA script will send all of the currently 
 
 ![Affinity Designer Script](images/script-affinity-designer-image-in-use.png)
 
-## <a name="send-media-to-affinity-photo"></a>Send Media to Affinity Photo ##
+## <a name="send-media-to-affinity-photo"></a>Send Media to Affinity Photo
 
 The `Send Media to Affinity Photo` LUA script will send all of the currently selected file loader or saver node files to Affinity Photo. This is useful for taking still images or movie files from inside of your current Fusion project and using them to build a new composite in Affinity Photo.
 
 ![Send Media to Affinity Photo Script](images/scripts-send-media-to-affinity-photo.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1156,7 +1155,7 @@ The `Send Media to Affinity Photo` LUA script will send all of the currently sel
 
 ![Affinity Photo Script](images/script-affinity-photo-image-in-use.png)
 
-## <a name="send-media-to-aftereffects"></a>Send Media to After Effects ##
+## <a name="send-media-to-aftereffects"></a>Send Media to After Effects
 
 The `Send Media to After Effects` LUA script will send all of the currently selected file loader or saver node files to After Effects. This is useful for taking still images or movie files from inside of your current Fusion  project and using them to build a new composite in After Effects.
 
@@ -1166,7 +1165,7 @@ If you use After Effects and the [Mettle SkyBox Studio v2](http://www.mettle.com
 
 ![Send Media to After Effects Script](images/send-media-to-after-effects.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1174,19 +1173,19 @@ If you use After Effects and the [Mettle SkyBox Studio v2](http://www.mettle.com
 
 **Step 3.** Run the **Script > KartaVR > Send Media to > Send Media to After Effects** menu item to load the media in After Effects.
 
-## <a name="send-media-to-autopano"></a>Send Media to Autopano Pro ##
+## <a name="send-media-to-autopano"></a>Send Media to Autopano Pro
 
 The `Send Media to Autopano Pro` LUA script will send all of the currently selected file loader or saver node files to Autopano Pro.
 
 This is useful for taking images from a panoramic 360&deg; camera rig that are loaded in your active Fusion composite and passing the frames right into Autopano for stitching or lens correction adjustments.
 
-**Note:** You can change the version of Autopano that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.  
+**Note:** You can change the version of Autopano that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
 **Note:** Autopano Pro writes the version number in the application filename like "Autopano Pro 4.2.app". This means you will need to update the executable name when you install a new version of Autopano Pro.
 
 ![Send Media to Autopano Pro Script](images/send-media-to-autopano-pro.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1194,13 +1193,13 @@ This is useful for taking images from a panoramic 360&deg; camera rig that are l
 
 **Step 3.** Run the **Script > KartaVR > Send Media to > Send Media to Autopano Pro** menu item to load the media in Autopano Pro.
 
-## <a name="send-media-to-corel"></a>Send Media to Corel Photo Paint ##
+## <a name="send-media-to-corel"></a>Send Media to Corel Photo Paint
 
 The `Send Media to Corel Photo Paint` LUA script will send all of the currently selected file loader or saver node files to the Corel Photo Paint stitching program.
 
 This is useful for taking a Fusion composited image into Corel Photo Paint for final tweaks, or to quickly paint alpha masks and other effects in Corel Photo Paint.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1210,7 +1209,7 @@ This is useful for taking a Fusion composited image into Corel Photo Paint for f
 
 The existing loader and saver based media files will be opened up in the viewer tool.
 
-## <a name="send-media-to-hugin"></a>Send Media to Hugin ##
+## <a name="send-media-to-hugin"></a>Send Media to Hugin
 
 The `Send Media to Hugin` LUA script will send all of the currently selected file loader or saver node files to the Hugin stitching program.
 
@@ -1218,7 +1217,7 @@ This is useful for taking images from a panoramic 360&deg; camera rig that are l
 
 ![Send Media to Hugin Script](images/scripts-send-media-to-hugin.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1232,15 +1231,15 @@ The existing loader and saver based media files will be opened up in the viewer 
 
 ![Hugin Warning Message](images/scripts-send-frame-hugin-save-changes-dialog.png)
 
-## <a name="send-media-to-illustrator"></a>Send Media to Illustrator ##
+## <a name="send-media-to-illustrator"></a>Send Media to Illustrator
 
 The `Send Media to Illustrator` LUA script will send all of the currently selected file loader or saver node files to Adobe Illustrator.
 
 This is useful for taking a Fusion composited image into Illustrator  to build new graphic designs.
 
-**Note:** You can change the version of Adobe Illustrator that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.   
+**Note:** You can change the version of Adobe Illustrator that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1248,7 +1247,7 @@ This is useful for taking a Fusion composited image into Illustrator  to build n
 
 **Step 3.** Run the **Script > KartaVR > Send Media to > Send Media to Illustrator** menu item to load the media in Illustrator.
 
-## <a name="send-media-to-photoshop"></a>Send Media to Photoshop ##
+## <a name="send-media-to-photoshop"></a>Send Media to Photoshop
 
 The `Send Media to Photoshop` LUA script will send all of the currently selected file loader or saver node files to Adobe Photoshop.
 
@@ -1256,7 +1255,7 @@ This is useful for taking a Fusion composited image into Photoshop for final twe
 
 ![Send Media to Photoshop Script](images/scripts-send-media-to-photoshop.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1264,7 +1263,7 @@ This is useful for taking a Fusion composited image into Photoshop for final twe
 
 **Step 3.** Run the **Script > KartaVR > Send Media to > Send Media to Photoshop** menu item to load the media into separate document tabs in Photoshop.
 
-## <a name="send-media-to-photomatixpro"></a>Send Media to Photomatix Pro ##
+## <a name="send-media-to-photomatixpro"></a>Send Media to Photomatix Pro
 
 The `Send Media to Photomatix Pro` LUA script will send all of the currently selected file loader or saver node files to Photomatix Pro 5.
 
@@ -1272,7 +1271,7 @@ This is useful for taking a Fusion composited image into Photomatix Pro for HDR 
 
 ![Send Media to Photomatix Pro Script](images/send-to-photomatix-pro.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.**  Start Fusion and open a new comp.
 
@@ -1280,7 +1279,7 @@ This is useful for taking a Fusion composited image into Photomatix Pro for HDR 
 
 **Step 3.** Run the **Script > KartaVR > Send Media to > Send Media to Photomatix Pro** menu item to load the media into Photomatix Pro.
 
-## <a name="send-media-to-ptgui"></a>Send Media to PTGui ##
+## <a name="send-media-to-ptgui"></a>Send Media to PTGui
 
 The `Send Media to PTGui` LUA script will send all of the currently selected loader node files to the PTGui Stitching program.
 
@@ -1288,7 +1287,7 @@ This is useful for taking images from a panoramic 360&deg; camera rig that are l
 
 ![Send Media to PTGui Script](images/scripts-send-media-to-ptgui.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1298,7 +1297,7 @@ This is useful for taking images from a panoramic 360&deg; camera rig that are l
 
 The existing loader and saver media files will be opened up in a new PTGui project.
 
-## <a name="send-media-to-touchdesigner"></a>Send Media to TouchDesigner ##
+## <a name="send-media-to-touchdesigner"></a>Send Media to TouchDesigner
 
 The `Send Media to TouchDesigner` LUA script will send all of the currently selected loader and saver node files to a new project in the TouchDesigner program.
 
@@ -1306,9 +1305,9 @@ TouchDesigner is a node based realtime content creation environment that is popu
 
 ![Send Media to TouchDesigner Script](images/scripts-send-media-to-touchdesigner.png)
 
-**Note:** You can change the version of TouchDesigner that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.  
+**Note:** You can change the version of TouchDesigner that is used by running the [Edit Send Media to Preferences](scripts#edit-send-media-to-preferences) script and adjusting the settings.
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1318,16 +1317,16 @@ TouchDesigner is a node based realtime content creation environment that is popu
 
 The existing loader and saver media files will be opened up in TouchDesigner.
 
-## <a name="zoom-new-image-view"></a>Zoom New Image View ##
+## <a name="zoom-new-image-view"></a>Zoom New Image View
 
 
-The `Zoom New Image View` LUA script will zoom a floating image view window to fit to the size of the current monitor. At this point in time the script only works on macOS as the method it uses is not available on Windows or Linux. 
+The `Zoom New Image View` LUA script will zoom a floating image view window to fit to the size of the current monitor. At this point in time the script only works on macOS as the method it uses is not available on Windows or Linux.
 
 This script was added to make it easier to be able to work with the KartaVR based Oculus DK1 and DK2 HMD output macros. You would typically load the Oculus head mounted display formatted output from your Fusion composite into a new floating window, and then drag that viewer window onto the HMD's monitor and then resize the image view to be fullscreen. This is done by disabling the "Direct to Rift" option in the Oculus Rift drivers. Rendered images coming from nodes in Fusion will show up on the Rift's screen using the 3 hotkey.
 
 ![Viewing Fusion Content on an HMD](images/scripts-zoom-new-image-view-oculus-image.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -1349,20 +1348,20 @@ If you are using the viewer window to display Oculus Rift centric content from F
 
 **Step 5.** After the view has been zoomed it can be helpful to click in the view. Pressing the **Fit** Command + F hotkey will make sure the image in the viewer window fills the entire HMD screen.
 
-### Installation on macOS ###
+### Installation on macOS
 
-On macOS the Zoom New Image View script needs to be enabled in the Accessibility preference panel. 
+On macOS the Zoom New Image View script needs to be enabled in the Accessibility preference panel.
 
-This is done by opening up the **System Preferences**. Click on the **Security & Privacy** panel. 
+This is done by opening up the **System Preferences**. Click on the **Security & Privacy** panel.
 
 Then click on the **Privacy** tab. In the Privacy panel view select the **Accessibility** option.
 
-Unlock the control panel by clicking the "lock" icon and logging in with an administrator account. 
+Unlock the control panel by clicking the "lock" icon and logging in with an administrator account.
 
 ![macOS Security & Privacy System Preferences Panel](images/scripts-zoom-new-image-view-macos-security-privacy-accessibility-panel.png)
 
 
-Press the "+" plus sign button to add the `Fusion-Zoom-New-Image-View.app` Applescript to the Accessibility panel list.  
+Press the "+" plus sign button to add the `Fusion-Zoom-New-Image-View.app` Applescript to the Accessibility panel list.
 
 A file browsing window will open and you need to navigate and select the following KartaVR Applescript program:
 

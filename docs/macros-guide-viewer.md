@@ -1,10 +1,10 @@
-# Viewer Macros #
+# Viewer Macros
 
-## <a name="ViewerAcerWMR2StereoOU">ViewerAcerWMR2StereoOU</a> ##
+## <a name="ViewerAcerWMR2StereoOU">ViewerAcerWMR2StereoOU</a>
 
 This node allows you to use the Acer WMR HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based equirectangular mono 2D imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Acer WMR HMD as a regular monitor on Mac/Windows/Linux.
 
-## <a name="ViewerOculusDK1Mono">ViewerOculusDK1Mono</a> ##
+## <a name="ViewerOculusDK1Mono">ViewerOculusDK1Mono</a>
 
 This node allows you to use the Oculus Rift DK1 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based equirectangular mono 2D imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -12,7 +12,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK1Mono GUI](images/macro-viewer-oculus-dk1-mono-gui.png)
 
-## <a name="ViewerOculusDK1Stereo">ViewerOculusDK1Stereo</a> ##
+## <a name="ViewerOculusDK1Stereo">ViewerOculusDK1Stereo</a>
 
 This node allows you to use the Oculus Rift DK1 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based equirectangular stereo 3D imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -20,7 +20,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK1StereoOU GUI](images/macro-viewer-oculus-dk1-stereo-gui.png)
 
-## <a name="ViewerOculusDK1StereoOU"></a>ViewerOculusDK1StereoOU ##
+## <a name="ViewerOculusDK1StereoOU"></a>ViewerOculusDK1StereoOU
 
 This node allows you to use the Oculus Rift DK1 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based equirectangular stereo 3D over/under imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -28,7 +28,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK2Mono GUI](images/macro-viewer-oculus-dk1-stereo-ou-gui.png)
 
-## <a name="ViewerOculusDK2Mono">ViewerOculusDK2Mono</a> ##
+## <a name="ViewerOculusDK2Mono">ViewerOculusDK2Mono</a>
 
 This node allows you to use the Oculus Rift DK2 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based equirectangular mono 2D imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -36,7 +36,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK2Mono GUI](images/macro-viewer-oculus-dk2-mono-gui.png)
 
-## <a name="ViewerOculusDK2Stereo">ViewerOculusDK2Stereo</a> ##
+## <a name="ViewerOculusDK2Stereo">ViewerOculusDK2Stereo</a>
 
 This node allows you to use th  Oculus Rift DK2 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based stereo equirectangular stereo 3D imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -44,7 +44,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK2Stereo GUI](images/macro-viewer-oculus-dk2-stereo-gui.png)
 
-## <a name="ViewerOculusDK2StereoOU">ViewerOculusDK2StereoOU</a> ##
+## <a name="ViewerOculusDK2StereoOU">ViewerOculusDK2StereoOU</a>
 
 This node allows you to use the Oculus Rift DK2 HMD as a fullscreen stereo viewer window output device in Fusion that let you view your Fusion based stereo equirectangular stereo 3D over/under imagery right on the HMD. This first version of the node has no head tracking support. To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux.
 
@@ -52,7 +52,7 @@ Check out the [Zoom New Image View](scripts#zoom-new-image-view) script document
 
 ![ViewerOculusDK2StereoOU GUI](images/macro-viewer-oculus-dk2-stereo-ou-gui.png)
 
-## <a name="ViewerCubicFaces"></a>ViewerCubicFaces ##
+## <a name="ViewerCubicFaces"></a>ViewerCubicFaces
 
 ![ViewerCubic GUI](images/macro-viewer-cubic-faces-gui.png)
 
@@ -68,7 +68,7 @@ The "Pixel Aspect" control can be used to create anamorphic stretching look if y
 
 The "Depth" control allows you to specify the bit depth for the panoramic output. The "8bit int" option is for PNG/TGA/JPG outputs, and the "16bit float" or "32bit float" options are perfect for floating point EXR based outputs that have HDR (high dynamic range) based color values that exceed the standard 0.0-1.0 color range.
 
-The "Angle of View Type" control allows you to choose which axis is used on the lens when the Focal Length and Angle of View value is computed. 
+The "Angle of View Type" control allows you to choose which axis is used on the lens when the Focal Length and Angle of View value is computed.
 
 The "Angle of View" control changes the camera field of view setting in degrees used for the panoramic view extraction. The "Focal Length (mm)" control is linked together with the Angle of View control so you can use either slider and achieve the same field of view result.
 
@@ -93,7 +93,7 @@ The image below shows an example conversion from the composite file `Viewer Cubi
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
 
-## <a name="ViewerCubicFacesStereo"></a>ViewerCubicFacesStereo ##
+## <a name="ViewerCubicFacesStereo"></a>ViewerCubicFacesStereo
 
 ![ViewerCubicFacesStereo GUI](images/macro-viewer-cubic-faces-stereo-gui.png)
 
@@ -136,7 +136,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
 
-## <a name="ViewerEquirectangular"></a>ViewerEquirectangular ##
+## <a name="ViewerEquirectangular"></a>ViewerEquirectangular
 ![ViewerEquirectangular GUI](images/macro-viewer-equirectangular-gui.png)
 
 This macro takes a 360&deg; x 180&deg; equirectangular/LatLong/spherical panorama and "defishes" it to extract a normal rectangular image (like a typical 16:9 or 4:3 style video frame) that can be displayed on a normal TV or a monitor.
@@ -171,7 +171,7 @@ This is a snapshot of the example composite "LatLong Defish to Rectangular.comp"
 
 ![ViewerEquirectangular Node](images/macro-viewer-equirectangular-node.png)
 
-## <a name="ViewerEquirectangularStereo"></a>ViewerEquirectangularStereo ##
+## <a name="ViewerEquirectangularStereo"></a>ViewerEquirectangularStereo
 ![ViewerEquirectangularStereo GUI](images/macro-viewer-equirectangular-stereo-gui.png)
 
 This macro takes a pair of separate left and right eye stereo 360&deg; x 180&deg; equirectangular/LatLong/spherical stereo panoramas and "defishes" them to extract a normal rectangular left and right eye images (like a typical 16:9 or 4:3 style video frame) that can be displayed on a normal TV or a monitor.
@@ -210,7 +210,7 @@ This is a snapshot of the example composite "LatLong Stereo Defish to Rectangula
 
 
 
-## <a name="ViewerEquirectangularStereoOU"></a>ViewerEquirectangularStereoOU ##
+## <a name="ViewerEquirectangularStereoOU"></a>ViewerEquirectangularStereoOU
 
 This macro takes an over/under formatted pair of left and right eye stereo 360&deg; x 180&deg; equirectangular/LatLong/spherical stereo panoramas and "defishes" them to extract a normal rectangular left and right eye images (like a typical 16:9 or 4:3 style video frame) that can be displayed on a normal TV or a monitor.
 
@@ -218,7 +218,7 @@ This is handy as a panoramic 360&deg; stereo image viewer that works in the Fusi
 
 ![ViewerEquirectangularStereoOU](images/macro-viewer-equirectangular-stereo-ou-gui.png)
 
-## <a name="ViewerMesh"></a>ViewerMesh ##
+## <a name="ViewerMesh"></a>ViewerMesh
 
 ![ViewerMesh GUI](images/macro-viewer-mesh-gui.png)
 
@@ -262,7 +262,7 @@ The node has one input which is labelled "Input". The node has a single output c
 
 **Note:** If the ViewerMesh texture baking operation doesn't seem to have the correct "infinite" like look to the panoramic image conversion it is usually an indication the scale control needs to be adjusted to fix the issue.
 
-## <a name="ViewerMeshStereo"></a>ViewerMeshStereo ##
+## <a name="ViewerMeshStereo"></a>ViewerMeshStereo
 
 ![ViewerMeshStereo GUI](images/macro-viewer-mesh-stereo-gui.png)
 

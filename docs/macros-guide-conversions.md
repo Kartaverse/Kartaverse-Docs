@@ -1,6 +1,6 @@
-# Conversion Macros #
+# Conversion Macros
 
-## <a name="Angular2CubicFaces"></a>Angular2CubicFaces ##
+## <a name="Angular2CubicFaces"></a>Angular2CubicFaces
 
 ![Angular2CubicFaces GUI](images/macro-angular-to-cubicfaces-gui.png)
 
@@ -20,7 +20,7 @@ To use this node, the angular fisheye source imagery is connected to the node's 
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="Angular2Equirectangular"></a>Angular2Equirectangular ##
+## <a name="Angular2Equirectangular"></a>Angular2Equirectangular
 
 ![Angular2Equirectangular GUI](images/macro-angular-to-equirectangular-gui.png)
 
@@ -38,7 +38,7 @@ To use this node, the angular fisheye source imagery is connected to the node's 
 
 This conversion is done with the help of the polar to rectangular coordinates filter.
 
-## <a name="Angular2MeshUV"></a>Angular2MeshUV ##
+## <a name="Angular2MeshUV"></a>Angular2MeshUV
 
 ![Angular2MeshUV GUI](images/macro-angular-to-mesh-uv-gui.png)
 
@@ -86,7 +86,7 @@ The node has one input which is labelled "Image". The node has a single output c
 
 **Note:** If the environment map to Mesh UV texture baking operation doesn't seem to have the correct "infinite" like look to the conversion it is usually an indication the scale control needs to be adjusted to fix the issue.
 
-## <a name="Cubemap3x22CubicFaces"></a>Cubemap3x22CubicFaces ##
+## <a name="Cubemap3x22CubicFaces"></a>Cubemap3x22CubicFaces
 
 ![Cubemap3x22CubicFaces GUI](images/macro-cubmap3x2-to-cubicfaces-gui.png)
 
@@ -113,7 +113,7 @@ To use this node, the cubemap 3x2 source imagery is connected to the node's yell
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="CubicFaces2Cubemap3x2"></a>CubicFaces2Cubemap3x2 ##
+## <a name="CubicFaces2Cubemap3x2"></a>CubicFaces2Cubemap3x2
 
 ![CubicFaces2Cubemap3x2 GUI](images/macro-cubicfaces-to-cubemap3x2-gui.png)
 
@@ -141,7 +141,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
 
-## <a name="CubicFaces2Cylindrical"></a>CubicFaces2Cylindrical ##
+## <a name="CubicFaces2Cylindrical"></a>CubicFaces2Cylindrical
 
 ![CubicFaces2Cylindrical GUI](images/macro-cubicfaces-to-cylindrical-gui.png)
 
@@ -157,7 +157,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
-## <a name="CubicFaces2Domemaster180"></a>CubicFaces2Domemaster180 ##
+## <a name="CubicFaces2Domemaster180"></a>CubicFaces2Domemaster180
 
 ![CubicFaces2Domemaster180 GUI](images/macro-cubicfaces-to-domemaster180-gui.png)
 
@@ -177,7 +177,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 
 **Note:** Gimbal lock can happen on the X Rotation/Y Rotation/Z Rotation sliders so you will have to pull the X Rotation value off from its initial -90 setting if you want to use the Y Rotation and Z Rotation sliders.
 
-## <a name="CubicFaces2Equirectangular"></a>CubicFaces2Equirectangular ##
+## <a name="CubicFaces2Equirectangular"></a>CubicFaces2Equirectangular
 
 ![CubicFaces2Equirectangular GUI](images/macro-cubicfaces-to-equirectangular-gui.png)
 
@@ -199,7 +199,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 
 **Note:** Gimbal lock can happen on the X Rotation/Y Rotation/Z Rotation sliders so you might have to change the "Rotation Order" control to set a different priority for the rotation channels.
 
-## <a name="CubicFaces2FacebookCubemap3x2"></a>CubicFaces2FacebookCubemap3x2 ##
+## <a name="CubicFaces2FacebookCubemap3x2"></a>CubicFaces2FacebookCubemap3x2
 
 ![CubicFaces2FacebookCubemap3x2 GUI](images/macro-cubicfaces-to-facebook-cubemap3x2-gui.png)
 
@@ -232,7 +232,7 @@ In this picture a LatLong format image is brought into Fusion with a Loader node
 
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
-## <a name="CubicFaces2FacebookVerticalStrip"></a>CubicFaces2FacebookVerticalStrip ##
+## <a name="CubicFaces2FacebookVerticalStrip"></a>CubicFaces2FacebookVerticalStrip
 
 ![CubicFaces2FacebookVerticalStrip GUI](images/macro-cubicfaces-to-facebook-vertical-strip-gui.png)
 
@@ -271,7 +271,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
-## <a name="CubicFaces2GearVRMono"></a>CubicFaces2GearVRMono ##
+## <a name="CubicFaces2GearVRMono"></a>CubicFaces2GearVRMono
 
 ![CubicFaces2GearVRMono GUI](images/macro-cubicfaces-to-gearvr-mono-gui.png)
 
@@ -295,7 +295,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
-## <a name="CubicFaces2GearVRStereo"></a>CubicFaces2GearVRStereo ##
+## <a name="CubicFaces2GearVRStereo"></a>CubicFaces2GearVRStereo
 
 ![CubicFaces2GearVRStereo GUI](images/macro-cubicfaces-to-gearvr-stereo-gui.png)
 
@@ -323,7 +323,7 @@ Don't forget as you are connecting image inputs to a node, you can hold down the
 
 **Note:** If you hover your cursor over each of the colored triangle inputs on the node you will see a tool tip appear that indicates what the currently selected input is called.
 
-## <a name="CubicFaces2HorizontalCross"></a>CubicFaces2HorizontalCross ##
+## <a name="CubicFaces2HorizontalCross"></a>CubicFaces2HorizontalCross
 
 ![CubicFaces2HorizontalCross GUI](images/macro-cubicfaces-to-horizontal-cross-gui.png)
 
@@ -350,7 +350,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 ![CubicFaces2HorizontalCross Node](images/macro-cubicfaces-to-horizontal-cross-node.png)
 
 
-## <a name="CubicFaces2HorizontalStrip"></a>CubicFaces2HorizontalStrip ##
+## <a name="CubicFaces2HorizontalStrip"></a>CubicFaces2HorizontalStrip
 
 ![CubicFaces2HorizontalStrip GUI](images/macro-cubicfaces-to-horizontal-strip-gui.png)
 
@@ -370,7 +370,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2HorizontalStrip Node](images/macro-cubicfaces-to-horizontal-strip-node.png)
 
-## <a name="CubicFaces2HorizontalTee"></a>CubicFaces2HorizontalTee ##
+## <a name="CubicFaces2HorizontalTee"></a>CubicFaces2HorizontalTee
 
 ![CubicFaces2HorizontalTee GUI](images/macro-cubicfaces-to-horizontal-tee-gui.png)
 
@@ -396,7 +396,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2HorizontalTee Node](images/macro-cubicfaces-to-horizontal-tee-node.png)
 
-## <a name="CubicFaces2MeshUV"></a>CubicFaces2MeshUV ##
+## <a name="CubicFaces2MeshUV"></a>CubicFaces2MeshUV
 
 ![CubicFaces2MeshUV GUI](images/macro-cubic-faces-to-mesh-uv-gui.png)
 
@@ -444,7 +444,7 @@ To use this node, individual 90&deg; FOV based cubic view source imagery is conn
 
 **Note:** If the environment map to Mesh UV texture baking operation doesn't seem to have the correct "infinite" like look to the conversion it is usually an indication the scale control needs to be adjusted to fix the issue.
 
-## <a name="CubicFaces2MrCube1Map"></a>CubicFaces2MrCube1Map ##
+## <a name="CubicFaces2MrCube1Map"></a>CubicFaces2MrCube1Map
 
 ![CubicFaces2MrCube1Map GUI](images/macro-cubicfaces-to-mr-cube1-map-gui.png)
 
@@ -464,7 +464,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2MrCube1Map Node](images/macro-cubicfaces-to-mr-cube1-map-node.png)
 
-## <a name="CubicFaces2VerticalCross"></a>CubicFaces2VerticalCross ##
+## <a name="CubicFaces2VerticalCross"></a>CubicFaces2VerticalCross
 
 ![CubicFaces2VerticalCross GUI](images/macro-cubicfaces-to-vertical-cross-gui.png)
 
@@ -493,7 +493,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2VerticalCross Node](images/macro-cubicfaces-to-vertical-cross-node.png)
 
-## <a name="CubicFaces2VerticalStrip"></a>CubicFaces2VerticalStrip ##
+## <a name="CubicFaces2VerticalStrip"></a>CubicFaces2VerticalStrip
 
 ![CubicFaces2VerticalStrip GUI](images/macro-cubicfaces-to-vertical-strip-gui.png)
 
@@ -528,7 +528,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2VerticalStrip Node](images/macro-cubicfaces-to-vertical-strip-node.png)
 
-## <a name="CubicFaces2VerticalTee"></a>CubicFaces2VerticalTee ##
+## <a name="CubicFaces2VerticalTee"></a>CubicFaces2VerticalTee
 
 ![CubicFaces2VerticalTee GUI](images/macro-cubicfaces-to-vertical-tee-gui.png)
 
@@ -557,7 +557,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2VerticalTee Node](images/macro-cubicfaces-to-vertical-tee-node.png)
 
-## <a name="CubicFaces2YouTube180"></a>CubicFaces2YouTube180 ##
+## <a name="CubicFaces2YouTube180"></a>CubicFaces2YouTube180
 
 ![CubicFaces2YouTube180 GUI](images/macro-cubicfaces-to-youtube-180-gui.png)
 
@@ -569,7 +569,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2YouTube180 Node](images/macro-cubicfaces-to-youtube-180-node.png)
 
-## <a name="CubicFaces2YouTubeCubemap3x2"></a>CubicFaces2YouTubeCubemap3x2 ##
+## <a name="CubicFaces2YouTubeCubemap3x2"></a>CubicFaces2YouTubeCubemap3x2
 
 ![CubicFaces2YouTubeCubemap3x2 GUI](images/macro-cubic-faces-to-youtube-cubemap3x2-gui.png)
 
@@ -581,7 +581,7 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 ![CubicFaces2YouTubeCubemap3x2 Node](images/macro-cubic-faces-to-youtube-cubemap3x2-node.png)
 
-## <a name="Cylindrical2CubicFaces"></a>Cylindrical2CubicFaces ##
+## <a name="Cylindrical2CubicFaces"></a>Cylindrical2CubicFaces
 
 ![Cylindrical2CubicFaces GUI](images/macro-cylindrical-to-cubicfaces-gui.png)
 
@@ -602,7 +602,7 @@ To use this node, the cylindrical source imagery is connected to the node's yell
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="Domemaster2Equirectangular"></a>Domemaster2Equirectangular ##
+## <a name="Domemaster2Equirectangular"></a>Domemaster2Equirectangular
 
 ![Domemaster2Equirectangular GUI](images/macro-domemaster-to-equirectangular-gui.png)
 
@@ -621,7 +621,7 @@ To use this node, the 180 degree angular fisheye source imagery is connected to 
 This conversion is done with the help of the polar to rectangular coordinates filter.
 
 
-## <a name="Equirectangular2Angular"></a>Equirectangular2Angular ##
+## <a name="Equirectangular2Angular"></a>Equirectangular2Angular
 
 ![Equirectangular2Angular GUI](images/macro-equirectangular-to-angular-gui.png)
 
@@ -637,7 +637,7 @@ To use this node, the equirectangular source imagery is connected to the node's 
 
 This conversion is done with the help of the rectangular to polar coordinates filter.
 
-## <a name="Equirectangular2CubicFaces"></a>Equirectangular2CubicFaces ##
+## <a name="Equirectangular2CubicFaces"></a>Equirectangular2CubicFaces
 ![Equirectangular2CubicFaces GUI](images/macro-equirectangular-to-cubicfaces-gui.png)
 
 This macro takes a 360&deg; x 180&deg; equirectangular/LatLong/spherical panorama and extracts a set of six 90&deg; FOV cubic camera views as separate cubic image outputs.
@@ -656,7 +656,7 @@ To use this node, the equirectangular source imagery is connected to the node's 
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="Equirectangular2Cylindrical"></a>Equirectangular2Cylindrical ##
+## <a name="Equirectangular2Cylindrical"></a>Equirectangular2Cylindrical
 ![Equirectangular2Cylindrical GUI](images/macro-equirectangular-to-cylindrical-gui.png)
 
 This macro takes a 360&deg; x 180&deg; equirectangular/LatLong/spherical panorama and converts it into a 360&deg; x 90&deg; cylindrical output.
@@ -676,7 +676,7 @@ To use this node, the equirectangular source imagery is connected to the node's 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="Equirectangular2Domemaster180"></a>Equirectangular2Domemaster180 ##
+## <a name="Equirectangular2Domemaster180"></a>Equirectangular2Domemaster180
 
 ![Equirectangular2Domemaster180 GUI](images/macro-equirectangular-to-domemaster180-gui.png)
 
@@ -693,7 +693,7 @@ A typical domemaster image in a planetarium covers a 180&deg; image area which i
 **Note:** An angular fisheye image with a quoted 180&deg; FOV value can be thought of as a diagonal 180&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x90&deg; image area.
 
 
-## <a name="Equirectangular2Domemaster220"></a>Equirectangular2Domemaster220 ##
+## <a name="Equirectangular2Domemaster220"></a>Equirectangular2Domemaster220
 
 ![Equirectangular2Domemaster220 GUI](images/macro-equirectangular-to-domemaster220-gui.png)
 
@@ -709,7 +709,7 @@ A typical domemaster image in a planetarium covers a 180&deg; image area which i
 
 **Note:** An angular fisheye image with a quoted 220&deg; FOV value can be thought of as a diagonal 220&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x110&deg; image area.
 
-## <a name="Equirectangular2Fisheye"></a>Equirectangular2Fisheye ##
+## <a name="Equirectangular2Fisheye"></a>Equirectangular2Fisheye
 
 ![Equirectangular2Fisheye GUI](images/macro-equirectangular-to-fisheye-gui.png)
 
@@ -721,7 +721,7 @@ Setting the **Z Rotation** control to "-90" is the setting to use for a horizont
 
 **Note:** An angular fisheye image with a quoted 360&deg; FOV value can be thought of as a diagonal 360&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x180&deg; image area.
 
-## <a name="EquirectangularStereo2FisheyeStereo"></a>EquirectangularStereo2FisheyeStereo ##
+## <a name="EquirectangularStereo2FisheyeStereo"></a>EquirectangularStereo2FisheyeStereo
 
 ![EquirectangularStereo2FisheyeStereo](images/macro-equirectangular-stereo-to-fisheye-stereo-gui.png)
 
@@ -733,7 +733,7 @@ Setting the **Z Rotation** control to "-90" is the setting to use for a horizont
 
 **Note:** An angular fisheye image with a quoted 360&deg; FOV value can be thought of as a diagonal 360&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x180&deg; image area.
 
-## <a name="Equirectangular2InverseAngular"></a>Equirectangular2InverseAngular ##
+## <a name="Equirectangular2InverseAngular"></a>Equirectangular2InverseAngular
 
 ![Equirectangular2InverseAngular GUI](images/macro-equirectangular-to-inverse-angular-gui.png)
 
@@ -747,7 +747,7 @@ The "Inverse" part of this conversion means that it will use the downward (nadir
 
 **Note:** An angular fisheye image with a quoted 360&deg; FOV value can be thought of as a diagonal 360&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x180&deg; image area.
 
-## <a name="Equirectangular2InverseDomemaster180"></a>Equirectangular2InverseDomemaster180 ##
+## <a name="Equirectangular2InverseDomemaster180"></a>Equirectangular2InverseDomemaster180
 
 ![Equirectangular2InverseDomemaster180 GUI](images/macro-equirectangular-to-inverse-domemaster180-gui.png)
 
@@ -763,7 +763,7 @@ A typical domemaster image in a planetarium covers a 180&deg; image area which i
 
 **Note:** An angular fisheye image with a quoted 180&deg; FOV value can be thought of as a diagonal 180&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x90&deg; image area.
 
-## <a name="Equirectangular2InverseDomemaster220"></a>Equirectangular2InverseDomemaster220 ##
+## <a name="Equirectangular2InverseDomemaster220"></a>Equirectangular2InverseDomemaster220
 
 ![Equirectangular2InverseDomemaster220 GUI](images/macro-equirectangular-to-inverse-domemaster220-gui.png)
 
@@ -779,7 +779,7 @@ A typical domemaster image in a planetarium covers a 180&deg; image area which i
 
 **Note:** An angular fisheye image with a quoted 220&deg; FOV value can be thought of as a diagonal 220&deg; field of view value in the panoramic image frame. If this image was later converted back into an equirectangular image it would fully cover a 360&deg;x110&deg; image area.
 
-## <a name="Equirectangular2MeshUV"></a>Equirectangular2MeshUV ##
+## <a name="Equirectangular2MeshUV"></a>Equirectangular2MeshUV
 
 ![Equirectangular2MeshUV GUI](images/macro-equirectangular-to-mesh-uv-gui.png)
 
@@ -828,7 +828,7 @@ The node has one input which is labelled "Image". The node has a single output c
 
 **Note:** If the environment map to Mesh UV texture baking operation doesn't seem to have the correct "infinite" like look to the conversion it is usually an indication the scale control needs to be adjusted to fix the issue.
 
-## <a name="EquirectangularStereo2GearVRStereo"></a>EquirectangularStereo2GearVRStereo ##
+## <a name="EquirectangularStereo2GearVRStereo"></a>EquirectangularStereo2GearVRStereo
 
 ![EquirectangularStereo2GearVRStereo GUI](images/macro-equirectangular-stereo-to-gearvr-stereo-gui.png)
 
@@ -850,7 +850,7 @@ The node has a set of "Left" and "Right" inputs that take equirectangular 360&de
 
 ![EquirectangularStereo2GearVRStereo Node](images/macro-equirectangular-stereo-to-gearvr-stereo-node.png)
 
-## <a name="FacebookCubemap3x22CubicFaces"></a>FacebookCubemap3x22CubicFaces ##
+## <a name="FacebookCubemap3x22CubicFaces"></a>FacebookCubemap3x22CubicFaces
 
 ![FacebookCubemap3x22CubicFaces GUI](images/macro-facebook-cubemap3x2-to-cubicfaces-gui.png)
 
@@ -877,19 +877,19 @@ To use this node, the cubemap 3x2 source imagery is connected to the node's yell
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="FacebookCubemap3x2Stereo2CubicFacesStereo"></a>FacebookCubemap3x2Stereo2CubicFacesStereo ##
+## <a name="FacebookCubemap3x2Stereo2CubicFacesStereo"></a>FacebookCubemap3x2Stereo2CubicFacesStereo
 
 This macro takes an over/under stereo formatted Facebook Cubemap 3x2 panoramic format image and extracts a set of six 90&deg; FOV cubic left and right camera views as separate cubic image outputs.
 
 ![FacebookCubemap3x2Stereo2CubicFacesStereo GUI](images/macro-facebook-cubemap-3x2-stereo-to-cubic-faces-stereo.png)
 
-## <a name="FacebookCubemap3x2Stereo2EquirectangularStereo"></a>FacebookCubemap3x2Stereo2EquirectangularStereo ##
+## <a name="FacebookCubemap3x2Stereo2EquirectangularStereo"></a>FacebookCubemap3x2Stereo2EquirectangularStereo
 
 This macro takes an over/under stereo formatted Facebook Cubemap 3x2 panoramic format image and creates left and right view equirectangular stereo image outputs.
 
 ![FacebookCubemap3x2Stereo2EquirectangularStereo](images/macro-facebook-cubemap-3x2-stereo-to-equirectangular-stereo.png)
 
-## <a name="FacebookVerticalStrip2Equirectangular"></a>FacebookVerticalStrip2Equirectangular ##
+## <a name="FacebookVerticalStrip2Equirectangular"></a>FacebookVerticalStrip2Equirectangular
 
 ![FacebookVerticalStrip2Equirectangular GUI](images/macro-facebook-vertical-strip-to-equirectangular-gui.png)
 
@@ -926,7 +926,7 @@ To use this node, the Facebook Vertical Strip source imagery is connected to the
 
 ![FacebookVerticalStrip2Equirectangular Node](images/macro-facebook-vertical-strip-to-equirectangular-node.png)
 
-## <a name="FacebookVerticalStrip2CubicFaces"></a>FacebookVerticalStrip2CubicFaces ##
+## <a name="FacebookVerticalStrip2CubicFaces"></a>FacebookVerticalStrip2CubicFaces
 
 ![FacebookVerticalStrip2CubicFaces GUI](images/macro-facebook-vertical-strip-to-cubicfaces-gui.png)
 
@@ -966,7 +966,7 @@ To use this node, the Facebook Vertical Strip source imagery is connected to the
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="Fisheye2Equirectangular"></a>Fisheye2Equirectangular ##
+## <a name="Fisheye2Equirectangular"></a>Fisheye2Equirectangular
 
 ![Fisheye2Equirectangular GUI](images/macro-fisheye-to-equirectangular-gui.png)
 
@@ -984,11 +984,11 @@ The "FOV" control allows you to enter circular fisheye lens field of view settin
 
 The "Depth" control allows you to specify the bit depth for the panoramic output. The "8bit int" option is for PNG/TGA/JPG outputs, and the "16bit float" or "32bit float" options are perfect for floating point EXR based outputs that have HDR (high dynamic range) based color values that exceed the standard 0.0-1.0 color range.
 
-The Yaw (Y Rotation)/Pitch(Z Rotation)/Roll (X Rotation) sliders are used to spin the orientation of the view around and can be used to level the horizon in an image or reposition the final frame layout. 
+The Yaw (Y Rotation)/Pitch(Z Rotation)/Roll (X Rotation) sliders are used to spin the orientation of the view around and can be used to level the horizon in an image or reposition the final frame layout.
 
 If you start to notice a gimbal lock issue occur you should try to do a majority of the rotation effect with just two axis at a time like using the Yaw and Pitch rotation controls. Often a gimbal lock issue can be solved by pre-rotating a sideways shot fisheye image into a vertical orientation before you use the Fisheye2Equirectangular node on the footage.
 
-The "Background Color" control allows you to specify what should be placed in the blank area outside the image data when the fisheye image is remapped into an equirectangular panoramic projection. 
+The "Background Color" control allows you to specify what should be placed in the blank area outside the image data when the fisheye image is remapped into an equirectangular panoramic projection.
 
 By default the "A" alpha channel slider is set to 0.0 which means the background is transparent. You can add a custom color to the background region in the equirectangular frame by setting the alpha channel to 1.0 to make the background solid and then you can change the Red/Green/Blue color sliders.
 
@@ -998,7 +998,7 @@ To use this node, the fisheye source imagery is connected to the node's yellow c
 
 This conversion is done with the help of the polar to rectangular coordinates filter.
 
-## <a name="FisheyeStereo2EquirectangularStereo"></a>FisheyeStereo2EquirectangularStereo ##
+## <a name="FisheyeStereo2EquirectangularStereo"></a>FisheyeStereo2EquirectangularStereo
 
 ![FisheyeStereo2EquirectangularStereo GUI](images/macro-fisheye-stereo-to-equirectangular-stereo-gui.png)
 
@@ -1016,7 +1016,7 @@ The "Rotation Order" control allows you to control the precedence for each of th
 
 The X Rotation/Y Rotation/Z Rotation sliders are used to spin the orientation of the view around and can be used to level the horizon in an image or reposition the final frame layout.
 
-The "Background Color" control allows you to specify what should be placed in the blank area outside the image data when the fisheye image is remapped into an equirectangular panoramic projection. 
+The "Background Color" control allows you to specify what should be placed in the blank area outside the image data when the fisheye image is remapped into an equirectangular panoramic projection.
 
 By default the "A" alpha channel slider is set to 0.0 which means the background is transparent. You can add a custom color to the background region in the equirectangular frame by setting the alpha channel to 1.0 to make the background solid and then you can change the Red/Green/Blue color sliders.
 
@@ -1027,7 +1027,7 @@ To use this node, the stereo fisheye source imagery is connected to the node's y
 This conversion is done with the help of the polar to rectangular coordinates filter.
 
 
-## <a name="GearVRMono2CubicFaces"></a>GearVRMono2CubicFaces ##
+## <a name="GearVRMono2CubicFaces"></a>GearVRMono2CubicFaces
 
 ![GearVRMono2CubicFaces GUI](images/macro-gearvr-mono-to-cubicfaces.png)
 
@@ -1047,7 +1047,7 @@ To use this node, the Gear VR mono source imagery is connected to the node's yel
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="GearVRStereo2CubicFaces"></a>GearVRStereo2CubicFaces ##
+## <a name="GearVRStereo2CubicFaces"></a>GearVRStereo2CubicFaces
 
 ![GearVRStereo2CubicFaces GUI](images/macro-gearvr-stereo-to-cubicfaces.png)
 
@@ -1067,7 +1067,7 @@ To use this node, the Gear VR Stereo source imagery is connected to the node's y
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="GearVRMono2Equirectangular"></a>GearVRMono2Equirectangular ##
+## <a name="GearVRMono2Equirectangular"></a>GearVRMono2Equirectangular
 
 ![GearVRMono2Equirectangular GUI](images/macro-gearvr-mono-to-equirectangular-gui.png)
 
@@ -1093,7 +1093,7 @@ To use this node, a Gear VR Mono source image is connected to the node's yellow 
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="GearVRStereo2EquirectangularStereo"></a>GearVRStereo2EquirectangularStereo ##
+## <a name="GearVRStereo2EquirectangularStereo"></a>GearVRStereo2EquirectangularStereo
 
 ![GearVRStereo2EquirectangularStereo GUI](images/macro-gearvr-stereo-to-equirectangular-stereo-gui.png)
 
@@ -1120,7 +1120,7 @@ To use this node, a Gear VR Stereo source image is connected to the node's yello
 ![GearVRStereo2EquirectangularStereo Node](images/macro-gearvr-stereo-to-equirectangular-stereo-node.png)
 
 
-## <a name="HorizontalCross2CubicFaces"></a>HorizontalCross2CubicFaces ##
+## <a name="HorizontalCross2CubicFaces"></a>HorizontalCross2CubicFaces
 
 ![HorizontalCross2CubicFaces GUI](images/macro-horizontal-cross-to-cubicfaces-gui.png)
 
@@ -1150,7 +1150,7 @@ To use this node, the horizontal cross source imagery is connected to the node's
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="HorizontalStrip2CubicFaces"></a>HorizontalStrip2CubicFaces ##
+## <a name="HorizontalStrip2CubicFaces"></a>HorizontalStrip2CubicFaces
 
 ![HorizontalStrip2CubicFaces GUI](images/macro-horizontal-strip-to-cubicfaces-gui.png)
 
@@ -1175,7 +1175,7 @@ To use this node, the source imagery is connected to the node's yellow colored "
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="HorizontalTee2CubicFaces"></a>HorizontalTee2CubicFaces ##
+## <a name="HorizontalTee2CubicFaces"></a>HorizontalTee2CubicFaces
 
 ![HorizontalTee2CubicFaces GUI](images/macro-horizontal-tee-to-cubicfaces-gui.png)
 
@@ -1206,17 +1206,17 @@ To use this node, the source imagery is connected to the node's yellow colored "
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="MeshUV2Equirectangular"></a>MeshUV2Equirectangular ##
+## <a name="MeshUV2Equirectangular"></a>MeshUV2Equirectangular
 
 
 ![MeshUV2Equirectangular GUI](images/macro-meshuv-to-equirectangular-gui.png)
 
-## <a name="MeshUV2EquirectangularStereo"></a>MeshUV2EquirectangularStereo ##
+## <a name="MeshUV2EquirectangularStereo"></a>MeshUV2EquirectangularStereo
 
 
 ![MeshUV2EquirectangularStereo GUI](images/macro-meshuv-to-equirectangular-stereo-gui.png)
 
-## <a name="MRCube1HorizontalStrip2CubicFaces"></a>MRCube1HorizontalStrip2CubicFaces ##
+## <a name="MRCube1HorizontalStrip2CubicFaces"></a>MRCube1HorizontalStrip2CubicFaces
 
 ![MRCube1HorizontalStrip2CubicFaces GUI](images/macro-mr-cube1-horizontal-strip-to-cubicfaces-gui.png)
 
@@ -1241,7 +1241,7 @@ To use this node, the source imagery is connected to the node's yellow colored "
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="Rectilinear2Equirectangular"></a>Rectilinear2Equirectangular ##
+## <a name="Rectilinear2Equirectangular"></a>Rectilinear2Equirectangular
 
 This macro allows you to take a regular 2D rectangular image and re-project it into an Equirectangular/Spherical/LatLong panoramic image format. This is great for allowing to you position titles, logos, or other elements into a 360&deg; scene.
 
@@ -1253,7 +1253,7 @@ If you are trying to stitch multiple image together that are being processed wit
 
 The Rectilinear2Equirectangular node's XYZ rotation controls can be keyframe animated to create panning title graphics that work nicely for 360&deg; VR videos.
 
-## <a name="RectilinearStereo2EquirectangularStereo"></a>RectilinearStereo2EquirectangularStereo ##
+## <a name="RectilinearStereo2EquirectangularStereo"></a>RectilinearStereo2EquirectangularStereo
 
 This macro allows you to take a pair of left and right camera view regular 2D rectangular images and re-project them into an Equirectangular/Spherical/LatLong panoramic image format. This is great for allowing to you position titles, logos, or other elements into a 360&deg; scene.
 
@@ -1266,7 +1266,7 @@ If you are trying to stitch multiple image together that are being processed wit
 The RectilinearStereo2EquirectangularStereo node's XYZ rotation controls can be keyframe animated to create panning title graphics that work nicely for 360&deg; VR videos.
 
 
-## <a name="VerticalCross2CubicFaces"></a>VerticalCross2CubicFaces ##
+## <a name="VerticalCross2CubicFaces"></a>VerticalCross2CubicFaces
 
 ![VerticalCross2CubicFaces GUI](images/macro-vertical-cross-to-cubicfaces-gui.png)
 
@@ -1297,7 +1297,7 @@ To use this node, the vertical strip source imagery is connected to the node's y
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="VerticalStrip2CubicFaces"></a>VerticalStrip2CubicFaces ##
+## <a name="VerticalStrip2CubicFaces"></a>VerticalStrip2CubicFaces
 
 ![VerticalStrip2CubicFaces GUI](images/macro-vertical-strip-to-cubicfaces-gui.png)
 
@@ -1336,7 +1336,7 @@ To use this node, the vertical strip source imagery is connected to the node's y
 
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
-## <a name="VerticalTee2CubicFaces"></a>VerticalTee2CubicFaces ##
+## <a name="VerticalTee2CubicFaces"></a>VerticalTee2CubicFaces
 
 ![VerticalTee2CubicFaces GUI](images/macro-vertical-tee-to-cubicfaces-gui.png)
 
@@ -1370,10 +1370,10 @@ To use this node, the vertical tee source imagery is connected to the node's yel
 **Note:** If you hover your cursor over each of the red color node outputs you will see a tool tip appear that indicates what the currently selected output is called.
 
 
-## <a name="YouTubeCubemap3x22CubicFaces"></a>YouTubeCubemap3x22CubicFaces ##
+## <a name="YouTubeCubemap3x22CubicFaces"></a>YouTubeCubemap3x22CubicFaces
 
 This macro takes a single combined image with a YouTube 360&deg; based 3x2 cubic face arrangement and outputs a set of six individual 90&deg; FOV based cubic view source images.
 
-## <a name="YouTubeCubemap3x22Equirectangular"></a>YouTubeCubemap3x22Equirectangular ##
+## <a name="YouTubeCubemap3x22Equirectangular"></a>YouTubeCubemap3x22Equirectangular
 
 This macro takes a single combined image with a YouTube 360&deg; based 3x2 cubic face arrangement and outputs an equirectangular/LatLong/spherical panorama with a 360&deg; x 180&deg; FOV.

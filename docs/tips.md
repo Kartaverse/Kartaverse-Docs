@@ -1,8 +1,8 @@
-# Tips & Tricks #
+# Tips & Tricks
 
 This section covers tips & tricks for getting the most out of Fusion and the KartaVR.
 
-## <a name="defaults"></a>Fusion Comp Defaults ##
+## <a name="defaults"></a>Fusion Comp Defaults
 
 It is a good idea to edit the Fusion comp's default settings for the frame size and default bit depth. These settings are used automatically by many of the KartaVR automatically.
 
@@ -12,7 +12,7 @@ These settings are then used for many nodes including the Background node.
 
 ![Fusion Comp Defaults](images/fusion-frame-format-defaults.png)
 
-### <a name="color-depth-defaults"></a>Color Depth ###
+### <a name="color-depth-defaults"></a>Color Depth
 
 The Color Depth setting in the **Frame Format** section allows you to choose if you want to keep a comp as an 8 bit per channel output or have all the nodes work in a high dynamic range.
 
@@ -22,7 +22,7 @@ In the preferences window you can have one preference setting defined in the **G
 
 This is useful for making comp specific decisions for attributes like the Path Map which allows you to define a custom relative path based folder mapping.
 
-### <a name="3d-view-defaults"></a>3D View ###
+### <a name="3d-view-defaults"></a>3D View
 
 If you are using the 3D nodes in Fusion or any of the KartaVR that tie into the Fusion 3D system, the **3D View** section in the Preferences window can be really useful and handy.
 
@@ -34,7 +34,7 @@ You can also adjust the default camera field of view using the **Angle of View**
 
 If you want to change the 3D viewport grid settings, too, they are accessible at the top of the 3D View preferences section.
 
-### <a name="8-bit-per-channel-viewer-tools"></a>8 Bit Per Channel Viewing Tools ###
+### <a name="8-bit-per-channel-viewer-tools"></a>8 Bit Per Channel Viewing Tools
 
 Several of the "PanoView" viewer tools, and the "Send Media To" programs only support an 8 bit per channel integer image color depth. If you try to send a 16 or 32 bit per channel float image to the programs the imagery cannot be viewed until you use a Change Depth node to switch the media to a compatible format.
 
@@ -46,7 +46,7 @@ Then in the "Change Depth" node you need to set the output to either `8bit int` 
 
 ![Change Depth Node](images/fusion-change-depth-node.png)
 
-## <a name="bin"></a>Changing the Bin Window Views ##
+## <a name="bin"></a>Changing the Bin Window Views
 
 To customize the views in the Bins window, right click in the folder view and navigate your way through the contextual menu options.
 
@@ -66,11 +66,11 @@ You can use the `View` option to change how the Bin items are listed. My favorit
 
 ![Bins View Menu](images/library-view-menu.png)
 
-## <a name="vr-tools"></a>Supporting Tools for VR Production ##
+## <a name="vr-tools"></a>Supporting Tools for VR Production
 
 If you want to get the most out of panoramic immersive compositing in Fusion the following supporting tools are really handy to have installed on the average workstation.
 
-### Programmer's Text Editor ###
+### Programmer's Text Editor
 
 If you need to edit Fusion data files there are custom Fusion .comp, hotkeys .fu, and Macros .setting [Fusion Comp Syntax Highlighters](#syntax-highlighter) included with the KartaVR. They work nicely with the following text editors:
 
@@ -79,31 +79,31 @@ If you need to edit Fusion data files there are custom Fusion .comp, hotkeys .fu
 - [BBEdit](http://www.barebones.com/products/bbedit/) (Mac)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit) (Windows/Mac/Linux)
 
-### Essential Media Viewers ###
+### Essential Media Viewers
 
 - [GoPro VR Player (formerly Kolor Eyes)](http://www.kolor.com/gopro-vr-player/download/)
-- [Whirligig](http://whirligig.xyz/)  
-- [Amateras Dome Player](http://www.orihalcon.co.jp/amaterasplayer/en/)  
-- [DJV Viewer](http://djv.sourceforge.net/)  
-- [VLC](http://www.videolan.org/)  
+- [Whirligig](http://whirligig.xyz/)
+- [Amateras Dome Player](http://www.orihalcon.co.jp/amaterasplayer/en/)
+- [DJV Viewer](http://djv.sourceforge.net/)
+- [VLC](http://www.videolan.org/)
 - [Mettle SkyBox Player](http://www.mettle.com) (For Adobe Premiere)
 
 **Note:** Kolor Eyes was recently turned into the GoPro VR Player application.
-### Spatial Media Metadata Embedding ###
+### Spatial Media Metadata Embedding
 
   - [YouTube 360 Video Metadata Tool](https://support.google.com/youtube/answer/6178631)
 
-### Fusion Fuses ###
+### Fusion Fuses
 
   - Stefan Ihringer's [Cube to LatLong Fuse](http://www.comp-fu.com/2011/04/cube-map-to-equirectangular-latlong-map/)
   - Stefan Ihringer's [sRGB ViewLUT module](http://www.comp-fu.com/2012/02/linear-gamma-workflow-in-fusion/)
 
-### Panoramic Stitching Tools ###
+### Panoramic Stitching Tools
 
   - [PTGui Pro](http://www.ptgui.com) (This tool is used in the **[Generate UV Pass in PTGui](scripts#generate-uv-pass-in-ptgui)** script.)
   - [Hugin](http://hugin.sourceforge.net) (Open Source)
-  
-## <a name="using-expressions-to-set-the-image-resolution"></a>Using Expressions to set the Image Resolution ##
+
+## <a name="using-expressions-to-set-the-image-resolution"></a>Using Expressions to set the Image Resolution
 
 Often you are working with a lot of nodes in KartaVR that need to have the image resolution set automatically based upon your input footage. This is the perfect place to use Fusion's expression language to automate the settings instead of having to manually update these values.
 
@@ -111,31 +111,31 @@ Right clicking on any of the node attributes in Fusion will display a popup menu
 
 If you have an image loader node in your scene called "Loader1" you can read it's current image width and height resolution settings using these variables:
 
-`Loader1.Output.OriginalWidth`  
-`Loader1.Output.OriginalHeight`  
+`Loader1.Output.OriginalWidth`
+`Loader1.Output.OriginalHeight`
 
 If you have a merge node in your scene called "Merge1" you can read the background input connection's current image width and height resolution settings using these variables:
 
-`Merge.Background.OriginalHeight`  
-`Merge.Background.OriginalWidth`  
+`Merge.Background.OriginalHeight`
+`Merge.Background.OriginalWidth`
 
 If you wanted to set a node to use 50% of the image size of your loader node you would enter the expressions:
 
-`Loader1.Output.OriginalWidth * 0.5`  
-`Loader1.Output.OriginalHeight * 0.5`  
+`Loader1.Output.OriginalWidth * 0.5`
+`Loader1.Output.OriginalHeight * 0.5`
 
 You can read the size of a specific image connection on a CustomTool node using:
 
-`ImageGridCustomTool.Image1.Width`  
-`ImageGridCustomTool.Image1.Height`  
+`ImageGridCustomTool.Image1.Width`
+`ImageGridCustomTool.Image1.Height`
 
-`ImageGridCustomTool.Image2.Width`  
-`ImageGridCustomTool.Image2.Height`  
+`ImageGridCustomTool.Image2.Width`
+`ImageGridCustomTool.Image2.Height`
 
-`ImageGridCustomTool.Image2.Width`  
-`ImageGridCustomTool.Image2.Height`  
+`ImageGridCustomTool.Image2.Width`
+`ImageGridCustomTool.Image2.Height`
 
-### Real World Expression Examples ###
+### Real World Expression Examples
 
 The process of learning about expressions can often be abstract. Here is a real world application of using the image size from a loader node to drive a composite.
 
@@ -143,18 +143,18 @@ The process of learning about expressions can often be abstract. Here is a real 
 
 When I use an Equirectangular2CubicFace node in my composite I will often add an expression to the **Input Height** control and set it to:
 
-`Loader1.Output.OriginalHeight`  
+`Loader1.Output.OriginalHeight`
 
 This will mean that my Equirectangular2CubicFace node output will automatically scale its rendered resolution to match the source imagery I connect to the node.
 
-## <a name="enable-hiq-mode-from-lua"></a>Enable HiQ Mode from Lua ##
+## <a name="enable-hiq-mode-from-lua"></a>Enable HiQ Mode from Lua
 
 If you are writing a new Lua script and need to have the HiQ mode turned on by default you can add the following example snippet to your code:
 
 `comp:SetAttrs{COMPB_HiQ = true}`
 
 
-## <a name="breaking-the-32k-resolution-barrier"></a>Breaking the 32K Resolution Barrier ##
+## <a name="breaking-the-32k-resolution-barrier"></a>Breaking the 32K Resolution Barrier
 
 Fusion has an environment variable you can define if you'd like to use CPU based rendering of your composite and break the 32K x 32K image resolution barrier.
 

@@ -1,4 +1,4 @@
-# <a name="new-features"></a>KartaVR Gallery #
+# <a name="new-features"></a>KartaVR Gallery
 
 Here are several images from the KartaVR example stitching projects that were stitched and post-produced in Fusion.
 

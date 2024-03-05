@@ -1,4 +1,4 @@
-# Fusion Compositing Examples #
+# Fusion Compositing Examples
 
 This page lists the example Fusion .comp files that come built-in with the KartaVR product download.
 
@@ -70,7 +70,7 @@ This example shows how to use an Oculus Rift DK1 or DK2 HMD display as the outpu
 
 ![Boxworld Oculus Rift Stereo Renderer3D](images/examples-boxworld-oculus-rift-stereo-renderer3d-screenshot.png)
 
-To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux. This is done by disabling the "Direct to Rift" option in the Oculus Rift drivers. 
+To use this macro you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux. This is done by disabling the "Direct to Rift" option in the Oculus Rift drivers.
 
 In Fusion select the "Windows  > New Image View"  menu item. Then drag this floating image view onto the Oculus Rift display monitor and then resize the image view to be fullscreen.  You can now load the rendered image in Fusion on the new view using the 3 hotkey and the content will show up on the Rift's screen. It helps to turn off the View window's "Show Controls" (Command+K) and "Show Checker Underlay" options.
 
@@ -418,13 +418,13 @@ Clicking on the view and selecting the Fit (Command+F) option will make sure the
 
 ![Roller Coaster Ride Acer WMR Stereo](images/macro-acer-wmr-stereo-renderer3d.png)
 
-This roller coaster ride example shows how the "AcerWMRStereoRenderer3D" macro that allows you to use an Acer Windows Mixed Reality HMD display as the output device from the Fusion 3D system. 
+This roller coaster ride example shows how the "AcerWMRStereoRenderer3D" macro that allows you to use an Acer Windows Mixed Reality HMD display as the output device from the Fusion 3D system.
 
 A roller coaster track model with a camera path based animation is imported from an FBX file. Then a Fusion transform3D node is used with the "Invert Transform" checkbox to prepare the scene for easy rendering with the AcerWMRStereoRenderer3D nodes.
 
-To use this macro you need to mount the AcerWMR as a regular monitor on Mac/Windows/Linux. 
+To use this macro you need to mount the AcerWMR as a regular monitor on Mac/Windows/Linux.
 
-In Fusion select the "Windows  > New Image View"  menu item. Then drag this floating image view onto the AcerWMR display monitor and then resize the image view to be fullscreen.  You can now load the rendered image in Fusion on the new view using the 3 hotkey and the content will show up on the AcerWMR's screen. It helps to turn off the View window's "Show Controls" (Command+K) and "Show Checker Underlay" options. 
+In Fusion select the "Windows  > New Image View"  menu item. Then drag this floating image view onto the AcerWMR display monitor and then resize the image view to be fullscreen.  You can now load the rendered image in Fusion on the new view using the 3 hotkey and the content will show up on the AcerWMR's screen. It helps to turn off the View window's "Show Controls" (Command+K) and "Show Checker Underlay" options.
 
 Clicking on the view and selecting the Fit (Command+F) option will make sure the image fills the HMD screen.
 
@@ -608,7 +608,7 @@ This example shows how the  "OculusDK1StereoRenderer3D"  and "OculusDK2StereoRen
 
 ![Wireframe Oculus Rift Stereo](images/examples-wireframe-oculus-rift-stereo-screenshot.png)
 
-To use this node you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux. This is done by disabling the "Direct to Rift" option in the Oculus Rift drivers. 
+To use this node you need to mount the Oculus Rift DK1 or DK2 HMD as a regular monitor on Mac/Windows/Linux. This is done by disabling the "Direct to Rift" option in the Oculus Rift drivers.
 
 In Fusion select the "Windows  > New Image View"  menu item. Then drag the floating viewer onto the Oculus Rift display monitor and resize the viewer to be fullscreen.  You can now load the imagery in the viewer using the 3 hotkey and the content will show up on the Rift's screen. It helps to turn off the viewer's "Show Controls" (Command+K) and "Show Checker Underlay" options.
 
@@ -618,7 +618,7 @@ Clicking on the view and selecting the Fit (Command+F) option will make sure the
 
 
 <a name="looking-glass-renderer-3d"></a>
-## LookingGlassRenderer3D.comp ##
+## LookingGlassRenderer3D.comp
 
 This comp will render Fusion 3D system based content into a Looking Glass display 4x4 quilted grid format that can be displayed using the native Looking Glass display playback tools. You can expand the "LookingGlassRenderer3D" macro node's group to adjust any setting you want.
 

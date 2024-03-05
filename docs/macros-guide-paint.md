@@ -1,6 +1,6 @@
-# Paint Macros #
+# Paint Macros
 
-## <a name="PaintEquirectangular"></a>PaintEquirectangular ##
+## <a name="PaintEquirectangular"></a>PaintEquirectangular
 
 ![PaintEquirectangular](images/macro-paint-equirectangular.jpg)
 
@@ -16,7 +16,7 @@ Setting the Merge node at the end of the comp to use the "Difference" Apply Mode
 
 ![PaintEquirectangular Nodes](images/macro-paint-equirectangular-nodes.png)
 
-## <a name="PaintHorizontalCross"></a>PaintHorizontalCross ##
+## <a name="PaintHorizontalCross"></a>PaintHorizontalCross
 
 ![PaintHorizontalCross Nodes](images/macro-paint-horizontal-cross.jpg)
 

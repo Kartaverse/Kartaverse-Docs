@@ -1,6 +1,6 @@
-# Stereoscopic Macros #
+# Stereoscopic Macros
 
-## <a name="StereoAnaglyphHalfColorMerge"></a>StereoAnaglyphHalfColorMerge ##
+## <a name="StereoAnaglyphHalfColorMerge"></a>StereoAnaglyphHalfColorMerge
 
 ![StereoAnaglyphHalfColorMerge GUI](images/macro-stereo-anaglyph-half-color-merge-gui.png)
 
@@ -28,7 +28,7 @@ Then you would send the imagery to a panoramic 360&deg; media viewer tool using 
 
 ![Send to PanoView](images/send-anaglyph-latlong-to-panoview-script.png)
 
-## <a name="StereoAnaglyphMerge"></a>StereoAnaglyphMerge ##
+## <a name="StereoAnaglyphMerge"></a>StereoAnaglyphMerge
 
 ![StereoAnaglyphMerge GUI](images/macro-stereo-anaglyph-merge-gui.png)
 
@@ -52,7 +52,7 @@ Then you would send the imagery to a panoramic 360&deg; media viewer tool using 
 
 ![Send to PanoView](images/send-anaglyph-latlong-to-panoview-script.png)
 
-## <a name="StereoAnaglyphOU"></a>StereoAnaglyphOU ##
+## <a name="StereoAnaglyphOU"></a>StereoAnaglyphOU
 
 ![StereoAnaglyphOU](images/macro-stereo-anaglyph-ou.png)
 
@@ -74,7 +74,7 @@ To use this node an over/under image is connected to the `StereoAnaglyphOU.image
 
 ![StereoAnaglyphOU Node](images/macro-stereo-anaglyph-ou-node.png)
 
-## <a name="StereoOverUnderExtract"></a>StereoOverUnderExtract ##
+## <a name="StereoOverUnderExtract"></a>StereoOverUnderExtract
 
 ![StereoOverUnderExtract GUI](images/macro-stereo-over-under-extract-gui.png)
 
@@ -84,7 +84,7 @@ This is a node view of extracting a left and right pair of stereo images from a 
 
 ![StereoOverUnderExtract Node](images/macro-stereo-over-under-extract-node.png)
 
-## <a name="StereoOverUnderMerge"></a>StereoOverUnderMerge ##
+## <a name="StereoOverUnderMerge"></a>StereoOverUnderMerge
 
 ![StereoOverUnderMerge GUI](images/macro-stereo-over-under-merge-gui.png)
 
@@ -96,7 +96,7 @@ This is a node view of merging a left and right pair of stereo images into the "
 
 Note: If you are using an "offset" macro to horizontally scroll the canvas in the node tree immediately before applying the StereoOverUnderMerge operation it might result in a Mono 2D looking output without the left and right details present. The solution to this issue is to flatten the transforms of the media coming into the StereoOverUnderMerge macro using a crop node set to 100% of the image width and height.
 
-## <a name="StereoSideBySideExtract"></a>StereoSideBySideExtract ##
+## <a name="StereoSideBySideExtract"></a>StereoSideBySideExtract
 
 ![StereoSideBySideExtract GUI](images/macro-stereo-side-by-side-extract-gui.png)
 
@@ -106,7 +106,7 @@ This is a node view of extracting a left and right pair of stereo images from a 
 
 ![StereoSideBySideExtract Node](images/macro-stereo-side-by-side-extract-node.png)
 
-## <a name="StereoSideBySideMerge"></a>StereoSideBySideMerge ##
+## <a name="StereoSideBySideMerge"></a>StereoSideBySideMerge
 
 ![StereoSideBySideMerge GUI](images/macro-stereo-side-by-side-merge-gui.png)
 

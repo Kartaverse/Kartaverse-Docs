@@ -3,22 +3,22 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7** - Released 2024-03-05  
-by Andrew Hazelden  
+**Version 5.7** - Released 2024-03-05
+by Andrew Hazelden
 
-Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
+Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
 
 Kartaverse is a free open-source post-production pipeline that is  optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it!
 
-"Karta" is the Swedish word for map. With Kartaverse you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows. 
+"Karta" is the Swedish word for map. With Kartaverse you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.
 
 Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
 
 ![Panoramic Conversions](images/conversions.png)
 
-Kartaverse ships with the [Vonk Ultra](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) data nodes. Vonk can be thought of as node-based modifiers that live in the flow. These node-based operations provide a no-code alternative to using expressions or custom scripts. Data nodes are tools that allow you to interconnect nodes together by supporting more data types for the input and output connections such as numbers, text, spreadsheets, CSV, JSON, XML, YAML, metadata, arrays, matrices, and more. 
+Kartaverse ships with the [Vonk Ultra](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) data nodes. Vonk can be thought of as node-based modifiers that live in the flow. These node-based operations provide a no-code alternative to using expressions or custom scripts. Data nodes are tools that allow you to interconnect nodes together by supporting more data types for the input and output connections such as numbers, text, spreadsheets, CSV, JSON, XML, YAML, metadata, arrays, matrices, and more.
 
 ## <a name="install"></a>Installation
 
@@ -32,7 +32,7 @@ Kartaverse works with Fusion Studio v9-18.6+, Fusion Render Node v9-18.6+, DaVin
 
 ## Kartaverse Blog
 
-The [Kartaverse Blog](https://medium.com/@andrewhazelden) is hosted on Medium. 
+The [Kartaverse Blog](https://medium.com/@andrewhazelden) is hosted on Medium.
 
 ## Kartaverse Technical Support
 
@@ -50,12 +50,12 @@ Hugh Hou has published several Resolve/Fusion centric VR tutorials on his YouTub
 
 ### Reframe360Ultra
 
-This video covers the usage of Reframe360Ultra for reframing videos:  
+This video covers the usage of Reframe360Ultra for reframing videos:
 [How to ReFrame ANY 360 Video in DaVinci Resolve FREE in Real Time (Insta360, GoPro MAX, Qoocam 8K)](https://www.youtube.com/watch?v=CWw2DaXC7OU)
 
 ### WarpStitchUltra
 
-This video shows how to process Canon R5C camera + Canon RF 5.2mm dual fisheye lens media in Resolve:  
+This video shows how to process Canon R5C camera + Canon RF 5.2mm dual fisheye lens media in Resolve:
 [Edit Canon R5C & R5 VR180 w/ DaVinci Resolve 18 FREE - 3D 8K 60fps RAW LT Clog3 Workflow](https://www.youtube.com/watch?v=2GW7nb47rB4)
 
 The tutorial covers the usage of "ST Maps" and the WarpStitch node. Included with the project files are Fusion and Resolve example comps, along with a TouchDesigner based real-time warping project file that can be used to do live 180VR video streaming, and supports real-time stitched previews from the Canon R5/R5C camera.
@@ -71,7 +71,7 @@ In DaVinci Resolve you can access the base Reactor folder using the "Workspaces 
 
 ![Show Reactor](images/show-reactor-resolve.png)
 
-In Fusion Studio this location can be accessed using the "Reactor > Tools > Show Reactor Folder" menu item. 
+In Fusion Studio this location can be accessed using the "Reactor > Tools > Show Reactor Folder" menu item.
 
 ![Show Reactor](images/show-reactor-fusion.png)
 

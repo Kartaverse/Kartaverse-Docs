@@ -1,11 +1,16 @@
 <a name="version-history"></a>
-## Version History ##
+## Version History 
 
-### Version 5.7 - 2023-12-25
+
+### Version 5.7 - 2024-03-05
+
+- The Kartaverse project moved the [documentation to GitHub](https://github.com/kartaverse).
 
 - The kvrViewer node allows you to quickly view flat, 360VR, 180VR, and fisheye panoramic videos in Resolve/Fusion. 
 
 - The kvrLens and kvrLensStereo DCTL fuses allows you to distort your imagery using either the "Brown-Conrady", "Panotools", or "SynthEyes" lens distortion models. Brown-Conrady is popular with computer vision tools like OpenCV, and photogrammetry/NeRF tools. Panotools is used with 360VR panoramic imagery. SynthEyes is used for camera tracking/match moving. 
+
+- The "kvrSTMapGenerator" DCTL fuse allows you to generate an initial STMap template.
 
 - The kvrGrade node allows you to apply stereoscopic 3D aware color correction.
 
@@ -130,7 +135,7 @@
 
 - Added a `locators.xyz` sample point cloud to the `Reactor:/Deploy/Macros/KartaVR/Images/` folder. This is a simple example that loads in two strips of locators (20 points total) on the X/Z origin plane.
 
-### Version 4.1 - 2019-10-22 ###
+### Version 4.1 - 2019-10-22 
 
 - Added a `youtube_cubemap2x3.obj` panoramic viewing mesh for viewing and doing MeshUV panoramic tranforms on YouTube formatted cubemap 2x3 side-by-side formatted stereo 360&deg; videos.
 
@@ -142,7 +147,7 @@
 
 - Added a KartaVR Tips & Tricks entry for "[Breaking the 32K Resolution Barrier](tips#breaking-the-32k-resolution-barrier)".
 
-### Version 4.0.3 - 2019-10-20 ###
+### Version 4.0.3 - 2019-10-20 
 
 - The KartaVR "Video Snapshot" script was updated to support live video input capture from HDMI/SDI/USB based devices using Windows DirectShow, and macOS AV Foundation libraries. The script is accessible using the `Script > KartaVR > Movies > Video Snapshot` menu item. The Video Snapshot UI was overhauled and a lot of new features were added.
 
@@ -665,7 +670,7 @@
 
 - Updated the ColorCorrectorMasked node to flip the start and end position gradient colors on the ramp. This makes it really easy to apply a graduated neutral density filter effect with only having to change the brightness control.
 
-### Version 2.0 Beta 3 - 2016-05-25 ###
+### Version 2.0 Beta 3 - 2016-05-25 
 
 - Added a new **[Open 360 Video Metadata Tool](scripts#open-360-video-metadata-tool)** script that will launch the YouTube 360 / Facebook 360 spatial media metadata embedding program. This makes it a quick process to add the required tags to your panoramic 360 &deg; movie files so you can view them correctly on streaming video sites.
 

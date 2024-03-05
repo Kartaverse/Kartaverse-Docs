@@ -1,6 +1,6 @@
-# PanoView for Fusion #
+# PanoView for Fusion
 
-## <a name="overview"></a>Overview ##
+## <a name="overview"></a>Overview
 
 ![PanoView Script](images/panoview-gopro.png)
 
@@ -10,20 +10,20 @@ This script can be used with Windows, Mac, or Linux versions of Blackmagic Desig
 
 Supported media viewing tools include:
 
-- [Kolor Eyes](http://www.kolor.com/360-video/kolor-eyes-desktop-free-360-video-player) 
+- [Kolor Eyes](http://www.kolor.com/360-video/kolor-eyes-desktop-free-360-video-player)
 - [GoPro VR Player](http://www.kolor.com/gopro-vr-player/download/)
-- [Whirligig](http://whirligig.xyz/)  
-- [Amateras Dome Player](http://www.orihalcon.co.jp/amateras/domeplayer/en/)  
-- [Adobe SpeedGrade](https://creative.adobe.com/products/speedgrade)  
-- [DJV Viewer](http://djv.sourceforge.net/)  
-- [Live View Rift](http://soft.viarum.com/liveviewrift/)  
-- [QuickTime Player](https://support.apple.com/quicktime)  
-- [RV Player](http://www.tweaksoftware.com/products/rv)  
-- [Assimilate Scratch Player](http://www.assimilateinc.com/products/scratch-play)  
-- [VLC](http://www.videolan.org/)  
+- [Whirligig](http://whirligig.xyz/)
+- [Amateras Dome Player](http://www.orihalcon.co.jp/amateras/domeplayer/en/)
+- [Adobe SpeedGrade](https://creative.adobe.com/products/speedgrade)
+- [DJV Viewer](http://djv.sourceforge.net/)
+- [Live View Rift](http://soft.viarum.com/liveviewrift/)
+- [QuickTime Player](https://support.apple.com/quicktime)
+- [RV Player](http://www.tweaksoftware.com/products/rv)
+- [Assimilate Scratch Player](http://www.assimilateinc.com/products/scratch-play)
+- [VLC](http://www.videolan.org/)
 
 
-## <a name="how-to-use"></a>How to use the Script: ##
+## <a name="how-to-use"></a>How to use the Script:
 
 The PanoView script for Fusion supports sending any kind of node from the flow view to an external media view tool and the Oculus Rift & HTC VIVE HMD.
 
@@ -36,13 +36,13 @@ The PanoView script for Fusion supports sending any kind of node from the flow v
 There is a hotkey shortcut of pressing the TAB key on your keyboard for launching the PanoView script.
 
 <a name="edit-panoview-preferences"></a>
-## Edit PanoView Preferences ##
+## Edit PanoView Preferences
 
 The Edit PanoView Preferences script lets you customize the default settings for the PanoView image viewing script.
 
 ![Edit PanoView Preferences Menu Item](images/script-menu-edit-panoview-preferences.png)
 
-### How to use the Script ###
+### How to use the Script
 
 **Step 1.** Start Fusion and open a new comp.
 
@@ -50,7 +50,7 @@ The Edit PanoView Preferences script lets you customize the default settings for
 
 **Step 3.** In the Edit PanoView Preferences dialog window you need to select the viewing tool you want to use. You also have access to control the specific version of each viewer program, and can change other viewing parameters, too.
 
-### Script GUI Controls ###
+### Script GUI Controls
 
 ![Edit PanoView Preferences](images/script-edit-panoview-preferences.png)
 
@@ -98,7 +98,7 @@ The "OK" button will save the revised preferences.
 
 The "Cancel" button will close the script GUI and stop the script.
 
-### <a name="panoview-is-context-aware"></a>Panoview is Context Aware ###
+### <a name="panoview-is-context-aware"></a>Panoview is Context Aware
 
 The Panoview script is context aware and will run in a slightly different state based upon the type of node that is selected in the Fusion flow/nodes area.
 
@@ -110,7 +110,7 @@ If a Saver or LifeSaver node is selected, then a pre-existing (and pre-rendered)
 
 If a Loader/MediaIn node is selected then the the source footage will be passed by Panoview to the external media viewer tool. This allows you to playback long clips without needing to render the existing media.
 
-### <a name="whirligig-notes"></a>Whirligig Notes ###
+### <a name="whirligig-notes"></a>Whirligig Notes
 
 The `PanoView.lua` script has options for enabling different panoramic projections in Whirligig. The default projection type is LatLong, but you can enable rectangular, angular fisheye, GearVR Horizontal Strip Cube Map, Ricoh Theta, Facebook Cube Map 3x2, Vertical Cross Cube Map and Horizontal Cross Cube Map panoramic display modes in both mono 2D and stereo 3D.
 
@@ -118,7 +118,7 @@ If you are using Whirligig and nothing shows up in the viewer window on your mon
 
 You can toggle the Whirligig anaglyph red/cyan stereo mode on/off and between different color formats using the F7 hotkey.
 
-#### <a name="lav-video-configuration"></a>LAV Video Configuration ####
+#### <a name="lav-video-configuration"></a>LAV Video Configuration
 
 If you have issues viewing imagery in the Whirligig viewer and only see a black background in the Whirligig window, it it likely due to a video codec or hardware decoding setting.
 

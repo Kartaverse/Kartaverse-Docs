@@ -1,17 +1,17 @@
-## <a name="install"></a>KartaVR Fusion Bins Installation ##
+## <a name="install"></a>KartaVR Fusion Bins Installation
 
-### <a name="standard"></a>Standard Install ###
+### <a name="standard"></a>Standard Install
 
 The KartaVR for Reactor atom packages dramatically simplify the process of setting up the panoramic 360&deg; compositing toolset in Fusion. You can now do the full installation process without leaving Fusion once.
 
-### <a name="win-install"></a>Windows 64-bit Install ###
+### <a name="win-install"></a>Windows 64-bit Install
 
-#### Step 1. ####
+#### Step 1.
 
-**Step 1.**  
+**Step 1.**
 Use Reactor to install the content found in the `KartaVR` category.
 
-**Step 2.**  
+**Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:
 
 		Reactor:/Deploy/Macros/KartaVR/
@@ -21,7 +21,7 @@ Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to beco
 		Reactor:/Deploy/Docs/KartaVR/
 
 <a name="win-env-variables"></a>
-**Step 3.** 
+**Step 3.**
 
 You need to add the KartaVR "Cygwin" bin folder to your Windows %PATH% environment variable. This is a required step if you want to use the KartaVR "Import PTGui Masks" lua script.
 
@@ -54,17 +54,17 @@ To add the new "cygwin" environment variable item to this window you have to cop
 
 **Note:** On Windows 7 the "Edit environment variable" window looks a bit different as the dialog is basically a single super long text field where you have to manually add each PATH entry and use semi-colon `;` characters as separators between each of the folder paths.
 
-**Step 4.**  
+**Step 4.**
 Launch Fusion and open the Bins window.
 
 ![Show the Bin Window](images/show-bin-window.png)
 
-**Step 5.**  
+**Step 5.**
 Click on the `Library on localhost` tab on the left side of the Bins window. This is the root folder in the bin.
 
 ![Switch to the Library Tab in the Bin window](images/switch-to-bin-library-tab.png)
 
-**Step 6.**  
+**Step 6.**
 Right click in the folder view area on the right side of the Bins window. In the contextual menu select the `New Folder` option.
 
 ![Fusion Bin Screenshot](images/library-tab-new-folder.png)
@@ -81,7 +81,7 @@ Using the same folder creation approach we need to add sub-folders for each of t
 
 ![Bin Folder](images/dfm-bin-folder.gif)
 
-**Step 7.**  
+**Step 7.**
 The next step will take a few minutes to carry out. You need to navigate into each of the sub-folders and repeat the process as you add the .settings files to each folder.
 
 Click in the folder view. In the contextual menu, select the `Add Item...` menu option.
@@ -90,7 +90,7 @@ Click in the folder view. In the contextual menu, select the `Add Item...` menu 
 
 An `Open File` window will appear that allows you to select and add items to the current Fusion Bin.
 
-Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".  
+Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".
 
 Fusion 9 Macros Directory:
 
@@ -116,7 +116,7 @@ After you have added each set of macros to the bin view it will be easier to acc
 
 The macros are now ready to be used in your Fusion composites. To use a macro, drag it from the  Bin window into your Flow view.
 
-**Step 8.**  
+**Step 8.**
 To make it easy to access the sample panoramic images that come with the KartaVR, you can add an "Images" sub-folder to the Bins window.
 
 Select the `KartaVR` folder on the left side of the Bins window.
@@ -127,7 +127,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item.png)
 
-In the `Open File` window, navigate to the folder path:  
+In the `Open File` window, navigate to the folder path:
 
 
 Fusion 9 Images Directory:
@@ -154,7 +154,7 @@ As a note, in Fusion you can only drop one image at a time from the Bin window i
 
 ![Sample Panoramic Images](images/library-sample-images-bin.png)
 
-**Step 9.**  
+**Step 9.**
 To make it quicker to access the example Fusion composite files that come with the KartaVR, you can add a "Demos" sub-folder to the Bins window.
 
 Select the `KartaVR` folder on the left side of the Bins window.
@@ -165,7 +165,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item.png)
 
-In the `Open File` window, navigate to the `Reactor:/Comps/KartaVR/` PathMap folder:  
+In the `Open File` window, navigate to the `Reactor:/Comps/KartaVR/` PathMap folder:
 
 Fusion 9 Examples Directory:
 
@@ -183,7 +183,7 @@ Use the SHIFT key and select all of the files in the folder. Click the `Open` bu
 
 At this point we have finished setting up Fusion's Bin window.
 
-**Step 10.**  
+**Step 10.**
 The KartaVR includes a panoramic media playback script called PanoView that supports the Oculus Rift/HTC VIVE/OSVR HMD. You should run the **Script > KartaVR > Viewers > Edit PanoView Preferences** script menu item to configure your viewing tools [using the PanoView instructions here.](pano-view)
 
 It is also a good idea to set up your **[Send Media to ](scripts#edit-send-media-to-preferences)** scripts using the **Script > KartaVR > Send Media to > Edit Send Media to Preferences** script menu item to finish configuring the rest of the pipeline scripts.
@@ -197,16 +197,16 @@ There is a Fusion 9/Resolve 15 Hotkey file included with the KartaVR. [For more 
 The `KartaVR Hotkeys.fu` file can be found in the `Reactor:/Deploy/Config/` folder.
 
 If you want to use the StatixVFX provided "nuke2fusion" toolset from Reactor, then you will need to edit some of the hotkey bindings in `KartaVR Hotkeys.fu`.
- 
+
 **Step 12. Google VR View Web Sharing Option**
 
 If you are going to be using the "Publish Media to Google Cardboard VR View" script you will need to install a web sharing program. On Windows and macOS the MAMP program is the easiest Apache server module to use. You can find out how to [set up the MAMP web sharing settings here](google-cardboard-vr-view#mamp-setup).
 
 ### <a name="mac-install"></a>macOS Install
 
-**Prerequisites**  
+**Prerequisites**
 
-After installing KartaVR using Reactor, make sure to also install the "Bin/Imagemagick" Reactor package. Open up the zipped copy of ImageMagick and run the ImageMagick macOS installer pkg file which can be found at 
+After installing KartaVR using Reactor, make sure to also install the "Bin/Imagemagick" Reactor package. Open up the zipped copy of ImageMagick and run the ImageMagick macOS installer pkg file which can be found at
 "Reactor:/Deploy/Bin/imagemagick/ImageMagick-6.9.1-0.pkg.zip".
 
 Alternatively you can use ImageMagick from one of these sources:
@@ -216,21 +216,21 @@ The Cactus Lab website has an ImageMagick for macOS build that works with macOS 
 [http://cactuslab.com/imagemagick/](http://cactuslab.com/imagemagick/)
 
 The ImageMagick Project also hosts a macOS build version of the library:
- 
+
 [http://www.imagemagick.org/script/binary-releases.php#macosx](http://www.imagemagick.org/script/binary-releases.php#macosx)
 
 You can install ImageMagick using [homebrew](http://brew.sh):
 
     brew install ImageMagick
 
-For the technically inclined macOS user you can install ImageMagick using Xcode and the [Mac Ports tool](https://www.macports.org/) with the terminal command:  
+For the technically inclined macOS user you can install ImageMagick using Xcode and the [Mac Ports tool](https://www.macports.org/) with the terminal command:
 
     sudo ports install ImageMagick
 
-**Step 1.**  
+**Step 1.**
 Use Reactor to install the content found in the `KartaVR` category.
 
-**Step 2.**  
+**Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:
 
 		Reactor:/Deploy/Macros/KartaVR/
@@ -247,17 +247,17 @@ Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to beco
 
 `/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Reactor/`
 
-**Step 3.**  
+**Step 3.**
 Launch Fusion and open the Bins window.
 
 ![Show the Bin Window](images/show-bin-window-mac.png)
 
-**Step 4.**  
+**Step 4.**
 Click on the `Library on localhost` tab on the left side of the Bins window. This is the root folder in the bin.
 
 ![Switch to the Library Tab in the Bin window](images/switch-to-bin-library-tab-mac.png)
 
-**Step 5.**  
+**Step 5.**
 Right click in the folder view area on the right side of the Bins window. In the contextual menu select the `New Folder` option.
 
 ![Fusion Bin Screenshot](images/library-tab-new-folder-mac.png)
@@ -272,7 +272,7 @@ Using the same folder creation approach we need to add sub-folders for each of t
 
 ![Bin Folder](images/dfm-bin-folder.gif)
 
-**Step 6.**  
+**Step 6.**
 
 The next step will take a few minutes to carry out. You need to navigate into each of the sub-folders and repeat the process as you add the .settings files to each folder.
 
@@ -282,7 +282,7 @@ Right click in the `KartaVR` folder view. In the contextual menu, select the `Ad
 
 An `Open File` window will appear that allows you to select and add items to the current Fusion Bin.
 
-Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".  
+Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".
 
 Fusion 9 Macros Directory:
 
@@ -312,7 +312,7 @@ The macros are now ready to be used in your Fusion composites. To use a macro, d
 
 ![Fusion Bin Screenshot](images/fusion-bin-mac.png)
 
-**Step 7.**  
+**Step 7.**
 
 If you want to make it easy to access the sample panoramic images that come with the KartaVR, you can add an "Images" sub-folder to the Bins window.
 
@@ -324,7 +324,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item-mac.png)
 
-In the `Open File` window, navigate to the folder path:  
+In the `Open File` window, navigate to the folder path:
 
 Fusion 9 Macros Directory:
 
@@ -351,7 +351,7 @@ As a note, in Fusion you can only drop one image at a time from the Bin window i
 
 ![Sample Panoramic Images](images/library-sample-images-bin-mac.png)
 
-**Step 8.**  
+**Step 8.**
 To make it quicker to access the example Fusion composite files that come with the KartaVR, you can add a "Demos" sub-folder to the Bins window.
 
 Select the `KartaVR` folder on the left side of the Bins window.
@@ -362,7 +362,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item-mac.png)
 
-In the `Open File` window, navigate to the folder path `Reactor:/Deploy/Comp/KartaVR/`:  
+In the `Open File` window, navigate to the folder path `Reactor:/Deploy/Comp/KartaVR/`:
 
 Fusion 9 Comp Directory:
 
@@ -382,7 +382,7 @@ Use the SHIFT key and select all of the files in the folder. Click the `Open` bu
 
 At this point we have finished setting up Fusion's Bin window.
 
-**Step 9.**  
+**Step 9.**
 The KartaVR includes a panoramic media playback script called PanoView that supports the Oculus Rift/HTC VIVE/OSVR HMD. You should run the **Script > KartaVR > Viewers > Edit PanoView Preferences** script menu item to configure your viewing tools [using the PanoView instructions here.](pano-view)
 
 It is also a good idea to set up your **[Send Media to ](scripts#edit-send-media-to-preferences)** scripts using the **Script > KartaVR > Send Media to > Edit Send Media to Preferences** script menu item to finish configuring the rest of the pipeline scripts.
@@ -401,13 +401,13 @@ If you want to use the StatixVFX provided "nuke2fusion" toolset from Reactor, th
 
 If you are going to be using the "Publish Media to Google Cardboard VR View" script you will need to install a web sharing program. On Windows and macOS the MAMP program is the easiest Apache server module to use. You can find out how to [set up the MAMP web sharing settings here](google-cardboard-vr-view#mamp-setup).
 
-### <a name="linux-install"></a>Linux Manual Install ###
+### <a name="linux-install"></a>Linux Manual Install
 
-**Prerequisites**  
+**Prerequisites**
 
 Install the Linux versions of the Imagemagick graphics library, and FFmpeg.
 
-#### YUM Installations ####
+#### YUM Installations
 
 Install the Imagemagick library using YUM:
 
@@ -435,7 +435,7 @@ On CentOS 7 if you want to make the Apache HTTP port 80 accessible external to t
 
 **Note:** Redhat / Fedora / Centos Linux users will have to add a repository like **[nux-desktop](http://li.nux.ro/download/nux/dextop/el7/x86_64/)** for Hugin or **[RPM Fusion](http://rpmfusion.org/)** for ffmpeg if it isn't available in your standard yum distribution. On the RPM Fusion website you want the add the [RPM Fusion free](http://rpmfusion.org/Configuration) repository to yum.
 
-#### APT-GET Installations ####
+#### APT-GET Installations
 
 Install the Imagemagick library using apt-get:
 
@@ -446,7 +446,7 @@ Install the FFmpeg library using apt-get with a 3rd party repository:
 	sudo add-apt-repository ppa:mc3man/trusty-media
 	sudo apt-get update
 	sudo apt-get dist-upgrade
-	sudo apt-get -y install ffmpeg 
+	sudo apt-get -y install ffmpeg
 
 If you are going to be using the "Publish Media to Google Cardboard VR View" script you will need to install the clipboard tool xclip, along with the Apache (apache2) server modules for web sharing:
 
@@ -455,10 +455,10 @@ If you are going to be using the "Publish Media to Google Cardboard VR View" scr
 Ubuntu / Debian Linux users can also use the pre-compiled [ffmpeg package from the ffmpeg website directly](https://www.ffmpeg.org/download#build-linux).
 
 
-**Step 1.**  
+**Step 1.**
 Use Reactor to install the content found in the `KartaVR` category.
 
-**Step 2.**  
+**Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:
 
 		Reactor:/Deploy/Macros/KartaVR/
@@ -466,19 +466,19 @@ Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to beco
 		Reactor:/Deploy/Scripts/Tools/KartaVR/
 		Reactor:/Deploy/Bin/KartaVR/
 		Reactor:/Deploy/Docs/KartaVR/
- 
 
-**Step 3.**  
+
+**Step 3.**
 Launch Fusion and open the Bins window.
 
 ![Show the Bin Window](images/show-bin-window-mac.png)
 
-**Step 4.**  
+**Step 4.**
 Click on the `Library on localhost` tab on the left side of the Bins window. This is the root folder in the bin.
 
 ![Switch to the Library Tab in the Bin window](images/switch-to-bin-library-tab-mac.png)
 
-**Step 5.**  
+**Step 5.**
 Right click in the folder view area on the right side of the Bins window. In the contextual menu select the `New Folder` option.
 
 ![Fusion Bin Screenshot](images/library-tab-new-folder-mac.png)
@@ -493,7 +493,7 @@ Using the same folder creation approach we need to add sub-folders for each of t
 
 ![Bin Folder](images/dfm-bin-folder.gif)
 
-**Step 6.**  
+**Step 6.**
 
 The next step will take a few minutes to carry out. You need to navigate into each of the sub-folders and repeat the process as you add the .settings files to each folder.
 
@@ -503,7 +503,7 @@ Right click in the `KartaVR` folder view. In the contextual menu, select the `Ad
 
 An `Open File` window will appear that allows you to select and add items to the current Fusion Bin.
 
-Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".  
+Use the file path selector at the top of the window to navigate to the new "KartaVR" folder that was copied into the Fusion macros folder in step 2. If you want to get to this folder easily, try the PathMap section in the dialog and choose "`Reactor:`".
 
 Fusion 9 Macros Directory:
 
@@ -530,7 +530,7 @@ After you have added each set of macros to the bin view it will be easier to acc
 
 The macros are now ready to be used in your Fusion composites. To use a macro, drag it from the Bin window into your Flow view.
 
-**Step 7.**  
+**Step 7.**
 
 If you want to make it easy to access the sample panoramic images that come with the KartaVR, you can add an "Images" sub-folder to the Bins window.
 
@@ -542,7 +542,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item-mac.png)
 
-In the `Open File` window, navigate to the folder path:  
+In the `Open File` window, navigate to the folder path:
 
 Fusion 9 Images Directory:
 
@@ -565,7 +565,7 @@ As a note, in Fusion it looks like you can only drop one image at a time from th
 
 ![Sample Panoramic Images](images/library-sample-images-bin-linux.png)
 
-**Step 8.**  
+**Step 8.**
 If you want to make it easy to access the example conversion and stereo demo comp files that come with the KartaVR, you can add a "Demos" sub-folder to the Bins window.
 
 Select the `KartaVR` folder on the left side of the Bins window.
@@ -576,7 +576,7 @@ Let's add the sample panoramic imagery to the images folder. Right click in the 
 
 ![Add an item to the Bin](images/library-tab-add-item-mac.png)
 
-In the `Open File` window, navigate to the folder path:  
+In the `Open File` window, navigate to the folder path:
 
 Fusion 9 Examples Directory:
 
@@ -596,7 +596,7 @@ Use the SHIFT key and select all of the files in the folder. Click the `Open` bu
 
 At this point we have finished setting up Fusion's Bin window.
 
-**Step 9.**  
+**Step 9.**
 The KartaVR includes a panoramic media playback script called PanoView that supports the Oculus Rift/HTC VIVE/OSVR HMD. You should run the **Script > KartaVR > Viewers > Edit PanoView Preferences** script menu item to configure your viewing tools [using the PanoView instructions here.](pano-view)
 
 It is also a good idea to set up your **[Send Media to ](scripts#edit-send-media-to-preferences)** scripts using the **Script > KartaVR > Send Media to > Edit Send Media to Preferences** script menu item to finish configuring the rest of the pipeline scripts.

@@ -1,6 +1,6 @@
-# Photogrammetry #
+# Photogrammetry
 
-## <a name="ImageGridCreator">ImageGridCreator</a> ##
+## <a name="ImageGridCreator">ImageGridCreator</a>
 
 ![ImageGridCreator Fuse](images/fuse-image-grid-creator.jpg)
 
@@ -14,7 +14,7 @@ The image sequence is then connected to the ImageGridCreator.Foreground input.
 
 The ImageGridCreator node's **Frames** control is then set to a value that matches the frame duration of your image sequence clip.
 
-The footage you are using to create the image grid needs to have a duration as long as the **Frames** value you have defined in the ImageGridCreator node. The Frames setting controls the number of combined mosaic image views you are generating. 
+The footage you are using to create the image grid needs to have a duration as long as the **Frames** value you have defined in the ImageGridCreator node. The Frames setting controls the number of combined mosaic image views you are generating.
 
 You can adjust a Loader node's **Frame Hold** setting to give you a longer frame range if required when working with a short video clip or a still image as the source footage.
 
@@ -34,7 +34,7 @@ This is a node view of the node connections that would be used to take an image 
 
 **Note:** A sample image grid style photo called "pikachu_13x10_image_grid.jpg" is included with KartaVR in the `Macros:/KartaVR/Images/` folder. This image has a 13 wide by 10 high grid layout of photos that was taken with a regular grid spacing distance when photographed. This sample image is 8320x4270 px in size and has individual 640x427 px image tiles for each of the 130 views that are combined. This image was photographed by [Tobias Chen](http://www.tobiaschen.com).
 
-## <a name="ImageGridExtractor">ImageGridExtractor</a> ##
+## <a name="ImageGridExtractor">ImageGridExtractor</a>
 
 ![ImageGridExtractor Fuse](images/macro-image-grid-extractor.jpg)
 
@@ -48,9 +48,9 @@ Set the HorizontalTiles control to match the horizontal number of images in the 
 
 ![ImageGridExtractor GUI](images/macro-image-grid-extractor-gui.png)
 
-The **HorizontalTiles** control sets how many images are present on the horizontal axis of the grid. 
+The **HorizontalTiles** control sets how many images are present on the horizontal axis of the grid.
 
-The **VerticalTiles** control sets how many images are present on the vertical axis of the grid. 
+The **VerticalTiles** control sets how many images are present on the vertical axis of the grid.
 
 This node is accessible by selecting the **Macro > KartaVR > Photogrammetry > ImageGridExtractor** menu item.
 

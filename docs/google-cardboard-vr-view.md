@@ -1,10 +1,10 @@
-# Publish Media to Google Cardboard VR View #
+# Publish Media to Google Cardboard VR View
 ----
-by Andrew Hazelden  
+by Andrew Hazelden
 
-Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
+Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
-## Table of Contents ##
+## Table of Contents
 
 - [Publish Media to Google Cardboard VR View](google-cardboard-vr-view)
 	- [Support](google-cardboard-vr-view#support)
@@ -16,7 +16,7 @@ Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 		- [Script GUI Controls](google-cardboard-vr-view#script-gui-controls)
 
 <a name="overview"></a>
-## Overview ##
+## Overview
 
 [![Google Cardboard VR View Script](images/vrview-screenshot.jpg)](images/vrview-screenshot.jpg)
 
@@ -34,7 +34,7 @@ Recommended Apache Web sharing modules:
 - [Apache AMP on Wikipedia](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages)
 
 <a name="mamp-setup"></a>
-## Setting up the MAMP Web Sharing Settings ##
+## Setting up the MAMP Web Sharing Settings
 
 If you are using macOS or Windows the easiest Apache web sharing module to set up and install is [MAMP](https://www.mamp.info/en/downloads/). When using the VR View publishing features the free MAMP program is all you need and you can skip running MAMP Pro.
 
@@ -79,7 +79,7 @@ On macOS the Apache Port is set to 8888 by default to avoid conflicts with the m
 Unless you have a very specific technical reason to adjust the "Document Root" setting in MAMP it is a good idea to leave this text field at the default value in the MAMP preferences dialog.
 
 <a name="apache-setup"></a>
-## Setting up Apache httpd on Linux ##
+## Setting up Apache httpd on Linux
 
 If you are going to be using the "Publish Media to Google Cardboard VR View" script on Linux you will need to install the clipboard tool xclip, along with the Apache (httpd) server modules for web sharing:
 
@@ -103,11 +103,11 @@ The Apache "Document Root" path is the `/var/www/html/`directory. This is where 
 
 
 <a name="finding-your-ipaddress"></a>
-## Finding Your IP Address ##
+## Finding Your IP Address
 
 If you don't know the current IP address for your computer you can check in your operating system's "Network" control panel for more details.
 
-## Mac Network Preferences ##
+## Mac Network Preferences
 
 ![macOS Network Control Panel](images/mac-network-control-panel.png)
 
@@ -117,19 +117,19 @@ Select the network adapter you are currently using to access the internet. This 
 
 You will also see information about this network adapter at the top of the network view next to the words **Status: Connected**   [Device] is currently active and has the IP Address of [address].
 
-## Windows Network Control Panel ##
+## Windows Network Control Panel
 
 ![Windows Network Connection](images/windows-network-settings.png)
 
-On Windows you need to open the **Control Panel > Network and Internet > Network Connections** window. Right click on your active network connection. Then select the "Status" item in the popup menu. 
+On Windows you need to open the **Control Panel > Network and Internet > Network Connections** window. Right click on your active network connection. Then select the "Status" item in the popup menu.
 
 A status window will open. Click on the **Details...** button to find out more information about this network device. Then a "Network Connection Details" window will appear. Your current local IP address is listed next to the IPv4 Address line.
 
-## Linux Network Settings ##
+## Linux Network Settings
 
-The easiest way to find out your IP address visually on Linux is to load the Network settings window. 
+The easiest way to find out your IP address visually on Linux is to load the Network settings window.
 
-Open the triangle shaped menu at the top right of the screen and select the **Settings** icon. This will load the "All Settings" window that is used to configure the Linux system. 
+Open the triangle shaped menu at the top right of the screen and select the **Settings** icon. This will load the "All Settings" window that is used to configure the Linux system.
 
 ![Linux Menu](images/linux-menu.png)
 
@@ -137,7 +137,7 @@ Look in the "All Settings" window for the Hardware section. Then click on the **
 
 ![Linux Settings](images/linux-all-settings.png)
 
-On the left side of the Network settings window is a listing of each of the network adapters on your computer with entries for things like WiFi, Bluetooth, and Wired Ethernet devices. 
+On the left side of the Network settings window is a listing of each of the network adapters on your computer with entries for things like WiFi, Bluetooth, and Wired Ethernet devices.
 
 Select the network adapter you are currently using to access the internet.
 
@@ -147,21 +147,21 @@ If you have multiple network adapters on your Linux system the active interface 
 
 ![Linux Network Settings](images/linux-network-settings.png)
 
-### Finding your External IP Address Using your Web Browser ###
+### Finding your External IP Address Using your Web Browser
 
 A quick and easy way to find out your external ip address is to visit a website like [ipecho.net](http://ipecho.net) or [whatsmyip.org](http://www.whatsmyip.org/).
 
-This external IP address is only reachable if your computer is directly connected to the internet and your IP address is not hidden by NAT (Network Address Translation) from your computer existing behind a router or hardware firewall. 
+This external IP address is only reachable if your computer is directly connected to the internet and your IP address is not hidden by NAT (Network Address Translation) from your computer existing behind a router or hardware firewall.
 
 If you are behind a router that has NAT enabled then you may have to set up a port forward to route port 80 from your cable modem/router and map it to your computer's manually configured local IP address. This is something that your system administrator or ISP (internet service provider) can assist you with.
 
-### Finding your External IP Address on Mac and Linux ###
+### Finding your External IP Address on Mac and Linux
 
 Your current external internet facing IP address can be also found out on Mac and Linux systems using this terminal command:
 
 `curl ipecho.net/plain; echo`
 
-### ifconfig on Mac and Linux ###
+### ifconfig on Mac and Linux
 
 On Mac and Linux systems your local IP address can be found using the ifconfig program from the terminal:
 
@@ -169,13 +169,13 @@ On Mac and Linux systems your local IP address can be found using the ifconfig p
 
 You have to scroll through the output to look for an "en" network entry like `net 192.168.0.100 netmask 0xffffff00 broadcast 192.168.0.255`
 
-### hostname on Linux ###
+### hostname on Linux
 
 On CentOS 7 and Redhat 7 Linux systems your local IP address can often be found using the hostname program from the terminal:
 
 `hostname -i`
 
-### ipconfig on Windows ###
+### ipconfig on Windows
 
 On Windows your local IP address can be found using the ipconfig program from the command prompt:
 
@@ -183,7 +183,7 @@ On Windows your local IP address can be found using the ipconfig program from th
 
 You have to scroll through the output to look for a network entry like: `IPv4 Address. . . . . . . . . . . : 192.168.0.100`
 
-### get-wmiobject on Windows ###
+### get-wmiobject on Windows
 
 On Windows you could also use the get-wmiobject program from the command prompt to look up the local IP address:
 
@@ -196,7 +196,7 @@ This command will return the IP Address and network MAC address details in a lon
 The first `192.168.0.100` entry in this block of text is your computer's local network IP address.
 
 <a name="how-to-use"></a>
-## How to use the "Publish Media to Google Cardboard VR View" Script ##
+## How to use the "Publish Media to Google Cardboard VR View" Script
 
 The "Publish Media to Google Cardboard VR View" script for Fusion 7 and Fusion 8 supports sending loader and saver node media or a snapshot of any kind of node from the flow view to a custom Google VR View compatible webpage that can be viewed as a panorama in a desktop web browser or via WiFi on a smartphone with a Google Cardboard HMD.
 
@@ -213,20 +213,20 @@ The "Publish Media to Google Cardboard VR View" script for Fusion 7 and Fusion 8
 ![Google Cardboard VR View Script](images/publish_vr_view_dialog.png)
 
 <a name="script-gui-controls"></a>
-### Script GUI Controls ###
+### Script GUI Controls
 
 When the Publish Media to Google Cardboard VR View script is run you are presented with several settings that let you customize the generated VR View webpage.
 
-#### Image Format ####
+#### Image Format
 
 The "Image Format" control allows you to customize the snapshot image format used when a node other than a loader or saver is selected and a temporary image is saved to disk. This temporary image is saved using the left viewer window. You can choose one of the following options: "JPEG" or "PNG".
 
-#### Sound Effect ####
+#### Sound Effect
 
 The "Sound Effect" control allows you to choose if you want to have an audio alert played when an error occurs or when the script task completes. You can choose one of the following audio playback options: "None", "On Error Only", "Steam Train Whistle Sound", "Trumpet Sound", or "Braam Sound".
 
 
-#### Web Template ####
+#### Web Template
 
 The Web Template options menu provides the choice of three different web page themes named "Custom Template", "Charcoal Template", and "Midnight Template".
 
@@ -262,14 +262,14 @@ The Midnight Template is created using the HTML/CSS files `midnight_template.htm
 
 If you want to override the default panoramic image viewer dimensions in the VR View webpage this setting is controlled in the "Publish Media to Google Cardboard VR View.lua" script near the top of the document on the lines:
 
-    vrviewWidth = '100%%'  
+    vrviewWidth = '100%%'
     vrviewHeight = '300px'
 
 **Note:** If you want to use a percent based size you need to use double `%%` characters to escape the `%` symbol in the variable.
 
 You can change the opening paragraph for the VR View webpage by editing the "Publish Media to Google Cardboard VR View.lua" script near the top of the document on the `vrviewIntroParagraph` variable line.
 
-#### Web Sharing ####
+#### Web Sharing
 
 The "Web Sharing" text field and folder browsing button allows you to specify the location of your APACHE/WAMP/LAMP/MAMP webserver htdocs/www folder on your hard disk.
 
@@ -292,7 +292,7 @@ macOS Built-in User Account Sharing Folder:
 `/Users/<Your Account Name>/Sites/`
 
 
-##### Creating a Web Sharing SubFolder #####
+##### Creating a Web Sharing SubFolder
 
 If you would like to manage your VR View rendered content for a specific Fusion composite you can place the VR View webpage elements in a project specific subfolder in the web server sharing location.
 
@@ -310,19 +310,19 @@ Since the Web Sharing folder was modified to have the "parachute" project entry,
 
 You can write in any custom address for the "Web Sharing" folder that is valid on your system and the script will save that setting in its preferences. You also have the option of writing in a network mounted hard disk location in the web sharing field as well. This would let you run the Apache web server on a different system than Fusion and the KartaVR are running on.
 
-###### Working Locally in Firefox ######
+###### Working Locally in Firefox
 
 If you are working on a VR project by yourself you can still use the VR View publishing feature with a program like Firefox by opening the .html files from your local hard disk without having to activate and use an HTTP based web server.
 
 This would let you skip installing an Apache based web server module.
 
-You can simply use this Web Sharing Folder location as the path where you want the webpage elements to be saved on your hard disk. You could make a custom folder on your Desktop or in your personal Documents folder and manually view the exported HTML webpages. 
+You can simply use this Web Sharing Folder location as the path where you want the webpage elements to be saved on your hard disk. You could make a custom folder on your Desktop or in your personal Documents folder and manually view the exported HTML webpages.
 
 In this situation you would uncheck the "Open Webpage" option since you aren't working from an HTTP based URL address.
 
-#### Web URL ####
+#### Web URL
 
-The "Web URL" text field allows you to specify the current internet IP address or domain name address for your Apache web server. This is the HTTP or HTTPS based URL location where a web browser should look for the VR View webpage. 
+The "Web URL" text field allows you to specify the current internet IP address or domain name address for your Apache web server. This is the HTTP or HTTPS based URL location where a web browser should look for the VR View webpage.
 
 This "Web URL" is the HTTP address that a smartphone with a Google Cardboard HMD would connect to using WiFi.
 
@@ -334,41 +334,41 @@ This Web URL address can be set manually to your local WAN IP address (with a fo
 
 If your computer has a dynamic DNS service like [dyn.com](http://dyn.com/dns/) active on it you could also write that address in the "Web URL" text field. This would make it easier to share the VR View webpage with a co-worker that is located outside of your local network.
 
-#### Starting Yaw Angle ####
+#### Starting Yaw Angle
 
 The "Starting Yaw Angle" control is a numeric input field that lets you specify the initial viewing angle of the panoramic image. The control range goes from -360 degrees to 360 degrees.
 
-#### Use Current Frame ####
+#### Use Current Frame
 
-The "Use Current Frame" control allows you to choose how image sequences are loaded. 
+The "Use Current Frame" control allows you to choose how image sequences are loaded.
 
 If the checkbox is enabled then the script will load the image sequence frame from the current timeline playhead position. If the checkbox is disabled the first frame from the image sequence will be loaded instead.
 
 Sometimes you may have to manually disable the "Use Current Frame" checkbox when you are working with still images that have a number as the last element in the filename before the file extension like `domemaster180.jpg` or `domemaster220.jpg`. In these cases Fusion will sometimes confuse this as frame 180 and frame 220 from an image sequence.
 
-#### Media is Over/Under Stereo 3D ####
+#### Media is Over/Under Stereo 3D
 
 When the "Media is Over/Under Stereo 3D" checkbox is enabled the VR View script will be set to load the video and images as stereo imagery. When the checkbox is disabled the media is loaded as 2D monoscopic imagery.
 
-#### Copy URL to Clipboard ####
+#### Copy URL to Clipboard
 
 When the "Copy URL to Clipboard" checkbox is enabled the script will take the current settings from the Web URL text field and copy the website address into the operating system's clipboard.
 
 This control makes it easy to be able to paste the current webpage link for the active VR View webpage into an email or instant messenger window so you can view the media on a smartphone with a Google Cardboard HMD.
 
-#### Open Publishing Folder ####
+#### Open Publishing Folder
 
 When the "Open Publishing Folder" checkbox is enabled an Explorer/Finder/Nautilus file browser window will be opened up and the directory where the VR View webpage is saved will be displayed.
 
 ![Publishing Folder](images/vrview-open-publishing-folder.png)
 
-#### Open Webpage ####
+#### Open Webpage
 
 When the "Open Webpage" checkbox is enabled your web browser will be opened up and the most recent VR View exported webpage will be displayed.
 
 It is important to make sure you have a valid website address specified in the "Web URL" text field as this is the location that is loaded in your web browser when the "Open Webpage" control is used.
 
-#### OK and Cancel Buttons ####
+#### OK and Cancel Buttons
 
 The "OK" button will save the revised preferences and generate the VR View webpage.
 

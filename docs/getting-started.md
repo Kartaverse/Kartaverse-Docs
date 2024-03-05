@@ -1,9 +1,9 @@
-# <a name="getting-started"></a>Getting Started With Nodes in Fusion #
+# <a name="getting-started"></a>Getting Started With Nodes in Fusion
 
 If you are getting started with Fusion it can be a bit scary using nodes for the first time.
 
 <a name="loading-imagery"></a>
-## Loading Imagery ##
+## Loading Imagery
 
 ![Loading and Saving Footage](images/fusion-essentials-loading-and-saving-footage.png)
 
@@ -24,7 +24,7 @@ There is a path map option "Comp:\" that can be used to load imagery relative to
 > Comp:\image.0000.exr
 
 <a name="making-node-connections"></a>
-## Making Node Connections ##
+## Making Node Connections
 
 Nodes are connected in Fusion by dragging a line from the red "outputs" box shape on one node into the triangle shaped "inputs" on another node.
 
@@ -49,7 +49,7 @@ If you want to make a connection to a node that has multiple inputs, you can hol
 ![Alt Key Popup Menu](images/fusion-essentials-alt-key-node-popup.png)
 
 <a name="fusion-viewer-window"></a>
-## The Fusion Viewer Window ##
+## The Fusion Viewer Window
 
 You can toggle to a single viewer or a double viewer window layout using the following set of icons at the top of the screen :
 
@@ -59,14 +59,14 @@ In this toolbar, the first icon switches to a single viewer window, and the seco
 
 ![Viewer Windows](images/fusion-essentials-viewer-window.png)
 
-This is the typical viewer window layout in Fusion where there are two viewer windows available at the top of the Fusion UI. 
+This is the typical viewer window layout in Fusion where there are two viewer windows available at the top of the Fusion UI.
 
 When a node is selected in the "flow" area, you can load its imagery into a specific viewer window by  clicking with the left mouse button and dragging that node icon into the viewer window.
 
 Another way to load a nodes imagery into a specific viewer is by pressing the "1" key for the left viewer window, or the "2" key for the right viewer window. To clear the imagery out of both viewer windows press the backquote "tilde" key that is located just below the escape key on most keyboards.
 
 <a name="color-and-viewer-luts"></a>
-### Color and Viewer LUTs ###
+### Color and Viewer LUTs
 
 ![Color Channels](images/fusion-essentials-color-channels.png)
 
@@ -80,14 +80,14 @@ If you have the KartaVR LUTs installed in Fusion 7.X or Fusion 8.2 Beta 2+ then 
 
 ![Open Color IO](images/fusion-essentials-ociocolorspaceviewlut.png)
 
-If you need to preview imagery in a color space other than the footage's native format, I recommend you try out the OpenColor IO based LUT menu option called **OCIO ColorSpace ViewLUT** as it is one of the easiest to use. 
+If you need to preview imagery in a color space other than the footage's native format, I recommend you try out the OpenColor IO based LUT menu option called **OCIO ColorSpace ViewLUT** as it is one of the easiest to use.
 
 When the **OCIO ColorSpace LUT** is active, you can select the Edit... option in the LUT menu and change the OpenColor IO source space and output space to match your footage and monitor settings. This is handy for previewing LWF linear workflow based EXRs imagery in a monitor native sRGB format.
 
 As a tip, you can type a Color Gamma value of 2.2 into the **OCIO ColorSpace LUT** window to perform a "live" on the fly linear workflow gamma 1.0 to sRGB gamma 2.2 conversion that will be displayed only in the Viewer window but the linear color values in the final rendered imagery with be unaffected.
 
 <a name="viewer-zoom"></a>
-### Viewer Zoom ###
+### Viewer Zoom
 
 ![Viewer Zoom Levels](images/fusion-essentials-zoom-levels.png)
 
@@ -100,14 +100,14 @@ Holding down the control key and scrolling the mouse wheel also allows you to zo
 If you press the F4 key on your keyboard you can maximize the specific viewer window full screen. You can press the F4 key again to switch back to the previous view layout. This F4 hotkey also works on the other Fusion view layouts like the Flow area too.
 
 <a name="viewer-transparency"></a>
-### Viewer Transparency ###
+### Viewer Transparency
 
 ![Viewer Transparency](images/fusion-essentials-transparent-checker-bg.gif)
 
 The viewer window's toolbar has an icon with a checker board pattern that is used to toggle on/off the transparent background checker pattern in the viewer. This will allow you to either have a black background shown behind your transparent alpha channel image areas or a dark grey checker pattern.
 
 <a name="proxy-modes"></a>
-### Proxy Modes ###
+### Proxy Modes
 
 There are two proxy mode buttons in the Fusion UI. The proxy buttons are labeled "Prx" and "APrx" and are located just below the timeline, to the right of the playback controls.
 
@@ -115,20 +115,20 @@ When you use the left mouse button to click on the "Prx" button you can toggle t
 
 ![Proxy Controls](images/proxy-icons.png)
 
-When the proxy mode is enabled, the viewer windows are rendered at a reduced resolution compared to your final output setting. This makes Fusion's viewer windows more responsive and interactive which is quite noticeable when you start to adjust nodes and update the node settings on footage over 2K in resolution. 
+When the proxy mode is enabled, the viewer windows are rendered at a reduced resolution compared to your final output setting. This makes Fusion's viewer windows more responsive and interactive which is quite noticeable when you start to adjust nodes and update the node settings on footage over 2K in resolution.
 
 Using proxies as you develop a new comp is a very effective way to improve the rendering speed in your Viewer windows which an essential workflow technique when working with high resolution media or on demanding composites that are slow to render.
 
 ![Proxy Level](images/proxy-resolution.png)
 
-If you click on the "Prx" button with your right mouse button, a popup menu will appear that lets you adjust the level of the proxy resolution reduction that is used when the proxy mode is enabled. 
+If you click on the "Prx" button with your right mouse button, a popup menu will appear that lets you adjust the level of the proxy resolution reduction that is used when the proxy mode is enabled.
 
 Proxy level "1" will render the viewer window at full resolution. Setting the proxy level to a value higher than "1" will cause Fusion to reduce the quality of the image in the viewport by drastically reducing the render resolution which will massively increase the refresh rate that Fusion can update the imagery in the viewer windows.
 
 The "APrx" button is the Auto Proxy mode and it is used to provide a way to have a "draft quality" like proxy mode enabled just as you are interactivity adjusting sliders and settings for a node so you have a realtime preview of the changes. When you stop adjusting the node settings, the auto proxy rendering state will deactivate and then your standard resolution / proxy settings will be used.
 
 <a name="adding-nodes-quickly"></a>
-## Adding Nodes Quickly ##
+## Adding Nodes Quickly
 
 ![Add Tool Dialog](images/add-tool-dialog.png)
 

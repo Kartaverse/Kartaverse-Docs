@@ -1,6 +1,6 @@
-# Transform Macros #
+# Transform Macros
 
-## <a name="Offset"></a>Offset ##
+## <a name="Offset"></a>Offset
 
 ![Offset GUI](images/macro-offset-gui.png)
 
@@ -16,7 +16,7 @@ To use this node, the source imagery is connected to the node's yellow colored "
 
 ![Offset Node](images/macro-offset-node.png)
 
-### Undoing the Offset Effect ###
+### Undoing the Offset Effect
 
 If you use an offset node in your comp to re-center a LatLong panorama by scrolling the image horizontally, you can use a 2nd offset node and an expression to revert the footage back its original position with the help of the following workflow:
 
@@ -40,7 +40,7 @@ This type of expression is handy if you keyframe animated the panning offset eff
 
 
 
-## <a name="RotateCubicFaces"></a>RotateCubicFaces ##
+## <a name="RotateCubicFaces"></a>RotateCubicFaces
 
 ![RotateCubicFaces GUI](images/macro-rotate-cubic-faces-gui.png)
 
@@ -65,7 +65,7 @@ This example shows a sample node layout where a set of six images are loaded int
 **Note:** The "RotateCubicFaces" node was previously called "CubicFaces2RotatedCubicFaces".
 
 
-## <a name="RotateEquirectangular"></a>RotateEquirectangular ##
+## <a name="RotateEquirectangular"></a>RotateEquirectangular
 
 ![RotateEquirectangular GUI](images/macro-rotate-equirectangular-gui.png)
 
@@ -89,7 +89,7 @@ This example shows a sample node layout where a LatLong image is loaded into the
 
 **Note:** The kartavr v2.2 release fixed a texture texture sampling issue on the left/right image border of the Equirectangular2RotatedEquirectangular node by switching the filtering from trilinear to bilinear sampling.
 
-## <a name="RotateGearVRMono"></a>RotateGearVRMono ##
+## <a name="RotateGearVRMono"></a>RotateGearVRMono
 
 ![RotateGearVRMono GUI](images/macro-rotate-gear-vr-mono-gui.png)
 
@@ -113,7 +113,7 @@ To use this node a Gear VR mono 6:1 monoscopic cubemap image is connect to the n
 
 ![RotateGearVRMono Node](images/macro-rotate-gear-vr-mono-node.png)
 
-## <a name="RotateGearVRStereo"></a>RotateGearVRStereo ##
+## <a name="RotateGearVRStereo"></a>RotateGearVRStereo
 
 ![RotateGearVRStereo GUI](images/macro-rotate-gear-vr-stereo-gui.png)
 
@@ -137,7 +137,7 @@ To use this node a Gear VR stereo 12:1 stereoscopic cubemap image is connect to 
 
 ![RotateGearVRStereo Node](images/macro-rotate-gear-vr-stereo-node.png)
 
-## <a name="RotateView"></a>RotateView ##
+## <a name="RotateView"></a>RotateView
 
 ![RotateView](images/macro-rotate-view.png)
 

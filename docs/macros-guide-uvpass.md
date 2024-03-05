@@ -1,6 +1,6 @@
-# UV Pass Macros #
+# UV Pass Macros
 
-## <a name="UVAngular2EquirectangularGradientMap"></a>UVAngular2EquirectangularGradientMap ##
+## <a name="UVAngular2EquirectangularGradientMap"></a>UVAngular2EquirectangularGradientMap
 
 The UVAngular2EquirectangularGradientMap macro generates a UV Pass texture that is used with the stock Fusion "Texture" node or the "UVPassFromRGBImage" node to convert panoramic image sequences between the angular fisheye 360&deg; format and the equirectangular/LatLong/spherical 360&deg;x180&deg; image projection.
 
@@ -14,7 +14,7 @@ This is a node view of the typical UVPassFromRGBImage node connections that woul
 
 ![UVAngular2EquirectangularGradientMap Node](images/macro-uv-angular-to-equirectangular-gradient-map-node.png)
 
-## <a name="UVDomemaster2EquirectangularGradientMap"></a>UVDomemaster2EquirectangularGradientMap ##
+## <a name="UVDomemaster2EquirectangularGradientMap"></a>UVDomemaster2EquirectangularGradientMap
 
 The UVDomemaster2EquirectangularGradientMap macro generates a UV Pass texture that is used with the stock Fusion "Texture" node or the "UVPassFromRGBImage" node to convert panoramic image sequences between the angular fisheye 180&deg; format and the equirectangular/LatLong/spherical 360&deg;x180&deg; image projection.
 
@@ -28,7 +28,7 @@ This is a node view of the typical UVPassFromRGBImage node connections that woul
 
 ![UVDomemaster2EquirectangularGradientMap Node](images/macro-uv-domemaster-to-equirectangular-gradient-map-node.png)
 
-## <a name="UVEquirectangular2AngularGradientMap"></a>UVEquirectangular2AngularGradientMap ##
+## <a name="UVEquirectangular2AngularGradientMap"></a>UVEquirectangular2AngularGradientMap
 
 ![UVEquirectangular2AngularGradientMap GUI](images/macro-uv-equirectangular-to-angular-gradient-map-gui.png)
 
@@ -44,7 +44,7 @@ This is a node view of the typical UVPassFromRGBImage node connections that woul
 
 ![UVEquirectangular2AngularGradientMap Node](images/macro-uv-equirectangular-to-angular-gradient-map-node.png)
 
-## <a name="UVEquirectangular2DomemasterGradientMap"></a>UVEquirectangular2DomemasterGradientMap ##
+## <a name="UVEquirectangular2DomemasterGradientMap"></a>UVEquirectangular2DomemasterGradientMap
 
 ![UVEquirectangular2DomemasterGradientMap GUI](images/macro-uv-equirectangular-to-domemaster-gradient-map-gui.png)
 
@@ -60,7 +60,7 @@ This is a node view of the typical UVPassFromRGBImage node connections that woul
 
 ![UVEquirectangular2DomemasterGradientMap Node](images/macro-uv-equirectangular-to-domemaster-gradient-map-node.png)
 
-## <a name="UVGradientMap"></a>UVGradientMap ##
+## <a name="UVGradientMap"></a>UVGradientMap
 
 ![UVGradientMap GUI](images/macro-uv-gradient-map-gui.png)
 
@@ -82,7 +82,7 @@ The Flip Horizontally checkbox on the UVGradientMap node is handy for flipping t
 
 **Note:** If you use the 8bit int option when creating a UV Pass image, or save the resulting image to an 8bit per channel image format like a PNG/TGA/JPEG you won't be able to remap an image over 256 pixels in width or height. This is why it is so important to render and save a high dynamic range 16bit or 32bit UV Pass gradient image at all times to avoid any resolution limits (or banding artifacts) you would otherwise experience.
 
-## <a name="UVPassFromRGBImage"></a>UVPassFromRGBImage ##
+## <a name="UVPassFromRGBImage"></a>UVPassFromRGBImage
 
 ![UVPassFromRGBImage GUI](images/macro-uv-pass-from-rgb-image-gui.png)
 
@@ -104,7 +104,7 @@ The UVPassFromRGBImage node has two inputs which are labelled "Image", and "UV P
 
 **Note:** If you are using a Fusion GridWarper to deform a UV Pass image and notice an ocasional "line dropout" like artifact in the warped output you switch to the GridWarper node's Render tab and change the Anti-aliasing setting to "None".
 
-### UV Pass Equirectangular to Angular Fisheye Remapping ###
+### UV Pass Equirectangular to Angular Fisheye Remapping
 
 This image shows the result of taking a standard equirectangular panoramic image and running it through the UVPassFromRGBImage macro with the UVEquirectangular2AngularGradientMap node as the UV Pass remapping image:
 
@@ -114,7 +114,7 @@ This is the node layout for the UVPassFromRGBImage macro when an equirectangular
 
 ![UVPassFromRGBImage Node](images/macro-uv-pass-from-rgb-image-node.png)
 
-### UV Pass Equirectangular to Cubemap 3x2 Remapping ###
+### UV Pass Equirectangular to Cubemap 3x2 Remapping
 
 This image shows the result of the UV Pass node when it is used to do an equirectangular 360&deg;x180&deg; to cubemap 3x2 image conversion.
 
@@ -144,7 +144,7 @@ Quick Recap: The UV Pass map for equirectangular to Cubemap3x2 panoramic convers
 
 **Note:** UV Pass images require special care to handle anti-aliasing and filtering on the UV Pass content is sensitive to image filtering in a way that is quite similar to the issues experienced with a traditional a Z-depth channel image.
 
-## <a name="UVPassFromRGBImageOnDisk"></a>UVPassFromRGBImageOnDisk ##
+## <a name="UVPassFromRGBImageOnDisk"></a>UVPassFromRGBImageOnDisk
 
 ![UVPassFromRGBImageOnDisk GUI](images/macro-uv-pass-from-rgb-image-on-disk-gui.png)
 
@@ -176,19 +176,19 @@ The UVPassFromRGBImageOnDisk node has one input which is labelled "Image". The n
 
 **Note:** If you are using a Fusion GridWarper to deform a UV Pass image and notice an ocasional "line dropout" like artifact in the warped output you switch to the GridWarper node's Render tab and change the Anti-aliasing setting to "None".
 
-## <a name="UVPassVideoStitchingTemplate"></a>UVPassVideoStitchingTemplate ##
+## <a name="UVPassVideoStitchingTemplate"></a>UVPassVideoStitchingTemplate
 
-This is a starting template for UV pass based panoramic 360&deg; video stitching. The final stitched panoramic video is written to disk using the saver node on the bottom right of the composite named "PanoramaSaver". 
+This is a starting template for UV pass based panoramic 360&deg; video stitching. The final stitched panoramic video is written to disk using the saver node on the bottom right of the composite named "PanoramaSaver".
 
 You can duplicate and modify this structure to support stitching any number of panoramic cameras in your video rig. As you modify this node graph, you can connect each panoramic 360&deg; video camera view together in the composite using the merge nodes on the right named "ViewMerge".
 
 To prepare your footage for use with this video stitching template the kartavr "Generate UV Pass in PTGui" script should be used to turn your PTGui stitching .pts project file into a set of UV pass based panoramic warping images (ST Maps) that allow you to warp your video into the final panoramic image projection.
 
-The node named "CameraLoader" is used to load in the footage from one of your panoramic video rig cameras. The "UVPassLoader" node is used to load in a matching uv pass warping image for that specific camera view. 
+The node named "CameraLoader" is used to load in the footage from one of your panoramic video rig cameras. The "UVPassLoader" node is used to load in a matching uv pass warping image for that specific camera view.
 
-The "BSplineMask" node is used along with an "AlphaMaskMerge" node to draw a custom rotoshape to select the part of a camera view you want to keep in the composite. 
+The "BSplineMask" node is used along with an "AlphaMaskMerge" node to draw a custom rotoshape to select the part of a camera view you want to keep in the composite.
 
-The "AlphaMaskMerge" node is disabled by default with the Fusion "pass through" mode as it can only be used when you have created an acutal mask shape in the BSplineMask node. 
+The "AlphaMaskMerge" node is disabled by default with the Fusion "pass through" mode as it can only be used when you have created an acutal mask shape in the BSplineMask node.
 
 The saver nodes on the right hand side of the composite named "CameraMaskSaver" are used to allow you to export each of the camera view's custom BSpline alpha masks to disk if you want to use them later with an external compositing tool.
 

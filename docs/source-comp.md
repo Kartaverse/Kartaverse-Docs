@@ -1,5 +1,5 @@
 
-## <a name="source-comp"></a>Source Compositions ##
+## <a name="source-comp"></a>Source Compositions
 
 All KartaVR macro nodes are delivered as GroupOperators so you can expand the node icon in the Fusion flow area and adjust any setting inside of the macro.
 
@@ -9,7 +9,7 @@ If you want to visually edit/rework how the macros function, each of the origina
 
 `Reactor:/Deploy/Macros/KartaVR/Macros/KartaVR/Source Compositions/`
 
-### Macro Screenshot ###
+### Macro Screenshot
 
 ![Editing a Macro](images/sample-source-composition.png)
 

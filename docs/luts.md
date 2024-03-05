@@ -1,4 +1,4 @@
-# LUTs for KartaVR #
+# LUTs for KartaVR
 
 ----
 
@@ -10,11 +10,11 @@ Once the KartaVR LUTs have been installed on your system as part of the regular 
 
 The LUT popup menu's "Edit..." control will open a LUT settings window that lets you modify attributes such as the field of view in the panoramic media LUT viewers, or the XYZ rotation controls. You may have to toggle the LUT on/off to see the changes of editing the LUT preferences like the rotation controls as the media in the viewer window can be cached into RAM memory.
 
-Macro LUTs only work with Fusion 7.x and the Fusion 8.2 Beta 2+ releases. If you are running Fusion 8.0-8.1.1 you will not see the Macro LUT files in the LUTs menu. 
+Macro LUTs only work with Fusion 7.x and the Fusion 8.2 Beta 2+ releases. If you are running Fusion 8.0-8.1.1 you will not see the Macro LUT files in the LUTs menu.
 
-For more information on Macro LUTs and how use them check out the Fusion help documentation file "Fusion 8 User Manual.pdf" in the "Managing Look Up Tables (LUTs)" chapter. 
+For more information on Macro LUTs and how use them check out the Fusion help documentation file "Fusion 8 User Manual.pdf" in the "Managing Look Up Tables (LUTs)" chapter.
 
-## Alternative Panoramic Image Viewers ##
+## Alternative Panoramic Image Viewers
 
 The KartaVR new "Macro LUT" features are a recent addition and as such are slightly experimental at this point. The panoramic viewer Macro LUTs should generally be used with the Proxy mode off, or enabled at Proxy level 1 as they are unable to detect the reduced resolution of the higher proxy modes and the panoramic viewer output may look cropped or distorted.
 
@@ -25,12 +25,12 @@ Besides using the Macro LUT based panoramic 360&deg; media viewers listed on thi
 - The following macro nodes could be used directly inline in a VR composite: "ViewerCubicFaces", "ViewerCubicFacesStereo", "ViewerEquirectangular", "ViewerEquirectangularStereo", "ViewerMesh" and "ViewerMeshStereo". These viewer macro nodes have GUI controls that are nearly identical to the Macro LUTs.
 
 
-## <a name="bright-lut"></a>Bright LUT ##
-  
+## <a name="bright-lut"></a>Bright LUT
+
 ![Bright LUT Prefs](images/bright-lut-edit-prefs.png)
 
 The "Bright LUT" tool allows you to use a LUT to preview color correction settings like applying a custom gamma setting to view for working with RAW Gamma 1.0 based linear workflow EXR media files in Fusion.
-  
+
 The LUT popup menu's "Edit..." control will open a LUT settings window that lets you modify the gamma, contrast, brightness, and saturation color correction settings.
 
 ![Bright LUT](images/macro-luts-bright-lut-controls.png)
@@ -39,7 +39,7 @@ The LUT popup menu's "Edit..." control will open a LUT settings window that lets
 
 The Gamma control starts with a default value of 1.0. Although it is not generally recommended, you can use a Gamma value of 0.4545 to apply an inverse "degamma" effect to a linear workflow image that was rendered with an incorrectly configured Gamma 1.0/2.2 based output setting in your 3D rendering package.
 
-## <a name="viewerequirectangular-lut"></a>ViewerEquirectangular LUT ##
+## <a name="viewerequirectangular-lut"></a>ViewerEquirectangular LUT
 
 ![ViewerEquirectangular LUT Prefs](images/viewerequirectangular-lut-edit-prefs.png)
 
@@ -79,7 +79,7 @@ The X/Y/Z Rotation controls are used to adjust the roll/yaw/pitch of the virtual
 
 You can jump the viewer X/Y/Z Rotation controls back to the default starting values by clicking the little grey circle that appears under the sliders.
 
-## <a name="viewerequirectangular-stereo-ou-lut"></a>ViewerEquirectangular Stereo OU LUT ##
+## <a name="viewerequirectangular-stereo-ou-lut"></a>ViewerEquirectangular Stereo OU LUT
 
 ![ViewerEquirectangularStereoOU LUT Prefs](images/viewerequirectangular-stereo-ou-lut-edit-prefs.png)
 
@@ -115,7 +115,7 @@ The X/Y/Z Rotation controls are used to adjust the roll/yaw/pitch of the virtual
 
 You can jump the viewer X/Y/Z Rotation controls back to the default starting values by clicking the little grey circle that appears under the sliders.
 
-## <a name="viewermesh-lut"></a>ViewerMesh LUT ##
+## <a name="viewermesh-lut"></a>ViewerMesh LUT
 
 ![ViewerMesh LUT Prefs](images/viewermesh-lut-edit-prefs.png)
 
@@ -200,9 +200,9 @@ The X/Y/Z Rotation controls are used to adjust the roll/yaw/pitch of the virtual
 You can jump the viewer X/Y/Z Rotation controls back to the default starting values by clicking the little grey circle that appears under the sliders.
 
 
-## <a name="viewerwarp-lut"></a>ViewerWarp LUT ##
+## <a name="viewerwarp-lut"></a>ViewerWarp LUT
 
-The "ViewerWarp LUT" tool allows you to easily preview UV Pass warping image transforms on the media that is loaded in the Fusion viewer windows. This LUT is helpful as a warping preview tool if you are using the "Generate UV Pass in PTGui.lua" script along with the "UVPassFromRGBImage" or "UVPassFromRGBImageOnDisk" macro nodes to perform panoramic 360&deg; video stitching on your imagery. 
+The "ViewerWarp LUT" tool allows you to easily preview UV Pass warping image transforms on the media that is loaded in the Fusion viewer windows. This LUT is helpful as a warping preview tool if you are using the "Generate UV Pass in PTGui.lua" script along with the "UVPassFromRGBImage" or "UVPassFromRGBImageOnDisk" macro nodes to perform panoramic 360&deg; video stitching on your imagery.
 
 The ViewerWarp LUT is also useful if you are working with horizontally oriented 180&deg; fisheye video and you want a simple and interactive way to preview a UV pass based LatLong transformation before rendering your entire sequence to disk as a horizontally positioned LatLong/Equirectangular/Spherical frame format.
 
@@ -214,7 +214,7 @@ The LUT popup menu's "Edit..." control will open a LUT settings window that lets
 
 If the "Keep Aspect Ratio" button is enabled and the UV pass map is a significantly different size or aspect ratio from the source imagery that is being warped you may see the imagery shrunk to fit the width of the image and the height axis is padded with the color from the top row of the image. You also may notice that composites that use a uv pass map to both warp and rotate a 16:9 video frame by 90&deg; will have content go off the border of the viewer screen if the "Keep Aspect Ratio" checkbox is disabled.
 
-## <a name="z360-stereo-lut"></a>Z360 Stereo LUT ##
+## <a name="z360-stereo-lut"></a>Z360 Stereo LUT
 
 ![Z360Stereo Macro](images/macro-z360-stereo.jpg)
 

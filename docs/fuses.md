@@ -33,7 +33,7 @@ The "kvrSTMapGenerator" fuse allows you to generate an initial STMap template.
 
 ![kvrSTMapGenerator Fuse](images/fuse-kvrSTMapGenerator.png)
 
-For more information about STMap warping workflows check out the document:  
+For more information about STMap warping workflows check out the document:
 [Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)
 
 An STMap gradient image is able to hold pre-computed warping data in an image's red and green channels. You need to save an STMap in a 16-bit or 32-bit per-channel image with lossless compression to avoid artifacts.
@@ -52,7 +52,7 @@ The kvrGrade fuse allows you to quickly color correct stereo 3D footage with ind
 
 ## kvrViewer
 
-Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node can be used to reframe VR footage with onscreen controls. 
+Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node can be used to reframe VR footage with onscreen controls.
 
 You can also convert stereo 3D circular fisheye content into 360VR and 180VR output. This is great if you want a parametric way to process media from lenses like the Canon RF 5.2mm dual fisheye lens.
 

@@ -1,4 +1,4 @@
-## <a name="sample-imagery"></a>Sample Imagery ##
+## <a name="sample-imagery"></a>Sample Imagery
 
 Included with the KartaVR is a set of sample panoramic images, and polygon meshes that can be used to explore the panoramic conversion features.
 
@@ -13,7 +13,7 @@ Another Fusion "Bin" window centric copy of the sample fusion projects is stored
 
 `Reactor:/Deploy/Macros/KartaVR/Source Compositions/Demos/`
 
-## <a name="show-reactor-folder"></a>Browsing the Reactor PathMap ##
+## <a name="show-reactor-folder"></a>Browsing the Reactor PathMap
 
 If you want to access the KartaVR sample imagery quickly and easily, use the `Reactor > Tools > Show Reactor Folder` menu item. Then browse into the "Deploy" folder, and finally into the "Macros", and "KartaVR" sub-folders.
 

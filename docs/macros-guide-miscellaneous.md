@@ -1,6 +1,6 @@
-# Miscellaneous Macros #
+# Miscellaneous Macros
 
-## <a name="DomemasterCrossbounceSim"></a>DomemasterCrossbounceSim ##
+## <a name="DomemasterCrossbounceSim"></a>DomemasterCrossbounceSim
 
 ![DomemasterCrossbounceSim GUI](images/macro-domemaster-crossbounce-sim-gui.png)
 
@@ -39,7 +39,7 @@ This example shows how you can use a LatLong format source image as part of a fu
 ![DomemasterCrossbounceSim Node](images/macro-domemaster-crossbounce-sim-node-latlong.png)
 
 
-## <a name="MayaBackgroundGradient"></a>MayaBackgroundGradient ##
+## <a name="MayaBackgroundGradient"></a>MayaBackgroundGradient
 
 ![MayaBackgroundGradient GUI](images/macro-maya-background-gradient-gui.png)
 
@@ -53,7 +53,7 @@ This example shows how you might route the MayaBackgroundGradient node as a back
 
 ![MayaBackgroundGradient Node](images/macro-maya-background-gradient-node.png)
 
-## <a name="MayaBackgroundGradientCubicFaces"></a>MayaBackgroundGradientCubicFaces ##
+## <a name="MayaBackgroundGradientCubicFaces"></a>MayaBackgroundGradientCubicFaces
 
 ![MayaBackgroundGradientCubicFaces GUI](images/macro-maya-background-gradient-cubicfaces-gui.png)
 
@@ -69,7 +69,7 @@ There are six image outputs from the node called `Front`, `Right`, `Back`, `Left
 
 ![MayaBackgroundGradientCubicFaces Node](images/macro-maya-background-gradient-cubicfaces-node.png)
 
-## <a name="MayaBackgroundGradientEquirectangular"></a>MayaBackgroundGradientEquirectangular ##
+## <a name="MayaBackgroundGradientEquirectangular"></a>MayaBackgroundGradientEquirectangular
 
 ![MayaBackgroundGradientEquirectangular GUI](images/macro-maya-background-gradient-equirectangular-gui.png)
 
@@ -83,15 +83,15 @@ This example shows how you might route the MayaBackgroundGradientEquirectangular
 
 ![MayaBackgroundGradientEquirectangular Node](images/macro-maya-background-gradient-equirectangular-node.png)
 
-## <a name="SaverIntool"></a>SaverIntool ##
+## <a name="SaverIntool"></a>SaverIntool
 
 The `SaverIntool` macro adds an FFMPEG Encoding Intool **End Render Script**. This Fusion Intool script is used to FFMPEG encode your saver node rendered image sequences into MP4 H.264 movies. If the Saver node footage is in the EXR format a gamma 1.0 to 2.2 conversion applied automatically.
 
 ![SaverIntool GUI](images/macro-saver-intool-gui.png)
 
-**Step 1.** Install ffmpeg. 
+**Step 1.** Install ffmpeg.
 
-Windows ffmpeg Download URL: 
+Windows ffmpeg Download URL:
 
 [https://ffmpeg.org/download.html](https://ffmpeg.org/download)
 
@@ -108,17 +108,17 @@ Ubuntu Install:
     sudo add-apt-repository ppa:mc3man/trusty-media
     sudo apt-get update
     sudo apt-get dist-upgrade
-    sudo apt-get -y install ffmpeg 
+    sudo apt-get -y install ffmpeg
 
 **Step 2.** Add the "SaverIntool" node to your composite and enter a filename for your rendered image sequence.
 
-**Step 3.** Change the script's "ffmpegProgramPath" variable to point to the absolute filepath of the installed copy of ffmpeg. 
+**Step 3.** Change the script's "ffmpegProgramPath" variable to point to the absolute filepath of the installed copy of ffmpeg.
 
 On Mac/Linux you can find out the active ffmpeg path using: "which ffmpeg". On Windows you should install ffmpeg to `C:\ffmpeg\bin\ffmpeg.exe`.
 
 **Step 4.** Render a short test sequence in Fusion. You should have a new .mp4 movie and a log .txt file saved in the same folder as your rendered image sequence. If you have a saver node based Sound Filename entered it will be added automatically as an audio track to the encoded movie file.
 
-### Script Notes ###
+### Script Notes
 
 - You can edit the "audioFilename" variable to choose if you want the Saver node's audio track included in the movie or if you want to use the Fusion timeline based audio clip.
 
@@ -126,9 +126,9 @@ On Mac/Linux you can find out the active ffmpeg path using: "which ffmpeg". On W
 
 - Fusion 8.2.1 on Linux doesn't process the `cmp = fusion:GetCurrentComp()` command so a fallback mode of "cmp = fusion" option will be used. This means comp specific PathMaps are ignored on Fusion 8 on Linux and only Global setting based PathMaps work.
 
-## <a name="SetMetadataVR"></a>SetMetadataVR ##
+## <a name="SetMetadataVR"></a>SetMetadataVR
 
-The `SetMetadataVR` macro allows you tag footage with image projection and stereo display metadata. 
+The `SetMetadataVR` macro allows you tag footage with image projection and stereo display metadata.
 
 This node is handy if you have manually resized panoramic imagery away from the image projection's standard aspect ratio and are having issues loading the footage into Fusion's native 360&deg; media viewer when the "Auto" mode is active. An example of this would be trying to load a 1:1 aspect ratio equirectangular/LatLong/Spherical image when the 360&deg; media viewer would prefer a 2:1 aspect ratio.
 
@@ -136,25 +136,25 @@ This node is handy if you have manually resized panoramic imagery away from the 
 
 The "Stereo" control allows you to choose the stereo display mode that will be used when footage is loaded into Fusion's Stereo viewer window. The options are  "Mono 2D", "Stereo 3D Over Under", "Stereo 3D Side by Side".
 
-The "Projection" control allows you to choose the image projection that will be used when footage is loaded into Fusion's 360° media viewer window. The options are  "None", "LatLong", "Vertical Cross", "Horizontal Cross", "Vertical Strip", "Horizontal Strip. 
+The "Projection" control allows you to choose the image projection that will be used when footage is loaded into Fusion's 360° media viewer window. The options are  "None", "LatLong", "Vertical Cross", "Horizontal Cross", "Vertical Strip", "Horizontal Strip.
 
 If you are working with panoramic imagery that is of a different image projection then the Projection control provides such as Facebook Cubemap 3x2 footage, Domemaster, or angular fisheye footage it is a good idea to leave the Projection setting at the default value of "None".
 
-### Viewing Metadata Information ###
+### Viewing Metadata Information
 
 ![Fusion SubV Metadata](images/macro-set-metadata-vr-fusion-subv-viewer-window.png)
 
 You can view the metadata tags that are being added to your imagery by activating the "Metadata" mode in the Fusion Viewer Window "SubV" tool list which is located on the far left side of the viewer window toolbar.
 
-### Viewing Stereo Over/Under Images ###
+### Viewing Stereo Over/Under Images
 
-If you are trying to view Stereo Over/Under images in Fusion Studio's native viewer window you will typically need to turn on the Fusion Viewer Windows' **Stereo** "Swap Eyes" control. 
+If you are trying to view Stereo Over/Under images in Fusion Studio's native viewer window you will typically need to turn on the Fusion Viewer Windows' **Stereo** "Swap Eyes" control.
 
 This step is required if you are reviewing Over/Under stereo footage where the left view is on the top of the frame layout, and the right view is on the bottom of the frame layout like YouTube 360 formatted movies use.
 
 ![Fusion Stereo Viewer Swap Control](images/fusion-viewer-window-swap-control.png)
 
-### Node Connections ###
+### Node Connections
 
 This example shows how you can connect un-tagged 360&deg; panoramic footage from a Loader node to a SetMetadataVR node's "Input" connection.
 

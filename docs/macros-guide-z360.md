@@ -1,6 +1,6 @@
-# Z360 Macros #
+# Z360 Macros
 
-## <a name="Z360DepthBlur">Z360DepthBlur</a> ##
+## <a name="Z360DepthBlur">Z360DepthBlur</a>
 
 ![Z360DepthBlur Macro](images/macro-z360-depth-blur.jpg)
 
@@ -24,11 +24,11 @@ This is a view of the Z360DepthBlur node connections:
 
 ![Z360DepthBlur Node](images/macro-z360-depth-blur-node.png)
 
-## <a name="Z360Extract">Z360Extract</a> ##
+## <a name="Z360Extract">Z360Extract</a>
 
 ![Z360Extract Macro](images/macro-z360-extract.jpg)
 
-The Z360Extract node takes a Z360 style over/under color/depthmap formatted image and separates the two views to provide individual "RGB" and "Depth" image outputs. 
+The Z360Extract node takes a Z360 style over/under color/depthmap formatted image and separates the two views to provide individual "RGB" and "Depth" image outputs.
 
 Functionally, the "Z360Extract" macro is similar to the StereoOverUnderExtract macro with just the inputs renamed for convenience.
 
@@ -42,11 +42,11 @@ This is a view of the Z360Extract node connections:
 
 ![Z360Extract Node](images/macro-z360-extract-node.png)
 
-## <a name="Z360Merge">Z360Merge</a> ##
+## <a name="Z360Merge">Z360Merge</a>
 
 ![Z360Merge Macro](images/macro-z360-merge.jpg)
 
-The Z360Merge node takes two color image inputs named "RGB" and "Depth" and merges them into a Z360 style over/under color/depthmap format. 
+The Z360Merge node takes two color image inputs named "RGB" and "Depth" and merges them into a Z360 style over/under color/depthmap format.
 
 Functionally, the "Z360Merge" macro is similar to the StereoOverUnderMerge macro with just the inputs renamed for convenience.
 
@@ -59,7 +59,7 @@ The Height control is the vertical size of the final combined image.
 This is a view of the Z360Merge node connections:
 ![Z360Merge Node](images/macro-z360-merge-node.png)
 
-## <a name="Z360Mesh3D">Z360Mesh3D</a> ##
+## <a name="Z360Mesh3D">Z360Mesh3D</a>
 
 ![Z360Mesh3D Wiggle Camera Motion](images/macro-z360-mesh-3d-wiggle.gif)
 
@@ -89,13 +89,13 @@ The next control is a set of three "Depth Level" controls that are on a single r
 
 The Environment Radius control is a simple multiplier that is used to scale the final environment sphere size and it has an effect on how the depth and XYZ world offset translations appear in the final left and right eye views when the scene is processed in the Z360Stereo node. The Environment Radius control is the fastest way to change how "big" the stereo 3D world feels when Z360 depth conversion is applied.
 
-The Environment Subdivision Level (Base) control is the horizontal axis resolution of the polygonal environment sphere mesh. This control is used to define how much detail is present when the surface of the mesh is displaced. It has a default setting of 1536 subdivisions but can be set far lower if you only have a subtle amount of variations in the depthmap and most of the depth detail is close to the same distance. 
+The Environment Subdivision Level (Base) control is the horizontal axis resolution of the polygonal environment sphere mesh. This control is used to define how much detail is present when the surface of the mesh is displaced. It has a default setting of 1536 subdivisions but can be set far lower if you only have a subtle amount of variations in the depthmap and most of the depth detail is close to the same distance.
 
 
 This is a view of the Z360Mesh3D node connections:
 ![Z360Mesh3D Node](images/macro-z360-mesh-3d-node.png)
 
-### Z360Mesh3D Performance Enhancements ###
+### Z360Mesh3D Performance Enhancements
 
 Lowering the mesh resolution on the Z360Mesh3D node will make the tool more interactive. This is handy when you have a Z360 formatted movie/image sequence active and you try scrubbing the Fusion timeline playhead.
 
@@ -104,7 +104,7 @@ Try using these settings on the Z360Mesh3D node if you want to work with moving 
 - Environment Subdivision Level (Base): 256
 - Environment Subdivision Level (Base): 128
 
-### Camera3D Node Settings for Z360Mesh3D Scenes ###
+### Camera3D Node Settings for Z360Mesh3D Scenes
 
 ![Camera3D Node](images/macro-z360-mesh-3d-based-camera-3d.png)
 
@@ -117,7 +117,7 @@ When you view a Z360Mesh3D scene in stereo 3D using a Camera3D node some initial
 
 You can expression link the Camera3D node's "Convergence Distance" control to use the exact size of the Z360Mesh3D node surface by multiplying the "Displacement Scale" attribute by the "Environment Radius" setting using the expression `Z360Mesh3D.Input9*Z360Mesh3D.Input14`.
 
-## <a name="Z360Renderer3D">Z360Renderer3D</a> ##
+## <a name="Z360Renderer3D">Z360Renderer3D</a>
 
 ![Z360Renderer3D Macro](images/macro-z360-renderer3d.jpg)
 
@@ -147,11 +147,11 @@ This is a view of the node connections that are used to render a Z360 format ima
 
 ![Z360Renderer3D Node](images/macro-z360-renderer3d-node.png)
 
-## <a name="Z360Stereo">Z360Stereo</a> ##
+## <a name="Z360Stereo">Z360Stereo</a>
 
 ![Z360Stereo Macro](images/macro-z360-stereo.jpg)
 
-The "Z360Stereo" node works with panoramic color + depthmap formatted over/under stereo media. This node allows you to convert a color + depthmap image into a pair of left and right displaced stereo views. There is also a macro LUT version of the tool called [Z360 Stereo LUT](luts#z360-stereo-lut) that can be applied directly in the viewer window. 
+The "Z360Stereo" node works with panoramic color + depthmap formatted over/under stereo media. This node allows you to convert a color + depthmap image into a pair of left and right displaced stereo views. There is also a macro LUT version of the tool called [Z360 Stereo LUT](luts#z360-stereo-lut) that can be applied directly in the viewer window.
 
 When working with the Z360Stereo node's over/under style output you can activate Fusion Studio's native stereo viewer setting in the viewer window. For the best anaglyph preview viewing experience you should right click on the stereo glasses icon and set the following options [x] Anaglyph [x] Stacked Image, [x] Vertical, [x] Swap Eyes, [x] Dubois options like this screenshot shows:
 
@@ -169,7 +169,7 @@ If you are loading in an existing multi-channel RGBZ based EXR image that has a 
 
 The "Depth Input Channel" button is set to Luma (Luminance) by default. This control is used to let the node know what RGB/A/Luminance channel is providing the required depthmap information to the node's "depth" input connection.
 
-The "Stereo Displace Convergence" control rarely needs to be adjusted as it changes how the depth displacement math is applied and can result in giving a sheared / horizontally refracted like look to the image. It is more likely you want to apply all of your convergence adjustments with the "Stereo Offset Convergence" control instead. 
+The "Stereo Displace Convergence" control rarely needs to be adjusted as it changes how the depth displacement math is applied and can result in giving a sheared / horizontally refracted like look to the image. It is more likely you want to apply all of your convergence adjustments with the "Stereo Offset Convergence" control instead.
 
 The "Stereo Depth Displacement" control is the primary control for this node and it is used to shift all of the pixels in the image horizontally which is based upon the greyscale value of the depthmap image. This can be used to excellent effect to create a 2D monoscopic to 3D stereo image conversion. A good range for this setting is -0.003 to -0.007. You should check this setting "full frame" by viewing the entire equirectangular stereo image using a pair of anaglyph glasses to make sure the depth is clear but not overdone. If your image has the depthmap near/far range flipped and it is not looking correct when viewed in stereo 3D you can fix the depth inversion issue by changing this setting to a number between 0.003 to 0.007.
 
@@ -181,7 +181,7 @@ The "ZDepth - Blur Size" control allows you to smooth out the differences in the
 
 The ZDepth and RGB color correction controls are handy if you want to tweak the image as it is being processed.
 
-Adjusting the "ZDepth - Contrast" and "ZDepth - Gamma" controls can make the depthmap details more contrasty (with large variations in the white to black shading) or gentler in contrast (for a logarithmic film like response curve on the shading). This can be used to increase/decrease the depthmap's midpoint/falloff curve for either a more linear or log like effect on the depth conversion. This can be used to make scenes more comfortable to view. 
+Adjusting the "ZDepth - Contrast" and "ZDepth - Gamma" controls can make the depthmap details more contrasty (with large variations in the white to black shading) or gentler in contrast (for a logarithmic film like response curve on the shading). This can be used to increase/decrease the depthmap's midpoint/falloff curve for either a more linear or log like effect on the depth conversion. This can be used to make scenes more comfortable to view.
 
 The "ZDepth - Gamma" control is usually kept with a value range of 0.6 and 2.2. The default value is 1.0.
 
@@ -193,11 +193,11 @@ This is a view of the connections used to convert imagery with the Z360Stereo no
 
 ![Z360Stereo Node](images/macro-z360-stereo-node.png)
 
-## <a name="Z360VRDolly">Z360VRDolly</a> ##
+## <a name="Z360VRDolly">Z360VRDolly</a>
 
 ![Z360VRDolly Macro](images/macro-z360-vr-dolly.jpg)
 
-The Z360VRDolly node applies omni-directional stereo 6DOF compatible XYZ translation and rotation effects using an over/under formatted Z360 color/depthmap image as the source media. 
+The Z360VRDolly node applies omni-directional stereo 6DOF compatible XYZ translation and rotation effects using an over/under formatted Z360 color/depthmap image as the source media.
 
 The Z360VRDolly node is designed to be used along side the Z360Stereo node to create animatable 6DOF stereo camera transforms.
 
@@ -215,7 +215,7 @@ The next control is a set of three "Depth Level" controls that are on a single r
 
 The Environment Radius control is a simple multiplier that is used to scale the final environment sphere size and it has an effect on how the depth and XYZ world offset translations appear in the final left and right eye views when the scene is processed in the Z360Stereo node. The Environment Radius control is the fastest way to change how "big" the stereo 3D world feels when Z360 depth conversion is applied.
 
-The Environment Subdivision Level (Base) control is the horizontal axis resolution of the polygonal environment sphere mesh. This control is used to define how much detail is present when the surface of the mesh is displaced. It has a default setting of 1536 subdivisions but can be set far lower if you only have a subtle amount of variations in the depthmap and most of the depth detail is close to the same distance. 
+The Environment Subdivision Level (Base) control is the horizontal axis resolution of the polygonal environment sphere mesh. This control is used to define how much detail is present when the surface of the mesh is displaced. It has a default setting of 1536 subdivisions but can be set far lower if you only have a subtle amount of variations in the depthmap and most of the depth detail is close to the same distance.
 
 In an ideal world this setting would have a default value of 2048 (vs 1536) but the extra slowdown isn't worth the overhead of going for a true 2:1 aspect ratio on the Base vs Height subdivision settings.
 

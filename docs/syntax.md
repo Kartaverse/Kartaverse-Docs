@@ -1,17 +1,17 @@
-# Fusion Syntax Highlighting #
+# Fusion Syntax Highlighting
 
 - [Fusion Comp Syntax Highlighters](#syntax-highlighter)
   - [Installing the Notepad++ Fusion Syntax Highlighter](#npp-syntax-highlighter)
   - [Installing the TextWrangler and BBEdit Codeless Language Modules](#textwrangler-syntax-highlighter)
   - [Installing the Gedit Fusion Syntax Highlighter](#gedit-syntax-highlighter)
 
-## <a name="syntax-highlighter"></a>Fusion Comp Syntax Highlighters ##
+## <a name="syntax-highlighter"></a>Fusion Comp Syntax Highlighters
 
 There is a bonus set of [Notepad++](http://www.notepad-plus-plus.org/), [Gedit](https://wiki.gnome.org/Apps/Gedit), [TextWrangler](http://www.barebones.com/products/textwrangler/), and [BBEdit](http://www.barebones.com/products/bbedit/) compatible syntax highlighter modules included with the KartaVR. This makes it easier to view and edit Fusion Composite `.comp` files, Fusion Macros `.setting` files, and Fusion preference/hotkey `.fu` files using a plain text editor.
 
 ![Editing a Setting File](images/editing-a-setting-file.png)
 
-### <a name="npp-syntax-highlighter"></a>Installing the Notepad++ Fusion Syntax Highlighter ###
+### <a name="npp-syntax-highlighter"></a>Installing the Notepad++ Fusion Syntax Highlighter
 
 The Notepad++ User Defined Language file is located in the folder:
 
@@ -41,7 +41,7 @@ If you use the Notepad++ Compare module you can load the new Obsidian theme comp
 
 ![Compare Module](images/compare-color-update.png)
 
-### <a name="textwrangler-syntax-highlighter"></a>Installing the TextWrangler and BBEdit Codeless Language Modules ###
+### <a name="textwrangler-syntax-highlighter"></a>Installing the TextWrangler and BBEdit Codeless Language Modules
 
 The TextWrangler and BBEdit Codeless Language Module file is located in the folder:
 
@@ -93,7 +93,7 @@ Here is an example Fusion composite (.comp) file with syntax highlighting enable
 
 ![This is a sample show script that has syntax highlighting](images/textwrangler_syntax_hightlighting_enabled.png)
 
-### <a name="gedit-syntax-highlighter"></a>Installing the Gedit Fusion Syntax Highlighter ###
+### <a name="gedit-syntax-highlighter"></a>Installing the Gedit Fusion Syntax Highlighter
 
 The Gedit language file is located in the folder:
 
@@ -110,17 +110,17 @@ On Windows you need to copy the fusion.lang file to the **language-specs** folde
 
 `C:\Program Files (x86)\gedit\share\gtksourceview-2.0\language-specs\fusion.lang`
 
-or  
+or
 
-`C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\fusion.lang`  
+`C:\Program Files\gedit\share\gtksourceview-2.0\language-specs\fusion.lang`
 
 On Linux you need to copy the fusion.lang file to the language-specs folder located at:
 
-`/usr/local/share/gtksourceview-2.0/language-specs/fusion.lang`  
+`/usr/local/share/gtksourceview-2.0/language-specs/fusion.lang`
 
-or  
+or
 
-`/usr/share/gtksourceview-2.0/language-specs/fusion.lang`  
+`/usr/share/gtksourceview-2.0/language-specs/fusion.lang`
 
 
 **Step 3.**  We need to restart gedit for the new language module to be listed in the gedit **Highlighter Mode** menu. Let's check if the script was installed correctly by opening the menu **View > Highlighter Mode > Scripts > Fusion**.
@@ -133,16 +133,16 @@ Let's manually enable the Fusion compatible syntax highlighting module. Open the
 
 ![Select the Fusion Language](images/gedit-fusion-languages-menu.png)
 
-#### Color Schemes ####
+#### Color Schemes
 If you are new to gedit you will probably want to pick a color scheme to customize your work environment. You can switch the current color scheme by opening the **Edit** menu, and selecting **Preferences**. In the gedit Preferences window, click on the **Font & Colors** tab.
 
 Clicking on the color scheme's name with switch between the different syntax highlighting color styles.
 
 ![Choose a Gedit Color Scheme](images/gedit-color-schemes.png)
 
-#### Color Scheme Gallery ####
+#### Color Scheme Gallery
 
-Gedit comes with 5 colors schemes by default:  
+Gedit comes with 5 colors schemes by default:
 
 - Classic
 - Cobalt

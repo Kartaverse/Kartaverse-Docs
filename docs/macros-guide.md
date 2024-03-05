@@ -1,8 +1,8 @@
-# <a name="macros-guide"></a>Macros Reference Guide #
+# <a name="macros-guide"></a>Macros Reference Guide
 
 This document is a handy reference guide that acts as the official table of contents summary of each of the macro nodes in the KartaVR toolset.
 
-## Table of Contents ##
+## Table of Contents
 
 <table>
 <tr>

@@ -1,8 +1,8 @@
-# Fusion Hotkeys #
+# Fusion Hotkeys
 
 ----
 
-This document is a summary of the custom Fusion hotkeys included with the [KartaVR](index) toolset. 
+This document is a summary of the custom Fusion hotkeys included with the [KartaVR](index) toolset.
 
 The `KartaVR Hotkeys.fu` preference file is installed in your Fusion "Reactor:/Deploy/Config/" folder using the Reactor based [KartaVR installation process](install#install). You can start using the hotkeys right away to boost your productivity.
 
@@ -10,9 +10,9 @@ One of the nicest features of the hotkey files is you can now send panoramic ima
 
 Pressing the "V" key in the Fusion flow area lets you push your active media to a Google VR View webpage using the [Publish Media to Google Cardboard VR View](google-cardboard-vr-view) script. This is great for viewing your panoramic 360&deg; media in a web browser, on a smartphone, tablet, or in a Google Carboard HMD.
 
-## KartaVR Hotkeys List: ##
+## KartaVR Hotkeys List:
 
-### Fusion Flow Hotkeys: ###
+### Fusion Flow Hotkeys:
 
   <table>
     <tr><td>Hotkey</td>     <td>Tool</td>                             <td>Object Type</td></tr>
@@ -54,7 +54,7 @@ Pressing the "V" key in the Fusion flow area lets you push your active media to 
     <tr><td>Right Cursor</td><td>Step Forwards One Frame</td>         <td>Action</td></tr>
   </table>
 
-### Fusion Viewer Window Hotkeys: ###
+### Fusion Viewer Window Hotkeys:
 
   <table>
     <tr><td>Hotkey</td>     <td>Tool</td>                             <td>Object Type</td></tr>

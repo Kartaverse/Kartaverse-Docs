@@ -3,10 +3,8 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7** - Released 2024-03-05
-by Andrew Hazelden
-
-Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
+**Version 5.7** - Released 2024-03-05  
+by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
 

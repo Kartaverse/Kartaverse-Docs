@@ -1,19 +1,4 @@
 # Publish Media to Google Cardboard VR View
-----
-by Andrew Hazelden
-
-Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
-
-## Table of Contents
-
-- [Publish Media to Google Cardboard VR View](google-cardboard-vr-view)
-	- [Support](google-cardboard-vr-view#support)
-	- [Overview](google-cardboard-vr-view#overview)
-	- [Setting up the MAMP Web Sharing Settings](google-cardboard-vr-view#mamp-setup)
-	- [Setting up Apache httpd on Linux](google-cardboard-vr-view#apache-setup)
-	- [Finding Your IP Address](google-cardboard-vr-view#finding-your-ipaddress)
-	- [How to use the "Publish Media to Google Cardboard VR View" Script](google-cardboard-vr-view#how-to-use)
-		- [Script GUI Controls](google-cardboard-vr-view#script-gui-controls)
 
 <a name="overview"></a>
 ## Overview

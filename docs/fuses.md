@@ -4,9 +4,10 @@
 
 The kvrCropStereo fuse allows you to re-crop stereo 3D footage with individual control over the left and right eye content.
 
-This makes it easy to pre-process production footage before applying image projection conversions.
-
 ![kvrCropStereo Fuse](images/fuse-kvrCropStereo.png)
+
+
+This stereo 3D aware cropping process makes it easy to pre-process production footage before applying image projection conversions.
 
 ![kvrCropStereo Image View](images/fuse-kvrCropStereo-viewer.png)
 
@@ -16,10 +17,13 @@ Apply lens distortion correction using brown-conrady, syntheyes, and panotools l
 
 ![kvrLens Fuse](images/fuse-kvrLens.png)
 
-Lens distortion correction can be used to correct for barrel or pincushion effects:
+Lens distortion correction can be used to correct for optical issues like barrel or pincushion effects:
 
 ![kvrLens Viewer 1](images/fuse-kvrLens-viewer-1.png)
+
 ![kvrLens Viewer 2](images/fuse-kvrLens-viewer-2.png)
+
+![kvrLens Viewer 3](images/fuse-kvrLens-viewer-3.png)
 
 ## kvrLensStereo
 
@@ -56,15 +60,27 @@ Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node
 
 You can also convert stereo 3D circular fisheye content into 360VR and 180VR output. This is great if you want a parametric way to process media from lenses like the Canon RF 5.2mm dual fisheye lens.
 
-This node can be used to generate "Tiny Planet" views of a scene.
-
 ![kvrViewer Fuse](images/fuse-kvrViewer.png)
+
+
+The kvrViewer node can display 360VR content where it acts like a panoramic media viewer. The onscreen control handles allow you to quickly navigate around in the scene and zoom in/out.
+
+![kvrViewer Viewer 2](images/fuse-kvrViewer-viewer-2.png)
+
+The kvrViewer node can be used to generate "Tiny Planet" views of a scene.
+
+![kvrViewer Viewer 2](images/fuse-kvrViewer-viewer-3.jpg)
+
+The kvrViewer node can display dual fisheye SBS content where it generates 180VR (180&deg;x180&deg;) stereo 3D output:
+![kvrViewer Viewer 1](images/fuse-kvrViewer-viewer-1.png)
 
 ## kvrReframe360Ultra
 
-Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays. This node can be used to generate "Tiny Planet" views of a scene.
+Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays. This node is also available as an Edit page Effects Template.
 
 ![kvrReframe360Ultra Fuse](images/fuse-kvrReframe360Ultra.png)
+
+The kvrReframe360Ultra node can be used to generate "Tiny Planet" views of a scene.
 
 ![kvrReframe360Ultra Viewer](images/fuse-kvrReframe360Ultra-viewer.jpg)
 

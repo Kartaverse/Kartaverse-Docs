@@ -84,14 +84,18 @@ The kvrReframe360Ultra node can be used to generate "Tiny Planet" views of a sce
 
 ![kvrReframe360Ultra Viewer](images/fuse-kvrReframe360Ultra-viewer.jpg)
 
-## kvrWarpStichUltra
+## kvrWarpStitchUltra
 
 The kvrWarpStitchUltra node is used to stitch circular fisheye images into a latlong image projection. The node has parametric controls for adjusting the FOV, pan/tilt/roll, frame cropping, integrated masking, and colour correction.
 
-![kvrWarpStichUltra Fuse](images/fuse-kvrWarpStichUltra-1.png)
-![kvrWarpStichUltra Fuse](images/fuse-kvrWarpStichUltra-2.png)
-![kvrWarpStichUltra Fuse](images/fuse-kvrWarpStichUltra-3.png)
-![kvrWarpStichUltra Fuse](images/fuse-kvrWarpStichUltra-4.png)
+![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-1.png)
+![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-2.png)
+![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-3.png)
+![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-4.png)
+
+The example composite "Under The Bridge" shows how multi-view 360VR video stitching can be achieved with the help of the kvrWarpStitchUltra node:
+
+![kvrWarpStitchUltra Under the Brdidge Example](images/fuse-kvrWarpStitchUltra-under-the-bridge.jpg)
 
 # Macro
 
@@ -117,10 +121,16 @@ In the inspector view, if you click the little magic wand icon next to the right
 
 Vonk Ultra includes a node that allows you to read timecode synced closed caption subtitle .srt data. The output is a text datatype that can be connected to the StyledText field on a Text+ node.
 
+![vTextFromSubtitle Fuse](images/fuse-vTextFromSubtitles.png)
+
+The Vonk Ultra example "Demo Subtitle.comp" shows the node graph layout required for loading subtitles into Fusion:
+
+![vTextFromSubtitle Viewer](images/fuse-vTextFromSubtitles-viewer-1.png)
+
 Typical Node Connections:
 
         vTextFromFile > vTextFromSubtitle > Text+
 
+
 The vTextFromSubtitles node supports both "flat" and immersive 360VR text caption creation through the use of image projection conversion nodes.
 
-![vTextFromSubtitle Fuse](images/fuse-vTextFromSubtitles.png)

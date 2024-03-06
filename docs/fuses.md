@@ -72,6 +72,7 @@ The kvrViewer node can be used to generate "Tiny Planet" views of a scene.
 ![kvrViewer Viewer 2](images/fuse-kvrViewer-viewer-3.jpg)
 
 The kvrViewer node can display dual fisheye SBS content where it generates 180VR (180&deg;x180&deg;) stereo 3D output:
+
 ![kvrViewer Viewer 1](images/fuse-kvrViewer-viewer-1.png)
 
 ## kvrReframe360Ultra
@@ -89,8 +90,11 @@ The kvrReframe360Ultra node can be used to generate "Tiny Planet" views of a sce
 The kvrWarpStitchUltra node is used to stitch circular fisheye images into a latlong image projection. The node has parametric controls for adjusting the FOV, pan/tilt/roll, frame cropping, integrated masking, and colour correction.
 
 ![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-1.png)
+
 ![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-2.png)
+
 ![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-3.png)
+
 ![kvrWarpStitchUltra Fuse](images/fuse-kvrWarpStitchUltra-4.png)
 
 The example composite "Under The Bridge" shows how multi-view 360VR video stitching can be achieved with the help of the kvrWarpStitchUltra node:

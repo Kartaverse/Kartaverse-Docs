@@ -77,7 +77,7 @@ The kvrViewer node can display dual fisheye SBS content where it generates 180VR
 
 ## kvrReframe360Ultra
 
-Reframe immersive 360VR footage into "flat" media that can be played back on conventional displays. This node is also available as an Edit page Effects Template.
+The kvrReframe360Ultra node allows you to perform an "overcapture" effect that reframes immersive 360VR footage into "flat" media that can be played back on conventional displays. This node is also available as an Edit page Effects Template.
 
 ![kvrReframe360Ultra Fuse](images/fuse-kvrReframe360Ultra.png)
 
@@ -134,7 +134,6 @@ The Vonk Ultra example "Demo Subtitle.comp" shows the node graph layout required
 Typical Node Connections:
 
         vTextFromFile > vTextFromSubtitle > Text+
-
 
 The vTextFromSubtitles node supports both "flat" and immersive 360VR text caption creation through the use of image projection conversion nodes.
 

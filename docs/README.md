@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7** - Released 2024-03-05  
+**Version 5.7** - Released 2024-03-10  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -17,6 +17,8 @@ Kartaverse makes it a breeze to accessibly and affordably create content for use
 ![Panoramic Conversions](images/conversions.png)
 
 Kartaverse ships with the [Vonk Ultra](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) data nodes. Vonk can be thought of as node-based modifiers that live in the flow. These node-based operations provide a no-code alternative to using expressions or custom scripts. Data nodes are tools that allow you to interconnect nodes together by supporting more data types for the input and output connections such as numbers, text, spreadsheets, CSV, JSON, XML, YAML, metadata, arrays, matrices, and more.
+
+[Kartaverse PT](https://github.com/Kartaverse/PT-Data-Nodes-Docs) is a new set of data nodes that allow live-link access in Fusion to PTGui Pro .pts project files. This is the start of a new way to work with panoramic data in Fusion.
 
 ## <a name="install"></a>Installation
 

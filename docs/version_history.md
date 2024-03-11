@@ -1,6 +1,13 @@
 <a name="version-history"></a>
 ## Version History 
 
+### Version 5.7 - 2024-03-10
+
+- A new fuse documentation topic was added on GitHub.
+
+- Kartaverse "PT" nodes released. These nodes allow Vonk Ultra based data node techniques to be used to live-link to PTGui Pro v11 & 12 based .pts project files.
+
+- "Caguas VP" stitching example synced to Reactor.
 
 ### Version 5.7 - 2024-03-05
 

@@ -1,6 +1,10 @@
 <a name="version-history"></a>
 ## Version History 
 
+### Version 5.7.1 - 2024-04-25
+
+- The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into cubemap based frame layouts.
+
 ### Version 5.7 - 2024-03-10
 
 - A new fuse documentation topic was added on GitHub.

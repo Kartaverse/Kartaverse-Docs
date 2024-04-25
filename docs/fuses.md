@@ -1,11 +1,16 @@
 # Kartaverse Fuses
 
+## kvrCubic
+
+The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into cubemap based frame layouts.
+
+![kvrCubic Fuse](images/fuse-kvrCubic.png)
+
 ## kvrCropStereo
 
 The kvrCropStereo fuse allows you to re-crop stereo 3D footage with individual control over the left and right eye content.
 
 ![kvrCropStereo Fuse](images/fuse-kvrCropStereo.png)
-
 
 This stereo 3D aware cropping process makes it easy to pre-process production footage before applying image projection conversions.
 

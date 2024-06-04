@@ -2,7 +2,7 @@
 
 ## kvrCubic
 
-The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into cubemap based frame layouts.
+The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into CubeMap, 180VR, and 360VR based frame layouts. It supports monoscopic and stereo 3D output.
 
 ![kvrCubic Fuse](images/fuse-kvrCubic.png)
 

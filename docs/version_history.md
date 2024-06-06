@@ -1,6 +1,12 @@
 <a name="version-history"></a>
 ## Version History 
 
+### Version 5.7.2 - 2024-06-06
+
+- The updated kvrReframe360Ultra node adds a new "[x] Auto Resolution" checkbox control. When the checkbox is disabled you can manually specify the image width and height. This allows for the creation of content at aspect ratios like 9:16 video (2160 x 3840 px) or (1080 x 1920 px) for social media focused vertical format output with a higher image quality. Note: The Effects Template version of the kvrReframe360Ultra node still uses automatic image sizing.
+
+- The updated "kvrCubic" fuse now supports 180VR and 360VR output.
+
 ### Version 5.7.1 - 2024-04-25
 
 - The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into cubemap based frame layouts.

@@ -1,6 +1,6 @@
 # Open Source LGPL/GPL/BSD/Apache License Compliance Statement
 
-The KartaVR LUA scripts use the Panotools and Imagemagick programs through a command line interface. KartaVR does not link statically or dynamically to any Panotools/Imagemagick DLL libraries.
+The KartaVR LUA scripts use the Panotools and Imagemagick programs through a command line interface.
 
 ## Imagemagick Source Code
 
@@ -40,7 +40,7 @@ The source code to WinTee is included in the folder:
 
 ## ICC Profiles
 
-The ICC profiles included with RocketComp can also be downloaded directly from Adobe and ICC's websites:
+The ICC profiles included can also be downloaded directly from Adobe and ICC's websites:
 
 ### Adobe ICC Profiles for Bundlers
 
@@ -58,9 +58,9 @@ An unmodified binary pre-compiled version of the following LGPL based Cygwin lib
 `cyggcc_s-seh-1.dll`
 `cygintl-8.dll`
 
-The source code to Cygwin is included in the folder:
+The source code to Cygwin is included in the PathMap folder:
 
-`C:\Program Files\KartaVR\tools\cygwin\src\`
+`Reactor:\Deploy\Bin\cygwin\src\`
 
 [http://cygwin.com/git.html](http://cygwin.com/git.html)
 
@@ -68,17 +68,16 @@ The source code to Cygwin is included in the folder:
 
 An unmodified binary pre-compiled version of the GNU licensed [GZIP](https://www.gnu.org/software/gzip/) program is included in the `tools/cygwin/bin/` folder.
 
-The source code to GZIP is included in the folder:
+The source code to GZIP is included in the PathMap folder:
 
-`C:\Program Files\KartaVR\tools\cygwin\src\`
-
+`Reactor:\Deploy\Bin\cygwin\src\`
 
 ## Base64
 
-An unmodified binary pre-compiled version of the GNU licensed [base64 coreutils](http://www.gnu.org/software/coreutils/) program is included in the `tools/cygwin/bin/` folder.
+An unmodified binary pre-compiled version of the GNU licensed [base64 coreutils](http://www.gnu.org/software/coreutils/) program is included in the `cygwin/bin/` folder.
 
-The source code to coretools is included in the folder:
+The source code to coretools is included in the PathMap folder:
 
-`C:\Program Files\KartaVR\tools\cygwin\src\`
+`Reactor:\Deploy\Bin\cygwin\src\`
 
 

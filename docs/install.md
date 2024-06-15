@@ -2,14 +2,14 @@
 
 ### <a name="standard"></a>Standard Install
 
-The KartaVR for Reactor atom packages dramatically simplify the process of setting up the panoramic 360&deg; compositing toolset in Fusion. You can now do the full installation process without leaving Fusion once.
+The KartaVR for [Reactor](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=32&t=3067) atom packages dramatically simplify the process of setting up the panoramic 360&deg; compositing toolset in Fusion. You can now do the full installation process without leaving Fusion once.
 
 ### <a name="win-install"></a>Windows 64-bit Install
 
 #### Step 1.
 
 **Step 1.**
-Use Reactor to install the content found in the `KartaVR` category.
+Use Reactor to install the content found in the `Kartaverse` category.
 
 **Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:
@@ -228,7 +228,7 @@ For the technically inclined macOS user you can install ImageMagick using Xcode 
     sudo ports install ImageMagick
 
 **Step 1.**
-Use Reactor to install the content found in the `KartaVR` category.
+Use Reactor to install the content found in the `Kartaverse` category.
 
 **Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:
@@ -456,7 +456,7 @@ Ubuntu / Debian Linux users can also use the pre-compiled [ffmpeg package from t
 
 
 **Step 1.**
-Use Reactor to install the content found in the `KartaVR` category.
+Use Reactor to install the content found in the `Kartaverse` category.
 
 **Step 2.**
 Open up the newly created KartaVR Macros, Scripts, Bin, and Docs folders to become accustomed to the new KartaVR toolset and what it offers:

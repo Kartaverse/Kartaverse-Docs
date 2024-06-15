@@ -6,6 +6,12 @@ The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic 
 
 ![kvrCubic Fuse](images/fuse-kvrCubic.png)
 
+## kvrPlane
+
+The Kartaverse "kvrPlane" fuse allows you to place a flat image into a 180VR, or 360VR image projection. It supports monoscopic and stereo 3D output.
+
+![kvrPlane Fuse](images/fuse-kvrPlane.png)
+
 ## kvrCropStereo
 
 The kvrCropStereo fuse allows you to re-crop stereo 3D footage with individual control over the left and right eye content.
@@ -140,5 +146,5 @@ Typical Node Connections:
 
         vTextFromFile > vTextFromSubtitle > Text+
 
-The vTextFromSubtitles node supports both "flat" and immersive 360VR text caption creation through the use of image projection conversion nodes.
+The vTextFromSubtitles node supports both "flat" and immersive 360VR text caption creation through the use of an image projection conversion node like Kartaverse's "kvrPlane" fuse.
 

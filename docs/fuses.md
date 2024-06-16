@@ -6,11 +6,26 @@ The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic 
 
 ![kvrCubic Fuse](images/fuse-kvrCubic.png)
 
+Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
+
 ## kvrPlane
 
 The Kartaverse "kvrPlane" fuse allows you to place a flat image into a 180VR, or 360VR image projection. It supports monoscopic and stereo 3D output.
 
 ![kvrPlane Fuse](images/fuse-kvrPlane.png)
+
+This node performs a "plane to sphere" style of conversion.
+
+The node based layout is typically:
+
+    Text+/Loader/MediaIn -> kvrPlane -> AutoDomain -> kvrViewer
+
+There are onscreen control handles in the viewer window which make it quick to position content visually using a "Center" X/Y point control to apply yaw/pitch rotation to the imagery when it is projected into the spherical image projection.
+
+If you are working with non 1:1 aspect ratio source imagery, the "Resolution Gate Fit" control allows you to fit the imagery using either a "Stretch", "Width", or "Height" option. This is great if you want to place a small logo or other custom graphic element and not have to worry about the source image's dimensions and aspect ratio.
+
+Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
+
 
 ## kvrCropStereo
 

@@ -8,6 +8,8 @@ The kvrCreateStereo node works in Resolve (Free), Resolve Studio, and Fusion Stu
 
 When converting between stereo 3d layouts, the term "Dual In" is used in the Inspector panel to represent the "Dual Input" connection mode where you have an Image1 and Image2 set of inputs that feed separate left and right eye view media into the kvrCreateStereo node.
 
+It is helpful to get in the habit of adding an Autodomain node directly after a kvrCreateStereo node. This will optimize the Fusion DoD (Domain of Definition) active content frame sizing information which is useful for optimizing rendering efficiency.
+
 ![kvrCreateStereo Fuse](images/fuse-kvrCreateStereo.png)
 
 ## kvrCubic

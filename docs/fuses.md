@@ -1,5 +1,15 @@
 # Kartaverse Fuses
 
+## kvrCreateStereo
+
+The Kartaverse "kvrCreateStereo" fuse allows you to reformat stereo 3D imagery between mono, dual input, horizontal (SBS), and vertical (OU) frame layouts.
+
+The kvrCreateStereo node works in Resolve (Free), Resolve Studio, and Fusion Studio. It is able to act as a direct replacement for the Resolve Studio requiring "Splitter" and "Combiner" stereo 3D nodes.
+
+When converting between stereo 3d layouts, the term "Dual In" is used in the Inspector panel to represent the "Dual Input" connection mode where you have an Image1 and Image2 set of inputs that feed separate left and right eye view media into the kvrCreateStereo node.
+
+![kvrCreateStereo Fuse](images/fuse-kvrCreateStereo.png)
+
 ## kvrCubic
 
 The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into CubeMap, 180VR, and 360VR based frame layouts. It supports monoscopic and stereo 3D output.

@@ -1,5 +1,10 @@
 <a name="version-history"></a>
+
 ## Version History 
+
+### Version 5.7.2 - 2024-06-26
+
+- The Kartaverse "kvrCreateStereo" fuse allows you to reformat stereo 3D imagery between mono, dual input, horizontal (SBS), and vertical (OU) frame layouts.
 
 ### Version 5.7.2 - 2024-06-15
 
@@ -7,11 +12,11 @@
 
 - Updated the "kvrViewer" fuse to add an "[x] Auto Resolution" checkbox. When the checkbox is disabled you can manually specify the image width and height.
 
-- Updated the kvrCubic fuse to adjust the Center Y axis control range.
+- Updated the "kvrCubic" fuse to adjust the Center Y axis control range.
 
 ### Version 5.7.2 - 2024-06-06
 
-- The updated kvrReframe360Ultra node adds a new "[x] Auto Resolution" checkbox control. When the checkbox is disabled you can manually specify the image width and height. This allows for the creation of content at aspect ratios like 9:16 video (2160 x 3840 px) or (1080 x 1920 px) for social media focused vertical format output with a higher image quality. Note: The Effects Template version of the kvrReframe360Ultra node still uses automatic image sizing.
+- The updated "kvrReframe360Ultra" node adds a new "[x] Auto Resolution" checkbox control. When the checkbox is disabled you can manually specify the image width and height. This allows for the creation of content at aspect ratios like 9:16 video (2160 x 3840 px) or (1080 x 1920 px) for social media focused vertical format output with a higher image quality. Note: The Effects Template version of the kvrReframe360Ultra node still uses automatic image sizing.
 
 - The updated "kvrCubic" fuse now supports 180VR and 360VR output.
 

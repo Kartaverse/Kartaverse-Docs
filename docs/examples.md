@@ -1,6 +1,6 @@
-# Fusion Compositing Examples
+# Legacy KartaVR Fusion Compositing Examples
 
-This page lists the example Fusion .comp files that come built-in with the KartaVR product download.
+This page lists the example Fusion .comp files that come built-in with the KartaVR product download. These examples use the older KartaVR macro nodes that were optimized to support Fusion (Free) v9.0.2.
 
 <a name="angular-to-cube"></a>
 ## Angular to Cube.comp

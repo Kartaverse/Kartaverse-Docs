@@ -2,6 +2,16 @@
 
 ## Version History 
 
+### Version 5.7.3 - 2024-06-28
+
+- The "kvrCropStero" node's "Reset" button now auto-fits the left an right eye view crop regions to the appropriate canvas size for the current stereo 3D mode.
+
+- Updated the KartaVP example image filepaths so they are stored in the common KartaVR macro's image folder location.
+
+- Updated the legacy KartaVR macro .setting files' embedded help URLs to point to the Kartaverse GitHub page webpage address when the F2 shortcut is pressed.
+
+- Added the exact PTGui version number compatibility detail to the "Generate UV Pass in PTGui 10.lua" script to make it clearer this tool does not work with PTGui v11-12 JSON format .pts files.
+
 ### Version 5.7.2 - 2024-06-26
 
 - The Kartaverse "kvrCreateStereo" fuse allows you to reformat stereo 3D imagery between mono, dual input, horizontal (SBS), and vertical (OU) frame layouts.

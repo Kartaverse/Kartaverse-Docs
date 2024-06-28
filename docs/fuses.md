@@ -49,6 +49,10 @@ This stereo 3D aware cropping process makes it easy to pre-process production fo
 
 ![kvrCropStereo Image View](images/fuse-kvrCropStereo-viewer.png)
 
+The fastest way to get the initial positioning updated for the kvrCropStereo crop regions is to choose the stereo 3D setting you want like mono, or stereo 3D horizontal/vertical. Then click the "Reset" button to auto-fit the left/right eye view crop regions to the image canvas dimensions.
+
+If you want to get the initial sizing updated
+
 ## kvrLens
 
 Apply lens distortion correction using brown-conrady, syntheyes, and panotools lens models.

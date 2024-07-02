@@ -30,15 +30,17 @@ A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.go
 
 The [Vonk Ultra documentation](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) is accessible on Google Docs and the [development thread](https://www.steakunderwater.com/wesuckless/viewtopic.php?p=41165#p41165) is on the Steakunderwater forum. Vonk is a collection of data nodes based tools that help technical artists take their workflows to the next level.
 
-# Kartaverse Technical Support
+# Social Media
 
-Technical support for Kartaverse is handled by the official [Kartaverse Google Group](https://groups.google.com/g/kartaverse/). If you've got a question about 360VR and immersive workflows in Resolve and Fusion Standalone, the Kartaverse User Group is the place to get it answered.
+## Facebook Group
+
+Check out the [KartaVR Facebook Group](https://www.facebook.com/groups/kartavr) if you want to read the latest Kartaverse news, or talk directly with other  users.
 
 ## Kartaverse Blog
 
 The [Kartaverse Blog](https://medium.com/@andrewhazelden) is hosted on Medium.
 
-# Facebook Group
+## Kartaverse Technical Support
 
-If you want to read the latest news, or talk directly with other Kartaverse users, there is a [KartaVR Facebook Group](https://www.facebook.com/groups/kartavr).
+Technical support for Kartaverse is handled by the official [Kartaverse Google Group](https://groups.google.com/g/kartaverse/). If you've got a question about 360VR and immersive workflows in Resolve and Fusion Standalone, the Kartaverse User Group is the place to get it answered.
 

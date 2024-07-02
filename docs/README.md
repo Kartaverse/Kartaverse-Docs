@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-01  
+**Version 5.7.3** - Released 2024-07-02  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -18,7 +18,7 @@ Kartaverse makes it a breeze to accessibly and affordably create content for use
 
 Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [WSL Reactor package manager](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=32&t=3067) for Resolve/Fusion. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
 
-Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager.
+Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
 ![KartaVR for Reactor](images/kartavr-Install.png)
 

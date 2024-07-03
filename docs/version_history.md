@@ -2,6 +2,18 @@
 
 ## Version History 
 
+### Version 5.7.3.0.3 - 2024-07-03
+
+- KartaVR PTGui DragDrop.fu updated to add a ptLoader and ptOutputImage node when a PTGui v11-12+ JSON formatted .pts file is dragged into the Nodes view. This depreciates the previous action of running the "Generate UV Pass in PTGui 10" script.
+- Kartaverse Docs Update
+- Vonk Ultra Docs Updated and a revised PDF is included with the Vonk Ultra package for local help docs.
+- Kartaverse Atom Packages Updated in Reactor
+- The "Scripts > KartaVR > Open Folder" Menu Items Updated
+- The "Scripts > KartaVR > View Help Documentation" menu item was updated to point to the Kartaverse GitHub docs page.
+- A "Scripts > KartaVR > View Immersive Pipeline Integration Guide" menu item was added.
+- The "Directory Tree" script was updated to support JSON document imports using Vonk Ultra nodes, and PTGui v11-12+ JSON formatted .pts imports using the Kartaverse PT nodes.
+- A "MultiMerge Selected" script was added to Reactor and included as a package dependency with the main KartaVR atom package.
+
 ### Version 5.7.3 - 2024-06-28
 
 - The "kvrCropStero" node's "Reset" button now auto-fits the left an right eye view crop regions to the appropriate canvas size for the current stereo 3D mode.

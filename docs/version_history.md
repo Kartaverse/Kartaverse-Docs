@@ -2,7 +2,7 @@
 
 ## Version History 
 
-### Version 5.7.3.0.3 - 2024-07-03
+### Version 5.7.3.0.3 - 2024-07-05
 
 - KartaVR PTGui DragDrop.fu updated to add a ptLoader and ptOutputImage node when a PTGui v11-12+ JSON formatted .pts file is dragged into the Nodes view. This depreciates the previous action of running the "Generate UV Pass in PTGui 10" script.
 - Kartaverse Docs Update
@@ -13,6 +13,7 @@
 - A "Scripts > KartaVR > View Immersive Pipeline Integration Guide" menu item was added.
 - The "Directory Tree" script was updated to support JSON document imports using Vonk Ultra nodes, and PTGui v11-12+ JSON formatted .pts imports using the Kartaverse PT nodes.
 - A "MultiMerge Selected" script was added to Reactor and included as a package dependency with the main KartaVR atom package.
+- Added the KartaLink "HQueue Render.py" script that allows Fusion comp jobs to be submitted to a Houdini HQueue based render farm.
 
 ### Version 5.7.3 - 2024-06-28
 

@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-03  
+**Version 5.7.3** - Released 2024-07-05  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -47,7 +47,12 @@ Technical support for Kartaverse is handled by the official [Kartaverse Google G
     - [Kartaverse Fuse Nodes](fuses)
     - [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
     - [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
-- [Scripts](scripts)
+    - [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
+- Kartaverse Scripts:
+    - [KartaVR Scripts Menu](scripts)
+    - KartaLink:
+        - [HQueue Render](hqueue)
+        - [Media Command](mediacommand)
 - [Open Source](opensource_tools)
 - [Legacy Content](legacy)
 - [Version History](version_history)

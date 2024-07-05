@@ -767,11 +767,11 @@ To use these blending masks in your Fusion composite you would typically connect
 
 **Step 3.** Run the **Script > KartaVR > Stitching > Generate Panoramic Blending Masks**  menu item.
 
-## <a name="generate-uv-pass-in-ptgui"></a>Generate UV Pass in PTGui
+## <a name="generate-uv-pass-in-ptgui"></a>Generate UV Pass in PTGui 10
 
-The `Generate UV Pass in PTGui` script will use Imagemagick and PTGui Pro 10 to create a collection of UV Pass maps that can be used in Fusion or other programs like After Effects, Nuke, or TouchDesigner to quickly and efficiently warp and stitch multi-camera rig panoramic 360 degree imagery.
+The `Generate UV Pass in PTGui 10` script will use Imagemagick and PTGui Pro 10 to create a collection of UV Pass maps that can be used in Fusion or other programs like After Effects, Nuke, or TouchDesigner to quickly and efficiently warp and stitch multi-camera rig panoramic 360 degree imagery.
 
-**Note: This script is designed to work with .pts files created by PTGui Pro v10 that is based around the PTStitcher syntax. Newer versions of PTGui Pro (v11 and v12) changed the .pts file format to use a JSON data structure which is not compatible with this script.**
+**Note: This script is designed to work with .pts files created by PTGui Pro v10 that is based around the PTStitcher syntax. Newer versions of PTGui Pro (v11 - v12+) changed the .pts file format to use a JSON data structure which is not compatible with this script.**
 
 A nice feature of the script is that it is able to re-interpolate the position of the PTGui control points when a UV Pass map is generated so you can easily oversample your uv pass output. Also the script will automatically update the resolution and aspect ratio so the control points will stay locked to the original features in the source images which allows the PTGui Optimizer to function correctly.
 
@@ -787,7 +787,7 @@ Floating point .exr images can have strange settings added to the PTGui based .p
 
 **Step 1.** Start Fusion and open a new comp.
 
-**Step 2.** Run the **Script > KartaVR > Stitching > Generate UV Pass in PTGui**  menu item.
+**Step 2.** Run the **Script > KartaVR > Stitching > Generate UV Pass in PTGui 10**  menu item.
 
 **Step 3.** In the Generate UV Pass in PTGui dialog window you need to select a PTGui .pts file using the "PTGui Project File" text field.
 

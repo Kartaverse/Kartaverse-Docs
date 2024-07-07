@@ -2,6 +2,12 @@
 
 ## Version History 
 
+### Version 5.7.3.0.4 - 2024-07-07
+
+- A new "[Reactor Atom Docs](https://kartaverse.github.io/Reactor-Docs/)" webpage was created. This resources lists all of the content in the Reactor Package Manager.
+- The "kvrViewer" fuse received a new "Dome Tilt Angle" control that allows you to tip the initial viewing pitch axis orientation of the screen surface relative to the observer. This is useful for simulating fulldome theatres that have stadium seating with a theatre screen that is not horizontal.
+- The "kvrViewer" fuse "Mask Diameter" control default setting was changed from 2.0 to 1.0. This will make it easier for people to apply edge feathering effects to circular fisheye media that you want to convert for 180VR viewing workflows. If you are outputting SBS or OU Stereo, you can combine the edge feathering with the "Solid Alpha" checkbox to easily flatten the transparent region's background color to black.
+
 ### Version 5.7.3.0.3 - 2024-07-05
 
 - KartaVR PTGui DragDrop.fu updated to add a ptLoader and ptOutputImage node when a PTGui v11-12+ JSON formatted .pts file is dragged into the Nodes view. This depreciates the previous action of running the "Generate UV Pass in PTGui 10" script.
@@ -18,11 +24,8 @@
 ### Version 5.7.3 - 2024-06-28
 
 - The "kvrCropStero" node's "Reset" button now auto-fits the left an right eye view crop regions to the appropriate canvas size for the current stereo 3D mode.
-
 - Updated the KartaVP example image filepaths so they are stored in the common KartaVR macro's image folder location.
-
 - Updated the legacy KartaVR macro .setting files' embedded help URLs to point to the Kartaverse GitHub page webpage address when the F2 shortcut is pressed.
-
 - Added the exact PTGui version number compatibility detail to the "Generate UV Pass in PTGui 10.lua" script to make it clearer this tool does not work with PTGui v11-12 JSON format .pts files.
 
 ### Version 5.7.2 - 2024-06-26
@@ -32,9 +35,7 @@
 ### Version 5.7.2 - 2024-06-15
 
 - The "kvrPlane" fuse allows you to place a flat image into a 180VR, or 360VR image projection.
-
 - Updated the "kvrViewer" fuse to add an "[x] Auto Resolution" checkbox. When the checkbox is disabled you can manually specify the image width and height.
-
 - Updated the "kvrCubic" fuse to adjust the Center Y axis control range.
 
 ### Version 5.7.2 - 2024-06-06
@@ -50,9 +51,7 @@
 ### Version 5.7 - 2024-03-10
 
 - A new fuse documentation topic was added on GitHub.
-
 - Kartaverse "PT" nodes released. These nodes allow Vonk Ultra based data node techniques to be used to live-link to PTGui Pro v11 & 12 based .pts project files.
-
 - "Caguas VP" stitching example synced to Reactor.
 
 ### Version 5.7 - 2024-03-05
@@ -60,39 +59,24 @@
 - The Kartaverse project moved the [documentation to GitHub](https://github.com/kartaverse).
 
 - The kvrViewer node allows you to quickly view flat, 360VR, 180VR, and fisheye panoramic videos in Resolve/Fusion. 
-
 - The kvrLens and kvrLensStereo DCTL fuses allows you to distort your imagery using either the "Brown-Conrady", "Panotools", or "SynthEyes" lens distortion models. Brown-Conrady is popular with computer vision tools like OpenCV, and photogrammetry/NeRF tools. Panotools is used with 360VR panoramic imagery. SynthEyes is used for camera tracking/match moving. 
-
 - The "kvrSTMapGenerator" DCTL fuse allows you to generate an initial STMap template.
-
 - The kvrGrade node allows you to apply stereoscopic 3D aware color correction.
-
 - The kvrCropStereo node allows you to crop stereo 3D imagery with individual control over the left and right eye views. You can also do per-eye rotation corrections to adjust for camera body positioning on a tripod with presets for 0°, 90°, 180°, and 270° image orientations.
-
 - The USD Outliner script allows to you to browse the disk-based OpenUSD stage hierarchy in Fusion based uLoader nodes. 
-
 - The "Dual Fisheye Stitching Comp" includes a kvrDualFisheye effects template that works with footage from a dual circular fisheye lens camera. It expects footage that has a pair of front and back circular fisheye lens images merged into the same frame layout. The default settings for the macro have been tuned for a Samsung Gear360 camera. 
-
 - The OCA (Open Cell Animation) data nodes allow you to interact with 2D animation data inside a node graph. This approach works with a series of nodal operators that allow you to edit and modify the OCA data on the fly. 
 
 ### Version 5.1 - 2023-05-11
 
 - A pioSaver fuse was added. This node allows multi-channel EXR images to be saved to disk with greater control over the output formatting. Customizable EXR compression codec support was added.
-
 - The LifeSaver fuse was updated to add customizable EXR compression codec support.
-
 - The Light Editor script streamlines the process of editing light parameters in a Fusion 3D workspace based scene.
-
 - Media Command is a scriptable interface for batch processing content that resides in your Resolve Media Pool. This streamlines the process of selecting footage, and running automation scripts on those specific items.
-
 - The KartaLink Apple Script fuse allows you to run macOS based Apple Script code snippets from inside a Fusion Studio node-graph. This unlocks node-based automation techniques such as controlling external applications via Apple Events and OSAX (Open Scripting Architecture Extension) scripting. 
-
 - The KartaLink Keyboard Maestro fuse allows you to run macOS based Keyboard Maestro macros from inside Fusion's node graph. This unlocks node-based GUI automation techniques such as controlling external applications via simulating keyboard and mouse actions. 
-
 - The older Fusion "macros" in KartaVR were labelled "Legacy" to help separate them from the newer fuse based tools that work more efficiently in Resolve's Fusion page.
-
 - InstantNGP was added to the Reactor "Bin" Category.
-
 - COLMAP SfM was added to the Reactor "Bin" Category.
 
 ### Version 5 - 2021-12-31

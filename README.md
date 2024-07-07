@@ -12,6 +12,8 @@ Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed th
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
+Note: It is now possible to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This site allows you to easily search through all the Reactor atom packages.
+
 # For More Information
 
 ## KartaVR

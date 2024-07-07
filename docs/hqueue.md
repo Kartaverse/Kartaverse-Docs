@@ -6,7 +6,7 @@ Are you currently using Houdini HQueue to manage the 3D rendering jobs on your r
 
 The "HQueue Render.py" comp script allows Fusion Studio to submit compositing jobs for rendering via Houdini HQueue. The script works great in both a "local queue", and for larger render farm usage scenarios.
 
-![KartaLink HQueue Render](Images/KartaLink-Submit-Fusion-Comps-to-Houdini-HQueue.png)
+![KartaLink HQueue Render](images/KartaLink-Submit-Fusion-Comps-to-Houdini-HQueue.png)
 
 ## Open Source Software License
 
@@ -27,7 +27,7 @@ This toolset is available in the Reactor package manager under the category head
 
 Note: If you haven't heard of the "HQueue" render farm management software before, it is the license-free render farm manager from SideFX Software.
 
-![Reactor Package Manager](Images/KartaLink-HQueue-Render-Reactor-Package-Manager.png)
+![Reactor Package Manager](images/KartaLink-HQueue-Render-Reactor-Package-Manager.png)
 
 ## Usage
 
@@ -35,18 +35,17 @@ Step 1. Make sure you have defined the Reactor PathMap settings in your Fusion R
 
 Step 2. Open the HQueue management webpage. (Typically this defaults to "http://localhost:5000"). Use the HQueue webUI to create an HQueue "Client Group" called "Fusion".
 
-![HQueue Groups 1](Images/HQueue-Groups-1.png)
-![HQueue Groups 2](Images/HQueue-Groups-2.png)
+![HQueue Groups 1](images/HQueue-Groups-1.png)
+![HQueue Groups 2](images/HQueue-Groups-2.png)
 
 Step 3. Open a Fusion comp. Select the "Scripts > KartaLink > HQueue Render" menu item to submit a Fusion composite to your render farm.
 
 Set the "Frames Per Task" value to define how large of a frame chunk you want each job task to use. A value of zero sets the job to render as a single job task.
 
+![KartaLink HQueue Render 2](images/HQueue-WebUI-1.png)
 
-![KartaLink HQueue Render 2](Images/HQueue-WebUI-2.png)
+![KartaLink HQueue Render 2](images/HQueue-WebUI-2.png)
 
-![KartaLink HQueue Render 3](Images/HQueue-WebUI-3.png)
+![KartaLink HQueue Render 3](images/HQueue-WebUI-3.png)
 
-![KartaLink HQueue Render 4](Images/HQueue-WebUI-4.png)
-
-![KartaLink HQueue Render 5](Images/HQueue-WebUI-5.png)
+![KartaLink HQueue Render 4](images/HQueue-WebUI-4.png)

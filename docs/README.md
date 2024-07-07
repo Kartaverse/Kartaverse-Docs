@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-05  
+**Version 5.7.3** - Released 2024-07-07  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -23,6 +23,8 @@ Kartaverse/KartaVR can be used on personal and commercial projects at no cost. I
 ![KartaVR for Reactor](images/kartavr-Install.png)
 
 Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-19+, DaVinci Resolve (Free) v15-19+, and DaVinci Resolve Studio v15-19+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
+
+Note: It is now possible to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This site allows you to easily search through all the Reactor atom packages.
 
 # Social Media
 

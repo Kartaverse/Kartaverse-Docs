@@ -2,8 +2,9 @@
 
 ## Version History 
 
-### Version 5.7.3.0.4 - 2024-07-07
-
+### Version 5.7.3.0.4 - 2024-07-08
+- Created a "[Reactor Docs](https://kartaverse.github.io/Reactor-Docs)" GitHub project that provides access to an online browsable version of the Reactor Package Manager "atoms" list. You can now read descriptions for the atoms in a web browser and easily search for tools.
+- Updated the "kvrSTMapGenerator" fuse to add an "Auto Resolution" checkbox, along with customizable "Width" and "Height" controls. This allows more customization of the generated STMap image resolution.
 - A new "[Reactor Atom Docs](https://kartaverse.github.io/Reactor-Docs/)" webpage was created. This resources lists all of the content in the Reactor Package Manager.
 - The "kvrViewer" fuse received a new "Dome Tilt Angle" control that allows you to tip the initial viewing pitch axis orientation of the screen surface relative to the observer. This is useful for simulating fulldome theatres that have stadium seating with a theatre screen that is not horizontal.
 - The "kvrViewer" fuse "Mask Diameter" control default setting was changed from 2.0 to 1.0. This will make it easier for people to apply edge feathering effects to circular fisheye media that you want to convert for 180VR viewing workflows. If you are outputting SBS or OU Stereo, you can combine the edge feathering with the "Solid Alpha" checkbox to easily flatten the transparent region's background color to black.

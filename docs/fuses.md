@@ -79,10 +79,14 @@ The "kvrSTMapGenerator" fuse allows you to generate an initial STMap template.
 
 ![kvrSTMapGenerator Fuse](images/fuse-kvrSTMapGenerator.png)
 
+The "Auto Resolution" checkbox will use the connected source footage resolution for the width and height of the STmap gradient pattern. 
+
+If you disable the "Auto Resolution" checkbox, you can manually define a resolution override to allow you to increase the STMap width and height to a different (usually larger) size than the source imagery. This is a useful control to have access to if you are going to apply a post-cropping effect to the STMap, further down in the comp, with a node like kvrCropStereo and want the final STmap frame size to be a certain size.
+
 For more information about STMap warping workflows check out the document:
 [Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)
 
-An STMap gradient image is able to hold pre-computed warping data in an image's red and green channels. You need to save an STMap in a 16-bit or 32-bit per-channel image with lossless compression to avoid artifacts.
+An STMap gradient image is able to hold pre-computed warping data in an image's red and green channels. You need to save an STMap in a 16-bit or 32-bit per-channel image with lossless compression to avoid artifacts. ZIP or ZIPS (ZIP Scanline) is a good choice for an EXR image codec for storing STMaps.
 
 ![kvrSTMapGenerator Fuse](images/fuse-kvrSTMapGenerator-viewer.png)
 

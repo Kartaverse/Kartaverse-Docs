@@ -2,12 +2,16 @@
 
 ## Version History 
 
-### Version 5.7.3.0.4 - 2024-07-08
+### Version 5.7.3.0.4 - 2024-07-10
 - Created a "[Reactor Docs](https://kartaverse.github.io/Reactor-Docs)" GitHub project that provides access to an online browsable version of the Reactor Package Manager "atoms" list. You can now read descriptions for the atoms in a web browser and easily search for tools.
 - Updated the "kvrSTMapGenerator" fuse to add an "Auto Resolution" checkbox, along with customizable "Width" and "Height" controls. This allows more customization of the generated STMap image resolution.
 - A new "[Reactor Atom Docs](https://kartaverse.github.io/Reactor-Docs/)" webpage was created. This resources lists all of the content in the Reactor Package Manager.
 - The "kvrViewer" fuse received a new "Dome Tilt Angle" control that allows you to tip the initial viewing pitch axis orientation of the screen surface relative to the observer. This is useful for simulating fulldome theatres that have stadium seating with a theatre screen that is not horizontal.
 - The "kvrViewer" fuse "Mask Diameter" control default setting was changed from 2.0 to 1.0. This will make it easier for people to apply edge feathering effects to circular fisheye media that you want to convert for 180VR viewing workflows. If you are outputting SBS or OU Stereo, you can combine the edge feathering with the "Solid Alpha" checkbox to easily flatten the transparent region's background color to black.
+- The "kvrPlane" fuse was updated to fix an issue with the redraw of animated transparent regions. Also a DCTL Kernel naming issue was solved that related to a shared global variable that overlapped with the "kvrCube" fuse. An image auto sizing aspect ratio issue was fixed if non 1:1 aspect ratio source imagery is loaded in. The "Resolution Gate Fit" control defaults to "Width".
+- The "kvrCropStereo" fuse has a new "View Mode" control that can be set to either "Final Result" or "Original Image". It is often easier to draw out the crop regions when looking at the original image if you are using the onscreen control handles.
+- The Kartaverse PT nodes "ptOutputFilename" and "ptImageFilename" have a new "parse" control added. This allows you to modify the generated filenames using a similar set of controls as the Vonk Ultra "vTextParseFilename" node provides.
+- The Kartaverse PT node "ptImageFilename" has a new "Asset Mode" control that allows you to select images using either an "Image ID" index value, or an "IFL" mode which outputs all image names to a multi-line text block. 
 
 ### Version 5.7.3.0.3 - 2024-07-05
 

@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-08  
+**Version 5.7.3** - Released 2024-07-10  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -55,6 +55,9 @@ Technical support for Kartaverse is handled by the official [Kartaverse Google G
     - KartaLink:
         - [HQueue Render](hqueue)
         - [Media Command](mediacommand)
+- Kartaverse Effects Templates:
+    - [STmapperInline](stmapperinline)
+    - [Dual Fisheye](dualfisheye)
 - [Open Source](opensource_tools)
 - [Legacy Content](legacy)
 - [Version History](version_history)

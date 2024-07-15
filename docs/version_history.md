@@ -2,6 +2,9 @@
 
 ## Version History 
 
+### Version 5.7.3.0.5 - 2024-07-14
+- Added a "Spatial Metadata.lua" media command script, and a standalone desktop compiled .app. More information is available from the [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) project's GitHub page.
+
 ### Version 5.7.3.0.4 - 2024-07-10
 - Created a "[Reactor Docs](https://kartaverse.github.io/Reactor-Docs)" GitHub project that provides access to an online browsable version of the Reactor Package Manager "atoms" list. You can now read descriptions for the atoms in a web browser and easily search for tools.
 - Updated the "kvrSTMapGenerator" fuse to add an "Auto Resolution" checkbox, along with customizable "Width" and "Height" controls. This allows more customization of the generated STMap image resolution.

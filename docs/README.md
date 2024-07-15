@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-10  
+**Version 5.7.3** - Released 2024-07-14  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -24,7 +24,9 @@ Kartaverse/KartaVR can be used on personal and commercial projects at no cost. I
 
 Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-19+, DaVinci Resolve (Free) v15-19+, and DaVinci Resolve Studio v15-19+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
 
-Note: It is now possible to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This site allows you to easily search through all the Reactor atom packages.
+## Reactor Package Manager Online Atoms
+
+It is now possible to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This site allows you to easily search through all the Reactor atom packages to find what you are looking for.
 
 # Social Media
 
@@ -40,7 +42,6 @@ The [Kartaverse Blog](https://medium.com/@andrewhazelden) is hosted on Medium.
 
 Technical support for Kartaverse is handled by the official [Kartaverse Google Group](https://groups.google.com/g/kartaverse/). If you've got a question about 360VR and immersive workflows in Resolve and Fusion Standalone, the Kartaverse User Group is the place to get it answered.
 
-
 # Table of Contents
 
 - [Overview](#overview)
@@ -55,6 +56,7 @@ Technical support for Kartaverse is handled by the official [Kartaverse Google G
     - KartaLink:
         - [HQueue Render](hqueue)
         - [Media Command](mediacommand)
+        - [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
 - Kartaverse Effects Templates:
     - [STmapperInline](stmapperinline)
     - [Dual Fisheye](dualfisheye)

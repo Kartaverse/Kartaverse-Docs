@@ -21,6 +21,10 @@ A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.go
 
 Hugh Hou has published several Resolve/Fusion centric VR tutorials on his YouTube channel.
 
+### kvrViewer and kvrCropStereo
+
+This video covers the usage of the kvrViewer and kvrCropStereo nodes. The presentation covers how to edit Canon R7 and Canon R5C VR180 footage using DaVinci Resolve 19: [No Subscription! Edit Canon R7 & R5C VR180 in DaVinci Resolve - Free EOS VR Utility Alternative](https://www.youtube.com/watch?v=kwVlVEXg3og)
+
 ### Reframe360Ultra
 
 This video covers the usage of Reframe360Ultra for reframing videos:

@@ -1,6 +1,6 @@
 # About Kartaverse
 
-Kartaverse is an academic research project to explore computational imaging techniques. The Kartaverse software provides a free open-source post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
+Kartaverse is an academic research project exploring computational imaging techniques. The Kartaverse software provides a free open-source post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
 
 "Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows. 
 

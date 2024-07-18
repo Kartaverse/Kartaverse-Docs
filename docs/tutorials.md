@@ -21,6 +21,10 @@ A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.go
 
 Hugh Hou has published several Resolve/Fusion centric VR tutorials on his YouTube channel.
 
+### KartaLink Spatial Metadata GUI
+
+Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision Pro and Meta Quest HMDs. This video covers the Spatial Metadata GUI as a standalone tool, and as a media command/trigger script that works inside of BMD Resolve (Free)/Resolve Studio: [No Code! Free Spatial Video Metadata Injector for Apple Vision Pro | Standalone & DaVinci Resolve](https://www.youtube.com/watch?v=PJWsscXmJiE)
+
 ### kvrViewer and kvrCropStereo
 
 This video covers the usage of the kvrViewer and kvrCropStereo nodes. The presentation covers how to edit Canon R7 and Canon R5C VR180 footage using DaVinci Resolve 19: [No Subscription! Edit Canon R7 & R5C VR180 in DaVinci Resolve - Free EOS VR Utility Alternative](https://www.youtube.com/watch?v=kwVlVEXg3og)

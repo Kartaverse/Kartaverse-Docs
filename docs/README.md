@@ -3,13 +3,13 @@
 # Welcome to Kartaverse
 
 - Made in West Dover, Nova Scotia, Canada 🇨🇦
-- The Kartaverse 6 reboot is planned for [Dec 24, 2024](https://days.to/christmas-eve/2024/12/24)
+- The Kartaverse 6 launch is planned for [Dec 24, 2024](https://days.to/christmas-eve/2024/12/24)
 
 -------------------------
 
 # <a name="overview"></a>Overview
 
-> [Kartaverse](https://github.com/kartaverse) is an academic research project exploring computational imaging techniques. The Kartaverse software provides a free open-source post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
+> [Kartaverse](https://github.com/kartaverse) is an academic research project exploring computational imaging techniques. Kartaverse provides a post-production pipeline that is optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
 
 > "Karta" is the Swedish word for map. With Kartaverse you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.
 

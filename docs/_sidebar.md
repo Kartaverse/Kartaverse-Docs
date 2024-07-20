@@ -6,7 +6,6 @@
     - [GitHub](https://github.com/AndrewHazelden)
     - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
 - **Links**
-  - [Kartaverse](https://github.com/kartaverse)
   - [Medium Blog](https://medium.com/@andrewhazelden)
   - [Facebook Group](https://www.facebook.com/groups/kartavr)
   - [Google Group](https://groups.google.com/g/kartaverse/)

@@ -3,7 +3,7 @@
 # Welcome to Kartaverse
 
 - Made in West Dover, Nova Scotia, Canada 🇨🇦
-- The "Kartaverse Cloud" reboot is planned for [Dec 24, 2024](https://days.to/christmas-eve/2024/12/24)
+- The Kartaverse 6 reboot is planned for [Dec 24, 2024](https://days.to/christmas-eve/2024/12/24)
 
 -------------------------
 

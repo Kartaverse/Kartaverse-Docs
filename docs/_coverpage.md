@@ -6,7 +6,7 @@
 
 > An academic research project exploring computational imaging techniques.
 
-- Kartaverse is a post-production pipeline optimized for the immersive media sector.
+-  Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
 
 - (Scroll down for more info...)
 

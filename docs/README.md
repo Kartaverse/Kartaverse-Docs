@@ -3,7 +3,7 @@
 # Kartaverse for DaVinci Resolve/Fusion Studio
 
 -------------------------
-**Version 5.7.3** - Released 2024-07-17  
+**Version 5.7.3** - Released 2024-07-20  
 by Andrew Hazelden [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)
 
 ## <a name="overview"></a>Overview
@@ -44,6 +44,8 @@ Technical support for Kartaverse is handled by the official [Kartaverse Google G
 
 # Table of Contents
 
+## Kartaverse for DaVinci Resolve/Fusion
+
 - [Overview](#overview)
 - [Tutorials](tutorials)
 - Fuses:
@@ -61,8 +63,18 @@ Technical support for Kartaverse is handled by the official [Kartaverse Google G
     - [STmapperInline](stmapperinline)
     - [Dual Fisheye](dualfisheye)
 - [Open Source](opensource_tools)
-- [Legacy Content](legacy)
+- [Legacy KartaVR for Fusion 9 Content](legacy)
 - [Version History](version_history)
+
+# Kartaverse for Assimilate LiveFX/Scratch
+
+- Custom Commands:
+    - [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
+    - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
+
+# Kartaverse 6 Valkyrie Engine
+
+- [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)
 
 Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2024. All rights reserved. KartaVR was formerly known as the "Domemaster Fusion Macros".
 

@@ -17,6 +17,7 @@
     - [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
   - Scripts:
     - [KartaVR Scripts Menu](scripts)
+    - [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/#/)
     - KartaLink:
       - [HQueue Render](hqueue)
       - [Media Command](mediacommand)

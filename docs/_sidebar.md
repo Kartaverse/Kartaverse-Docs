@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-- [Overview](#overview)
 - **Contact**
     - [Email](mailto:andrew@andrewhazelden.com)
     - [GitHub](https://github.com/AndrewHazelden)
@@ -10,7 +9,7 @@
   - [Facebook Group](https://www.facebook.com/groups/kartavr)
   - [Google Group](https://groups.google.com/g/kartaverse/)
   - [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
-- **DaVinci Resolve/Fusion**
+- **Kartaverse for DaVinci Resolve/Fusion**
   - Fuses:
     - [Kartaverse Fuse Nodes](fuses)
     - [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
@@ -29,11 +28,11 @@
   - [Legacy Fusion 9 Content](legacy)
   - [Tutorials](tutorials)
   - [Version History](version_history)
-- **Assimilate LiveFX/Scratch**
+- **Kartaverse for Assimilate LiveFX/Scratch**
   - Custom Commands:
     - [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
     - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
-- **Houdini Indie:**
+- **Kartaverse for Houdini Indie:**
   - [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit?usp=sharing)
 - **Valkyrie Engine (WIP)**
   - [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)

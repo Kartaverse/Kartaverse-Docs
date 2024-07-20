@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - **Contact**
-    - [Email](mailto:andrew@andrewhazelden.com)
-    - [GitHub](https://github.com/AndrewHazelden)
-    - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
+  - [Email](mailto:andrew@andrewhazelden.com)
+  - [GitHub](https://github.com/AndrewHazelden)
+  - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
 - **Links**
   - [Medium Blog](https://medium.com/@andrewhazelden)
   - [Facebook Group](https://www.facebook.com/groups/kartavr)
@@ -17,13 +17,13 @@
     - [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
   - Scripts:
     - [KartaVR Scripts Menu](scripts)
-      - KartaLink:
-        - [HQueue Render](hqueue)
-        - [Media Command](mediacommand)
-        - [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
+    - KartaLink:
+      - [HQueue Render](hqueue)
+      - [Media Command](mediacommand)
+      - [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
   - Kartaverse Effects Templates:
     - [STmapperInline](stmapperinline)
-     - [Dual Fisheye](dualfisheye)
+    - [Dual Fisheye](dualfisheye)
   - [Open Source](opensource_tools)
   - [Legacy Fusion 9 Content](legacy)
   - [Tutorials](tutorials)

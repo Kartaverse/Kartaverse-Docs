@@ -1,0 +1,41 @@
+<!-- docs/_sidebar.md -->
+- [Home](/)
+- [Overview](#overview)
+- [Tutorials](tutorials)
+- [Version History](version_history)
+- **Contact**
+    - [Email](mailto:andrew@andrewhazelden.com)
+    - [GitHub](https://github.com/AndrewHazelden)
+    - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
+- **Links**
+  - [Kartaverse](https://github.com/kartaverse)
+    - [Medium Blog](https://medium.com/@andrewhazelden)
+    - [Facebook Group](https://www.facebook.com/groups/kartavr)
+    - [Google Group](https://groups.google.com/g/kartaverse/)
+    - [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
+- **Valkyrie Engine (WIP)**
+  - [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)
+- **DaVinci Resolve/Fusion**
+  - Fuses:
+    - [Kartaverse Fuse Nodes](fuses)
+    - [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
+    - [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
+    - [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
+  - **Kartaverse Scripts:**
+    - [KartaVR Scripts Menu](scripts)
+      - KartaLink:
+        - [HQueue Render](hqueue)
+        - [Media Command](mediacommand)
+        - [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
+  - Kartaverse Effects Templates:
+    - [STmapperInline](stmapperinline)
+     - [Dual Fisheye](dualfisheye)
+  - [Open Source](opensource_tools)
+  - [Legacy Fusion 9 Content](legacy)
+- **Assimilate LiveFX/Scratch**
+  - Custom Commands:
+    - [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
+    - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
+- **Houdini Indie:**
+  - [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit?usp=sharing)
+

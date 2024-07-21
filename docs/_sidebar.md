@@ -1,14 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-- **Contact**
-  - [Email](mailto:andrew@andrewhazelden.com)
-  - [GitHub](https://github.com/AndrewHazelden)
-  - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
-- **Links**
-  - [Medium Blog](https://medium.com/@andrewhazelden)
-  - [Facebook Group](https://www.facebook.com/groups/kartavr)
-  - [Google Group](https://groups.google.com/g/kartaverse/)
-  - [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
 - **Kartaverse for DaVinci Resolve/Fusion**
   - Fuses:
     - [Kartaverse Fuse Nodes](fuses)
@@ -35,5 +26,17 @@
     - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
 - **Kartaverse for Houdini Indie:**
   - [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit?usp=sharing)
+- **RiveLink (WIP)**
+  - [Development Blog]((https://kartaverse.github.io/RiveLink/#/)
 - **Valkyrie Engine (WIP)**
   - [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)
+- **Contact**
+  - [Email](mailto:andrew@andrewhazelden.com)
+  - [GitHub](https://github.com/AndrewHazelden)
+  - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
+- **Links**
+  - [Medium Blog](https://medium.com/@andrewhazelden)
+  - [Facebook Group](https://www.facebook.com/groups/kartavr)
+  - [Google Group](https://groups.google.com/g/kartaverse/)
+  - [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
+

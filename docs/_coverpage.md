@@ -4,7 +4,7 @@
 
 # Kartaverse™
 
-> An academic research project exploring computational imaging techniques.
+> An academic research project exploring computational imaging techniques
 
 -  Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
 

@@ -12,17 +12,15 @@ Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed th
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
-Note: It is now possible to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This site allows you to easily search through all the Reactor atom packages.
-
 # For More Information
 
 ## KartaVR
 
 The [KartaVR documentation](https://kartaverse.github.io/Kartaverse-Docs/#/) is hosted on GitHub.io.
 
-## Kartaverse Learning Resources
+## Spatial Metadata GUI
 
-A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.google.com/document/d/1tewIaHZh8mWI8x5BzlpZBkF8eXhK2b_XhTWiU_93HBA)" learning resource is available. The free guide has over 512 pages of content that covers the primary steps required to get a working content creation pipeline established from scratch for artists working at a freelancer, or small boutique studio scale of operation. Additional, expanded chapters cover broader Resolve/Fusion page usage concepts that will help you take your composting and 360VR content creation skills to the next level.
+The KartaLink [Spatial Metadata](https://kartaverse.github.io/Kartaverse-Docs/#/) tools allow you to prepare immersive content for playback on Apple Vision Pro and Meta Quest HMDs.
 
 ## Kartaverse Pano Tools Data Nodes
 
@@ -30,7 +28,19 @@ A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.go
 
 ## Vonk Ultra Data Nodes
 
-The [Vonk Ultra documentation](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) is accessible on Google Docs and the [development thread](https://www.steakunderwater.com/wesuckless/viewtopic.php?p=41165#p41165) is on the Steakunderwater forum. Vonk is a collection of data nodes based tools that help technical artists take their workflows to the next level.
+The [Vonk Ultra documentation](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing) is accessible on Google Docs. Vonk is a collection of data nodes based tools that help technical artists take their workflows to the next level.
+
+# Kartaverse 6 New Features (In Development Now)
+
+## Valkyrie Engine (WIP)
+[Kartaverse Valkyrie Engine](https://kartaverse.github.io/ValkyrieEngine) is a free open-source "cinematic XR" solution for the rest of us. It is a hybrid volumetric renderer for pixel-streaming XR experiences without limits.
+
+## RiveLink Data Nodes (WIP)
+The [Kartaverse RiveLink](https://kartaverse.github.io/RiveLink/) data nodes create XR motion graphics that are powered by a "Rive.app" integration plugin.
+
+# Kartaverse Learning Resources
+
+A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.google.com/document/d/1tewIaHZh8mWI8x5BzlpZBkF8eXhK2b_XhTWiU_93HBA)" learning resource is available. The free guide has over 512 pages of content that covers the primary steps required to get a working content creation pipeline established from scratch for artists working at a freelancer, or small boutique studio scale of operation. Additional, expanded chapters cover broader Resolve/Fusion page usage concepts that will help you take your composting and 360VR content creation skills to the next level.
 
 # Social Media
 

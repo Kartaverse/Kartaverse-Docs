@@ -1,6 +1,8 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
+
 - **Kartaverse for DaVinci Resolve/Fusion**
+  - [Install Kartaverse + Reactor](install)
   - Fuses:
     - [Kartaverse Fuse Nodes](fuses)
     - [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)

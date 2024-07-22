@@ -1,6 +1,5 @@
-# Kartaverse Fuses
 
-## kvrCreateStereo
+# kvrCreateStereo
 
 The Kartaverse "kvrCreateStereo" fuse allows you to reformat stereo 3D imagery between mono, dual input, horizontal (SBS), and vertical (OU) frame layouts.
 
@@ -12,7 +11,7 @@ It is helpful to get in the habit of adding an Autodomain node directly after a 
 
 ![kvrCreateStereo Fuse](Images/fuse-kvrCreateStereo.png)
 
-## kvrCubic
+# kvrCubic
 
 The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic imagery into CubeMap, 180VR, and 360VR based frame layouts. It supports monoscopic and stereo 3D output.
 
@@ -20,7 +19,7 @@ The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic 
 
 Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
 
-## kvrPlane
+# kvrPlane
 
 The Kartaverse "kvrPlane" fuse allows you to place a flat image into a 180VR, or 360VR image projection. It supports monoscopic and stereo 3D output.
 
@@ -39,7 +38,7 @@ If you are working with non 1:1 aspect ratio source imagery, the "Resolution Gat
 Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
 
 
-## kvrCropStereo
+# kvrCropStereo
 
 The kvrCropStereo fuse allows you to re-crop stereo 3D footage with individual control over the left and right eye content.
 
@@ -53,7 +52,7 @@ The fastest way to get the initial positioning updated for the kvrCropStereo cro
 
 If you want to get the initial sizing updated
 
-## kvrLens
+# kvrLens
 
 Apply lens distortion correction using brown-conrady, syntheyes, and panotools lens models.
 
@@ -67,13 +66,13 @@ Lens distortion correction can be used to correct for optical issues like barrel
 
 ![kvrLens Viewer 3](Images/fuse-kvrLens-viewer-3.png)
 
-## kvrLensStereo
+# kvrLensStereo
 
 Apply lens distortion correction to stereo 3D footage using Brown-Conrady, Syntheyes, and Panotools lens models.
 
 ![kvrLensStereo Fuse](Images/fuse-kvrLensStereo.png)
 
-## kvrSTMapGenerator
+# kvrSTMapGenerator
 
 The "kvrSTMapGenerator" fuse allows you to generate an initial STMap template.
 
@@ -94,13 +93,13 @@ Bonus DCTLs: Resolve Edit and Color page compatible DCTL files are included in t
 
         Reactor:/Deploy/Bin/Kartaverse/LUT/
 
-## kvrGrade
+# kvrGrade
 
 The kvrGrade fuse allows you to quickly color correct stereo 3D footage with individual control over the left and right eye content.
 
 ![kvrGrade Fuse](Images/fuse-kvrGrade.png)
 
-## kvrViewer
+# kvrViewer
 
 Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node can be used to reframe VR footage with onscreen controls.
 
@@ -121,7 +120,7 @@ The kvrViewer node can display dual fisheye SBS content where it generates 180VR
 
 ![kvrViewer Viewer 1](Images/fuse-kvrViewer-viewer-1.png)
 
-## kvrReframe360Ultra
+# kvrReframe360Ultra
 
 The kvrReframe360Ultra node allows you to perform an "overcapture" effect that reframes immersive 360VR footage into "flat" media that can be played back on conventional displays. This node is also available as an Edit page Effects Template.
 
@@ -131,7 +130,7 @@ The kvrReframe360Ultra node can be used to generate "Tiny Planet" views of a sce
 
 ![kvrReframe360Ultra Viewer](Images/fuse-kvrReframe360Ultra-viewer.jpg)
 
-## kvrWarpStitchUltra
+# kvrWarpStitchUltra
 
 The kvrWarpStitchUltra node is used to stitch circular fisheye images into a latlong image projection. The node has parametric controls for adjusting the FOV, pan/tilt/roll, frame cropping, integrated masking, and colour correction.
 
@@ -149,7 +148,7 @@ The example composite "Under The Bridge" shows how multi-view 360VR video stitch
 
 # Macro
 
-## kvrDualFisheye
+# kvrDualFisheye
 
 The kvrDualFisheye macro allows you to stitch 360VR content from dual fisheye footage that was captured on front/back lens based cameras.
 
@@ -157,7 +156,7 @@ Internally the macro uses KartaVR fuses to power the stitching process.
 
 ![kvrDualFisheye Fuse](Images/fuse-kvrDualFisheye-1.png)
 
-### Effects Template Usage
+## Effects Template Usage
 
 In the Resolve Edit page, the "kvrDualFisheye" macro can then be dragged from the Effects Library "Effects > KartaVP > Warp" category onto a clip in the timeline. Select the clip and then open the Inspector view to adjust the parameters using the "Effects > Fusion > kvrDualFisheye" item.
 
@@ -167,7 +166,7 @@ In the inspector view, if you click the little magic wand icon next to the right
 
 # VR Subtitles
 
-## vTextFromSubtitles
+# vTextFromSubtitles
 
 Vonk Ultra includes a node that allows you to read timecode synced closed caption subtitle .srt data. The output is a text datatype that can be connected to the StyledText field on a Text+ node.
 

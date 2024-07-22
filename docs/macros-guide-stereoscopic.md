@@ -2,7 +2,7 @@
 
 ## <a name="StereoAnaglyphHalfColorMerge"></a>StereoAnaglyphHalfColorMerge
 
-![StereoAnaglyphHalfColorMerge GUI](images/macro-stereo-anaglyph-half-color-merge-gui.png)
+![StereoAnaglyphHalfColorMerge GUI](Images/macro-stereo-anaglyph-half-color-merge-gui.png)
 
 The StereoAnaglyphHalfColorMerge node is used to create an anaglyph red/cyan 3D glasses style stereo image by merging a pair of left and right images.
 
@@ -20,17 +20,17 @@ The Edges control allows you to control how the imagery is handled if it is rota
 
 This is a node view of merging a left and right pair of stereo images into the anaglyph stereo format:
 
-![StereoAnaglyphHalfColorMerge Node](images/macro-stereo-anaglyph-half-color-merge-node.png)
+![StereoAnaglyphHalfColorMerge Node](Images/macro-stereo-anaglyph-half-color-merge-node.png)
 
 **Note:** If you are doing VR content creation on a tight budget without access to an HMD like an Oculus Rift, you can merge your left and right camera view stereoscopic LatLong 360&deg; images into the anaglyph format.
 
 Then you would send the imagery to a panoramic 360&deg; media viewer tool using KartaVR's bundled PanoView script (using the Script > KartaVR > Viewers > PanoView menu item to launch the tool). With an affordable pair of red/cyan anaglyph 3D glasses on, you can pan the 360&deg; view with your mouse and still get a rough idea of the stereo effect without breaking the bank.
 
-![Send to PanoView](images/send-anaglyph-latlong-to-panoview-script.png)
+![Send to PanoView](Images/send-anaglyph-latlong-to-panoview-script.png)
 
 ## <a name="StereoAnaglyphMerge"></a>StereoAnaglyphMerge
 
-![StereoAnaglyphMerge GUI](images/macro-stereo-anaglyph-merge-gui.png)
+![StereoAnaglyphMerge GUI](Images/macro-stereo-anaglyph-merge-gui.png)
 
 The StereoAnaglyphMerge node is used to create an anaglyph red/cyan 3D glasses style stereo image by merging a pair of left and right images. This node can be used easily with regular stereo images or panoramic stereo images.
 
@@ -44,21 +44,21 @@ The Edges control allows you to control how the imagery is handled if it is rota
 
 This is a node view of merging a left and right pair of stereo images into the anaglyph stereo format:
 
-![StereoAnaglyphMerge Node](images/macro-stereo-anaglyph-merge-node.png)
+![StereoAnaglyphMerge Node](Images/macro-stereo-anaglyph-merge-node.png)
 
 **Note:** If you are doing VR content creation on a tight budget without access to an HMD like an Oculus Rift, you can merge your left and right camera view stereoscopic LatLong 360&deg; images into the anaglyph format.
 
 Then you would send the imagery to a panoramic 360&deg; media viewer tool using KartaVR's bundled PanoView script (using the Script > KartaVR > Viewers > PanoView menu item to launch the tool). With an affordable pair of red/cyan anaglyph 3D glasses on, you can pan the 360&deg; view with your mouse and still get a rough idea of the stereo effect without breaking the bank.
 
-![Send to PanoView](images/send-anaglyph-latlong-to-panoview-script.png)
+![Send to PanoView](Images/send-anaglyph-latlong-to-panoview-script.png)
 
 ## <a name="StereoAnaglyphOU"></a>StereoAnaglyphOU
 
-![StereoAnaglyphOU](images/macro-stereo-anaglyph-ou.png)
+![StereoAnaglyphOU](Images/macro-stereo-anaglyph-ou.png)
 
 The StereoAnaglyphOU node is used to create an anaglyph red/cyan 3D glasses style stereo image from an over/under left and right image layout. This node can be used easily with regular stereo images or panoramic stereo images.
 
-![StereoAnaglyphOU GUI](images/macro-stereo-anaglyph-ou-gui.png)
+![StereoAnaglyphOU GUI](Images/macro-stereo-anaglyph-ou-gui.png)
 
 The Saturation control allows you do create an anaglyph image with either full strength colors (with the saturation at 1.0), a fully black and white anaglyph image (with the saturation at 0.0), or a 50% saturated image (with the saturation at 0.5).
 
@@ -72,48 +72,48 @@ The Edges control allows you to control how the imagery is handled if it is rota
 
 To use this node an over/under image is connected to the `StereoAnaglyphOU.image` input. This example shows a Z360 color/depthmap image being converted into an over/under formatted left/right stereo image pair by the Z360Stereo node. Then the over/under image is converted into an anaglyph image format by the StereoAnaglyphOU node:
 
-![StereoAnaglyphOU Node](images/macro-stereo-anaglyph-ou-node.png)
+![StereoAnaglyphOU Node](Images/macro-stereo-anaglyph-ou-node.png)
 
 ## <a name="StereoOverUnderExtract"></a>StereoOverUnderExtract
 
-![StereoOverUnderExtract GUI](images/macro-stereo-over-under-extract-gui.png)
+![StereoOverUnderExtract GUI](Images/macro-stereo-over-under-extract-gui.png)
 
 The StereoOverUnderExtract macro will separate a merged set of left and right stereo images from the Over/Under stereo format where the left image is placed on the top, and the right image is placed on the bottom part of the frame.
 
 This is a node view of extracting a left and right pair of stereo images from a single picture in the "Over Under" stereo format:
 
-![StereoOverUnderExtract Node](images/macro-stereo-over-under-extract-node.png)
+![StereoOverUnderExtract Node](Images/macro-stereo-over-under-extract-node.png)
 
 ## <a name="StereoOverUnderMerge"></a>StereoOverUnderMerge
 
-![StereoOverUnderMerge GUI](images/macro-stereo-over-under-merge-gui.png)
+![StereoOverUnderMerge GUI](Images/macro-stereo-over-under-merge-gui.png)
 
 The StereoOverUnderMerge macro will take a pair of separate left and right stereo images and place them into a single image frame. The left image is placed on top, and the right image is placed on the bottom part of the frame.
 
 This is a node view of merging a left and right pair of stereo images into the "Over Under" stereo format:
 
-![StereoOverUnderMerge Node](images/macro-stereo-over-under-merge-node.png)
+![StereoOverUnderMerge Node](Images/macro-stereo-over-under-merge-node.png)
 
 Note: If you are using an "offset" macro to horizontally scroll the canvas in the node tree immediately before applying the StereoOverUnderMerge operation it might result in a Mono 2D looking output without the left and right details present. The solution to this issue is to flatten the transforms of the media coming into the StereoOverUnderMerge macro using a crop node set to 100% of the image width and height.
 
 ## <a name="StereoSideBySideExtract"></a>StereoSideBySideExtract
 
-![StereoSideBySideExtract GUI](images/macro-stereo-side-by-side-extract-gui.png)
+![StereoSideBySideExtract GUI](Images/macro-stereo-side-by-side-extract-gui.png)
 
 The StereoSideBySideExtract macro will separate a merged set of left and right stereo images from the Side by Side stereo format where the left image is placed on the left side, and the right image is placed on the right side of the frame.
 
 This is a node view of extracting a left and right pair of stereo images from a single picture in the "Side by Side" stereo format:
 
-![StereoSideBySideExtract Node](images/macro-stereo-side-by-side-extract-node.png)
+![StereoSideBySideExtract Node](Images/macro-stereo-side-by-side-extract-node.png)
 
 ## <a name="StereoSideBySideMerge"></a>StereoSideBySideMerge
 
-![StereoSideBySideMerge GUI](images/macro-stereo-side-by-side-merge-gui.png)
+![StereoSideBySideMerge GUI](Images/macro-stereo-side-by-side-merge-gui.png)
 
 The StereoSideBySideMerge macro will take a pair of separate left and right stereo images and place them into a single image frame. The left image is placed on the left side, and the right image is placed on the right side of the frame.
 
 This is a node view of merging a left and right pair of stereo images into the "Side by Side" stereo format:
 
-![StereoSideBySideMerge Node](images/macro-stereo-side-by-side-merge-node.png)
+![StereoSideBySideMerge Node](Images/macro-stereo-side-by-side-merge-node.png)
 
 Note: If you are using an "offset" macro to horizontally scroll the canvas in the node tree immediately before applying the StereoSideBySideMerge operation it might result in a Mono 2D looking output without the left and right details present. The solution to this issue is to flatten the transforms of the media coming into the StereoSideBySideMerge macro using a crop node set to 100% of the image width and height.

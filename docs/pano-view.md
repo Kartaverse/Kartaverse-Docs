@@ -2,7 +2,7 @@
 
 ## <a name="overview"></a>Overview
 
-![PanoView Script](images/panoview-gopro.png)
+![PanoView Script](Images/panoview-gopro.png)
 
 The PanoView script is a module from the [KartaVR](http://www.andrewhazelden.com/blog/downloads/kartavr/) that will send the imagery from the currently selected Fusion node to an Oculus Rift HMD or an HTC VIVE/OSVR HMD using an external media viewer / playback tool.
 
@@ -31,7 +31,7 @@ The PanoView script for Fusion supports sending any kind of node from the flow v
 
 **Step 2.** Select and activate a file saver or loader node in the flow view. Then run the **Script > KartaVR > Viewers > PanoView** menu item to view the media in Kolor Eyes.
 
-![Launch the PanoView Script](images/script-menu-panoview.png)
+![Launch the PanoView Script](Images/script-menu-panoview.png)
 
 There is a hotkey shortcut of pressing the TAB key on your keyboard for launching the PanoView script.
 
@@ -40,7 +40,7 @@ There is a hotkey shortcut of pressing the TAB key on your keyboard for launchin
 
 The Edit PanoView Preferences script lets you customize the default settings for the PanoView image viewing script.
 
-![Edit PanoView Preferences Menu Item](images/script-menu-edit-panoview-preferences.png)
+![Edit PanoView Preferences Menu Item](Images/script-menu-edit-panoview-preferences.png)
 
 ### How to use the Script
 
@@ -52,7 +52,7 @@ The Edit PanoView Preferences script lets you customize the default settings for
 
 ### Script GUI Controls
 
-![Edit PanoView Preferences](images/script-edit-panoview-preferences.png)
+![Edit PanoView Preferences](Images/script-edit-panoview-preferences.png)
 
 The "Media Viewer" control lets you choose which of the external media viewing programs will be launched by the PanoView script. You can choose one of the following options: "None", "Adobe SpeedGrade", "Amateras Dome Player", "DJV Viewer", "Kolor Eyes", "Live View Rift", "RV", "Scratch Player", "VLC", "Whirligig", "GoPro VR Player", or "Quicktime Player".
 
@@ -102,7 +102,7 @@ The "Cancel" button will close the script GUI and stop the script.
 
 The Panoview script is context aware and will run in a slightly different state based upon the type of node that is selected in the Fusion flow/nodes area.
 
-![Panoview Node Types](images/panoview-node-types.png)
+![Panoview Node Types](Images/panoview-node-types.png)
 
 If you have a 2D image processing node selected, a live "left" viewer window snapshot will be taken and passed by Panoview to the external media viewer tool. The snapshot image format is defined by the `Image Format` control in the Edit PanoView Preferences script dialogue.
 
@@ -126,4 +126,4 @@ One solution to this problem is to open up the "LAV Video Configuration" program
 
 The LAV Video Configuration Properties window will appear. In this properties window you should change the Hardware Decoder to use the "DXVA2 (native)" option. Click "OK" to save the settings.
 
-![LAV Video Configuration](images/whirligig-lav-video-configuration.png)
+![LAV Video Configuration](Images/whirligig-lav-video-configuration.png)

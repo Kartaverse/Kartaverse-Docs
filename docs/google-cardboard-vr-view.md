@@ -3,7 +3,7 @@
 <a name="overview"></a>
 ## Overview
 
-[![Google Cardboard VR View Script](images/vrview-screenshot.jpg)](images/vrview-screenshot.jpg)
+[![Google Cardboard VR View Script](Images/vrview-screenshot.jpg)](Images/vrview-screenshot.jpg)
 
 The "Publish Media to Google Cardboard VR View" script is a module from the [KartaVR](http://www.andrewhazelden.com/blog/downloads/kartavr/) that lets you customize the settings and generate a Google Cardboard VR View webpage that can be viewed locally or pushed via Apache web sharing and WiFi to a smartphone with a Google Cardboard HMD.
 
@@ -35,7 +35,7 @@ When you are using MAMP with the "Publish Media to Google Cardboard VR View" scr
 
 **Step 2.** Start MAMP for the first time. An easy to use GUI will appear.
 
-![MAMP Loading Screen](images/mamp-window.png)
+![MAMP Loading Screen](Images/mamp-window.png)
 
 On the right side of the MAMP window is a button with a circular "power" icon that lets you Start and Stop the MAMP server. Click the **Start Servers** button if the MAMP server is not running yet.
 
@@ -45,13 +45,13 @@ On the left side of the MAMP window is a "Preferences" button that will open up 
 
 Enable the "Start Servers when starting MAMP" and "Stop Servers when quitting MAMP" checkboxes in the Start/Stop tab. Turning on these two controls means you can easily use MAMP when you want to view panoramic Google VR View content. Then when you have finished with that task you can quit the MAMP GUI, and MAMP will then immediately stop the Apache web sharing background system service.
 
-![MAMP Preferences](images/mamp-preferences.png)
+![MAMP Preferences](Images/mamp-preferences.png)
 
 There are several other settings in the MAMP preferences window you could adjust if you wanted to.
 
 **Step 4.** Click on the Ports tab in the MAMP preferences window. The Ports tab allows you to change the default server port settings for the Apache web sharing.
 
-![MAMP Ports Tab](images/mamp-preferences-ports.png)
+![MAMP Ports Tab](Images/mamp-preferences-ports.png)
 
 On Windows the Apache Port is set to 80 by default. This is the typical port used for all HTTP based web servers. The MAMP localhost address for your Windows system would be: **http://localhost/**
 
@@ -59,7 +59,7 @@ On macOS the Apache Port is set to 8888 by default to avoid conflicts with the m
 
 **Step 5.** Click on the Web Server tab in the MAMP preferences window. This tab allows you to change the "Document Root" folder that is shared by the Apache server module. By default this "Document Root" directory path is set to the "htdocs" directory in the MAMP program folder.
 
-![MAMP Web Server Tab](images/mamp-preferences-webserver.png)
+![MAMP Web Server Tab](Images/mamp-preferences-webserver.png)
 
 Unless you have a very specific technical reason to adjust the "Document Root" setting in MAMP it is a good idea to leave this text field at the default value in the MAMP preferences dialog.
 
@@ -94,7 +94,7 @@ If you don't know the current IP address for your computer you can check in your
 
 ## Mac Network Preferences
 
-![macOS Network Control Panel](images/mac-network-control-panel.png)
+![macOS Network Control Panel](Images/mac-network-control-panel.png)
 
 On macOS you need to click on the **System Preferences** icon in your Dock. Then open the **Network** control panel. On the left side of the Network control panel is a listing of each of the network adapters on your computer with entries for things like WiFi, and Ethernet devices.
 
@@ -104,7 +104,7 @@ You will also see information about this network adapter at the top of the netwo
 
 ## Windows Network Control Panel
 
-![Windows Network Connection](images/windows-network-settings.png)
+![Windows Network Connection](Images/windows-network-settings.png)
 
 On Windows you need to open the **Control Panel > Network and Internet > Network Connections** window. Right click on your active network connection. Then select the "Status" item in the popup menu.
 
@@ -116,11 +116,11 @@ The easiest way to find out your IP address visually on Linux is to load the Net
 
 Open the triangle shaped menu at the top right of the screen and select the **Settings** icon. This will load the "All Settings" window that is used to configure the Linux system.
 
-![Linux Menu](images/linux-menu.png)
+![Linux Menu](Images/linux-menu.png)
 
 Look in the "All Settings" window for the Hardware section. Then click on the **Network** icon on the far right side of the window.
 
-![Linux Settings](images/linux-all-settings.png)
+![Linux Settings](Images/linux-all-settings.png)
 
 On the left side of the Network settings window is a listing of each of the network adapters on your computer with entries for things like WiFi, Bluetooth, and Wired Ethernet devices.
 
@@ -130,7 +130,7 @@ This network connection will probably be called "Wired" on a Linux workstation. 
 
 If you have multiple network adapters on your Linux system the active interface will have the word "Connected" displayed next to in the main part of the Network window to the left of the ON/OFF button.
 
-![Linux Network Settings](images/linux-network-settings.png)
+![Linux Network Settings](Images/linux-network-settings.png)
 
 ### Finding your External IP Address Using your Web Browser
 
@@ -191,11 +191,11 @@ The "Publish Media to Google Cardboard VR View" script for Fusion 7 and Fusion 8
 
 **Step 3.** Run the **Script > KartaVR > Viewers > Publish Media to Google Cardboard VR View** menu item. You can also run this script when the flow area is active with the "V" hotkey on your keyboard.
 
-![Run the Script](images/vrview-script-menu-item.png)
+![Run the Script](Images/vrview-script-menu-item.png)
 
 **Step 4.** In the "Publish Media to Google Cardboard VR View" dialog window you need to define the initial paths and settings for the script. Choose the "Web Sharing Folder", and enable the required checkbox if your panoramic images are Over/Under stereo 3D or not. Then click the "OK" button.
 
-![Google Cardboard VR View Script](images/publish_vr_view_dialog.png)
+![Google Cardboard VR View Script](Images/publish_vr_view_dialog.png)
 
 <a name="script-gui-controls"></a>
 ### Script GUI Controls
@@ -217,11 +217,11 @@ The Web Template options menu provides the choice of three different web page th
 
 The **Custom Template** creates a VR View webpage with a white background color and a simple layout.
 
-![Custom Template](images/vrview-custom-template.jpg)
+![Custom Template](Images/vrview-custom-template.jpg)
 
 The **Charcoal Template** creates a VR View webpage with a dark grey background color.
 
-![Charcoal Template](images/vrview-charcoal-template.jpg)
+![Charcoal Template](Images/vrview-charcoal-template.jpg)
 
 The **Midnight Template** creates a VR View webpage with an even darker background color.
 
@@ -345,7 +345,7 @@ This control makes it easy to be able to paste the current webpage link for the 
 
 When the "Open Publishing Folder" checkbox is enabled an Explorer/Finder/Nautilus file browser window will be opened up and the directory where the VR View webpage is saved will be displayed.
 
-![Publishing Folder](images/vrview-open-publishing-folder.png)
+![Publishing Folder](Images/vrview-open-publishing-folder.png)
 
 #### Open Webpage
 

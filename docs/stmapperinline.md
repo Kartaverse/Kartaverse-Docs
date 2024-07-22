@@ -42,31 +42,31 @@ Set the Master Settings to use a "`Timeline format > Timeline Resolution`" of 81
 
 Set the Timeline Format > Playback frame rate to 59.04 frames per second.
 
-![Project Settings 1](images/effects-template-STMapperInline-Resolve-Project-Settings-1.png)
+![Project Settings 1](Images/effects-template-STMapperInline-Resolve-Project-Settings-1.png)
 
 Set the Image Scaling to use a "`Input Scaling > Mismatched resolution files > Stretch frame to all corners`".
 
 Set the Output Scaling to "`Mismatched resolution files > Stretch frame to all corners`".
 
-![Project Settings 2](images/effects-template-STMapperInline-Resolve-Project-Settings-2.png)
+![Project Settings 2](Images/effects-template-STMapperInline-Resolve-Project-Settings-2.png)
 
 3. Add the movie file to the Resolve Media Pool. Create a new timeline based upon the clip. 
 
 In the "Create New Timeline" dialog uncheck "`[x] Use Project Settings`".
 
-![Timeline 1](images/effects-template-STMapperInline-Resolve-Create-New-Timeline-1.png)
+![Timeline 1](Images/effects-template-STMapperInline-Resolve-Create-New-Timeline-1.png)
 
 Switch to the Format tab and enable Timeline Resolution 8192 x 4096 processing. Timeline Frame Rate 59.94 fps.
  
-![Timeline 2](images/effects-template-STMapperInline-Resolve-Create-New-Timeline-2.png)
+![Timeline 2](Images/effects-template-STMapperInline-Resolve-Create-New-Timeline-2.png)
 
 Set the Mismatched Resolution to "Stretch frame to all corners".
 
-![Timeline 3](images/effects-template-STMapperInline-Resolve-Create-New-Timeline-3.png)
+![Timeline 3](Images/effects-template-STMapperInline-Resolve-Create-New-Timeline-3.png)
 
 4. In the Edit page, open the "Effects" tab at the top left of the user interface. Expand the "`Toolbox > Effects > Stitching`" section. Select the "`STmapperInline`" item and drag it onto the video clip in the Edit page timeline.
 
-![](images/effects-template-STMapperInline-Resolve-Edit-Page-Effects-Template-STMapper-Inline.png)
+![](Images/effects-template-STMapperInline-Resolve-Edit-Page-Effects-Template-STMapper-Inline.png)
 
 5. Expand the Edit page "Inspector" tab. Switch to the Effects section in the Inspector window. Select the STMapperInline item. 
 
@@ -90,7 +90,7 @@ After a moment the Edit page preview window should show the results of the STMap
 	
 		Frame Rate: 59.94 fps
 
-![Deliver Settings](images/effects-template-STMapperInline-Resolve-Delivery-Page.png)
+![Deliver Settings](Images/effects-template-STMapperInline-Resolve-Delivery-Page.png)
 
 ## STMapperInline Background Info
 

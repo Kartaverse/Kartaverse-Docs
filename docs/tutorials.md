@@ -9,13 +9,13 @@ In DaVinci Resolve you can access the base Reactor folder using the "Workspaces 
 
 When the Reactor folder is opened in an Explorer (Windows), Finder (macOS), or Nautilus (Linux) folder browsing window, you can then navigate into the "Kartaverse" sub-folder:
 
-![Example Comps](images/reactor-kartaverse-example-comps.png)
+![Example Comps](Images/reactor-kartaverse-example-comps.png)
 
 ## Workflow Guides
 
 A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.google.com/document/d/1tewIaHZh8mWI8x5BzlpZBkF8eXhK2b_XhTWiU_93HBA)" learning resource is available. The free guide has over 512 pages of content that covers the primary steps required to get a working content creation pipeline established from scratch for artists working at a freelancer, or small boutique studio scale of operation. Additional, expanded chapters cover broader Resolve/Fusion page usage concepts that will help you take your composting and 360VR content creation skills to the next level.
 
-![Immersive Pipeline Integration Guide](images/kartaverse-pipeline-guide.png)
+![Immersive Pipeline Integration Guide](Images/kartaverse-pipeline-guide.png)
 
 ## YouTube Videos
 

@@ -2,7 +2,7 @@
 
 ----
 
-![Fusion LUTs Menu](images/fusion-luts-menu.png)
+![Fusion LUTs Menu](Images/fusion-luts-menu.png)
 
 This document is a summary of the Macro LUTs included with the KartaVR toolset. A LUT is a custom viewer module that can be activated in the left and right Fusion image viewer windows. As you load and view media in the Fusion viewer windows the LUT will be applied interactively to the images as you scrub the timeline, apply effects, or change node parameters.
 
@@ -27,13 +27,13 @@ Besides using the Macro LUT based panoramic 360&deg; media viewers listed on thi
 
 ## <a name="bright-lut"></a>Bright LUT
 
-![Bright LUT Prefs](images/bright-lut-edit-prefs.png)
+![Bright LUT Prefs](Images/bright-lut-edit-prefs.png)
 
 The "Bright LUT" tool allows you to use a LUT to preview color correction settings like applying a custom gamma setting to view for working with RAW Gamma 1.0 based linear workflow EXR media files in Fusion.
 
 The LUT popup menu's "Edit..." control will open a LUT settings window that lets you modify the gamma, contrast, brightness, and saturation color correction settings.
 
-![Bright LUT](images/macro-luts-bright-lut-controls.png)
+![Bright LUT](Images/macro-luts-bright-lut-controls.png)
 
 **Gamma Control**
 
@@ -41,7 +41,7 @@ The Gamma control starts with a default value of 1.0. Although it is not general
 
 ## <a name="viewerequirectangular-lut"></a>ViewerEquirectangular LUT
 
-![ViewerEquirectangular LUT Prefs](images/viewerequirectangular-lut-edit-prefs.png)
+![ViewerEquirectangular LUT Prefs](Images/viewerequirectangular-lut-edit-prefs.png)
 
 The "ViewerEquirectangular LUT" tool is an Equirectangular/Spherical/LatLong panoramic 360&deg;x180&deg; media viewer that works interactively in the viewer windows.
 
@@ -49,13 +49,13 @@ The LUT popup menu's "Edit..." control will open a LUT settings window that lets
 
 **Renderer Type**
 
-![Renderer Type](images/macro-luts-renderer-type.png)
+![Renderer Type](Images/macro-luts-renderer-type.png)
 
 The Renderer Type options menu allows you to choose if you want to use the Fusion Software Renderer or the OpenGL Renderer to drive the panoramic 360&deg; media viewer graphics context. You can compare the performance of both options to see which one works best with your GPU or CPU and delivers the fastest interactive performance.
 
 **Camera Lens Controls**
 
-![Camera Lens Controls](images/macro-luts-camera-lens-settings.png)
+![Camera Lens Controls](Images/macro-luts-camera-lens-settings.png)
 
 The camera controls allow you to change the simulated lens that is used on the virtual camera in the panorama viewer. This is good to help simulate the actual field of view you would see if you photographed the scene with a traditional camera lens.
 
@@ -69,7 +69,7 @@ The Lens Shift X and Lens Shift Y parameters simulate a 2D "screen space" horizo
 
 **Rotation Controls**
 
-![Rotation Controls](images/macro-luts-rotation-controls.png)
+![Rotation Controls](Images/macro-luts-rotation-controls.png)
 
 The rotation controls allow you to spin your camera's viewing position inside the panoramic viewer window. Sometimes you may have to toggle the viewer's "LUT" button on/off if you need to force a viewer window refresh to show the latest update from these controls.
 
@@ -81,7 +81,7 @@ You can jump the viewer X/Y/Z Rotation controls back to the default starting val
 
 ## <a name="viewerequirectangular-stereo-ou-lut"></a>ViewerEquirectangular Stereo OU LUT
 
-![ViewerEquirectangularStereoOU LUT Prefs](images/viewerequirectangular-stereo-ou-lut-edit-prefs.png)
+![ViewerEquirectangularStereoOU LUT Prefs](Images/viewerequirectangular-stereo-ou-lut-edit-prefs.png)
 
 The "ViewerEquirectangular Stereo OU LUT" tool is an Equirectangular/Spherical/LatLong panoramic 360&deg;x180&deg; media viewer that works interactively in the viewer windows with Over/Under formatted stereo panoramas.
 
@@ -91,7 +91,7 @@ The LUT popup menu's "Edit..." control will open a LUT settings window that lets
 
 **Camera Lens Controls**
 
-![Camera Lens Controls](images/macro-luts-camera-lens-settings.png)
+![Camera Lens Controls](Images/macro-luts-camera-lens-settings.png)
 
 The camera controls allow you to change the simulated lens that is used on the virtual camera in the panorama viewer. This is good to help simulate the actual field of view you would see if you photographed the scene with a traditional camera lens.
 
@@ -105,7 +105,7 @@ The Lens Shift X and Lens Shift Y parameters simulate a 2D "screen space" horizo
 
 **Rotation Controls**
 
-![Rotation Controls](images/macro-luts-rotation-controls.png)
+![Rotation Controls](Images/macro-luts-rotation-controls.png)
 
 The rotation controls allow you to spin your camera's viewing position inside the panoramic viewer window. Sometimes you may have to toggle the viewer's "LUT" button on/off if you need to force a viewer window refresh to show the latest update from these controls.
 
@@ -117,7 +117,7 @@ You can jump the viewer X/Y/Z Rotation controls back to the default starting val
 
 ## <a name="viewermesh-lut"></a>ViewerMesh LUT
 
-![ViewerMesh LUT Prefs](images/viewermesh-lut-edit-prefs.png)
+![ViewerMesh LUT Prefs](Images/viewermesh-lut-edit-prefs.png)
 
 The "ViewerMesh LUT" tool allows you to view custom format panoramic images in Fusion's viewer windows using an OBJ or FBX format mesh file for the base geometry. This lets you create your own fulldome, cubemap, Facebook 3x2, Facebook Pyramid, Ricoh Theta S Camera Unstitched, or Samsung Gear 360 Camera Unstitched image viewer in seconds.
 
@@ -161,21 +161,21 @@ Here is a list of the most useful panoramic viewer meshes that are included in t
 
 **Mesh File**
 
-![Mesh File](images/macro-luts-mesh-file-control.png)
+![Mesh File](Images/macro-luts-mesh-file-control.png)
 
 The Mesh File control provides a file browser button and text field that is used to select a custom polygon mesh that is used to drive the panoramic viewer image projection geometry. Clicking on the folder icon next to the Mesh File control displays an Open File dialog that can be used to browse for polygon meshes.
 
-![File Dialog](images/macro-luts-mesh-file-control-dialog.png)
+![File Dialog](Images/macro-luts-mesh-file-control-dialog.png)
 
 At the bottom of the Open File dialog is an "All Types" options menu that lets you filter the dialog to only show specific file types. The "ViewerMesh LUT" tool supports the most common polygon formats on the market that are also available in Fusion's 3D system such as the 3DS/DAE/DXF/FBX/OBJ formats.
 
-![Mesh File Formats](images/macro-luts-mesh-file-control-formats.png)
+![Mesh File Formats](Images/macro-luts-mesh-file-control-formats.png)
 
 **Note:** It is important that the meshes loaded in the Mesh File control have their face normals facing inwards towards the virtual camera that is placed in the middle of the mesh at the origin of the model. Having the surface normals oriented correctly is important if you want to have a consistent texture map shading appearance on the polygon surface when it is used as the panoramic media viewer surface.
 
 **Camera Lens Controls**
 
-![Camera Lens Controls](images/macro-luts-camera-lens-settings.png)
+![Camera Lens Controls](Images/macro-luts-camera-lens-settings.png)
 
 The camera controls allow you to change the simulated lens that is used on the virtual camera in the panorama viewer. This is good to help simulate the actual field of view you would see if you photographed the scene with a traditional camera lens.
 
@@ -189,7 +189,7 @@ The Lens Shift X and Lens Shift Y parameters simulate a 2D "screen space" horizo
 
 **Rotation Controls**
 
-![Rotation Controls](images/macro-luts-rotation-controls.png)
+![Rotation Controls](Images/macro-luts-rotation-controls.png)
 
 The rotation controls allow you to spin your camera's viewing position inside the panoramic viewer window. Sometimes you may have to toggle the viewer's "LUT" button on/off if you need to force a viewer window refresh to show the latest update from these controls.
 
@@ -206,7 +206,7 @@ The "ViewerWarp LUT" tool allows you to easily preview UV Pass warping image tra
 
 The ViewerWarp LUT is also useful if you are working with horizontally oriented 180&deg; fisheye video and you want a simple and interactive way to preview a UV pass based LatLong transformation before rendering your entire sequence to disk as a horizontally positioned LatLong/Equirectangular/Spherical frame format.
 
-![ViewerWarp LUT Prefs](images/viewerwarp-lut-edit-prefs.png)
+![ViewerWarp LUT Prefs](Images/viewerwarp-lut-edit-prefs.png)
 
 The LUT popup menu's "Edit..." control will open a LUT settings window that lets you select the uv pass warping mesh file, adjust the Keep Aspect Ratio checkbox, or flip the UV pass warping effect horizontally or vertically. You may have to toggle the LUT on/off to see the changes of editing the LUT preferences like the Keep Aspect Ratio checkbox as the media in the viewer window can be cached into RAM memory.
 
@@ -216,7 +216,7 @@ If the "Keep Aspect Ratio" button is enabled and the UV pass map is a significan
 
 ## <a name="z360-stereo-lut"></a>Z360 Stereo LUT
 
-![Z360Stereo Macro](images/macro-z360-stereo.jpg)
+![Z360Stereo Macro](Images/macro-z360-stereo.jpg)
 
 The "Z360 Stereo LUT" tool works with panoramic color + depthmap formatted over/under stereo media. This node allows you to convert a color + depthmap image into a pair of left and right displaced stereo views.
 
@@ -228,5 +228,5 @@ If you use this macro LUT you can also activate Fusion Studio's native stereo vi
 
 This is the Z360Stereo LUT preferences window:
 
-![Z360 Stereo LUT Prefs](images/z360-stereo-lut-edit-prefs.png)
+![Z360 Stereo LUT Prefs](Images/z360-stereo-lut-edit-prefs.png)
 

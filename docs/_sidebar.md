@@ -25,9 +25,10 @@
     - [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
     - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
 - **Kartaverse for Houdini Indie:**
-  - [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit?usp=sharing)
+  - TOPS (Task Operators):
+    - [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit?usp=sharing)
 - **RiveLink (WIP)**
-  - [Development Blog]((https://kartaverse.github.io/RiveLink/#/)
+  - [Development Blog](https://kartaverse.github.io/RiveLink/#/)
 - **Valkyrie Engine (WIP)**
   - [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)
 - **Contact**

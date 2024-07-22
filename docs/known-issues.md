@@ -49,7 +49,7 @@ If you are trying to view Stereo Over/Under images in Fusion Studio v9.0.2's nat
 
 This step is required if you are reviewing Over/Under stereo footage where the left view is on the top of the frame layout, and the right view is on the bottom of the frame layout like YouTube 360 formatted movies use.
 
-![Fusion Stereo Viewer Swap Control](images/fusion-viewer-window-swap-control.png)
+![Fusion Stereo Viewer Swap Control](Images/fusion-viewer-window-swap-control.png)
 
 
 

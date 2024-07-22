@@ -10,7 +10,7 @@ If you open the Fusion preferences and switch to the **Frame Format** section yo
 
 These settings are then used for many nodes including the Background node.
 
-![Fusion Comp Defaults](images/fusion-frame-format-defaults.png)
+![Fusion Comp Defaults](Images/fusion-frame-format-defaults.png)
 
 ### <a name="color-depth-defaults"></a>Color Depth
 
@@ -26,7 +26,7 @@ This is useful for making comp specific decisions for attributes like the Path M
 
 If you are using the 3D nodes in Fusion or any of the KartaVR that tie into the Fusion 3D system, the **3D View** section in the Preferences window can be really useful and handy.
 
-![Fusion 3D View Defaults](images/fusion-3d-view-defaults.png)
+![Fusion 3D View Defaults](Images/fusion-3d-view-defaults.png)
 
 This section allows you to customize attributes like the **Near Plane** and **Far Plane** which are used for camera view clipping.
 
@@ -40,11 +40,11 @@ Several of the "PanoView" viewer tools, and the "Send Media To" programs only su
 
 This is done by going to the **Tools > Miscellaneous > Change Depth** menu item to add the node to your comp.
 
-![Change Depth Menu Item](images/fusion-change-depth-tool.png)
+![Change Depth Menu Item](Images/fusion-change-depth-tool.png)
 
 Then in the "Change Depth" node you need to set the output to either `8bit int` or `16bit int`. Now your HDRI sourced imagery can be loaded into Affinity Photo without any issues.
 
-![Change Depth Node](images/fusion-change-depth-node.png)
+![Change Depth Node](Images/fusion-change-depth-node.png)
 
 ## <a name="bin"></a>Changing the Bin Window Views
 
@@ -52,19 +52,19 @@ To customize the views in the Bins window, right click in the folder view and na
 
 The `Icon Size` option is useful if you want to shrink the size of the bin icons so you can get more screen space.
 
-![Bins Icon Size Menu](images/library-icons-size-menu.png)
+![Bins Icon Size Menu](Images/library-icons-size-menu.png)
 
 ----------
 
 The `Sort` option is useful if the Bin items aren't arranged alphabetically.
 
-![Bins Sort Menu](images/library-sort-name.png)
+![Bins Sort Menu](Images/library-sort-name.png)
 
 ----------
 
 You can use the `View` option to change how the Bin items are listed. My favorite view types are `large Icons`, `Small Icons`, and `List`.
 
-![Bins View Menu](images/library-view-menu.png)
+![Bins View Menu](Images/library-view-menu.png)
 
 ## <a name="vr-tools"></a>Supporting Tools for VR Production
 
@@ -139,7 +139,7 @@ You can read the size of a specific image connection on a CustomTool node using:
 
 The process of learning about expressions can often be abstract. Here is a real world application of using the image size from a loader node to drive a composite.
 
-![Expressions](images/tips-expressions-for-image-size.png)
+![Expressions](Images/tips-expressions-for-image-size.png)
 
 When I use an Equirectangular2CubicFace node in my composite I will often add an expression to the **Input Height** control and set it to:
 

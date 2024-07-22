@@ -11,5 +11,5 @@ If you want to visually edit/rework how the macros function, each of the origina
 
 ### Macro Screenshot
 
-![Editing a Macro](images/sample-source-composition.png)
+![Editing a Macro](Images/sample-source-composition.png)
 

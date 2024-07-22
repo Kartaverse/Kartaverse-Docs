@@ -2,7 +2,7 @@
 
 ## <a name="AcerWMRStereoRenderer3D"></a>AcerWMRStereoRenderer3D
 
-![OculusDK2StereoRenderer3D GUI](images/macro-acer-wmr-stereo-renderer3d.png)
+![OculusDK2StereoRenderer3D GUI](Images/macro-acer-wmr-stereo-renderer3d.png)
 
 
 This roller coaster ride example shows how the "AcerWMRStereoRenderer3D" macro allows you to use an Acer Windows Mixed Reality HMD display as the output device from the Fusion 3D system.
@@ -15,11 +15,11 @@ Clicking on the view and selecting the Fit (Command+F) option will make sure the
 
 Check out the [Zoom New Image View](scripts#zoom-new-image-view) script documentation for tips on how to display this node on an HMD using a floating Viewer Windows.
 
-![OculusDK2StereoRenderer3D Output](images/macro-acer-wmr-stereo-renderer3d-gui.png)
+![OculusDK2StereoRenderer3D Output](Images/macro-acer-wmr-stereo-renderer3d-gui.png)
 
 ## <a name="CubicRenderer3D"></a>CubicRenderer3D
 
-![CubicRenderer3D GUI](images/macro-cubic-renderer3d-gui.png)
+![CubicRenderer3D GUI](Images/macro-cubic-renderer3d-gui.png)
 
 The CubicRenderer3D macro creates a monoscopic "2D" cubic panorama camera rig that renders out six 90&deg; FOV views and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate panoramic 360&deg; output from your 3D compositing environment.
 
@@ -45,19 +45,19 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 This example shows how you might route elements from the Fusion 3D system into the CubicRenderer3D node and then send the cubic output into a vertical cross panoramic output format.
 
-![CubicRenderer3D Node 1](images/macro-cubic-renderer3d-node.png)
+![CubicRenderer3D Node 1](Images/macro-cubic-renderer3d-node.png)
 
 This example shows how you might route elements from the Fusion 3D system into the CubicRenderer3D node and then send the six cubic outputs to the Comp-Fu Cube to LatLong fuse and then route that into a set of merge nodes to create a finished LatLong panoramic frame.
 
-![CubicRenderer3D Node 2](images/macro-cubic-renderer3d-to-latlong-node.png)
+![CubicRenderer3D Node 2](Images/macro-cubic-renderer3d-to-latlong-node.png)
 
 ## <a name="CylindricalRenderer3D"></a>CylindricalRenderer3D
 
-![CylindricalRenderer3D GUI](images/macro-cylindrical-renderer3d-gui.png)
+![CylindricalRenderer3D GUI](Images/macro-cylindrical-renderer3d-gui.png)
 
 The CylindricalRenderer3D macro creates a monoscopic "2D" cylindrical panorama camera rig that renders out a cylindrical 360&deg; x 90&deg; view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate panoramic animations from your 3D compositing environment.
 
-![CylindricalRenderer3D](images/macro-cylindrical-renderer3d.png)
+![CylindricalRenderer3D](Images/macro-cylindrical-renderer3d.png)
 
 The "Height" control is used to specify the vertical resolution of the rendered cylindrical view.
 
@@ -73,15 +73,15 @@ The X Rotation/Y Rotation/Z Rotation sliders are used to spin the orientation of
 
 To use this node, the Fusion 3D scene's output is connected to the node's yellow colored "SceneInput1" attribute. There is one rendered image output from the node called "Output".
 
-![CylindricalRenderer3D Node](images/macro-cylindrical-renderer3d-node.png)
+![CylindricalRenderer3D Node](Images/macro-cylindrical-renderer3d-node.png)
 
 ## <a name="CylindricalRenderer3DAdvanced"></a>CylindricalRenderer3DAdvanced
 
-![CylindricalRenderer3D GUI](images/macro-cylindrical-renderer3d-advanced-gui.png)
+![CylindricalRenderer3D GUI](Images/macro-cylindrical-renderer3d-advanced-gui.png)
 
 The CylindricalRenderer3D macro creates a monoscopic "2D" cylindrical panorama camera rig that renders out a cylindrical 360&deg; x 90&deg; view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate panoramic animations from your 3D compositing environment.
 
-![CylindricalRenderer3DAdvanced](images/macro-cylindrical-renderer3d-advanced.png)
+![CylindricalRenderer3DAdvanced](Images/macro-cylindrical-renderer3d-advanced.png)
 
 The "Height" control is used to specify the vertical resolution of the rendered cylindrical view.
 
@@ -101,7 +101,7 @@ The X Rotation/Y Rotation/Z Rotation sliders are used to spin the orientation of
 
 To use this node, the Fusion 3D scene's output is connected to the node's yellow colored "SceneInput1" attribute. There is one rendered image output from the node called "Output".
 
-![CylindricalRenderer3DAdvanced Node](images/macro-cylindrical-renderer3d-advanced-node.png)
+![CylindricalRenderer3DAdvanced Node](Images/macro-cylindrical-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
 
@@ -109,7 +109,7 @@ The ChannelBoolean node can be used to extract one of these additional channels 
 
 ## <a name="DomemasterRenderer3D"></a>DomemasterRenderer3D
 
-![DomemasterRenderer3D GUI](images/macro-domemaster-renderer3d-gui.png)
+![DomemasterRenderer3D GUI](Images/macro-domemaster-renderer3d-gui.png)
 
 The DomemasterRenderer3D macro creates a monoscopic "2D" cubic panorama camera rig that renders out an angular fisheye 180&deg; domemaster view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate domemaster animations from your 3D compositing environment.
 
@@ -133,12 +133,12 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 This example shows how you might route elements from the Fusion 3D system into the DomemasterRenderer3D node.
 
-![DomemasterRenderer3D Node](images/macro-domemaster-renderer3d-node.png)
+![DomemasterRenderer3D Node](Images/macro-domemaster-renderer3d-node.png)
 
 
 ## <a name="DomemasterRenderer3DAdvanced"></a>DomemasterRenderer3DAdvanced
 
-![DomemasterRenderer3DAdvanced GUI](images/macro-domemaster-renderer3d-advanced-gui.png)
+![DomemasterRenderer3DAdvanced GUI](Images/macro-domemaster-renderer3d-advanced-gui.png)
 
 The DomemasterRenderer3DAdvanced macro creates a monoscopic "2D" cubic panorama camera rig that renders out an angular fisheye 180&deg; domemaster view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate domemaster animations from your 3D compositing environment.
 
@@ -164,7 +164,7 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 This example shows how you might route elements from the Fusion 3D system into the DomemasterRenderer3D node.
 
-![DomemasterRenderer3DAdvanced Node](images/macro-domemaster-renderer3d-advanced-node.png)
+![DomemasterRenderer3DAdvanced Node](Images/macro-domemaster-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
 
@@ -173,7 +173,7 @@ The ChannelBoolean node can be used to extract one of these additional channels 
 
 ## <a name="EquirectangularRenderer3D"></a>EquirectangularRenderer3D
 
-![EquirectangularRenderer3D GUI](images/macro-equirectangular-renderer3d-gui.png)
+![EquirectangularRenderer3D GUI](Images/macro-equirectangular-renderer3d-gui.png)
 
 The EquirectangularRenderer3D macro creates a monoscopic "2D" panoramic camera rig that renders out an Equirectangular/LatLong/spherical 360&deg;x180&deg; view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate Equirectangular animations from your 3D compositing environment.
 
@@ -197,12 +197,12 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 This example shows how you might route elements from the Fusion 3D system into the EquirectangularRenderer3D node.
 
-![EquirectangularRenderer3D Node](images/macro-equirectangular-renderer3d-node.png)
+![EquirectangularRenderer3D Node](Images/macro-equirectangular-renderer3d-node.png)
 
 
 ## <a name="EquirectangularRenderer3DAdvanced"></a>EquirectangularRenderer3DAdvanced
 
-![EquirectangularRenderer3DAdvanced GUI](images/macro-equirectangular-renderer3d-advanced-gui.png)
+![EquirectangularRenderer3DAdvanced GUI](Images/macro-equirectangular-renderer3d-advanced-gui.png)
 
 The EquirectangularRenderer3DAdvanced macro creates a monoscopic "2D" panoramic camera rig that renders out an Equirectangular/LatLong/spherical 360&deg;x180&deg; view and works with Fusion's native 3D animation system. You can wire this macro node into your Shape3D nodes and then can generate Equirectangular animations from your 3D compositing environment.
 
@@ -228,7 +228,7 @@ To use this node, the Fusion 3D scene's output is connected to the node's yellow
 
 This example shows how you might route elements from the Fusion 3D system into the EquirectangularRenderer3DAdvanced node.
 
-![EquirectangularRenderer3DAdvanced Node](images/macro-equirectangular-renderer3d-advanced-node.png)
+![EquirectangularRenderer3DAdvanced Node](Images/macro-equirectangular-renderer3d-advanced-node.png)
 
 You might have to enable the viewer window's normalize icon (that looks a bit like two gradient bars) to be able to properly view channels like WorldCoord (Positions) or the Z channel (Depth).
 
@@ -238,7 +238,7 @@ The ChannelBoolean node can be used to extract one of these additional channels 
 
 ## <a name="OculusDK1MonoRenderer3D"></a>OculusDK1MonoRenderer3D
 
-![OculusDK1MonoRenderer3D Output](images/macro-oculus-dk1-mono-renderer3d.png)
+![OculusDK1MonoRenderer3D Output](Images/macro-oculus-dk1-mono-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
@@ -250,11 +250,11 @@ When this node is used you would typically set up a floating image viewer window
 
 Check out the [Zoom New Image View](scripts#zoom-new-image-view) script documentation for tips on how to display this node on an Oculus Rift DK1 or DK2 HMD using a floating Viewer Windows.
 
-![OculusDK1MonoRenderer3D GUI](images/macro-oculus-dk1-mono-renderer3d-gui.png)
+![OculusDK1MonoRenderer3D GUI](Images/macro-oculus-dk1-mono-renderer3d-gui.png)
 
 ## <a name="OculusDK1StereoRenderer3D"></a>OculusDK1StereoRenderer3D
 
-![OculusDK1StereoRenderer3D Output](images/macro-oculus-dk1-stereo-renderer3d.png)
+![OculusDK1StereoRenderer3D Output](Images/macro-oculus-dk1-stereo-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL stereo based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
@@ -268,11 +268,11 @@ When this node is used you would typically set up a floating image viewer window
 
 Check out the [Zoom New Image View](scripts#zoom-new-image-view) script documentation for tips on how to display this node on an Oculus Rift DK1 or DK2 HMD using a floating Viewer Windows.
 
-![OculusDK1StereoRenderer3D GUI](images/macro-oculus-dk1-stereo-renderer3d-gui.png)
+![OculusDK1StereoRenderer3D GUI](Images/macro-oculus-dk1-stereo-renderer3d-gui.png)
 
 ## <a name="OculusDK2MonoRenderer3D"></a>OculusDK2MonoRenderer3D
 
-![OculusDK2MonoRenderer3D Output](images/macro-oculus-dk2-mono-renderer3d.png)
+![OculusDK2MonoRenderer3D Output](Images/macro-oculus-dk2-mono-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
@@ -284,11 +284,11 @@ When this node is used you would typically set up a floating image viewer window
 
 Check out the [Zoom New Image View](scripts#zoom-new-image-view) script documentation for tips on how to display this node on an Oculus Rift DK1 or DK2 HMD using a floating Viewer Windows.
 
-![OculusDK2MonoRenderer3D GUI](images/macro-oculus-dk2-mono-renderer3d-gui.png)
+![OculusDK2MonoRenderer3D GUI](Images/macro-oculus-dk2-mono-renderer3d-gui.png)
 
 ## <a name="OculusDK2StereoRenderer3D"></a>OculusDK2StereoRenderer3D
 
-![OculusDK2StereoRenderer3D Output](images/macro-oculus-dk2-stereo-renderer3d.png)
+![OculusDK2StereoRenderer3D Output](Images/macro-oculus-dk2-stereo-renderer3d.png)
 
 This node allows you to take content from inside of Fusion's 3D workspace and use an OpenGL stereo based rendering mode to display the scene live on an Oculus Rift HMD. This implementation of stereo VR rendering for the Oculus Rift works in both Fusion (Free) and Fusion Studio.
 
@@ -298,22 +298,22 @@ When this node is used you would typically set up a floating image viewer window
 
 Check out the [Zoom New Image View](scripts#zoom-new-image-view) script documentation for tips on how to display this node on an Oculus Rift DK1 or DK2 HMD using a floating Viewer Windows.
 
-![OculusDK2StereoRenderer3D GUI](images/macro-oculus-dk2-stereo-renderer3d-gui.png)
+![OculusDK2StereoRenderer3D GUI](Images/macro-oculus-dk2-stereo-renderer3d-gui.png)
 
 ## <a name="YouTube180Renderer3D"></a>YouTube180Renderer3D
 
-![YouTube180Renderer3D Roller Coaster Scene](images/macro-youtube-180-renderer-3d.png)
+![YouTube180Renderer3D Roller Coaster Scene](Images/macro-youtube-180-renderer-3d.png)
 
 The YouTube180Renderer3D node allows you to render out monoscopic 2D content from Fusion's 3D system to the YouTube 180 based equirectangular 180&deg;x180&deg; horizontally cropped 1:1 aspect ratio frame format.
 
 ## <a name="YouTube180StereoRenderer3D"></a>YouTube180StereoRenderer3D
 
-![YouTube180StereoRenderer3D Roller Coaster Scene](images/macro-youtube-180-stereo-renderer-3d.png)
+![YouTube180StereoRenderer3D Roller Coaster Scene](Images/macro-youtube-180-stereo-renderer-3d.png)
 
 The YouTube180StereoRenderer3D node allows you to render out stereoscopic 3D content from Fusion's 3D system to the YouTube 180 based equirectangular 180&deg;x180&deg; horizontally cropped 1:1 aspect ratio frame format.
 
-![YouTube180StereoRenderer3D GUI](images/macro-youtube-180-stereo-renderer-3d-gui.png)
+![YouTube180StereoRenderer3D GUI](Images/macro-youtube-180-stereo-renderer-3d-gui.png)
 
 The OpenGL tab has options for supersample rendering, applying depth of field, and to enable color accumulation effects.
 
-![YouTube180StereoRenderer3D OpenGL GUI](images/macro-youtube-180-stereo-renderer-3d-gui-opengl.png)
+![YouTube180StereoRenderer3D OpenGL GUI](Images/macro-youtube-180-stereo-renderer-3d-gui-opengl.png)

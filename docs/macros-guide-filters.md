@@ -2,13 +2,13 @@
 
 ## <a name="BlurPanoramicWrap"></a>BlurPanoramicWrap
 
-![BlurPanoramicWrap GUI](images/macro-blur-panoramic-wrap-gui.png)
+![BlurPanoramicWrap GUI](Images/macro-blur-panoramic-wrap-gui.png)
 
 The BlurPanoramicWrap node applies a soft blurring effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in blur node.
 
 In this example the BlurPanoramicWrap macro is used to create a title graphic with the Text+ character generator applied as an effects mask. The alpha channel on the text is inverted so it results in the background of the image being filled with a soft blurry effect while the text is clear.
 
-![BlurPanoramicWrap](images/macro-blur-panoramic-wrap.jpg)
+![BlurPanoramicWrap](Images/macro-blur-panoramic-wrap.jpg)
 
 The Red/Green/Blue/Alpha checkbox controls allow you to toggle the output of the blur filter effect per channel in the image.
 
@@ -22,11 +22,11 @@ The "Blend" control allows you to mix a percentage of the original image back in
 
 You can also use the effect mask control input to add your own vector mask or greyscale map to control where the blur effect is applied.
 
-![BlurPanoramicWrap Node](images/macro-blur-panoramic-wrap-node.png)
+![BlurPanoramicWrap Node](Images/macro-blur-panoramic-wrap-node.png)
 
 ## <a name="ColorCorrectorMasked"></a>ColorCorrectorMasked
 
-![ColorCorrectorMasked GUI](images/macro-color-corrector-masked-gui.png)
+![ColorCorrectorMasked GUI](Images/macro-color-corrector-masked-gui.png)
 
 This node is a hybrid color corrector that allows you to use an internal gradient generator to selectively apply color correction to an image.
 
@@ -36,7 +36,7 @@ The ColorCorrectorMasked node is also good for applying graduated neutral densit
 
 You can control the gradient's start position and end position visually using either the red or green colored square box control handles in the viewer window when the node is selected, or numerically by entering the raw position values in the node settings.
 
-![ColorCorrectorMasked](images/macro-color-corrector-masked.png)
+![ColorCorrectorMasked](Images/macro-color-corrector-masked.png)
 
 The "Width" control is used to specify the horizontal resolution of the gradient mask used for the color correction.
 
@@ -50,15 +50,15 @@ The "Start" and "End" controls let you choose the beginning and ending zones for
 
 This is an example of targeting the color correction effect on the vertical axis by setting the gradient control handles to Start X=0.5 Y=1.0 and End X=0.5 Y=0.5:
 
-![ColorCorrectorMasked Vertical Control Handles GUI](images/macro-color-corrector-masked-gui-vertical-control-handles-gui.png)
+![ColorCorrectorMasked Vertical Control Handles GUI](Images/macro-color-corrector-masked-gui-vertical-control-handles-gui.png)
 
-![ColorCorrectorMasked Vertical Control Handles ](images/macro-color-corrector-masked-gui-vertical-control-handles.png)
+![ColorCorrectorMasked Vertical Control Handles ](Images/macro-color-corrector-masked-gui-vertical-control-handles.png)
 
 This is an example of targeting the color correction effect on the horizontal axis by setting the gradient control handles to Start X=1.0 Y=0.5 and End X=0.5 Y=0.5:
 
-![ColorCorrectorMasked Horizontal Control Handles GUI ](images/macro-color-corrector-masked-gui-horizontal-control-handles-gui.png)
+![ColorCorrectorMasked Horizontal Control Handles GUI ](Images/macro-color-corrector-masked-gui-horizontal-control-handles-gui.png)
 
-![ColorCorrectorMasked Horizontal Control Handles ](images/macro-color-corrector-masked-gui-horizontal-control-handles.png)
+![ColorCorrectorMasked Horizontal Control Handles ](Images/macro-color-corrector-masked-gui-horizontal-control-handles.png)
 
 **Tip:** Typically I will drag the control handles to their rough position in the viewer window using the visual control handles, and then round those values off to a precise setting by adjusting the start and end numeric values to lock a specific handle to either: the edge of the frame, the exact middle point of the frame, or to keep the gradient perfectly horizontally or vertically aligned with no leaning or tilting effect.
 
@@ -66,7 +66,7 @@ The Gradient color control sliders allow you to add more control handles to the 
 
 You can move the low and high points on the gradient by pulling the triangular controls that are located below the gradient band in the node settings:
 
-![ColorCorrectorMasked](images/macro-color-corrector-masked-gui-gradient-bands.png)
+![ColorCorrectorMasked](Images/macro-color-corrector-masked-gui-gradient-bands.png)
 
 The remaining visual controls in the ColorCorrectorMasked node are identical feature wise to the standard Fusion Color Corrector node.
 
@@ -80,17 +80,17 @@ A pair of AlphaDivide and AlphaMultiply nodes are internally connected to the Co
 
 To use the ColorCorrectorMasked node, the source imagery is connected to the node's "Input" attribute. There is a single output from the node called "Output".
 
-![ColorCorrectorMasked Node](images/macro-color-corrector-masked-node.png)
+![ColorCorrectorMasked Node](Images/macro-color-corrector-masked-node.png)
 
 
 
 ## <a name="DefocusPanoramicWrap"></a>DefocusPanoramicWrap
 
-![DefocusPanoramicWrap GUI](images/macro-defocus-panoramic-wrap-gui.png)
+![DefocusPanoramicWrap GUI](Images/macro-defocus-panoramic-wrap-gui.png)
 
 The DefocusPanoramicWrap node applies a defocus / bokeh lens blur effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in Defocus node.
 
-![DefocusPanoramicWrap](images/macro-defocus-panoramic-wrap.jpg)
+![DefocusPanoramicWrap](Images/macro-defocus-panoramic-wrap.jpg)
 
 The "Filter" control is used to choose if you want a slow to render but high quality "Lens" blur with a shaped out of focus bokeh region, or a faster to render "Gaussian Blur" that is uniform in its shape.
 
@@ -112,21 +112,21 @@ The gradient controls at the bottom of the node parameters in the GUI along with
 
 You can also use the effect mask control input to add your own vector mask or greyscale map to control where the defocus effect is applied.
 
-![DefocusPanoramicWrap node](images/macro-defocus-panoramic-wrap-node.png)
+![DefocusPanoramicWrap node](Images/macro-defocus-panoramic-wrap-node.png)
 
 ## <a name="DepthBlurPanoramicWrap"></a>DepthBlurPanoramicWrap
 
-![DepthBlurPanoramicWrap GUI](images/macro-depth-blur-panoramic-wrap-gui.png)
+![DepthBlurPanoramicWrap GUI](Images/macro-depth-blur-panoramic-wrap-gui.png)
 
 The DepthBlurPanoramicWrap node applies a depthmap driven variable defocus / bokeh style lens blur kind of effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in DepthBlur node.
 
 This image is a DepthBlurPanoramicWrap example from the included compositing file "Stereo 3D Roto Conversion.comp".
 
-![DepthBlurPanoramicWrap](images/macro-depth-blur-panoramic-wrap.jpg)
+![DepthBlurPanoramicWrap](Images/macro-depth-blur-panoramic-wrap.jpg)
 
 This image below shows the rotoscope drawn greyscale depth map that was connected to the "depth" input on the DepthBlurPanoramicWrap node to create the varying depth of field effect. The depthmap image is also an element from the demo file "Stereo 3D Roto Conversion.comp".
 
-![DepthBlurPanoramicWrap](images/macro-depth-blur-panoramic-rotoscoped-depthmap.png)
+![DepthBlurPanoramicWrap](Images/macro-depth-blur-panoramic-rotoscoped-depthmap.png)
 
 
 The "Depth Blur Channel" is set to Luma (Luminance) by default. This is used to let the node known what RGB/A/Z channel is providing the required depthmap information to the node's "depth" input connection.
@@ -137,21 +137,21 @@ The "Depth Blur Size" control adjusts the overall blurriness of the defocus effe
 
 The DepthBlurPanoramicWrap node has three inputs: An "image" input for the panoramic media, a "depth" input for the depthmap imagery, and an "Effect Mask" which can be used to disable the depth blur effect selectively in the frame.
 
-![DepthBlurPanoramicWrap Node](images/macro-depth-blur-panoramic-wrap-node.png)
+![DepthBlurPanoramicWrap Node](Images/macro-depth-blur-panoramic-wrap-node.png)
 
 ## <a name="DisplaceEquirectangular"></a>DisplaceEquirectangular
 
-![DisplaceEquirectangular GUI](images/macro-displace-equirectangular-gui.png)
+![DisplaceEquirectangular GUI](Images/macro-displace-equirectangular-gui.png)
 
 The DisplaceEquirectangular macro node pushes and pulls the pixels in a panoramic 360&deg; image to turn a 2D panorama into a stereosopic 3D panoramic output by generating the extra missing eye camera view required to have a stereo pair image. The displacement effect is wrapped around the left/right frame border edge to create a seamless result.
 
 Here is a wiggle format GIF animation that shows the generated "in between" stereoscopic camera views that are possible to create from an original 2D mono panorama with this node. This image was created using the included demo file "Stereo 3D Roto Conversion.comp" that also has an over/under stereo image output as well that can be viewed on an HMD.
 
-![DisplaceEquirectangular Wiggle Animation](images/macro-displace-equirectangular.gif)
+![DisplaceEquirectangular Wiggle Animation](Images/macro-displace-equirectangular.gif)
 
 This image below shows the rotoscope drawn greyscale depth map that was connect to the "depth" input on the DisplaceEquirectangular node to create the above wiggle animation. Each of the rotosplines are give a specific greyscale shaded depth value from 0-1 which represents the depth from the back of the world to the front of the scene. The depthmap image is also an element from the demo file "Stereo 3D Roto Conversion.comp".
 
-![DisplaceEquirectangular Depth map](images/macro-displace-equirectangular-rotoscoped-depthmap.png)
+![DisplaceEquirectangular Depth map](Images/macro-displace-equirectangular-rotoscoped-depthmap.png)
 
 The "Depth Input Channel" button is set to Luma (Luminance) by default. This control is used to let the node know what RGB/A/Luminance channel is providing the required depthmap information to the node's "depth" input connection.
 
@@ -165,19 +165,19 @@ The "Depth Blur Size" control allows you to smooth out the differences in the de
 
 The DisplaceEquirectangular node has three inputs: An "image" input for the panoramic media, a "depth" input for the depthmap imagery, and an "Effect Mask" which can be used to disable the displacement effect selectively in the frame.
 
-![DisplaceEquirectangular Node](images/macro-displace-equirectangular-node.png)
+![DisplaceEquirectangular Node](Images/macro-displace-equirectangular-node.png)
 
 ## <a name="GlowPanoramicWrap"></a>GlowPanoramicWrap
 
-![GlowPanoramicWrap GUI](images/macro-glow-panoramic-wrap-gui.png)
+![GlowPanoramicWrap GUI](Images/macro-glow-panoramic-wrap-gui.png)
 
 The GlowPanoramicWrap node applies a soft glowing effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in glow node.
 
-![GlowPanoramicWrap](images/macro-glow-panoramic-wrap.jpg)
+![GlowPanoramicWrap](Images/macro-glow-panoramic-wrap.jpg)
 
 The GlowPanoramicWrap node is perfect if you are creating panoramic 360&deg; CG renderings and are trying to simulate bright light sources with halos. This node can help you render your image correctly where the glow needs to be emanating from the incandescent surface and fully wrap around the frame edge like the image below illustrates:
 
-![GlowPanoramicWrap Light Source](images/macro-glow-panoramic-wrap-incandescent-on-border.jpg)
+![GlowPanoramicWrap Light Source](Images/macro-glow-panoramic-wrap-incandescent-on-border.jpg)
 
 The Red/Green/Blue/Alpha checkbox controls allow you to toggle the output of the glow filter effect per channel in the image.
 
@@ -197,13 +197,13 @@ The gradient controls at the bottom of the node parameters in the GUI along with
 
 You can also use the effect mask control input to add your own vector mask or greyscale map to control where the glow effect is applied.
 
-![GlowPanoramicWrap Node](images/macro-glow-panoramic-wrap-node.png)
+![GlowPanoramicWrap Node](Images/macro-glow-panoramic-wrap-node.png)
 
 
 
 ## <a name="SharpenPanoramicWrap"></a>SharpenPanoramicWrap
 
-![SharpenPanoramicWrap GUI](images/macro-sharpen-panoramic-wrap-gui.png)
+![SharpenPanoramicWrap GUI](Images/macro-sharpen-panoramic-wrap-gui.png)
 
 The SharpenPanoramicWrap node applies a sharpening effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in sharpen node.
 
@@ -211,7 +211,7 @@ The SharpenPanoramicWrap node applies a sharpening effect that is panoramic 360&
 
 This image has the sharpening effect cranked up really high so the effect is easily visible but harsh. The SharpenPanoramicWrap node should be used subtly for a gentle improvement of clarity.
 
-![SharpenPanoramicWrap](images/macro-sharpen-panoramic-wrap.jpg)
+![SharpenPanoramicWrap](Images/macro-sharpen-panoramic-wrap.jpg)
 
 The Red/Green/Blue/Alpha checkbox controls allow you to toggle the output of the sharpen filter effect per channel in the image.
 
@@ -224,19 +224,19 @@ The gradient controls at the bottom of the node parameters in the GUI along with
 
 You can also use the effect mask control input to add your own vector mask or greyscale map to control where the sharpen effect is applied.
 
-![SharpenPanoramicWrap Node](images/macro-sharpen-panoramic-wrap-node.png)
+![SharpenPanoramicWrap Node](Images/macro-sharpen-panoramic-wrap-node.png)
 
 
 ## <a name="UnSharpenMaskPanoramicWrap"></a>UnSharpenMaskPanoramicWrap
 
-![UnSharpenMaskPanoramicWrap GUI](images/macro-unsharpen-mask-panoramic-wrap-gui.png)
+![UnSharpenMaskPanoramicWrap GUI](Images/macro-unsharpen-mask-panoramic-wrap-gui.png)
 
 The UnSharpenMaskPanoramicWrap node applies a sharpening effect that is panoramic 360&deg; aware and wraps around the left/right frame border edges to avoid a visual seam artifact that would happen if you used Fusion's built in un-sharpen mask node.
 
 
 The UnSharpenMaskPanoramicWrap node should be used subtly for a gentle improvement of clarity.
 
-![UnSharpenMaskPanoramicWrap](images/macro-unsharpen-mask-panoramic-wrap.jpg)
+![UnSharpenMaskPanoramicWrap](Images/macro-unsharpen-mask-panoramic-wrap.jpg)
 
 The Red/Green/Blue/Alpha checkbox controls allow you to toggle the output of the sharpen filter effect per channel in the image.
 
@@ -254,4 +254,4 @@ The gradient controls at the bottom of the node parameters in the GUI along with
 
 You can also use the effect mask control input to add your own vector mask or greyscale map to control where the un-sharpen filter is applied.
 
-![UnSharpenMaskPanoramicWrap Node](images/macro-unsharpen-mask-panoramic-wrap-node.png)
+![UnSharpenMaskPanoramicWrap Node](Images/macro-unsharpen-mask-panoramic-wrap-node.png)

@@ -2,7 +2,7 @@
 
 ## <a name="Offset"></a>Offset
 
-![Offset GUI](images/macro-offset-gui.png)
+![Offset GUI](Images/macro-offset-gui.png)
 
 This macro is useful for preparing seamless tiling textures by allowing you to scroll the content of an image horizontally or vertically and the scrolled image content wraps around the edge of the image border.
 
@@ -10,17 +10,17 @@ The Offset node has two controls named "X" and "Y" that can be adjusted in the 0
 
 The Offset X attribute is helpful for panning a LatLong/Equirectangular image horizontally and can be used to re-center the "front" looking part of a panoramic 360&deg; image without degrading the image quality.
 
-![Offset Macro](images/macro-offset-horizontal-scrolling.png)
+![Offset Macro](Images/macro-offset-horizontal-scrolling.png)
 
 To use this node, the source imagery is connected to the node's yellow colored "Input" attribute. The image output from the node is called "Output".
 
-![Offset Node](images/macro-offset-node.png)
+![Offset Node](Images/macro-offset-node.png)
 
 ### Undoing the Offset Effect
 
 If you use an offset node in your comp to re-center a LatLong panorama by scrolling the image horizontally, you can use a 2nd offset node and an expression to revert the footage back its original position with the help of the following workflow:
 
-![Offset Motion Inverted Nodes](images/macros-offset-inverting-the-motion-node.png)
+![Offset Motion Inverted Nodes](Images/macros-offset-inverting-the-motion-node.png)
 
 The original offset node at the beginning of the comp is used to re-center footage. This is useful for doing rotoscoping that might cross the edge boundary of the LatLong/equirectangular/spherical frame.
 
@@ -32,7 +32,7 @@ To add the expression to the final offset node we need to open up the tool setti
 
 Assuming the first offset node was named "Offset" you can add the following expression `Point(1, 0.0)-Offset.Input1` that will undo the horizontal panning effect and your media will take on its original orientation.
 
-![Offset Motion Inverted](images/macros-offset-inverting-the-motion.png)
+![Offset Motion Inverted](Images/macros-offset-inverting-the-motion.png)
 
 This type of expression is handy if you keyframe animated the panning offset effect on the first node as the expression will calculate the correct panning value for each frame of your sequence.
 
@@ -42,11 +42,11 @@ This type of expression is handy if you keyframe animated the panning offset eff
 
 ## <a name="RotateCubicFaces"></a>RotateCubicFaces
 
-![RotateCubicFaces GUI](images/macro-rotate-cubic-faces-gui.png)
+![RotateCubicFaces GUI](Images/macro-rotate-cubic-faces-gui.png)
 
 This macro allows you to rotate a set of six independent cubemap faces and then get the six transformed cubic faces back as separate outputs. This is useful for levelling horizons or adjusting the front facing view of a panorama.
 
-![RotateCubicFaces Macro](images/macro-rotate-cubic-faces.png)
+![RotateCubicFaces Macro](Images/macro-rotate-cubic-faces.png)
 
 The "Input Height" control is used to specify the vertical and horizontal resolution of the rendered domemaster view.
 
@@ -60,20 +60,20 @@ To use this node, individual 90&deg; FOV based cubic view source images are conn
 
 This example shows a sample node layout where a set of six images are loaded into the RotateCubicFaces macro. The individual cubic views are then rotated, and finally a CubicFaces2HorizontalCross node is used to combine the images into a horizontal cross panorama.
 
-![RotateCubicFaces Node](images/macro-rotate-cubic-faces-node.png)
+![RotateCubicFaces Node](Images/macro-rotate-cubic-faces-node.png)
 
 **Note:** The "RotateCubicFaces" node was previously called "CubicFaces2RotatedCubicFaces".
 
 
 ## <a name="RotateEquirectangular"></a>RotateEquirectangular
 
-![RotateEquirectangular GUI](images/macro-rotate-equirectangular-gui.png)
+![RotateEquirectangular GUI](Images/macro-rotate-equirectangular-gui.png)
 
 This macro allows you to rotate an equirectangular/LatLong/spherical image. This is useful for levelling horizons or adjusting the front facing view of a panorama.
 
 You could also use the RotateEquirectangular node as a panoramic image roll stabilizer by using animation keys on the rotation controls or a linked expression to perform a panoramic 360&deg; roll correction on the XYZ rotation channels over the duration of an image sequence/video clip.
 
-![RotateEquirectangular Macro](images/macro-rotate-equirectangular.png)
+![RotateEquirectangular Macro](Images/macro-rotate-equirectangular.png)
 
 The "Depth" control allows you to specify the bit depth for the panoramic output. The "8bit int" option is for PNG/TGA/JPG outputs, and the "16bit float" or "32bit float" options are perfect for floating point EXR based outputs that have HDR (high dynamic range) based color values that exceed the standard 0.0-1.0 color range.
 
@@ -83,7 +83,7 @@ The X Rotation/Y Rotation/Z Rotation sliders are used to spin the orientation of
 
 This example shows a sample node layout where a LatLong image is loaded into the RotateEquirectangular macro. The view is then rotated and tilted.
 
-![RotateEquirectangular Node](images/macro-rotate-equirectangular-node.png)
+![RotateEquirectangular Node](Images/macro-rotate-equirectangular-node.png)
 
 **Note:** The "RotateEquirectangular" node was previously called "Equirectangular2RotatedEquirectangular".
 
@@ -91,11 +91,11 @@ This example shows a sample node layout where a LatLong image is loaded into the
 
 ## <a name="RotateGearVRMono"></a>RotateGearVRMono
 
-![RotateGearVRMono GUI](images/macro-rotate-gear-vr-mono-gui.png)
+![RotateGearVRMono GUI](Images/macro-rotate-gear-vr-mono-gui.png)
 
 This macro allows you to rotate a single combined image with a Gear VR/Octane ORBX/Vray 6:1 cubic face arrangement. This is useful for levelling horizons or adjusting the front facing view of a panorama.
 
-![RotateGearVRMono](images/macro-rotate-gear-vr-mono.png)
+![RotateGearVRMono](Images/macro-rotate-gear-vr-mono.png)
 
 The Rotation Order control allows you to control the precedence for each of the rotation axis. This is helpful when you need to solve gimbal lock by selecting the most important rotation channel for your camera animation and making it the first of the three axes listed in the Rotation Order settings.
 
@@ -111,15 +111,15 @@ A Gear VR mono panorama has the faces oriented in the following order:
 
 To use this node a Gear VR mono 6:1 monoscopic cubemap image is connect to the node's colored input named "Image". There is a single image output from the node called "Output" which displays the final rotated Gear VR mono cubemap frame.
 
-![RotateGearVRMono Node](images/macro-rotate-gear-vr-mono-node.png)
+![RotateGearVRMono Node](Images/macro-rotate-gear-vr-mono-node.png)
 
 ## <a name="RotateGearVRStereo"></a>RotateGearVRStereo
 
-![RotateGearVRStereo GUI](images/macro-rotate-gear-vr-stereo-gui.png)
+![RotateGearVRStereo GUI](Images/macro-rotate-gear-vr-stereo-gui.png)
 
 This macro allows you to rotate a single combined stereos image with a Gear VR/Octane ORBX/Vray 12:1 horizontal strip cubic face arrangement. This is useful for levelling horizons or adjusting the front facing view of a panorama.
 
-![RotateGearVRStereo](images/macro-rotate-gear-vr-stereo.png)
+![RotateGearVRStereo](Images/macro-rotate-gear-vr-stereo.png)
 
 The Rotation Order control allows you to control the precedence for each of the rotation axis. This is helpful when you need to solve gimbal lock by selecting the most important rotation channel for your camera animation and making it the first of the three axes listed in the Rotation Order settings.
 
@@ -135,18 +135,18 @@ A Gear VR stereo panorama has a side by side stereo format that has the right ca
 
 To use this node a Gear VR stereo 12:1 stereoscopic cubemap image is connect to the node's colored input named "Image". There is a single image output from the node called "Output" which displays the final rotated Gear VR stereo cubemap frame.
 
-![RotateGearVRStereo Node](images/macro-rotate-gear-vr-stereo-node.png)
+![RotateGearVRStereo Node](Images/macro-rotate-gear-vr-stereo-node.png)
 
 ## <a name="RotateView"></a>RotateView
 
-![RotateView](images/macro-rotate-view.png)
+![RotateView](Images/macro-rotate-view.png)
 
 This macro simplifies the process of applying view rotations to switch your imagery between landscape and portrait style orientations in 90&deg; rotation increments. The node also keeps the view cropping centered as the image is rotated.
 
-![RotateView GUI](images/macro-rotate-view-gui.png)
+![RotateView GUI](Images/macro-rotate-view-gui.png)
 
 The View Rotation control allows you to apply 0&deg;, 90&deg;, 180&deg;, and 270&deg; rotations using a ComboControl menu.
 
 To use this node an image is connect to the node's colored input named "Image". There is a single image output from the node called "Output" which displays the final rotated view.
 
-![RotateView Node](images/macro-rotate-view-node.png)
+![RotateView Node](Images/macro-rotate-view-node.png)

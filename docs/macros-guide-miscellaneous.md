@@ -2,7 +2,7 @@
 
 ## <a name="DomemasterCrossbounceSim"></a>DomemasterCrossbounceSim
 
-![DomemasterCrossbounceSim GUI](images/macro-domemaster-crossbounce-sim-gui.png)
+![DomemasterCrossbounceSim GUI](Images/macro-domemaster-crossbounce-sim-gui.png)
 
 The DomemasterCrossbounceSim macro creates a simple fulldome crossbounce lighting simulation using fast 2D image operations. This crossbounce simulation mimics the contrast robbing effect that happens in a planetarium theater when video projectors are used to display imagery on a 180&deg; hemispherical dome surface. The crossbounce light spill effect is caused by stray light bouncing across from one side of the hemisphere screen in a dome theater and will raise the ambient lighting levels on the opposite part of the dome screen.
 
@@ -10,15 +10,15 @@ The DomemasterCrossbounceSim macro creates a simple fulldome crossbounce lightin
 
 Here is a view of a raw crossbounce lighting simulation that was created with the "Crossbounce Blend" control set to 0:
 
-![DomemasterCrossbounceSim Fullcolor Macro](images/macro-domemaster-crossbounce-sim-raw.png)
+![DomemasterCrossbounceSim Fullcolor Macro](Images/macro-domemaster-crossbounce-sim-raw.png)
 
 Here is a view of a raw crossbounce lighting simulation that was created with the "Crossbounce Blend" control set to 0, and the "Crossbounce Saturation" was set to 0 to create a desaturated greyscale / luminance style output:
 
-![DomemasterCrossbounceSim Greyscale Macro](images/macro-domemaster-crossbounce-sim-greyscale.png)
+![DomemasterCrossbounceSim Greyscale Macro](Images/macro-domemaster-crossbounce-sim-greyscale.png)
 
 This is a view of a crossbounce lighting simulation where the simulation data was automatically composited over the original fulldome plate footage. This was created by setting the "Crossbounce Blend" control to 1:
 
-![DomemasterCrossbounceSim Comped Macro](images/macro-domemaster-crossbounce-sim-comped.png)
+![DomemasterCrossbounceSim Comped Macro](Images/macro-domemaster-crossbounce-sim-comped.png)
 
 The "Input Height" control is used to specify the vertical and horizontal resolution of the rendered domemaster view.
 
@@ -32,30 +32,30 @@ When the "Crossbounce Blend" control is set to 0 you get the raw crossbounce lig
 
 This example shows how you might create a crossbounce lighting simulation of fulldome imagery using the DomemasterCrossbounceSim node. The crossbounce sim output was then saved to disk with the help of a saver node.
 
-![DomemasterCrossbounceSim Node](images/macro-domemaster-crossbounce-sim-node.png)
+![DomemasterCrossbounceSim Node](Images/macro-domemaster-crossbounce-sim-node.png)
 
 This example shows how you can use a LatLong format source image as part of a fulldome crossbounce lighting simulation. For this screenshot the loader node opened up a LatLong format source image. Then an Equirectangular2Domemaster220 node was used to convert the original LatLong footage into a domemaster format before it was sent into the DomemasterCrossbounceSim node. After the crossbounce simulation was computed, the resulting fulldome format output was saved to disk.
 
-![DomemasterCrossbounceSim Node](images/macro-domemaster-crossbounce-sim-node-latlong.png)
+![DomemasterCrossbounceSim Node](Images/macro-domemaster-crossbounce-sim-node-latlong.png)
 
 
 ## <a name="MayaBackgroundGradient"></a>MayaBackgroundGradient
 
-![MayaBackgroundGradient GUI](images/macro-maya-background-gradient-gui.png)
+![MayaBackgroundGradient GUI](Images/macro-maya-background-gradient-gui.png)
 
 The MayaBackgroundGradient macro generates a rectangular frame with a version of the Maya style viewport gradient effect.
 
 The "Depth" control allows you to specify the bit depth for the panoramic output. The "8bit int" option is for PNG/TGA/JPG outputs, and the "16bit float" or "32bit float" options are perfect for floating point EXR based outputs that have HDR (high dynamic range) based color values that exceed the standard 0.0-1.0 color range.
 
-![MayaBackgroundGradient Macro](images/macro-maya-background-gradient.png)
+![MayaBackgroundGradient Macro](Images/macro-maya-background-gradient.png)
 
 This example shows how you might route the MayaBackgroundGradient node as a background layer to a merge node in a comp. Typically, either 3D rendered content or a character generator like Text+ would be wired in for the foreground imagery.
 
-![MayaBackgroundGradient Node](images/macro-maya-background-gradient-node.png)
+![MayaBackgroundGradient Node](Images/macro-maya-background-gradient-node.png)
 
 ## <a name="MayaBackgroundGradientCubicFaces"></a>MayaBackgroundGradientCubicFaces
 
-![MayaBackgroundGradientCubicFaces GUI](images/macro-maya-background-gradient-cubicfaces-gui.png)
+![MayaBackgroundGradientCubicFaces GUI](Images/macro-maya-background-gradient-cubicfaces-gui.png)
 
 The MayaBackgroundGradientCubicFaces macro generates a set of six 90&deg; FOV cubic faces with a panoramic version of the Maya style viewport gradient effect.
 
@@ -63,31 +63,31 @@ The "Depth" control allows you to specify the bit depth for the panoramic output
 
 The following image shows result of sending the panoramic cubic output from the MayaBackgroundGradientCubicFaces macro into a CubicFaces2VerticalCross node:
 
-![MayaBackgroundGradientCubicFaces Macro](images/macro-maya-background-gradient-cubicfaces.png)
+![MayaBackgroundGradientCubicFaces Macro](Images/macro-maya-background-gradient-cubicfaces.png)
 
 There are six image outputs from the node called `Front`, `Right`, `Back`, `Left`, `Top`, and `Bottom`.
 
-![MayaBackgroundGradientCubicFaces Node](images/macro-maya-background-gradient-cubicfaces-node.png)
+![MayaBackgroundGradientCubicFaces Node](Images/macro-maya-background-gradient-cubicfaces-node.png)
 
 ## <a name="MayaBackgroundGradientEquirectangular"></a>MayaBackgroundGradientEquirectangular
 
-![MayaBackgroundGradientEquirectangular GUI](images/macro-maya-background-gradient-equirectangular-gui.png)
+![MayaBackgroundGradientEquirectangular GUI](Images/macro-maya-background-gradient-equirectangular-gui.png)
 
 The MayaBackgroundGradientEquirectangular macro generates an equirectangular/LatLong/spherical panoramic version of the Maya style viewport gradient effect.
 
 The "Depth" control allows you to specify the bit depth for the panoramic output. The "8bit int" option is for PNG/TGA/JPG outputs, and the "16bit float" or "32bit float" options are perfect for floating point EXR based outputs that have HDR (high dynamic range) based color values that exceed the standard 0.0-1.0 color range.
 
-![MayaBackgroundGradientEquirectangular Macro](images/macro-maya-background-gradient-equirectangular.png)
+![MayaBackgroundGradientEquirectangular Macro](Images/macro-maya-background-gradient-equirectangular.png)
 
 This example shows how you might route the MayaBackgroundGradientEquirectangular node as a background layer to a merge node in a comp. Typically, either 3D rendered content or a character generator like Text+ would be wired in for the foreground imagery.
 
-![MayaBackgroundGradientEquirectangular Node](images/macro-maya-background-gradient-equirectangular-node.png)
+![MayaBackgroundGradientEquirectangular Node](Images/macro-maya-background-gradient-equirectangular-node.png)
 
 ## <a name="SaverIntool"></a>SaverIntool
 
 The `SaverIntool` macro adds an FFMPEG Encoding Intool **End Render Script**. This Fusion Intool script is used to FFMPEG encode your saver node rendered image sequences into MP4 H.264 movies. If the Saver node footage is in the EXR format a gamma 1.0 to 2.2 conversion applied automatically.
 
-![SaverIntool GUI](images/macro-saver-intool-gui.png)
+![SaverIntool GUI](Images/macro-saver-intool-gui.png)
 
 **Step 1.** Install ffmpeg.
 
@@ -132,7 +132,7 @@ The `SetMetadataVR` macro allows you tag footage with image projection and stere
 
 This node is handy if you have manually resized panoramic imagery away from the image projection's standard aspect ratio and are having issues loading the footage into Fusion's native 360&deg; media viewer when the "Auto" mode is active. An example of this would be trying to load a 1:1 aspect ratio equirectangular/LatLong/Spherical image when the 360&deg; media viewer would prefer a 2:1 aspect ratio.
 
-![SetMetadataVR GUI](images/macro-set-metadata-vr-gui.png)
+![SetMetadataVR GUI](Images/macro-set-metadata-vr-gui.png)
 
 The "Stereo" control allows you to choose the stereo display mode that will be used when footage is loaded into Fusion's Stereo viewer window. The options are  "Mono 2D", "Stereo 3D Over Under", "Stereo 3D Side by Side".
 
@@ -142,7 +142,7 @@ If you are working with panoramic imagery that is of a different image projectio
 
 ### Viewing Metadata Information
 
-![Fusion SubV Metadata](images/macro-set-metadata-vr-fusion-subv-viewer-window.png)
+![Fusion SubV Metadata](Images/macro-set-metadata-vr-fusion-subv-viewer-window.png)
 
 You can view the metadata tags that are being added to your imagery by activating the "Metadata" mode in the Fusion Viewer Window "SubV" tool list which is located on the far left side of the viewer window toolbar.
 
@@ -152,11 +152,11 @@ If you are trying to view Stereo Over/Under images in Fusion Studio's native vie
 
 This step is required if you are reviewing Over/Under stereo footage where the left view is on the top of the frame layout, and the right view is on the bottom of the frame layout like YouTube 360 formatted movies use.
 
-![Fusion Stereo Viewer Swap Control](images/fusion-viewer-window-swap-control.png)
+![Fusion Stereo Viewer Swap Control](Images/fusion-viewer-window-swap-control.png)
 
 ### Node Connections
 
 This example shows how you can connect un-tagged 360&deg; panoramic footage from a Loader node to a SetMetadataVR node's "Input" connection.
 
-![SetMetadataVR](images/macro-set-metadata-vr-node.png)
+![SetMetadataVR](Images/macro-set-metadata-vr-node.png)
 

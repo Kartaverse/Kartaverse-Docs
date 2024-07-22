@@ -4,7 +4,7 @@
 
 The `LookingGlassRenderer3D` macro is a proof of concept Looking Glass "quilted" grid 16 view rendering node.
 
-![LookingGlassRenderer3D Example](images/LookingGlassRenderer3D-comp-example.png)
+![LookingGlassRenderer3D Example](Images/LookingGlassRenderer3D-comp-example.png)
 
 
 The `Tools > Macro > KartaVR > Looking Glass > LookingGlassRenderer3D` menu item can be used to add the node to your comp.
@@ -13,11 +13,11 @@ The `Tools > Macro > KartaVR > Looking Glass > LookingGlassRenderer3D` menu item
 
 You can also use the `Shift+Spacebar` hotkey in the Flow area to display the `Select Tool` dialog. As you start to type in the `LookingGlassRenderer3D` macro node name into the `Select Tool` dialog, the list will be filtered down to just the node you want to add. Press the `OK` button to insert the node in your comp.
 
-![Select Tool](images/looking-glass-select-tool-window.png)
+![Select Tool](Images/looking-glass-select-tool-window.png)
 
 ## Usage
 
-![LookingGlassRenderer3D UI](images/LookingGlassRenderer3D-UI.png)
+![LookingGlassRenderer3D UI](Images/LookingGlassRenderer3D-UI.png)
 
 This image shows the controls on version 1 of the  `LookingGlassRenderer3D` node.
 
@@ -50,7 +50,7 @@ The Looking Glass Quiltr application is installed to:
 
 `C:\Program Files (x86)\Quiltr\QUILTR.exe`
 
-![Quiltr App](images/quiltr-app.jpg)
+![Quiltr App](Images/quiltr-app.jpg)
 
 If you are curious, you can take a peek at the metadata tags that the QUILTR app embeds into your imagery. The exiftool program shows the embedded QUILTR metadata tags as:
 

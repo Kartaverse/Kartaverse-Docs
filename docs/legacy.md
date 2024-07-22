@@ -1,15 +1,18 @@
-# <a name="legacy"></a>KartaVR Legacy Content
+# KartaVR Legacy Content
 
-The following KartaVR content was designed back in 2016-2017 for the Fusion (Free) v8.2.1 and 9.0.2 era of 360VR. It still has some relevancy for learning more about node based compositing workflows but many of the techniques have been replaced by newer and faster to render Kartaverse DCTL Fuses.
+> The following KartaVR content was designed back in 2014-2017 for the Fusion (Free) v7.7, v8.2.1, and 9.0.2 era of fulldome and 360VR post-production. If you are wondering what you should use on a new project started today, skip the legacy macros, and just go with the Kartaverse fuse nodes!
 
-![Panoramic Conversions](images/conversions.png)
+> Some of this material might have relevancy for learning more about node based compositing workflows. However in Resolve/Fusion v19+ many of the techniques have been replaced by newer and faster to render Kartaverse DCTL Fuses.
 
-## Table of Contents
+![Panoramic Conversions](Images/conversions.png)
+
+-------------------------
 
 - [What's New](new)
 - [Legacy Macros](macros-guide)
 - [Legacy Compositing Examples](examples)
 - Supplementary Content
+	- [Legacy Bins](bins)
 	- [Getting Started With Nodes in Fusion](getting-started)
 	- [Sample Imagery](sample-imagery)
 	- [Gallery](gallery)

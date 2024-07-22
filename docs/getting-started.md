@@ -5,7 +5,7 @@ If you are getting started with Fusion it can be a bit scary using nodes for the
 <a name="loading-imagery"></a>
 ## Loading Imagery
 
-![Loading and Saving Footage](images/fusion-essentials-loading-and-saving-footage.png)
+![Loading and Saving Footage](Images/fusion-essentials-loading-and-saving-footage.png)
 
 Imagery is imported into Fusion using a `Loader` node.
 
@@ -28,11 +28,11 @@ There is a path map option "Comp:\" that can be used to load imagery relative to
 
 Nodes are connected in Fusion by dragging a line from the red "outputs" box shape on one node into the triangle shaped "inputs" on another node.
 
-![Connecting Nodes](images/fusion-essentials-connecting-nodes.png)
+![Connecting Nodes](Images/fusion-essentials-connecting-nodes.png)
 
 If you want to connect a macro with multiple output "red" boxes like the "VerticalCross2CubicFaces" macro to your node graph, it helps if you hover your cursor over the red box shape so a tool tip will pop-up with the name of the specific output.
 
-![Viewing a node's output name](images/fusion-essentials-node-outputs.png)
+![Viewing a node's output name](Images/fusion-essentials-node-outputs.png)
 
 If you move your cursor over a specific view, you can press the F4 key on your keyboard to maximize the view fullscreen. This is useful when reviewing an image or when connecting a lot of nodes in the Flow view.
 
@@ -42,22 +42,22 @@ If you drag a node with the shift key held down you can completely disconnect it
 
 You can break the connection of a node by hovering over the starting part or ending part of a connection line. When the line end part turns light blue you can drag it away from the connection point and the node will be disconnected.
 
-![Disconnecting a Node](images/fusion-essentials-disconnecting-a-node.gif)
+![Disconnecting a Node](Images/fusion-essentials-disconnecting-a-node.gif)
 
 If you want to make a connection to a node that has multiple inputs, you can hold down the ALT/Option key on your keyboard as you drag a new connection line to the node shape. A handy popup will appear that lists each of the inputs by name.
 
-![Alt Key Popup Menu](images/fusion-essentials-alt-key-node-popup.png)
+![Alt Key Popup Menu](Images/fusion-essentials-alt-key-node-popup.png)
 
 <a name="fusion-viewer-window"></a>
 ## The Fusion Viewer Window
 
 You can toggle to a single viewer or a double viewer window layout using the following set of icons at the top of the screen :
 
-![Fusion View Layouts](images/fusion-essentials-view-layouts.png)
+![Fusion View Layouts](Images/fusion-essentials-view-layouts.png)
 
 In this toolbar, the first icon switches to a single viewer window, and the second icon shows two viewer windows.
 
-![Viewer Windows](images/fusion-essentials-viewer-window.png)
+![Viewer Windows](Images/fusion-essentials-viewer-window.png)
 
 This is the typical viewer window layout in Fusion where there are two viewer windows available at the top of the Fusion UI.
 
@@ -68,17 +68,17 @@ Another way to load a nodes imagery into a specific viewer is by pressing the "1
 <a name="color-and-viewer-luts"></a>
 ### Color and Viewer LUTs
 
-![Color Channels](images/fusion-essentials-color-channels.png)
+![Color Channels](Images/fusion-essentials-color-channels.png)
 
 You can access individual color channels in the viewer window's toolbar with the color channel menu, or by pressing the clickig in the viewer window and pressint the hotkeys **C** (Shows the Color RGB Channels), **R** (Shows the Red Channel), **G** (Shows the Green Channel), **B** (Shows the Blue Channel), or **A** (Shows the Alpha Channel).
 
-![LUTs](images/fusion-essentials-lut.png)
+![LUTs](Images/fusion-essentials-lut.png)
 
 The LUT button allows you to change the viewer windows' preview LUT (Look Up Table) which means you can preview the effect of different color spaces on your imagery. This is useful for viewing RAW, sRGB, or Linear gamma based imagery. If your imagery looks washed out when loaded in Fusion it is typically due to a LUT setting mismatch.
 
 If you have the KartaVR LUTs installed in Fusion 7.X or Fusion 8.2 Beta 2+ then you will see several additional items in the LUTs menu that allow you to view panoramic 360&deg; imagery right in the viewer window. You can [read more about these custom panoramic viewer LUTs here](luts).
 
-![Open Color IO](images/fusion-essentials-ociocolorspaceviewlut.png)
+![Open Color IO](Images/fusion-essentials-ociocolorspaceviewlut.png)
 
 If you need to preview imagery in a color space other than the footage's native format, I recommend you try out the OpenColor IO based LUT menu option called **OCIO ColorSpace ViewLUT** as it is one of the easiest to use.
 
@@ -89,7 +89,7 @@ As a tip, you can type a Color Gamma value of 2.2 into the **OCIO ColorSpace LUT
 <a name="viewer-zoom"></a>
 ### Viewer Zoom
 
-![Viewer Zoom Levels](images/fusion-essentials-zoom-levels.png)
+![Viewer Zoom Levels](Images/fusion-essentials-zoom-levels.png)
 
 If an image is too large to easily be seen in the viewer window, you can press the "FIT" icon in the viewer window to scale the imagery to the size of the viewer window. The hotkey for fitting the image to the viewer window is Control + F.
 
@@ -102,7 +102,7 @@ If you press the F4 key on your keyboard you can maximize the specific viewer wi
 <a name="viewer-transparency"></a>
 ### Viewer Transparency
 
-![Viewer Transparency](images/fusion-essentials-transparent-checker-bg.gif)
+![Viewer Transparency](Images/fusion-essentials-transparent-checker-bg.gif)
 
 The viewer window's toolbar has an icon with a checker board pattern that is used to toggle on/off the transparent background checker pattern in the viewer. This will allow you to either have a black background shown behind your transparent alpha channel image areas or a dark grey checker pattern.
 
@@ -113,13 +113,13 @@ There are two proxy mode buttons in the Fusion UI. The proxy buttons are labeled
 
 When you use the left mouse button to click on the "Prx" button you can toggle the proxy mode ON or OFF.
 
-![Proxy Controls](images/proxy-icons.png)
+![Proxy Controls](Images/proxy-icons.png)
 
 When the proxy mode is enabled, the viewer windows are rendered at a reduced resolution compared to your final output setting. This makes Fusion's viewer windows more responsive and interactive which is quite noticeable when you start to adjust nodes and update the node settings on footage over 2K in resolution.
 
 Using proxies as you develop a new comp is a very effective way to improve the rendering speed in your Viewer windows which an essential workflow technique when working with high resolution media or on demanding composites that are slow to render.
 
-![Proxy Level](images/proxy-resolution.png)
+![Proxy Level](Images/proxy-resolution.png)
 
 If you click on the "Prx" button with your right mouse button, a popup menu will appear that lets you adjust the level of the proxy resolution reduction that is used when the proxy mode is enabled.
 
@@ -130,11 +130,11 @@ The "APrx" button is the Auto Proxy mode and it is used to provide a way to have
 <a name="adding-nodes-quickly"></a>
 ## Adding Nodes Quickly
 
-![Add Tool Dialog](images/add-tool-dialog.png)
+![Add Tool Dialog](Images/add-tool-dialog.png)
 
 When you are working in Fusion's flow area, you can press the Shift+Space hotkeys to open up the Add Tool dialog. This window provides a quick way to add new tools and macros to your scene without having to navigate through the menu system to find the right item.
 
 As you type in the name of the tool or macro you want to add, the list is updated with matching entries. You can type in partial names and the window will search for the closest item. In this example I typed in "Alpha" in the text field at the bottom of the dialog and only the nodes and macros with alpha in part of their name are listed.
 
-![Add Tool Dialog - Searching](images/add-tool-dialog-alpha.png)
+![Add Tool Dialog - Searching](Images/add-tool-dialog-alpha.png)
 

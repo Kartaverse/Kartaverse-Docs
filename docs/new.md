@@ -63,7 +63,7 @@
 
 ### Volumetric VR 6DOF VR Stereo Support
 
-![Z360 Stereo ](images/macro-z360-stereo.jpg)
+![Z360 Stereo ](Images/macro-z360-stereo.jpg)
 
 KartaVR now has a collection of panoramic 360&deg; depthmap data compatible "Z360" nodes that allow you to create 6DOF stereo VR output inside of Fusion. As part of this new 6DOF workflow, KartaVR also supports using Fusion Studio's "Disparity" node with the Z360 toolset to extract depth information from your live action camera rig footage.
 
@@ -83,11 +83,11 @@ KartaVR has a new [Send Media to Photoscan](scripts#send-media-to-photoscan) scr
 
 There is an accompanying [Send Media to Photoscan YouTube video tutorial](https://www.youtube.com/watch?v=7t0w1Y3tRb8) that shows the new toolset in action using studio shot footage.
 
-![Send Media to Photoscan](images/script-send-media-to-photoscan-tutorial.png)
+![Send Media to Photoscan](Images/script-send-media-to-photoscan-tutorial.png)
 
 A pair of nodes called [ImageGridCreator](macros-guide-photogrammetry#ImageGridCreator) and [ImageGridExtractor](macros-guide-photogrammetry#ImageGridExtractor) help create/extract image sequences from a tiled image grid layout. This is handy if you are working with photogrammetry or lightfield source imagery that might be coming from a combined "sprite atlas" style image grid layout.
 
-![Pikachu 13x10 Image Grid](images/pikachu_13x10_image_grid_tiny.jpg)
+![Pikachu 13x10 Image Grid](Images/pikachu_13x10_image_grid_tiny.jpg)
 
 **Dig into the Example Projects**
 KartaVR now includes 72 Fusion example projects. Each one contains detailed descriptions of a panoramic compositing workflow. Explore the projects and learn new techniques that will take your VR project to the next level. There is also a fun roller coaster example that demonstrates how to render VR content directly in Fusion's 3D animation environment.

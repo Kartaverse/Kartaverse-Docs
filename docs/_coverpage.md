@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![Logo](images/icon-kartavr.png)
+![Logo](Images/icon-kartavr.png)
 
 # Kartaverse™
 

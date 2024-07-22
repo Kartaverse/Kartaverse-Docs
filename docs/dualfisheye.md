@@ -26,11 +26,11 @@ The "kvrDualFisheye" Effects Template and example composites stitch together foo
 
 **Step 3.** Display the Effects Library tab, and switch to the "Toolbox > Effects > KartaVP > Warp" section. Drag the "kvrDualFisheye" entry onto a video clip in the timeline.
 
-![Effects Library](images/effects-template-kvrDualFisheye-Effects-Library.png)
+![Effects Library](Images/effects-template-kvrDualFisheye-Effects-Library.png)
 
 **Step 4.** Click on the video clip in the timeline and switch to the Inspector's Effects tab. Modify the "Effects > Fusion > kvrDualFisheye" settings if the default value doesn't give you the output you desire.
 
-![Inspector](images/effects-template-kvrDualFisheye-Inspector-Controls.png)
+![Inspector](Images/effects-template-kvrDualFisheye-Inspector-Controls.png)
 
 In the inspector view, if you click the little magic wand icon next to the right of the heading "kvrDualFisheye" you can hop into the Fusion page to customize the macro node. 
 
@@ -44,25 +44,25 @@ The following example Fusion comp files show how the kvrDualFisheye macro works:
 
 	Reactor:/Deploy/Comps/Kartaverse/WarpStitch/Dual Fisheye/Ricoh Theta v001.comp
 
-![Ricoh Theta](images/effects-template-kvrDualFisheye-ricoh-theta.png)
+![Ricoh Theta](Images/effects-template-kvrDualFisheye-ricoh-theta.png)
 
 ---
 
 	Reactor:/Deploy/Comps/Kartaverse/WarpStitch/Dual Fisheye/Samsung Gear360 v001.comp
 
-![Samsung Gear360](images/effects-template-kvrDualFisheye-samsung-gear-360.png)
+![Samsung Gear360](Images/effects-template-kvrDualFisheye-samsung-gear-360.png)
 
 ---
 
 	Reactor:/Deploy/Comps/Kartaverse/WarpStitch/Dual Fisheye/YI 360 VR Office Interior v001.comp
 
-![YI VR](images/effects-template-kvrDualFisheye-yivr-office.png)
+![YI VR](Images/effects-template-kvrDualFisheye-yivr-office.png)
 
 ---
 
 	Reactor:/Deploy/Comps/Kartaverse/WarpStitch/Dual Fisheye/YI 360 VR Parking Lot v001.comp
 
-![YI VR](images/effects-template-kvrDualFisheye-yivr-outside.png)
+![YI VR](Images/effects-template-kvrDualFisheye-yivr-outside.png)
 
 ---
 
@@ -70,7 +70,7 @@ The following example Fusion comp files show how the kvrDualFisheye macro works:
 
 This is what the internal node connections look like inside the expanded macro group:
 
-![Nodes](images/effects-template-kvrDualFisheye-Nodes.png)
+![Nodes](Images/effects-template-kvrDualFisheye-Nodes.png)
 
 The kvrStereoCrop node is used to isolate the Samsung Gear360 camera's front and back images from the dual fisheye view layout.
 

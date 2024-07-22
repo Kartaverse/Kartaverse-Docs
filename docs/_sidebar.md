@@ -32,7 +32,7 @@
 - **RiveLink (WIP)**
   - [Development Blog](https://kartaverse.github.io/RiveLink/#/)
 - **Valkyrie Engine (WIP)**
-  - [Development Blog](https://github.com/Kartaverse/ValkyrieEngine)
+  - [Development Blog](https://kartaverse.github.io/ValkyrieEngine/#/)
 - **Contact**
   - [Email](mailto:andrew@andrewhazelden.com)
   - [GitHub](https://github.com/AndrewHazelden)

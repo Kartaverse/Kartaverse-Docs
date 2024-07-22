@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
-
 - **Kartaverse for DaVinci Resolve/Fusion**
   - [Install Kartaverse + Reactor](install)
   - Fuses:

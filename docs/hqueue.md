@@ -2,9 +2,9 @@
 
 ## Overview
 
-Are you currently using Houdini HQueue to manage the 3D rendering jobs on your render farm? If that is the case then you might find the following comp script handy:
+Are you currently using Houdini HQueue to manage the 3D rendering jobs on your render farm? If that is the case then you might find the following Fusion comp script handy:
 
-The "HQueue Render.py" comp script allows Fusion Studio to submit compositing jobs for rendering via Houdini HQueue. The script works great in both a "local queue", and for larger render farm usage scenarios.
+The "HQueue Render.py" comp script allows BMD Fusion Studio to submit compositing jobs for rendering via Houdini HQueue. The script works great in both a "local queue", and for larger render farm usage scenarios.
 
 ![KartaLink HQueue Render](Images/KartaLink-Submit-Fusion-Comps-to-Houdini-HQueue.png)
 
@@ -14,7 +14,7 @@ The "HQueue Render.py" comp script allows Fusion Studio to submit compositing jo
 
 ## Known Issues
 
-The script currently works with macOS and Linux based HQueue Client render nodes.
+The Fusion Studio based comp script currently works with macOS and Linux based HQueue Client render nodes.
 
 Windows support is currently under development. On Windows the following error is reported by HQueue when a job is run:
 
@@ -23,9 +23,9 @@ Windows support is currently under development. On Windows the following error i
 
 ## Installation
 
-This toolset is available in the Reactor package manager under the category heading "Kartaverse/KartaLink/Scripts".
+This toolset is available in the Resolve/Fusion community maintained [Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor) under the category heading "Kartaverse/KartaLink/Scripts". Click on the atom package named "[KartaLink | HQueue Render](https://kartaverse.github.io/Reactor-Docs/#/com.AndrewHazelden.KartaLink.HQueueRender)" and then press "Install".
 
-Note: If you haven't heard of the "HQueue" render farm management software before, it is the license-free render farm manager from SideFX Software.
+Note: If you haven't heard of the "[HQueue](https://www.sidefx.com/docs/houdini/hqueue/overview.html)" render farm management software before, it is the license-free render farm manager from SideFX Software.
 
 ![Reactor Package Manager](Images/KartaLink-HQueue-Render-Reactor-Package-Manager.png)
 

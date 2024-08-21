@@ -27,7 +27,11 @@ Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision 
 
 ### kvrViewer and kvrCropStereo
 
+This video covers an improved workflow for reframing VR video on the Resolve Edit page: [Everyone's WRONG! The Right Way to Reframe 8K 360 Video in DaVinci Resolve Masterclass](https://www.youtube.com/watch?v=61xusfAvVXU)
+
 This video covers the usage of the kvrViewer and kvrCropStereo nodes. The presentation covers how to edit Canon R7 and Canon R5C VR180 footage using DaVinci Resolve 19: [No Subscription! Edit Canon R7 & R5C VR180 in DaVinci Resolve - Free EOS VR Utility Alternative](https://www.youtube.com/watch?v=kwVlVEXg3og)
+
+
 
 ### Reframe360Ultra
 

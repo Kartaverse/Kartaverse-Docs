@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - **Kartaverse for DaVinci Resolve/Fusion**
+  - [Video Tutorials](tutorials)
   - [Install Kartaverse + Reactor](install)
   - Fuses:
     - [Kartaverse Fuse Nodes](fuses)
@@ -19,7 +20,6 @@
     - [Dual Fisheye](dualfisheye)
   - [Open Source](opensource_tools)
   - [Legacy Fusion 9 Content](legacy)
-  - [Tutorials](tutorials)
   - [Version History](version_history)
 - **Kartaverse for Assimilate LiveFX/Scratch**
   - Custom Commands:
@@ -27,6 +27,8 @@
     - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
 - **Kartaverse for Houdini Indie:**
   - [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
+- **CesiumLink for Kartaverse:**
+  - [GitHub Project Page](https://kartaverse.github.io/CesiumLink/)
 - **RiveLink (WIP)**
   - [Development Blog](https://kartaverse.github.io/RiveLink/#/)
 - **Valkyrie Engine (WIP)**

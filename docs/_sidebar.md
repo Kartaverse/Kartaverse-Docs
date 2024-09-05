@@ -13,6 +13,7 @@
 			- [HQueue Render](hqueue)
 			- [Media Command](mediacommand)
 	- Kartaverse Effects Templates:
+		- [kvrSuperSTMap](kvrSuperSTMap)
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
 		- [STmapperInline](stmapperinline)

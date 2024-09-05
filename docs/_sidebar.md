@@ -1,45 +1,57 @@
 <!-- docs/_sidebar.md -->
 - [Home](/)
 - **Kartaverse for DaVinci Resolve/Fusion**
-  - [Video Tutorials](tutorials)
-  - [Install Kartaverse + Reactor](install)
-  - Fuses:
-    - [Kartaverse Fuse Nodes](fuses)
-    - [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
-    - [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
-    - [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
-  - Scripts:
-    - [KartaVR Scripts Menu](scripts)
-    - [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/#/)
-    - KartaLink:
-      - [HQueue Render](hqueue)
-      - [Media Command](mediacommand)
-      - [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
-  - Kartaverse Effects Templates:
-    - [STmapperInline](stmapperinline)
-    - [Dual Fisheye](dualfisheye)
-  - [Open Source](opensource_tools)
-  - [Legacy Fusion 9 Content](legacy)
-  - [Version History](version_history)
+	- [Video Tutorials](tutorials)
+	- [Install Kartaverse + Reactor](install)
+	- Fuses:
+		- [Kartaverse Fuse Nodes](fuses)
+		- [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
+		- [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
+	- Scripts:
+		- [KartaVR Scripts Menu](scripts)
+		- KartaLink:
+			- [HQueue Render](hqueue)
+			- [Media Command](mediacommand)
+	- Kartaverse Effects Templates:
+		- [STmapperInline](stmapperinline)
+		- [Dual Fisheye](dualfisheye)
+	- [Open Source](opensource_tools)
+	- [Legacy Fusion 9 Content](legacy)
+	- [Version History](version_history)
 - **Kartaverse for Assimilate LiveFX/Scratch**
-  - Custom Commands:
-    - [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
-    - [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
-- **Kartaverse for Houdini Indie:**
-  - [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
-- **CesiumLink for Kartaverse:**
-  - [GitHub Project Page](https://kartaverse.github.io/CesiumLink/)
-- **RiveLink (WIP)**
-  - [Development Blog](https://kartaverse.github.io/RiveLink/#/)
-- **Valkyrie Engine (WIP)**
-  - [Development Blog](https://kartaverse.github.io/ValkyrieEngine/#/)
+	- Custom Commands:
+		- [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
+		- [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
+- **Kartaverse for Houdini**
+	- [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
+	- [Example HIP Project Files](https://kartaverse.github.io/Kartaverse-for-Houdini/#/examples)
+	- [Panotools Data Nodes](https://kartaverse.github.io/Kartaverse-for-Houdini/#/panotools)
+	- [Volumetric Video Workflows](https://docs.google.com/document/d/17xXudeghGhvfofffoqLhYmcvgnS-_eP0A1KOwWJPjxg/edit)
+	- [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit)
+- **Kartaverse 6 Dev:**
+	- [CesiumLink (WIP)](https://kartaverse.github.io/CesiumLink/)
+	- [RiveLink (WIP)](https://kartaverse.github.io/RiveLink/#/)
+	- [Valkyrie Engine (WIP)](https://kartaverse.github.io/ValkyrieEngine/#/)
+- **Related Projects:**
+	- [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
+	- [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/)
+	- [XR LED Panel Database](https://kartaverse.github.io/XR-LED-Panel-Database/)
+	- [Open Cell Animation Data Nodes](https://docs.google.com/document/d/1DXnF47CK7dteF7lidwek5-lwy5qB75nBQMt_2Bp0y0g/edit#heading=h.abzdtec4alet)
+	- [Domemaster3D](https://github.com/zicher3d-org/domemaster-stereo-shader)
+	- [Domemaster Photoshop Actions Pack](https://github.com/AndrewHazelden/Domemaster-Photoshop-Actions-Pack)
+	- [Panoramic Geometry Collection](https://github.com/AndrewHazelden/Panoramic_Geometry_Collection)
+	- [Lightfielder Suite](https://github.com/AndrewHazelden/LightfielderSuite)
+	- [Camera Snap Tools](https://github.com/AndrewHazelden/CameraSnap_Tools)
+	- [Z360 6DOF Stereo VR Tools](https://github.com/AndrewHazelden/Z360-6DOF-Stereo-VR-Tools)
+	- [dome2rect](https://github.com/AndrewHazelden/dome2rect)
+	- [OBQ Shaders](https://github.com/madesjardins/Obq_Shaders/wiki/Obq_KettleUVStereoLens)
 - **Contact**
-  - [Email](mailto:andrew@andrewhazelden.com)
-  - [GitHub](https://github.com/AndrewHazelden)
-  - [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
+	- [Email](mailto:andrew@andrewhazelden.com)
+	- [GitHub](https://github.com/AndrewHazelden)
+	- [LinkedIn](https://www.linkedin.com/in/andrewhazelden/)
 - **Links**
-  - [Medium Blog](https://medium.com/@andrewhazelden)
-  - [Facebook Group](https://www.facebook.com/groups/kartavr)
-  - [Google Group](https://groups.google.com/g/kartaverse/)
-  - [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
+	- [Medium Blog](https://medium.com/@andrewhazelden)
+	- [Facebook Group](https://www.facebook.com/groups/kartavr)
+	- [Google Group](https://groups.google.com/g/kartaverse/)
+	- [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
 

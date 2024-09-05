@@ -99,16 +99,19 @@ This menu entry makes it possible to quickly hop into the folder were all the .j
 
 ![JSON Lens Profiles](Images/kvrFisheyeStereo_JSON_Lens_Profiles.png)
 
-When the kvrFisheyeStereo node is shown in the Inspector window, there are fields at the bottom of the view that list the "Camera", "Lens", as well as the "Lens Profile Version" number details. This makes it easier to know what exact preset is loaded.
+The kvrFisheyeStereo node is designed to process dual fisheye content into a 180VR SBS (180x180° cropped format). You can now start the lens calibration process from an initial .json preset file to streamline the tuning steps when you have a new camera body and lens.
 
-![Lens Profiles 1](Images/kvrFisheyeStereo_JSON_Lens_Profile_Presets1.png)
+When the kvrFisheyeStereo node is shown in the Inspector window, there are fields at the bottom of the view that list the "Camera", "Lens", as well as the "Lens Profile Version" number details. Use these attributes to label the camera body and dual fisheye lens that is in use. This step makes it easier to know what exact preset is loaded.
 
 ![Lens Profiles2](Images/kvrFisheyeStereo_JSON_Lens_Profile_Presets2.png)
 
+If you click the kvrFisheyeStereo node's "Export JSON" button, the camera and lens information is written out to the JSON lens profile document. If you want to bring in an external lens profile preset simply click the "Import JSON' button.
+
+![Lens Profiles 1](Images/kvrFisheyeStereo_JSON_Lens_Profile_Presets1.png)
 
 ### About the Lens Profile Comps
 
-The following Lens Profile example Fusion comps show how the kvrFisheyeStereo macro works:
+The Kartaverse Lens Profile atom package ships with a collection of comps examples. They show the basics of how the kvrFisheyeStereo macro works as a 180VR dual fisheye stereo conversion toolset. Each of the provided Fusion .comp files are tuned for a specific camera body like the RED V-Raptor 8K, Canon R5C, R7, and R6.
 
 ![Lens_Profiles](Images/kvrFisheyeStereo_Lens_Profiles_Folder.png)
 
@@ -116,6 +119,7 @@ The lens profiles example comps are located on disk at the following Pathmap loc
 
 		Reactor:/Deploy/Comps/Kartaverse/KartaVP/Lens Profiles/
 
+Note: If you change the sensor resolution on a camera body, this will typically modify the captured dual fisheye media's aspect ratio, and frame cropping. This sensor resolution adjustment typically requires the STMap to be regenerated so it matches the current dual fisheye lens stereo frame layout.
 
 When the example comp files are opened up in Fusion Studio Standalone or the Resolve Studio Fusion page it looks like this:
 

@@ -13,8 +13,9 @@
 			- [HQueue Render](hqueue)
 			- [Media Command](mediacommand)
 	- Kartaverse Effects Templates:
+		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
+		- [Dual Fisheye (Back to Back)](dualfisheye)
 		- [STmapperInline](stmapperinline)
-		- [Dual Fisheye](dualfisheye)
 	- [Open Source](opensource_tools)
 	- [Legacy Fusion 9 Content](legacy)
 	- [Version History](version_history)

@@ -33,7 +33,7 @@ The "kvrFisheyeStereo" node has a "View Mode" control that allows you to inspect
 Or you could right-click in the Viewer window, if you have the STMap displayed, and then choose the "Save Image..." option to write an .exr image to disk directly.
 
 
-![View Mode](images/kvrFisheyeStereo_View_Mode.png)
+![View Mode](Images/kvrFisheyeStereo_View_Mode.png)
 
 Otherwise, you will typically use a combination of the "RGB" output mode if you want to directly inspect the final RGB color version of the 180VR output, along with the "Global Align" mode to perform vertical and horizontal disparity corrections using the "GlobalAlign X Shift" and "GlobalAlign Y Shift" controls in the Inspector panel.
 
@@ -43,7 +43,7 @@ When you select the kvrFisheyeStereo node, you now have access to "Import JSON" 
 
 To kick things off, there are initial Canon R5C, R7, R6 presets along with RED V-Raptor 8K presets. More presets will be added in time. The bundled "Lens Profile" example Fusion .comp files are updated as well.
 
-![JSON Example](images/kvrFisheyeStereo_JSON_Example.png)
+![JSON Example](Images/kvrFisheyeStereo_JSON_Example.png)
 
 ### STMap Usage
 
@@ -53,17 +53,17 @@ The STMaps you create with the kvrFisheyeStereo node are designed to be used on 
 
 **Step 1.** Install Reactor and add the "kvrFisheyeStereo" package to your Resolve based system.
 
-![Reactor](images/kvrFisheyeStereo_Reactor_Package.png)
+![Reactor](Images/kvrFisheyeStereo_Reactor_Package.png)
 
 **Step 2.** Open a Resolve video editing timeline in the Edit page.
 
 **Step 3.** Display the Effects Library tab, and switch to the "Toolbox > Effects > KartaVP > Warp" section. Drag the "kvrFisheyeStereo" entry onto a video clip in the timeline.
 
-![Effects Tab](images/kvrFisheyeStereo_Effects_Tab.png)
+![Effects Tab](Images/kvrFisheyeStereo_Effects_Tab.png)
 
 **Step 4.** Click on the video clip in the timeline and switch to the Inspector's Effects tab. Modify the "Effects > Fusion > kvrFisheyeStereo" settings if the default value doesn't give you the output you desire.
 
-![Timeline](images/kvrFisheyeStereo_Timeline.png)
+![Timeline](Images/kvrFisheyeStereo_Timeline.png)
 
 **Step 5.** 
 If you modify the "kvrFisheyeStereo" Effects Template's "View Mode" control you can preview the different output modes.
@@ -72,45 +72,45 @@ The viewer window in the Edit page should update to show the result. If the view
 
 In the inspector view, if you click the little magic wand icon next to the right of the heading "kvrFisheyeStereo" you can hop into the Fusion page to customize the macro node.
 
-![Magic Wand](images/kvrFisheyeStereo_Magic_Wand.png)
+![Magic Wand](Images/kvrFisheyeStereo_Magic_Wand.png)
 
 If you display the kvrFisheyeStereo node in the Fusion Viewer window you will be able to see the effect's output. 
 
-![Nodes](images/kvrFisheyeStereo_Node_Graph.png)
+![Nodes](Images/kvrFisheyeStereo_Node_Graph.png)
 
 To save an STMap warping template image to disk, set the kvrFisheyeStereo node's "View Mode" control in the Inspector panel to "STMap".
 
-![View Mode STMap](images/kvrFisheyeStereo_STMap_Output.png)
+![View Mode STMap](Images/kvrFisheyeStereo_STMap_Output.png)
 
 Then right click on in the Fusion viewer window and select the "Save image..." contextual menu item. Give the new image a name and make sure to save it with the ".exr" image extension at the end of the filename.
 
-![Save image](images/kvrFisheyeStereo_Save_Image.png)
+![Save image](Images/kvrFisheyeStereo_Save_Image.png)
 
 ### Lens Profiles Presets Folder
 
 If you have the "KartaVR Scripts | Open Folder" Reactor atom package installed, as well, there is a handy "Script > KartaVR > Open Folder > Open Kartaverse Lens Profiles Folder" menu item in Fusion.
 
 
-![Open Folder Menu Item](images/kvrFisheyeStereo_KartaVR_Open_Folder_Menu_Item.png)
+![Open Folder Menu Item](Images/kvrFisheyeStereo_KartaVR_Open_Folder_Menu_Item.png)
 
 This menu entry makes it possible to quickly hop into the folder were all the .json files live so you can access your presets:
 
 		Reactor:Deploy/Scripts/Support/Kartaverse/LensProfiles/
 
-![JSON Lens Profiles](images/kvrFisheyeStereo_JSON_Lens_Profiles.png)
+![JSON Lens Profiles](Images/kvrFisheyeStereo_JSON_Lens_Profiles.png)
 
 When the kvrFisheyeStereo node is shown in the Inspector window, there are fields at the bottom of the view that list the "Camera", "Lens", as well as the "Lens Profile Version" number details. This makes it easier to know what exact preset is loaded.
 
-![Lens Profiles 1](images/kvrFisheyeStereo_JSON_Lens_Profile_Presets1.png)
+![Lens Profiles 1](Images/kvrFisheyeStereo_JSON_Lens_Profile_Presets1.png)
 
-![Lens Profiles2](images/kvrFisheyeStereo_JSON_Lens_Profile_Presets2.png)
+![Lens Profiles2](Images/kvrFisheyeStereo_JSON_Lens_Profile_Presets2.png)
 
 
 ### About the Lens Profile Comps
 
 The following Lens Profile example Fusion comps show how the kvrFisheyeStereo macro works:
 
-![Lens_Profiles](images/kvrFisheyeStereo_Lens_Profiles_Folder.png)
+![Lens_Profiles](Images/kvrFisheyeStereo_Lens_Profiles_Folder.png)
 
 The lens profiles example comps are located on disk at the following Pathmap location:
 
@@ -119,7 +119,7 @@ The lens profiles example comps are located on disk at the following Pathmap loc
 
 When the example comp files are opened up in Fusion Studio Standalone or the Resolve Studio Fusion page it looks like this:
 
-![Comp Example](images/kvrFisheyeStereo_Lens_Profiles_Comp.png)
+![Comp Example](Images/kvrFisheyeStereo_Lens_Profiles_Comp.png)
 
 The comp has Saver nodes that export the new STMap template, a Apple Vision Pro HMD formatted "Spatial video" SBS image at 16:9 aspect ratio, and a 180VR formatted RGB output that is processed using the STMapper fuse.
 

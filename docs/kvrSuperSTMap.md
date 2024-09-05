@@ -18,15 +18,13 @@ The "kvrSuperSTMap" Effects Template is the next-generation update for the STMap
 	- STMapper
 	- KartaVR LensProfiles
 
-
 ## Usage
 
 The "kvrSuperSTMap" Effects Template can be used on a Resolve Edit page timeline to transform VR imagery between different image projections with the addition of an STMap warping template image.
 
 ![Effects](Images/kvrSuperSTMap_Effects_Tab.png)
 
-
-Once the Effect template is added to the clip, link in the STMap you want to use:
+Add the "kvrSuperSTMap" effects template to the Edit page timeline clip. In the Inspector page, you can then link in STMap warping template in. The stereo convergence properties can be refined with the X/Y Shift controls.
 
 ![Timeline](Images/kvrSuperSTMap_Timeline.png)
 

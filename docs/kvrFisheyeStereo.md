@@ -233,5 +233,29 @@ When the example comp files are opened up in Fusion Studio Standalone or the Res
 
 ![Comp Example](Images/kvrFisheyeStereo_Lens_Profiles_Comp.png)
 
-The comp has Saver nodes that export the new STMap template, a Apple Vision Pro HMD formatted "Spatial video" SBS image at 16:9 aspect ratio, and a 180VR formatted RGB output that is processed using the STMapper fuse.
+The comp has Saver nodes that export the new STMap template, a Apple Vision Pro HMD formatted "spatial video" SBS image at 16:9 aspect ratio, and a 180VR formatted RGB output that is processed using the STMapper fuse.
 
+#### Internal Macro Logic
+
+This is what the internal node connections look like inside the expanded macro group:
+
+![Nodes](Images/kvrFisheyeStereo-Node_Logic.png)
+
+This example processes Canon EOS 180VR footage filmed with a Canon R5C camera body and a Canon RF 5.2mm Dual Stereo Fisheye 190° Lens. An ST Map warping template was generated using a kvrSTMapGenerator node to create the source ST Map default red/green gradient pattern.
+
+The kvrCropStereo node is used to swap the position of the left and right eye fisheye images, and re-crop the images to center them.
+
+The kvrLensStereo node is set to use the Panotools lens distortion model. You can use this node to correct circular fisheye lens based f-theta distortion.
+
+The GlobalAlign node is used to adjust for vertical and horizontal disparity. The transform is done using the "split" mode so a balanced adjustment is applied to the left and right eye views.
+
+The kvrViewer node set to use the Fisheye image projection converts the circular fisheye imagery into 180VR stereo 3D 180x180° LatLong output.
+
+The STMapper node allows us to preview the STMap effect in the comp to validate the output.
+
+Fusion's right-click in the node view > Copy/Paste Instance contextual menu items were used to duplicate the warping nodes and create a instanced version of the nodes that automatically mirror those settings. This allowed us to swap out the RGB imagery and run an ST map warping template through in their place. Instanced node connections are visible in the node graph when you see a green connection line between two similar nodes. Individual controls on an instanced node can be made unique  aka "de-instanced" by right-clicking on an attribute in the Inspector panel and selecting "Deinstance".
+
+When you go to render out the STMap template image, make sure to set the timeline duration of the Fusion comp to 1 frame so you don't end up rendering a longer sequence of STMap files to disk.
+
+For more information about ST Maps check out the article:  
+[Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)

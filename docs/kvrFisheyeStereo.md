@@ -17,7 +17,7 @@ The "kvrFisheyeStereo" Effects Template and example lens profile composites proc
 	- Vonk Ultra
 	- KartaVR DragDrop
 	- KartaVP
-		- kvrFisheyeStereo
+		- LensProfiles (for the kvrFisheyeStereo node)
 		- kvrCreateStereo
 		- kvrCropStereo
 		- kvrGrade
@@ -26,16 +26,13 @@ The "kvrFisheyeStereo" Effects Template and example lens profile composites proc
 
 **Note: The kvrFisheyeStereo effects template makes use of the "Global Align" and "Anaglyph" nodes that are not available in Resolve Free.**
 
-### kvrFisheyeStereo View Mode Control
+### Please Consider Installing Fusion Studio Standalone
 
-The "kvrFisheyeStereo" node has a "View Mode" control that allows you to inspect the internal processing stages used. If you want to export an STMap warping template set the "View Mode" control to "STMap". Then you can either use a Saver node set to export an .exr image to disk. 
+**Pro Tip:** If you are working with a variety of 180VR cameras with different lenses, it can be a huge time saver to simply take the time and [install BMD Fusion Studio Standalone from the BMD Support Center ](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) downloads page. If you already have Resolve Studio, your same license activation key/dongle also gives you Fusion Studio Standalone at no extra cost. 
 
-Or you could right-click in the Viewer window, if you have the STMap displayed, and then choose the "Save Image..." option to write an .exr image to disk directly.
+IMHO, the way Fusion Studio manages media resolution in Loader and Saver nodes is a lot simpler, and more direct, when rapidly building STMap warping templates. Having acces to Fusion Studio Standalone will reduce a ton of headaches and save you time. Even if 100% of your VR workflows involves video editing in Resolve Studio, at the end of the day, I think you will be VERY happy you did this step!
 
-
-![View Mode](Images/kvrFisheyeStereo_View_Mode.png)
-
-Otherwise, you will typically use a combination of the "RGB" output mode if you want to directly inspect the final RGB color version of the 180VR output, along with the "Global Align" mode to perform vertical and horizontal disparity corrections using the "GlobalAlign X Shift" and "GlobalAlign Y Shift" controls in the Inspector panel.
+![BMD Support Centre](Images/BMD_Support_Centre_Web_Page.png)
 
 ### JSON Data Exchange
 
@@ -47,7 +44,121 @@ To kick things off, there are initial Canon R5C, R7, R6 presets along with RED V
 
 ### STMap Usage
 
-The STMaps you create with the kvrFisheyeStereo node are designed to be used on the Resolve Edit page with the help of the kvrSuperSTMap effects template. You can also take the STMap warping template .exr image file and use it with real-time live-streaming programs like [Assimilate LiveFX](https://www.assimilateinc.com/products/livefx/), or [Derivative TouchDesigner](https://derivative.ca/download) if you want to have on-set previews during a 180VR film production.
+The STMaps you create with the kvrFisheyeStereo node are designed to be used on the Resolve Edit page with the help of the kvrSuperSTMap effects template. You can also take the STMap warping template .exr image file and use it with real-time live-streaming programs like [Assimilate LiveFX](https://www.assimilateinc.com/products/livefx/), or [Derivative TouchDesigner](https://derivative.ca/download) if you want to have on-set previews during a 180VR film production. 
+
+Note: If you are using Assimilate LiveFX, make sure to check out [Alex Pearce's STMap workflow tutorials](https://www.youtube.com/watch?v=InRCgvPvfA8&list=PLembEBBB8AcesyQ4bYsdsvOWhRyaVEluU) for on-set HMD review of dual fisheye filmed media.
+
+### kvrFisheyeStereo View Mode Control
+
+The "kvrFisheyeStereo" node has a "View Mode" control that allows you to inspect the internal processing stages used. If you want to export an STMap warping template set the "View Mode" control to "STMap". Then you can either use a Saver node set to export an .exr image to disk. 
+
+Or you could right-click in the Viewer window, if you have the STMap displayed, and then choose the "Save Image..." option to write an .exr image to disk directly.
+
+![View Mode](Images/kvrFisheyeStereo_View_Mode.png)
+
+Otherwise, you will typically use a combination of the "RGB" output mode if you want to directly inspect the final RGB color version of the 180VR output, along with the "Global Align" mode to perform vertical and horizontal disparity corrections using the "GlobalAlign X Shift" and "GlobalAlign Y Shift" controls in the Inspector panel.
+
+#### View Mode - Source Image
+
+The two green rectangle boxes are the interactive cropping handles. When the "View Mode" is set to "Source Image", those rectangular boxes should align with the left and right eye "fisheye image" circles regions. The true meaning of the onscreen crop region shape is only valid when the first "View Mode" that is named "Source Image" is active.
+
+![Source Image View Mode](Images/kvrFisheyeStereo_ViewMode_SourceImage.png)
+
+#### View Mode - Grade
+
+When you switch to the "Grade" View Mode, the left and right eye views are swapped to correct for the stereo 3D "eye ordering". This eye swap process is why the green rectangle boxes, that defined the cropping region in the "Source View" View Mode doesn't perfectly align now.
+
+![Grade View Mode](Images/kvrFisheyeStereo_ViewMode_Grade.png)
+
+The Grade controls are helpful when creating an STMap output as it allows you to more precisely see your footage with a quick grade applied. This makes it easier to work with "flat" profile filmed media when doing lens calibrations.
+
+The Grade task uses the following controls in the Inspector window:
+
+![GradeControls](Images/kvrFisheyeStereo_Grade_Controls.png)
+
+There are two pairs of settings for each of the grade controls. This allows you to tune the left vs right eye grade individually. You can manually copy/paste the same value between the controls, such as "Exposure 1" and "Exposure 2", etc.
+
+#### View Mode - Crop
+
+The "Crop" View Mode shows the results of the cropping settings. The active image data should have the viewer window perfectly filled with the top/left/right/bottom of the "1:1 aspect ratio" fisheye circles landing at the frame border.
+
+![Crop View Mode](Images/kvrFisheyeStereo_ViewMode_Crop.png)
+
+The Cropping task uses the following controls in the Inspector window:
+
+![Crop Controls](Images/kvrFisheyeStereo_Crop_Controls.png)
+
+The "Crop 1" controls are for the left image in the SBS stereo layout, and the "Crop 2" controls are for the right image in the SBS stereo layout.
+
+#### View Mode - Lens Distort
+
+The "Lens Distort" controls allow you to apply "Panotools" lens model based barrel/pincushion distortion correction to an SBS stereo 3D image.
+
+![Lens Controls](Images/kvrFisheyeStereo_Lens_Controls.png)
+
+The Lens Distort "Center X/Y" controls allow you to shift the optical center of the image when the distortion correction is computed. This is helpful if the lens is not mounted at the optical center of the frame.
+
+Pro Tip: The Panotools A/B/C correction values are very subtle. When you have a new lens, you can compute the values for your lens once, using a panoramic stitching tool like Hugin or PTGui, and then re-use those parameters inside of Kartaverse's nodes.
+
+#### View Mode - Global Align
+
+The "Global Align" controls are used to adjust the Fusion native "Global Align" node that is packed inside of the kvrFisheyeStereo effects template. The X/Y Shift values are used to refine the horizontal and vertical stereo 3D convergence.
+
+Note: Resolve Studio and Fusion Studio include the "Global Align" node. This is not something that is available in Resolve Free.
+
+![Global Align Controls](Images/kvrFisheyeStereo_GlobalAlign_Controls.png)
+
+The X/Y Shift controls apply an X/Y based 2D transform to the individual SBS left and right eye views. This transform is applied in a balanced fashion to both eyes. In an ideal scenario, the kvrFisheyeStereo cropping stage will have gotten you fairly close to the correct convergence setting, as far as the vertical and horizontal disparity goes. The X/Y Shift is then used to refine this to a higher degree of precision.
+
+Pro Tip: If you use the Kartaverse kvrSuperSTMap node to apply your STMap warping template to your Edit page based footage, that node also has an X/Y Shift control you can use. This is handy as it allows you to tune things on a per-clip fashion, later on, if you want to dynamically adjust the stereo convergence of a pre-rendered STMap.
+This is relevant if editing a sequence, with quick cuts and camera motion, where you want the end viewer's eyes to not have to continuously re-adjust as they follow the primary area of interest.
+
+#### View Mode - RGB
+
+The "RGB" View Mode shows the result of the dual fisheye lens to 180VR image projection conversion.
+
+![RGB View Mode](Images/kvrFisheyeStereo_ViewMode_RGB.png)
+
+The RGB task uses the following controls in the Inspector window:
+
+![RGB Controls](Images/kvrFisheyeStereo_RGB_Controls.png)
+
+**Anagylph:**  
+Turning on the "Anagylph" checkbox in the Inspector window will apply a Red/Cyan based anaglyph stereo 3D preview mode. It is helpful when tuning the Global Align step, as well as for the RGB output tuning.
+
+**Diagonal Field of View:**  
+The "Diagonal Field of View" setting relates to the FOV value that your lens manufacture specifies in the documentation. A Canon RF 5.2mm dual fisheye lens has 190 degrees of FOV. The Canon 3.9mm APS format dual fisheye lens is 144 degrees.
+
+The "Diagonal Field of View" control value assumes the crop region has been fit to match the fisheye circle border zone. 
+
+Pro tip: If your final 180VR output has vertical details that are slanted/leaning heavily, such as buildings that aren't straight on the vertical axis, you likely need to refine the crop region slightly, and to experiment with adjusting the "Diagonal Field of View" control "to taste" as it will help solve the problem.
+
+**Mask:**
+The "Mask Diameter" and "Mask Softness" controls allow you to apply a vingetting masking effect to the final RGB output. This can allow you to focus the viewer's attention on an area of the frame without distractions like the opposite eye's lens being visible in the corner of the image.
+
+#### View Mode - STMap
+
+The "STMap" View Mode shows the generated STMap warping template output. If you click the magic wand icon in the Edit page "Inspector" panel, you can hop to the Fusion page and export the STMap image to disk.
+
+![STMap View Mode](Images/kvrFisheyeStereo_ViewMode_STMap.png)
+
+This newly exported STMap warping template can then be used with your choice of the "kvrSuperSTMap", "STMapperInline", and "STMapper" tools.
+
+
+**STMap Width and STMap Height:**
+The kvrFisheyeStereo effects template has a pair of resolution controls that allow you to tune the STMap image output size. The "STMap Width" and "STMap Height" controls function by pre-scaling the input image framebuffer size that is then used by the internal STMap gradient generator. 
+
+![STMap View Mode](Images/kvrFisheyeStereo_STMap_Controls.png)
+
+When you are customizing the STMap sizing values, it's a bit of a "twitchy" process that is more of an art than an exact science. The reason for this is that you are defining the input image dimensions that is then passed through the cropping, lens distortion, global align, and 180VR warping processes.
+
+You can type an offset value into the number controls to bump the value up/down slightly to hone in on the final size you desire 
+
+Example: If the number is at "4096" and you need the map to be slightly higher resolution, you can incrementally increase the value by entering "+ 100" into the field like "4096 + 100", then tying in the next value "NNN + 100", until you get closer to the final output frame size, then you would go "NNN + 10", and finally "NNN + 1". If you overshot you can then subtract by typing in "NNN - 10". (This was written where NNN is the current number in the input field.
+
+On the Edit page, it is helpful to keep an eye on the final image dimension shown at the top right corner of the Fusion page viewer window.
+
+![STMap Sizing in Fusion page](Images/kvrFisheyeStereo_Frame_Size.png)
 
 ## Usage
 
@@ -66,9 +177,7 @@ The STMaps you create with the kvrFisheyeStereo node are designed to be used on 
 ![Timeline](Images/kvrFisheyeStereo_Timeline.png)
 
 **Step 5.** 
-If you modify the "kvrFisheyeStereo" Effects Template's "View Mode" control you can preview the different output modes.
-
-The viewer window in the Edit page should update to show the result. If the view doesn't update instantly, you can try bumping the timeline playhead position forwards/backwards by one frame to force a refresh of the view.
+If you modify the "kvrFisheyeStereo" Effects Template's "View Mode" control you can preview the different output modes. The viewer window in the Edit page should update to show the result. If the view doesn't update instantly, you can try bumping the timeline playhead position forwards/backwards by one frame to force a refresh of the view.
 
 In the inspector view, if you click the little magic wand icon next to the right of the heading "kvrFisheyeStereo" you can hop into the Fusion page to customize the macro node.
 
@@ -89,7 +198,6 @@ Then right click on in the Fusion viewer window and select the "Save image..." c
 ### Lens Profiles Presets Folder
 
 If you have the "KartaVR Scripts | Open Folder" Reactor atom package installed, as well, there is a handy "Script > KartaVR > Open Folder > Open Kartaverse Lens Profiles Folder" menu item in Fusion.
-
 
 ![Open Folder Menu Item](Images/kvrFisheyeStereo_KartaVR_Open_Folder_Menu_Item.png)
 

@@ -10,6 +10,7 @@
 
 - (Scroll down for more info...)
 
-[GitHub](https://github.com/kartaverse)
-[Video Tutorials](tutorials)
-[Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor)
+[Video Tutorials](tutorials)  
+[Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor)  
+[GitHub](https://github.com/kartaverse)  
+

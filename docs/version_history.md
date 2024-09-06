@@ -2,10 +2,12 @@
 
 ## Version History
 
-### Version 5.7.34 - 2024-09-05
+### Version 5.7.4 - 2024-09-06
+- Kartaverse docs update
 - Added "Kartaverse Lens Profiles" atom package and the "kvrFisheyeStereo" node
 - Added "kvrSuperSTMap" node
 - Updated "kvrDualFisheye" node
+
 
 ### Version 5.7.3.0.5 - 2024-07-14
 - Added a "Spatial Metadata.lua" media command script, and a standalone desktop compiled .app. More information is available from the [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) project's GitHub page.

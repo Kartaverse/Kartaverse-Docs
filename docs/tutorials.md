@@ -62,6 +62,16 @@ The tutorial covers the usage of "ST Maps" and the WarpStitch node. Included wit
 Make sure to [download the supporting project files](https://drive.google.com/file/d/1H-owMeadqekZ42BgmqeaPHr9Ry2cHFP8/view).
 
 
+## Immersive Explainer Videos
+
+This section will be expanded over time to include talks about emerging immersive technologies, and BTS (Behind the Scenes) views of ambitious fulldome, XR and VR projects.
+
+### Neural Rendering the Metaverse - Exploring Next-Generation Ai Driven Techniques
+
+In this talk we explore digital-twins, neural radiance fields, virtual production, and generative AI. These pioneering tools will help the next wave of content creators build compelling shared online experiences and the metaverse.
+
+@yt(sV9CPUdGBKw,560px,317px,center)
+
 ## Kartaverse Example Project Files
 
 Reactor stores the example Kartaverse project files in the PathMap based folder located at:  

@@ -33,7 +33,7 @@ It is a good idea to turn off the "[x] Realtime" checkbox at the top toolbar are
 ## Extra Learning Resources
 
 **kvrFisheyeStereo**  
-Check out the Kartaverse [kvrFisheyeStereo](kvrFisheyeStereo) node that works in Resolve/Fusion.
+Check out the Kartaverse [kvrFisheyeStereo](kvrFisheyeStereo) node that works in Resolve/Fusion. It provides a quick way to generate a 180VR SBS STMap warping template image that is calibrated to your exact camera lens.
 
 ---
 

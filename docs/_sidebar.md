@@ -28,10 +28,28 @@
 	- [TouchDesigner Realtime Warping](TouchDesigner)
 - **Kartaverse for Houdini**
 	- [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
+	- [Kartaverse Shelf Tools](https://kartaverse.github.io/Kartaverse-for-Houdini/#/shelf)
 	- [Example HIP Project Files](https://kartaverse.github.io/Kartaverse-for-Houdini/#/examples)
 	- [Panotools Data Nodes](https://kartaverse.github.io/Kartaverse-for-Houdini/#/panotools)
-	- [Volumetric Video Workflows](https://docs.google.com/document/d/17xXudeghGhvfofffoqLhYmcvgnS-_eP0A1KOwWJPjxg/edit)
-	- [Render Fusion Comps in Houdini TOPs](https://docs.google.com/document/d/1l9L-LhCxTobZmRlinu3oKUM61EuqtZJmcf_Tv1VG-8Q/edit)
+	- Render Fusion Comps in Houdini TOPs
+		- [TOPs Workflow](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/tops_workflow)
+		- [Running Fusion Actions](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/running_fusion_actions)
+	- Volumetric Video Workflows
+		- [Overview](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/overview)
+		- [Project Hierarchy](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/project_hierarchy)
+		- [TOPs Basics](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_basics)
+		- [Videogrammetry Notes](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/notes)
+		- [Preparing XR Stage Deliverables](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/preparing_xr_stage_deliverables.md)
+		- [DxO Optics PhotoLab](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/#/dxo_optics_photolab.md)
+		- TOPs Example HIP Projects:
+			- [TOPs FFmpeg Movies to Frameset Images](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_ffmpeg_movies_to_frameset_images)
+			- [TOPs XMP Sequence to Frameset XMP](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_xmp_sequence_to_frameset_xmp)
+			- [TOPs Frameset Images to Image Sequence](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_frameset_images_to_image_sequence.md)
+			- [TOPs Frameset Meshes to OBJ Mesh Sequence](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_frameset_meshes_to_obj_mesh_sequence.md)
+			- [TOPs OBJ Mesh Sequence to ZIP Archive](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_obj_mesh_sequence_to_zip_archive.md)
+			- [TOPs Reality Capture Align Views](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_reality_capture_align_views.md)
+			- [TOPs Reality Capture XYZ Output](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_reality_capture_xyz_output.md)
+			- [TOPs Reality Capture OBJ Output](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/tops_reality_capture_obj_output.md)
 - **Kartaverse 6 Dev:**
 	- [CesiumLink (WIP)](https://kartaverse.github.io/CesiumLink/)
 	- [RiveLink (WIP)](https://kartaverse.github.io/RiveLink/#/)

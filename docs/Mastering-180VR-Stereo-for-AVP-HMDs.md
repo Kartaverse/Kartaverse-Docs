@@ -50,7 +50,7 @@ When working with stereo 3D metadata based footage, the KartaVP fuse nodes shoul
 
 ## Deliver page
 
-The Deliver page "Video" tab has a "Render Stereoscopic 3D" setting that allows you to choose options like individual "Left eye"/"Right eye" output, "Separate files", or "side by side".
+The Deliver page "Video" tab has a "Render Stereoscopic 3D" setting that allows you to choose options like individual "Left eye" and "Right eye" output, "Separate files", or "side by side".
 
 You can customize the Resolution setting to match your final frame size output needs.
 

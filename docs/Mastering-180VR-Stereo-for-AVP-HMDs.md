@@ -54,6 +54,10 @@ The Davinci Resolve Deliver Page can be used to render out your 180VR stereo 3D 
 
 ![Deliver Page](Images/mastering-180vr-resolve-deliver-page.png)
 
+In QuickTime Player on macOS you can check the left and right eye view content using the "View > Spatial Video >" menu:
+
+![QuickTime Player](Images/mastering-180vr-quicktime-player.png)
+
 ## More to follow
 
 This workflow guide has initial notes on improved workflows. More details and tutorials will be shared as followup content.

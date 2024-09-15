@@ -3,11 +3,15 @@
 
 ![Canon R5C](Images/mastering-180vr-Canon_R5C_RF-5.2mm_Dual_Fisheye_Japan_Fair_Grounds.jpg)
 
+**Sample imagery by Makoto Hirose**
+
 From what I just saw with [Apple Vision Pro](https://www.apple.com/apple-vision-pro/) centric content mastering, and the newest version of the Apple Compressor video encoding program:
 
-The ideal DaVinci Resolve Studio timeline resolution for SBS 180x180 degree VR video, at a 2:1 aspect ratio, using footage out of a [Canon R5C](https://www.canon.ca/en/product?name=RF5.2mm_F2.8_L_Dual_Fisheye) Camera Body + [Canon RF5.2mm dual fisheye stereo lens](https://www.canon.ca/en/product?name=EOS_R5_C) is likely (more testing needed) 8640x4320 px. (This would result in the video editor having a final delivery spec of a MV-HEVC video encoded output at a square per-eye rez of 4320x4320 px.)
+The ideal DaVinci Resolve Studio timeline resolution for SBS 180x180 degree VR video, at a 2:1 aspect ratio, using footage out of a [Canon R5C](https://www.canon.ca/en/product?name=RF5.2mm_F2.8_L_Dual_Fisheye) Camera Body + [Canon RF5.2mm dual fisheye stereo lens](https://www.canon.ca/en/product?name=EOS_R5_C) is likely (more testing needed) 8640x4320 px. Working with SBS 8640x4320 px content would result in the video editor having a final delivery spec of a MV-HEVC video encoded output at a square per-eye rez of 4320x4320 px.
 
-Yes, you are doing a smidgen of up-rezzing before running the DaVinci Resolve Edit page based "[kvrSuperSTMap](kvrSuperSTMap)" effects template. This step applies an STMap based image projection transform to the Canon R5C camera's native sensor resolution of 8192x4320 px SBS circular fisheye content. But with an STMap warping template, anti-aliasing is nearest-neighbour anyway so it's not horrible to run this warping step at a big higher than the native camera resolution.
+*Note: The default DCI 8K cinema framesize is 8192x4320 px which has a 1.9 aspect ratio. The 8K UltraHD framesize is 7680x4320 px which has a 16:9 aspect ratio.*
+
+Yes, you are doing a smidgen of up-rezzing before running the DaVinci Resolve Edit page based "[kvrSuperSTMap](kvrSuperSTMap)" effects template. This step applies an STMap based image projection transform to the Canon R5C camera's native sensor resolution of 8192x4320 px SBS circular fisheye content. But with an STMap warping template, anti-aliasing is nearest-neighbour anyway so it's not horrible to run this warping step at a bit higher than the native camera resolution.
 
 Once you use the Kartaverse "[Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)" video encoder app to turn your ProRes 422 HQ formatted SBS 180VR content into MV-HEVC output, the MV-HEVC video file has two separate frame buffers (right and left eye views) that are each 4320x4320 px.
 

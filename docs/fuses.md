@@ -99,6 +99,50 @@ The kvrGrade fuse allows you to quickly color correct stereo 3D footage with ind
 
 ![kvrGrade Fuse](Images/fuse-kvrGrade.png)
 
+# kvrVingette
+
+The kvrVingette node allows you to quickly and easily generate a 180VR stereo 3D compatible dual fisheye lens masking pattern.
+
+A radial vignetting effect can be used with a "multiply" transfer mode to fade out the perimeter edge-zone area of an 180VR dual fisheye video clip. This technique masks the edges of the left and right eye views so you can guide the viewer's attention to where it matters most. Most importantly, using a vignetting process on your 180VR immersive media is an affordable way to hide the lens element that is visible in the opposite eye view of a dual fisheye lens based camera rig.
+
+![kvrVingette Fuse](Images/kvrVingette_output.png)
+
+For DaVinci Resolve Studio based 180VR video editing projects, it works well to add an "Adjustment Clip" to an Edit page based timeline. Place the Adjustment Clip in the video track just above the 180VR video content.
+
+![Edit Page Timeline](Images/kvrVingette_edit_page_timeline.png)
+
+ Right-click on the Adjustment Clip and select the "Open in Fusion page" option. In the Fusion page create the following node layout:
+
+![kvrVingette](Images/kvrVingette_nodes.png)
+
+This node graph setup allows the "kvrVingette" to create the radial lens masking pattern, and the Merge node controls the final blending and layer transfer mode properties:
+
+	MediaIn1 > kvrVingette1 > Merge1.Foreground
+	MediaIn1 > Merge1.Background
+	Merge1 > MediaOut1
+
+For a Canon R5C Dual Fisheye Stereo Lens setup, you would likely want to use the following Inspector window based "kvrVingette" and "Merge" node settings:
+
+![Edit Page Timeline](Images/kvrVingette_adustment_layer_controls.png)
+
+kvrVingette
+
+- Projection:
+	- Diagonal Field of View: 180
+- Stereo:
+	- Mode: Horiz
+	- [x] Solid Alpha
+- Image:
+	- [x] Auto Resolution
+- Masking:
+	- Mask Diameter: 0.82
+	- Mask Softness: 0.7
+
+Merge
+
+- Apply Mode:
+	- Multiply
+
 # kvrViewer
 
 Preview fisheye, 180VR, 360VR, and flat media in 2D mono, or stereo 3D. The node can be used to reframe VR footage with onscreen controls.
@@ -148,7 +192,7 @@ The example composite "Under The Bridge" shows how multi-view 360VR video stitch
 
 # Macro
 
-# kvrDualFisheye
+## kvrDualFisheye
 
 The kvrDualFisheye macro allows you to stitch 360VR content from dual fisheye footage that was captured on front/back lens based cameras.
 
@@ -166,7 +210,7 @@ In the inspector view, if you click the little magic wand icon next to the right
 
 # VR Subtitles
 
-# vTextFromSubtitles
+## vTextFromSubtitles
 
 Vonk Ultra includes a node that allows you to read timecode synced closed caption subtitle .srt data. The output is a text datatype that can be connected to the StyledText field on a Text+ node.
 

@@ -2,6 +2,9 @@
 
 ## Version History
 
+### Version 5.7.4 - 2024-09-16
+- Added "kvrVingette" DCTL fuse
+
 ### Version 5.7.4 - 2024-09-07
 - Kartaverse docs update
 - Added "Kartaverse Lens Profiles" atom package and the "kvrFisheyeStereo" node

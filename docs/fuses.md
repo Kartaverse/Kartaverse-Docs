@@ -99,9 +99,9 @@ The kvrGrade fuse allows you to quickly color correct stereo 3D footage with ind
 
 ![kvrGrade Fuse](Images/fuse-kvrGrade.png)
 
-# kvrVingette
+# kvrVignette
 
-The kvrVingette node allows you to quickly and easily generate a 180VR stereo 3D compatible dual fisheye lens masking pattern.
+The kvrVignette node allows you to quickly and easily generate a 180VR stereo 3D compatible dual fisheye lens masking pattern.
 
 A radial vignetting effect can be used with a "multiply" transfer mode to fade out the perimeter edge-zone area of an 180VR dual fisheye video clip. This technique masks the edges of the left and right eye views so you can guide the viewer's attention to where it matters most. Most importantly, using a vignetting process on your 180VR immersive media is an affordable way to hide the lens element that is visible in the opposite eye view of a dual fisheye lens based camera rig.
 
@@ -115,17 +115,17 @@ For DaVinci Resolve Studio based 180VR video editing projects, it works well to 
 
 ![kvrVingette](Images/kvrVingette_nodes.png)
 
-This node graph setup allows the "kvrVingette" to create the radial lens masking pattern, and the Merge node controls the final blending and layer transfer mode properties:
+This node graph setup allows the "kvrVignette" to create the radial lens masking pattern, and the Merge node controls the final blending and layer transfer mode properties:
 
-	MediaIn1 > kvrVingette1 > Merge1.Foreground
+	MediaIn1 > kvrVignette1 > Merge1.Foreground
 	MediaIn1 > Merge1.Background
 	Merge1 > MediaOut1
 
-For a Canon R5C Dual Fisheye Stereo Lens setup, you would likely want to use the following Inspector window based "kvrVingette" and "Merge" node settings:
+For a Canon R5C Dual Fisheye Stereo Lens setup, you would likely want to use the following Inspector window based "kvrVignette" and "Merge" node settings:
 
 ![Edit Page Timeline](Images/kvrVingette_adustment_layer_controls.png)
 
-kvrVingette
+kvrVignette
 
 - Projection:
 	- Diagonal Field of View: 180

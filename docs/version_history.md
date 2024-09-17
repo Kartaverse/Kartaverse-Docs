@@ -2,8 +2,9 @@
 
 ## Version History
 
-### Version 5.7.4 - 2024-09-16
-- Added "kvrVingette" DCTL fuse
+### Version 5.7.5 - 2024-09-17
+- Added "kvrVignette" DCTL fuse
+- Updated the "kvrFisheyeStereo" macro that ships with the Kartaverse Lens Profiles atom package. This should fix a horizontal resolution mis-match issue with the RGB vs STMap output mode. Previously a different output resolution was seen in Resolve Studio vs Fusion Studio.
 
 ### Version 5.7.4 - 2024-09-07
 - Kartaverse docs update

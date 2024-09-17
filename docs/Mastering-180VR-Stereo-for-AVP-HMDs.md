@@ -34,7 +34,9 @@ It is possible to display this stereo 3D footage on a stereo 3D aware monitor wi
 
 ![Nobe Display NDI](Images/mastering-180vr-node-display-ndi.png)
 
-An interesting VR media review approach that works today, is that an Apple Vision Pro HMD is capable of playing back an [NDI video stream](https://ndi.video/tools/) in real-time from a WiFi connection. One tool you can use for this task is the VisionOS store app called "[iXR OSC & NDI](https://apps.apple.com/us/app/ixr-osc-ndi/id6642664920)".
+An interesting VR media review approach that works today, is that an Apple Vision Pro HMD is capable of playing back an [NDI video stream](https://ndi.video/tools/) in real-time from a WiFi connection. 
+
+One tool you can use for this task is the VisionOS store app called "[iXR OSC & NDI](https://apps.apple.com/us/app/ixr-osc-ndi/id6642664920)". This tool currently supports 360VR content so you will have to reformat your media for live NDI formatted previews.
 
 ![Apple Vision Pro](Images/mastering-180vr-avp.jpg)
 

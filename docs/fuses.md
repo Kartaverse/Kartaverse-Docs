@@ -105,15 +105,23 @@ The kvrVignette node allows you to quickly and easily generate a 180VR stereo 3D
 
 A radial vignetting effect can be used with a "multiply" transfer mode to fade out the perimeter edge-zone area of an 180VR dual fisheye video clip. This technique masks the edges of the left and right eye views so you can guide the viewer's attention to where it matters most. Most importantly, using a vignetting process on your 180VR immersive media is an affordable way to hide the lens element that is visible in the opposite eye view of a dual fisheye lens based camera rig.
 
-![kvrVingette Fuse](Images/kvrVingette_output.png)
+![kvrVignette Fuse](Images/kvrVignette_output.png)
 
-For DaVinci Resolve Studio based 180VR video editing projects, it works well to add an "Adjustment Clip" to an Edit page based timeline. Place the Adjustment Clip in the video track just above the 180VR video content.
+## Vignette Edit page usage
 
-![Edit Page Timeline](Images/kvrVingette_edit_page_timeline.png)
+A new Resolve Edit page "Generator" macro version of the kvrVignette tool is available. Select Edit page the Effects tab's "Toolbox &gt; Generators &gt; KartaVP &gt; Color &gt; kvrVignette" entry and drag it to a video track above your 180VR video content.
 
- Right-click on the Adjustment Clip and select the "Open in Fusion page" option. In the Fusion page create the following node layout:
+![kvrVignette Generator 2](Images/kvrVingette_generator_2.png)
 
-![kvrVingette](Images/kvrVingette_nodes.png)
+Once the generator has been added to the video track, change the clip's Inspector panel based "Settings &gt; Composite &gt; Composite Mode" control to "Multiply" so the vignetting effect darkens the 180VR dual fisheye video clip content.
+
+![kvrVignette Generator 2](Images/kvrVingette_generator_2.png)
+
+## Vignette Fusion page usage
+
+In the Fusion page create the following node layout:
+
+![kvrVignette Nodes](Images/kvrVignette_nodes.png)
 
 This node graph setup allows the "kvrVignette" to create the radial lens masking pattern, and the Merge node controls the final blending and layer transfer mode properties:
 
@@ -123,7 +131,7 @@ This node graph setup allows the "kvrVignette" to create the radial lens masking
 
 For a Canon R5C Dual Fisheye Stereo Lens setup, you would likely want to use the following Inspector window based "kvrVignette" and "Merge" node settings:
 
-![Edit Page Timeline](Images/kvrVingette_adustment_layer_controls.png)
+![Edit Page Timeline](Images/kvrVignette_adustment_layer_controls.png)
 
 kvrVignette
 

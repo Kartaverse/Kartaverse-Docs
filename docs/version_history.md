@@ -2,6 +2,10 @@
 
 ## Version History
 
+### 5.7.5.1 - 2024-10-02
+- Added a new BMD Resolve Edit page "Generator" macro version of the kvrVignette tool.
+- Added a BMD Resolve Deliver page Trigger script end of render job version of the "Spatial Metadata.lua" script. This allows automatic MV-HEVC video encoding on macOS using the Spatial CLI tool by Mike Swanson.
+
 ### Version 5.7.5 - 2024-09-17
 - Added "kvrVignette" DCTL fuse
 - Updated the "kvrFisheyeStereo" macro that ships with the Kartaverse Lens Profiles atom package. This should fix a horizontal resolution mis-match issue with the RGB vs STMap output mode. Previously a different output resolution was seen in Resolve Studio vs Fusion Studio.

@@ -17,7 +17,7 @@ The [33rd Frame YouTube channel](https://www.youtube.com/@33rdframe) has Kartave
 
 @yt(zYOM6VTapQs,560px,317px,center)
 
-## Hou Hou YouTube Videos
+## Hugh Hou YouTube Videos
 
 [Hugh Hou's YouTube channel](https://www.youtube.com/@hughhou) has VR tutorials that cover Kartaverse post-production techniques inside of BMD Resolve/Fusion.
 

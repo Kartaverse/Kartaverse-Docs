@@ -111,11 +111,11 @@ A radial vignetting effect can be used with a "multiply" transfer mode to fade o
 
 A new Resolve Edit page "Generator" macro version of the kvrVignette tool is available. Select Edit page the Effects tab's "Toolbox &gt; Generators &gt; KartaVP &gt; Color &gt; kvrVignette" entry and drag it to a video track above your 180VR video content.
 
-![kvrVignette Generator 2](Images/kvrVingette_generator_2.png)
+![kvrVignette Generator 2](Images/kvrVignette_generator_2.png)
 
 Once the generator has been added to the video track, change the clip's Inspector panel based "Settings &gt; Composite &gt; Composite Mode" control to "Multiply" so the vignetting effect darkens the 180VR dual fisheye video clip content.
 
-![kvrVignette Generator 2](Images/kvrVingette_generator_2.png)
+![kvrVignette Generator 2](Images/kvrVignette_generator_2.png)
 
 ## Vignette Fusion page usage
 
@@ -131,9 +131,9 @@ This node graph setup allows the "kvrVignette" to create the radial lens masking
 
 For a Canon R5C Dual Fisheye Stereo Lens setup, you would likely want to use the following Inspector window based "kvrVignette" and "Merge" node settings:
 
-![Edit Page Timeline](Images/kvrVignette_adustment_layer_controls.png)
+![Edit Page Timeline](Images/kvrVignette_adustment_layer_controls_1.png)
 
-kvrVignette
+## kvrVignette Attributes
 
 - Projection:
 	- Diagonal Field of View: 180
@@ -150,6 +150,8 @@ Merge
 
 - Apply Mode:
 	- Multiply
+
+![Edit Page Timeline](Images/kvrVignette_adustment_layer_controls_2.png)
 
 # kvrViewer
 

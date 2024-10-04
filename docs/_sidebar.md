@@ -17,9 +17,11 @@
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
 		- [STmapperInline](stmapperinline)
-	- Workflows:
+	- Immersive Workflows:
 		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
+	- Fusion Mini-Wiki:
+		- [Getting Started With Nodes in Fusion](Getting-Started-With-Nodes-in-Fusion)
 		- [Fusion OpenUSD Node Attributes](usd)
 		- [Creating Fusion Viewer Custom Guides](guides)
 	- [Open Source](opensource_tools)

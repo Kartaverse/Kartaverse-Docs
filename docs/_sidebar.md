@@ -2,11 +2,7 @@
 - [Home](/)
 - **Kartaverse for DaVinci Resolve/Fusion**
 	- [Video Tutorials](tutorials)
-	- [Install Kartaverse + Reactor](install)
-	- Workflows:
-		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
-		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
-		- [Fusion OpenUSD Node Attributes](usd)
+	- [Install Kartaverse using Reactor](install)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
 		- [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
@@ -21,6 +17,11 @@
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
 		- [STmapperInline](stmapperinline)
+	- Workflows:
+		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
+		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
+		- [Fusion OpenUSD Node Attributes](usd)
+		- [Creating Fusion Viewer Custom Guides](guides)
 	- [Open Source](opensource_tools)
 	- [Legacy Fusion 9 Content](legacy)
 	- [Version History](version_history)

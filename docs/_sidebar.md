@@ -6,6 +6,7 @@
 	- Workflows:
 		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
+		- [Fusion OpenUSD Node Attributes](usd)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
 		- [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)

@@ -68,7 +68,7 @@ This node will take the black to white color values in the lens mask image and u
 
 ![NDI Out](Images/TouchDesigner_NDI_Out.png)
 
-9. If you want to do a quick tech-check on the NDI Output you can use the free "NDI Tools" utility called "NDI Virtual Monitor" to preview the network video stream.
+9. If you want to do a quick tech-check on the NDI Output you can use the free "[NDI Tools](https://ndi.video/tools/)" utility called "NDI Virtual Monitor" to preview the network video stream.
 
 ![NDI Video Monitor](Images/TouchDesigner_NDI_Video_Monitor.png)
 
@@ -86,7 +86,7 @@ This node will take the black to white color values in the lens mask image and u
 **kvrFisheyeStereo**  
 Check out the Kartaverse [kvrFisheyeStereo](kvrFisheyeStereo) node that works in Resolve/Fusion. It provides a quick way to generate a 180VR SBS STMap warping template image that is calibrated to your exact camera lens.
 
-**kvrVignette**
+**kvrVignette**  
 Check out the Kartaverse [kvrVignette](fuses?id=kvrvignette) node that works in Resolve/Fusion. It allows you to create stereo 3D aware circular fisheye lens masking images.
 
 **STMap Guide**  

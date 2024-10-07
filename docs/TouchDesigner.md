@@ -80,6 +80,23 @@ This node will take the black to white color values in the lens mask image and u
 
 	![Realtime Checkbox](Images/TouchDesigner_Realtime_Checkbox.png)
 
+## Nobe Display NDI
+
+If you are using Resolve Studio on macOS or Windows, make sure to check out [Time and Pixel's Nobe Display NDI](https://timeinpixels.com/nobe-display/) plugin. This OpenFX plugin allows Edit/Fusion/Color page content to be streamed live to an NDI IP based video output.
+
+![NDI Video Monitor](Images/TouchDesigner_NDI_Resolve_Nobe_NDI.png)
+
+If you select the Nobe Display Connect plugin in the Resolve inspector window, you can click on the "Open Display..." button to see a live preview window of the NDI stream:
+
+![NDI Video Monitor](Images/TouchDesigner_NDI_Resolve_Nobe_NDI_Viewer.png)
+
+When using Nobe Display NDI as part of a TouchDesigner workflow, the [NDI In](https://docs.derivative.ca/NDI_In_TOP) node in TouchDesigner is used in place of the MovieFileIn n node we renamed to" RGB". The NDI In node is used to stream RGB footage into the comp in real-time from a network IP video source.
+
+![NDI In](Images/TouchDesigner_NDI_In_Nobe.png)
+
+To use the NDI In node, we need to change the the "Source Name" setting to "[Host Name] (Nobe Display NDI connect). If you don't immediately see the footage, simply click on the Timeline pause/play button once, the NDI feed will show up in TouchDesigner.
+ 
+![NDI In Node](Images/TouchDesigner_NDI_In_Nobe_Node.png)
 
 ## Extra Learning Resources
 
@@ -91,6 +108,15 @@ Check out the Kartaverse [kvrVignette](fuses?id=kvrvignette) node that works in 
 
 **STMap Guide**  
 For more information about ST Maps check out the article: [Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)
+
+
+## Software Mentioned
+
+- [Derivative TouchDesigner](https://derivative.ca/download)
+- [NDI Tools](https://ndi.video/tools/)
+- [BMD DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/studio)
+- [Time and Pixel's Nobe Display NDI](https://timeinpixels.com/nobe-display/) OpenFX plugin
+- [Karaverse (Installed using the Reactor package manager)](https://kartaverse.github.io/Reactor-Docs/#/reactor)
 
 ---
 

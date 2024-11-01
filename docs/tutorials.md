@@ -27,6 +27,12 @@ Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision 
 
 @yt(PJWsscXmJiE,560px,317px,center)
 
+### Live Previews With Real-time STMap Warping and NDI Streaming
+
+Learn how to stream and live preview Canon R5C, R5 II, and RED V-Raptor X footage directly to the Meta Quest 3 or Meta Quest 3S in real-time 3D VR180 with this in-depth, step-by-step guide. This video covers everything you need to create a seamless 3D 180 live view in multiple VR headsets and VR180 livestream workflow with minimal latency—perfect for professional 3D 180 filmmaking and immersive live production setups. [How to Stream Canon R5C, R5 II & RED Cameras to Meta Quest 3 in Real-Time VR180 | Masterclass](https://www.youtube.com/watch?v=iTKoGBXQ6gA)
+
+@yt(iTKoGBXQ6gA,560px,317px,center)
+
 ### kvrViewer and kvrCropStereo
 
 This video covers an improved workflow for reframing VR video on the Resolve Edit page: [Everyone's WRONG! The Right Way to Reframe 8K 360 Video in DaVinci Resolve Masterclass](https://www.youtube.com/watch?v=61xusfAvVXU)

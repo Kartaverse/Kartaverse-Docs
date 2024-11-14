@@ -2,7 +2,7 @@
 
 ## Kartaverse Atom Packages
 
-Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the Reactor package manager for Resolve/Fusion. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
+Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor Package Manager](https://gitlab.com/WeSuckLess/Reactor) for Resolve Studio/Fusion Studio. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
@@ -12,7 +12,7 @@ Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-19+, DaVinci R
 
 ## Reactor Package Manager
 
-> To start using Kartaverse for BMD Resolve/Fusion you need to get the Reactor package manager setup on your system. 
+> To start using Kartaverse for BMD Resolve Studio/Fusion Studuo you need to get the [Reactor Package Manager](https://gitlab.com/WeSuckLess/Reactor) setup on your system. 
 
 For most users, it only takes a few minutes to get Reactor installed.
 

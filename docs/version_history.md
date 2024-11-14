@@ -2,6 +2,9 @@
 
 ## Version History
 
+### 5.7.6 - 2024-11-14
+- Resolve (free) v19.1 is no longer supported by Kartaverse or the Reactor Package Manager.
+
 ### 5.7.5.1 - 2024-10-02
 - Added a new BMD Resolve Edit page "Generator" macro version of the kvrVignette tool.
 - Added a BMD Resolve Deliver page Trigger script end of render job version of the "Spatial Metadata.lua" script. This allows automatic MV-HEVC video encoding on macOS using the Spatial CLI tool by Mike Swanson.

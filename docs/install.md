@@ -2,7 +2,7 @@
 
 ## Kartaverse Atom Packages
 
-Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor package manager](https://kartaverse.github.io/Reactor-Docs/#/reactor) for Resolve/Fusion. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
+Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the Reactor package manager for Resolve/Fusion. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
@@ -12,7 +12,7 @@ Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-19+, DaVinci R
 
 ## Reactor Package Manager
 
-> To start using Kartaverse for BMD Resolve/Fusion you [need to follow this guide](https://kartaverse.github.io/Reactor-Docs/#/reactor) to get the Reactor package manager setup on your system. 
+> To start using Kartaverse for BMD Resolve/Fusion you need to get the Reactor package manager setup on your system. 
 
 For most users, it only takes a few minutes to get Reactor installed.
 
@@ -24,7 +24,7 @@ Reactor is the package manager for BMD Resolve/Fusion. Reactor is maintained by 
 
 > Reactor content is sourced from the official [Reactor GitLab repository](https://gitlab.com/WeSuckLess/Reactor). This means you have to allow an outgoing firewall rule to the GitLab repository when you want to download new atom package updates. 
 
-After you have Reactor installed, you might be interested to [browse a web based version](https://kartaverse.github.io/Reactor-Docs/) of the Reactor Package Manager content. This allows you to easily search through all the Reactor atom packages to find what you are looking for when you are on the go.
+After you have Reactor installed, you might be interested to browse a web based version of the Reactor Package Manager content. This allows you to easily search through all the Reactor atom packages to find what you are looking for when you are on the go.
 
 ### Troubleshooting Reactor
 
@@ -32,10 +32,10 @@ If you have accented characters, or UTF8 characters in your user account name / 
 
 If the "Custom Install Path" process still has issues, there is a zipped download of the Reactor package manager support files that can be manually installed. 
 
-You can also use a Reactor toolset called "[Atomz Create](https://kartaverse.github.io/Reactor-Docs/#/com.AndrewHazelden.AtomzCreate)" & "[Atomz Expand](https://kartaverse.github.io/Reactor-Docs/#/com.AndrewHazelden.AtomzExpand?id=reactor-atomz-expand)" to do a 100% offline airgapped install of zipped Reactor packages. This is popular for artists working in a corporate environment with NAS local storage pools.
+You can also use a Reactor toolset called "Atomz Create" & "Atomz Expand" to do a 100% offline airgapped install of zipped Reactor packages. This is popular for artists working in a corporate environment with NAS local storage pools.
 
 ### macOS Resolve/Resolve Studio Tip
 
 > The macOS App Store version of Resolve/Resolve studio is sandboxed and lacks a lot of features you may require.
 
-If you are on macOS it is a good idea to install a copy of Resolve/Resolve Studio from the official [BMD website support centre](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) website. This will make life easier for you if you want to install 3rd party tools.
+If you are on macOS it is a good idea to install a copy of Resolve Studio from the official [BMD website support centre](https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion) website. This will make life easier for you if you want to install 3rd party tools.

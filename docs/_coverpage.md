@@ -11,6 +11,6 @@
 - (Scroll down for more info...)
 
 [Video Tutorials](tutorials)  
-[Reactor Package Manager](https://kartaverse.github.io/Reactor-Docs/#/reactor)  
+[Reactor Package Manager](https://gitlab.com/WeSuckLess/Reactor)  
 [GitHub](https://github.com/kartaverse)  
 

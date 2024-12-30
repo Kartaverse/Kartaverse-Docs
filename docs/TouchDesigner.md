@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [Derivative TouchDesigner](https://derivative.ca/download) software does a great job of applying a pre-made STmap map warping template image in a way that works live and real-time. With a bit of effoert to learn the workflow, you can use Kartaverse, or [PTGui Pro](https://ptgui.com/) to make the initial STMap template, that you then run inside of TouchDesigner.
+The [Derivative TouchDesigner](https://derivative.ca/download) software does a great job of applying a pre-made STmap map warping template image in a way that works live and real-time. With a bit of effort to learn the workflow, you can use Kartaverse, or [PTGui Pro](https://ptgui.com/) to make the initial STMap template, that you then run inside of TouchDesigner.
 
 This is a great way to warp Canon R5C + RF 5.2mm dual fisheye imagery into a 180VR Side-by-Side layout. It does require you to have a custom STMap template image created beforehand (which the Kartaverse [kvrFisheyeStrereo](kvrFisheyeStereo) node can help create).
 

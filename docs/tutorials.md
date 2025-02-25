@@ -33,6 +33,8 @@ Learn how to stream and live preview Canon R5C, R5 II, and RED V-Raptor X footag
 
 @yt(iTKoGBXQ6gA,560px,317px,center)
 
+@yt(CwtSI5byO4I,560px,317px,center)
+
 ### kvrViewer and kvrCropStereo
 
 This video covers an improved workflow for reframing VR video on the Resolve Edit page: [Everyone's WRONG! The Right Way to Reframe 8K 360 Video in DaVinci Resolve Masterclass](https://www.youtube.com/watch?v=61xusfAvVXU)

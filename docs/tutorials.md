@@ -29,9 +29,13 @@ Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision 
 
 ### Live Previews With Real-time STMap Warping and NDI Streaming
 
-Learn how to stream and live preview Canon R5C, R5 II, and RED V-Raptor X footage directly to the Meta Quest 3 or Meta Quest 3S in real-time 3D VR180 with this in-depth, step-by-step guide. This video covers everything you need to create a seamless 3D 180 live view in multiple VR headsets and VR180 livestream workflow with minimal latency—perfect for professional 3D 180 filmmaking and immersive live production setups. [How to Stream Canon R5C, R5 II & RED Cameras to Meta Quest 3 in Real-Time VR180 | Masterclass](https://www.youtube.com/watch?v=iTKoGBXQ6gA)
+Learn how to stream and live preview Canon R5C, R5 II, and RED V-Raptor X footage directly to the Meta Quest 3 or Meta Quest 3S in real-time 3D VR180 with this in-depth, step-by-step guide. This video covers everything you need to create a seamless 3D 180 live view in multiple VR headsets and VR180 livestream workflow with minimal latency—perfect for professional 3D 180 filmmaking and immersive live production setups. 
+
+[How to Stream Canon R5C, R5 II & RED Cameras to Meta Quest 3 in Real-Time VR180](https://www.youtube.com/watch?v=iTKoGBXQ6gA)
 
 @yt(iTKoGBXQ6gA,560px,317px,center)
+
+[LIVE Workflow for Immersive Filmmaking – Hollyland Cosmo C2 Review (Meta Quest & Vision Pro)](https://www.youtube.com/watch?v=CwtSI5byO4I)
 
 @yt(CwtSI5byO4I,560px,317px,center)
 

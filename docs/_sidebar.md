@@ -5,18 +5,19 @@
 	- [Install Kartaverse using Reactor](install)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
-		- [Vonk Ultra Data Nodes](https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharing)
+		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/)
 		- [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
 	- Scripts:
 		- [KartaVR Scripts Menu](scripts)
 		- KartaLink:
 			- [HQueue Render](hqueue)
 			- [Media Command](mediacommand)
+		- [Kartascript for Python](https://github.com/Kartaverse/Kartascript)
 	- Kartaverse Effects Templates:
 		- [kvrSuperSTMap](kvrSuperSTMap)
+   		- [STmapperInline](stmapperinline)
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
-		- [STmapperInline](stmapperinline)
 	- Immersive Workflows:
 		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
@@ -26,7 +27,7 @@
 		- [Fusion OpenUSD Node Attributes](usd)
 		- [Creating Fusion Viewer Custom Guides](guides)
 	- [Open Source](opensource_tools)
-	- [Legacy Fusion 9 Content](legacy)
+	- [Legacy KartaVR Fusion 9 Content](legacy)
 	- [Version History](version_history)
 - **Kartaverse for Assimilate LiveFX/Scratch**
 	- Custom Commands:
@@ -40,8 +41,13 @@
 	- [Example HIP Project Files](https://kartaverse.github.io/Kartaverse-for-Houdini/#/examples)
 	- [Panotools Data Nodes](https://kartaverse.github.io/Kartaverse-for-Houdini/#/panotools)
 	- Render Fusion Comps in Houdini TOPs
-		- [TOPs Workflow](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/tops_workflow)
-		- [Running Fusion Actions](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/running_fusion_actions)
+		- [TOPs Workflow](fusion/tops_workflow)
+		- [Running Fusion Actions](fusion/running_fusion_actions)
+	- 3DGS Workflows
+		- [NVIDIA 3D Gaussian Raytracing](3dgrut/3dgrut)
+		- [Jawset Postshot 3DGS Automation](postshot)
+	- ComfyUI Automation
+		- [MatAnyone for ComfyUI](comfyui/MatAnyone)
 	- Volumetric Video Workflows
 		- [Overview](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/overview)
 		- [Project Hierarchy](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/project_hierarchy)
@@ -62,7 +68,7 @@
 	- [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
 	- [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/)
 	- [XR LED Panel Database](https://kartaverse.github.io/XR-LED-Panel-Database/)
-	- [OpenDisplayXR Runtime](https://kartaverse.github.io/OpenDisplayXR/)
+	- [OpenDisplayXR](https://kartaverse.github.io/OpenDisplayXR/)
 	- [Domemaster3D](https://github.com/zicher3d-org/domemaster-stereo-shader)
 	- [Domemaster Photoshop Actions Pack](https://github.com/AndrewHazelden/Domemaster-Photoshop-Actions-Pack)
 	- [Panoramic Geometry Collection](https://github.com/AndrewHazelden/Panoramic_Geometry_Collection)

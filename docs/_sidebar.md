@@ -22,6 +22,7 @@
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
 	- Fusion Mini-Wiki:
 		- [Getting Started With Nodes in Fusion](Getting-Started-With-Nodes-in-Fusion)
+		- [Using FFmpeg with Fusion Studio v20](ffmpeg)
 		- [Fusion OpenUSD Node Attributes](usd)
 		- [Creating Fusion Viewer Custom Guides](guides)
 	- [Open Source](opensource_tools)

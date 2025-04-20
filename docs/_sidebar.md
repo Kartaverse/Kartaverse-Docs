@@ -5,7 +5,7 @@
 	- [Install Kartaverse using Reactor](install)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
-		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/))
+		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/)
 		- [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
 	- Scripts:
 		- [KartaVR Scripts Menu](scripts)

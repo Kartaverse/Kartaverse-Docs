@@ -57,9 +57,7 @@ A "[Kartaverse Workflows | Immersive Pipeline Integration Guide](https://docs.go
 
 ## XR LED Panel Database
 
-An [open-source database for XR stage displays](https://kartaverse.github.io/XR-LED-Panel-Database/).
-
-If you need to quickly and easily track down the technical specs for XR stage LED panels, video projectors, and more this is the database for you!
+Kartaverse publishes an [open-source database for XR stage displays](https://kartaverse.github.io/XR-LED-Panel-Database/). If you need to quickly and easily track down the technical specs for XR stage LED panels, video projectors, and more this is the database for you!
 
 # Social Media
 

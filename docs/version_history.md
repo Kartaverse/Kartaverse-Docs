@@ -2,8 +2,13 @@
 
 ## Version History
 
+### 2025-04-14 
+
+Vonk Ultra Motion Graphics
+- [Vonk Ultra](https://kartaverse.github.io/VonkUltra/) has a new motion graphics atom package called "vMograph" along with revamped documentation. Vonk provides a new era of no-code creativity inside of Blackmagic Resolve Studio/Fusion Studio. Data nodes allow you to connect text, JSON, arrays, and matrices to create stunning generative visuals.
+
 ### 5.7.6 - 2024-11-14
-- Resolve (free) v19.1 is no longer supported by Kartaverse or the Reactor Package Manager.
+- Resolve (Free) v19.1+ no longer supports Kartaverse or the Reactor Package Manager. Resolve (Free) v19.0.3 is the final version that is compatible with UI Manager GUI script usage. 🥲
 
 ### 5.7.5.1 - 2024-10-02
 - Added a new BMD Resolve Edit page "Generator" macro version of the kvrVignette tool.

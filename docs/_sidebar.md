@@ -5,14 +5,14 @@
 	- [Install Kartaverse using Reactor](install)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
-		- [Vonk Ultra Data Nodes]([https://docs.google.com/document/d/1U9WfdHlE1AZHdU6_ZQCB1I2nSa5I7TyHG2vKMi2I7v8/edit?usp=sharin](https://kartaverse.github.io/VonkUltra/)g)
+		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/))
 		- [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
 	- Scripts:
 		- [KartaVR Scripts Menu](scripts)
 		- KartaLink:
 			- [HQueue Render](hqueue)
 			- [Media Command](mediacommand)
-		- Kartascript for Python(https://github.com/Kartaverse/Kartascript)
+		- [Kartascript for Python](https://github.com/Kartaverse/Kartascript)
 	- Kartaverse Effects Templates:
 		- [kvrSuperSTMap](kvrSuperSTMap)
    		- [STmapperInline](stmapperinline)

@@ -26,7 +26,7 @@ The [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) allow
 
 ## Kartaverse for Houdini
 
-[Kartaverse for Houdini](https://kartaverse.github.io/Kartaverse-for-Houdini) is a port of the Kartaverse open-source XR pipeline tools for SideFX Houdini.
+[Kartaverse for Houdini](https://kartaverse.github.io/Kartaverse-for-Houdini) is a port of the Kartaverse open-source XR pipeline tools for SideFX Houdini. Houdini TOPS (Task Operator) automation of Multi-View Stereo and volumetric video workflows are some of the main features of this project.
 
 ## Vonk Ultra Data Nodes
 

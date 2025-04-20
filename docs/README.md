@@ -9,7 +9,7 @@
 ## <a name="overview"></a>Overview
 
 ![KartaVR](Images/kartavr_logo_256x120px.png)  
-**Version 5.7.6** - Released 2024-11-14 
+**Version 5.7.7** - Released 2025-04-20  
 
 "Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.
 
@@ -19,5 +19,5 @@ Kartaverse makes it a breeze to accessibly and affordably create content for use
 
 All trademarks, logos, and brand names are the property of their respective owners.
 
-Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2024. All rights reserved. KartaVR was formerly known as the "Domemaster Fusion Macros".
+Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2025. All rights reserved. KartaVR was formerly known as the "Domemaster Fusion Macros".
 

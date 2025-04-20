@@ -12,7 +12,7 @@ Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-19+, DaVinci R
 
 ## Reactor Package Manager
 
-> To start using Kartaverse for BMD Resolve Studio/Fusion Studuo you need to get the [Reactor Package Manager](https://gitlab.com/WeSuckLess/Reactor) setup on your system. 
+> To start using Kartaverse for BMD Resolve Studio/Fusion Studio you need to get the [Reactor Package Manager](https://gitlab.com/WeSuckLess/Reactor) setup on your system. 
 
 For most users, it only takes a few minutes to get Reactor installed.
 

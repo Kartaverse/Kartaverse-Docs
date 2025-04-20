@@ -2,8 +2,21 @@
 
 ## YouTube Playlists
 
+- [Kartaverse Learning with Reality of Vision Playlist](https://www.youtube.com/watch?v=3MBZwWTH-10&list=PLVDcRvd92hcjox3IMHXDDCvuNhX8nmm8k)
 - [33rd Frame Kartaverse Training Series Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hchg57vEEeFtEkGNiac7RFSx)
 - [Kartaverse Learning with Hugh Hou Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hcjStCDCyh_ysSqeRdSh6prl)
+
+## Reality of Vision YouTube Videos
+
+The [Reality of Vision YouTube channel](https://www.youtube.com/@rovrw) has Kartaverse video tutorials on Fusion Studio and node based VR workflows.
+
+### Reality of Vision | Dual Fisheye Processing for Apple Vision Pro
+
+@yt(3MBZwWTH-10,560px,317px,center)
+
+### Reality of Vision | Dual GoPro Processing Using Fusion
+
+@yt(21IX7lXCQ-g,560px,317px,center)
 
 ## 33rd Frame YouTube Videos
 

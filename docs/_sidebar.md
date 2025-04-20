@@ -79,5 +79,6 @@
 	- [Medium Blog](https://medium.com/@andrewhazelden)
 	- [Facebook Group](https://www.facebook.com/groups/kartavr)
 	- [Google Group](https://groups.google.com/g/kartaverse/)
+	- [Reddit Group](https://www.reddit.com/r/Kartaverse/)
 	- [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/#/reactor)
 

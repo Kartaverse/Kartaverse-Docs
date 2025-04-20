@@ -22,7 +22,9 @@ The [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) allow
 
 ## KartaVR for BMD Resolve Studio/Fusion Studio
 
-[Kartaverse for Fusion](https://kartaverse.github.io/Kartaverse-Docs/#/) provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, KartaVR can help you create it in XR! Check out the [KartaVR video tutorials here](https://kartaverse.github.io/Kartaverse-Docs/#/tutorials).
+[Kartaverse for Fusion](https://kartaverse.github.io/Kartaverse-Docs/#/) provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, KartaVR can help you create it in XR! 
+
+Check out the [KartaVR video tutorials here](https://kartaverse.github.io/Kartaverse-Docs/#/tutorials).
 
 ## Kartaverse for Houdini
 

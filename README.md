@@ -4,7 +4,9 @@ This is an academic research project exploring computational imaging techniques.
 
 "Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows. 
 
-Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software. Note: Resolve (Free) v19.0.3 supported.
+Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
+
+Note: Resolve (Free) v19.0.3 is supported but later builds of Resolve (Free) v19.1-20+ removed the "UI Manager" GUI scripting support which impacts KartaVR, the Reactor Package Manager, and many other Fusion community created tools.
 
 # Installation
 

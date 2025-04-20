@@ -3,6 +3,7 @@
 - **Kartaverse for DaVinci Resolve/Fusion**
 	- [Video Tutorials](tutorials)
 	- [Install Kartaverse using Reactor](install)
+		- [Reactor SPEED BOOST](reactor-speed-boost)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
 		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/)
@@ -41,13 +42,13 @@
 	- [Example HIP Project Files](https://kartaverse.github.io/Kartaverse-for-Houdini/#/examples)
 	- [Panotools Data Nodes](https://kartaverse.github.io/Kartaverse-for-Houdini/#/panotools)
 	- Render Fusion Comps in Houdini TOPs
-		- [TOPs Workflow](fusion/tops_workflow)
-		- [Running Fusion Actions](fusion/running_fusion_actions)
+		- [TOPs Workflow](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/tops_workflow)
+		- [Running Fusion Actions](https://kartaverse.github.io/Kartaverse-for-Houdini/#/fusion/running_fusion_actions)
 	- 3DGS Workflows
-		- [NVIDIA 3D Gaussian Raytracing](3dgrut/3dgrut)
-		- [Jawset Postshot 3DGS Automation](postshot)
+		- [NVIDIA 3D Gaussian Raytracing](https://kartaverse.github.io/Kartaverse-for-Houdini/#/3dgrut/3dgrut)
+		- [Jawset Postshot 3DGS Automation](https://kartaverse.github.io/Kartaverse-for-Houdini/#/postshot)
 	- ComfyUI Automation
-		- [MatAnyone for ComfyUI](comfyui/MatAnyone)
+		- [MatAnyone for ComfyUI](https://kartaverse.github.io/Kartaverse-for-Houdini/#/comfyui/MatAnyone)
 	- Volumetric Video Workflows
 		- [Overview](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/overview)
 		- [Project Hierarchy](https://kartaverse.github.io/Kartaverse-for-Houdini/#/volumetric_video/project_hierarchy)

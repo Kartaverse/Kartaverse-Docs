@@ -4,7 +4,7 @@ A neat feature of Blackmagic Design's Fusion Studio software is that Loader and 
 
 For a long time, Reactor has hosted an FFmpeg atom package in the "Bin" category that worked with Windows x64 and macOS x64. Until today I didn't know the way to get FFmpeg shared library builds to work on macOS ARM64 or Linux x64.
 
-You start by adding a "FFmpeg:" User PathMap in the Fusion preferences that points to the installation path for the FFmpeg "bin" files.
+You start by adding a "FFmpeg:" User PathMap in the Fusion preferences that points to the installation path for the FFmpeg "library" files.
 
 The FFmpeg for Fusion shared library compatibility matrix is as follows:
 

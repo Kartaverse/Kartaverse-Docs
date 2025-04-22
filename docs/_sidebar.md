@@ -6,6 +6,7 @@
 		- [Reactor SPEED BOOST](reactor-speed-boost)
 	- Fuses:
 		- [Kartaverse Fuse Nodes](fuses)
+		- [Kartaverse MultiView Tools](multiview)
 		- [Vonk Ultra Data Nodes](https://kartaverse.github.io/VonkUltra/)
 		- [Pano Tools Data Nodes](https://kartaverse.github.io/PT-Data-Nodes-Docs/)
 	- Scripts:

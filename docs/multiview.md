@@ -4,21 +4,21 @@ Accelerate and automate your immersive workflows
 
 ## Overview
 
-The MultiView nodes allow to you create batch process volumetric camera array media inside of BMD Resolve/Fusion and SideFX Houdini TOPs.
+The MultiView nodes allow to you create batch process volumetric camera array media inside of BMD Resolve/Fusion and SideFX Houdini TOPs. This unlocks the capacity to create PBR texture maps, and do more with your multi-view stereo content.
 
-This unlocks the capacity to create PBR texture maps and more from multi-view stereo content.
-
-[Video](Videos/kvrCreatePBR-TurnTable.mp4 ':include :type=video controls width=100%')
+[Video](Videos/kvrCreatePBR-TurnTable.mp4 ':include :type=video controls width=75%')
 
 ## Software Requirements
 
 To run Kartaverse MultiView based workflows on your Resolve/Fusion system you will need the following tools:
 
-- Resolve Studio v18.5-20+
-- BMD Fusion Studio
+- [Beeble SwitchLight Account](https://www.switchlight.beeble.ai/) (With Active Credits)
+- Resolve Studio / BMD Fusion Studio v18.5-20+
 - [Reactor Package Manager](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=32&t=3067) (Free)
 - [Vonk Ultra Data Nodes](https://gitlab.com/AndrewHazelden/Vonk) (via Reactor)
-- [Beeble SwitchLight Account](https://www.switchlight.beeble.ai/) (With Active Credits)
+- Kartaverse MultiView Nodes (via Reactor)
+
+![MultiView](Images/Reactor-MultiView-Atom.png ':size=650')
 
 ## Open Source Software License Term
 
@@ -47,7 +47,7 @@ PBR
 
 ### kvrCreatePBR
 
-The "kvrCreatePBR" fuse generates a PBR texture map set from an image using the Beeble Switchlight API.
+The "kvrCreatePBR" fuse generates a PBR texture map set from an image using the Beeble Switchlight API. This allows you to perform 2D and volumetric 3D interactive relighting on live-action captured media.
 
 The Render Mode can be set to "PBR Materials", "Normal", "Albedo", "Relight Image", "Extract HDRI", or "Remove Background".
 

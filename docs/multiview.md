@@ -4,7 +4,7 @@ Accelerate and automate your immersive workflows
 
 ## Overview
 
-The MultiView nodes allow to you create batch process volumetric camera array media inside of BMD Resolve/Fusion and SideFX Houdini TOPs. This unlocks the capacity to create PBR texture maps, and do more with your multi-view stereo content.
+The MultiView nodes allow to you batch process volumetric camera array media inside of BMD Resolve/Fusion and SideFX Houdini TOPs. This unlocks the capacity to create PBR texture maps, and do more with your multi-view stereo content.
 
 [Video](Videos/kvrCreatePBR-TurnTable.mp4 ':include :type=video controls width=75%')
 

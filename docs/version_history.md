@@ -2,32 +2,42 @@
 
 ## Version History
 
-### 2025-04-14 
+### 5.7.7 - 2025-04-25
+
+- Kartaverse MultiView tools added. The MultiView nodes allow to you batch process volumetric camera array media inside of BMD Resolve/Fusion. This unlocks the capacity to create PBR texture maps, and do more with your multi-view stereo content.
+
+### 2025-04-14
 
 Vonk Ultra Motion Graphics
 - [Vonk Ultra](https://kartaverse.github.io/VonkUltra/) has a new motion graphics atom package called "vMograph" along with revamped documentation. Vonk provides a new era of no-code creativity inside of Blackmagic Resolve Studio/Fusion Studio. Data nodes allow you to connect text, JSON, arrays, and matrices to create stunning generative visuals.
 
 ### 5.7.6 - 2024-11-14
+
 - Resolve (Free) v19.1+ no longer supports Kartaverse or the Reactor Package Manager. Resolve (Free) v19.0.3 is the final version that is compatible with UI Manager GUI script usage. 🥲
 
 ### 5.7.5.1 - 2024-10-02
+
 - Added a new BMD Resolve Edit page "Generator" macro version of the kvrVignette tool.
 - Added a BMD Resolve Deliver page Trigger script end of render job version of the "Spatial Metadata.lua" script. This allows automatic MV-HEVC video encoding on macOS using the Spatial CLI tool by Mike Swanson.
 
 ### Version 5.7.5 - 2024-09-17
+
 - Added "kvrVignette" DCTL fuse
 - Updated the "kvrFisheyeStereo" macro that ships with the Kartaverse Lens Profiles atom package. This should fix a horizontal resolution mis-match issue with the RGB vs STMap output mode. Previously a different output resolution was seen in Resolve Studio vs Fusion Studio.
 
 ### Version 5.7.4 - 2024-09-07
+
 - Kartaverse docs update
 - Added "Kartaverse Lens Profiles" atom package and the "kvrFisheyeStereo" node
 - Added "kvrSuperSTMap" node
 - Updated "kvrDualFisheye" node
 
 ### Version 5.7.3.0.5 - 2024-07-14
+
 - Added a "Spatial Metadata.lua" media command script, and a standalone desktop compiled .app. More information is available from the [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) project's GitHub page.
 
 ### Version 5.7.3.0.4 - 2024-07-10
+
 - Created a "[Reactor Docs](https://kartaverse.github.io/Reactor-Docs)" GitHub project that provides access to an online browsable version of the Reactor Package Manager "atoms" list. You can now read descriptions for the atoms in a web browser and easily search for tools.
 - Updated the "kvrSTMapGenerator" fuse to add an "Auto Resolution" checkbox, along with customizable "Width" and "Height" controls. This allows more customization of the generated STMap image resolution.
 - A new "[Reactor Atom Docs](https://kartaverse.github.io/Reactor-Docs/)" webpage was created. This resources lists all of the content in the Reactor Package Manager.
@@ -146,8 +156,7 @@ Vonk Ultra Motion Graphics
 
   To accompany the Fusion centric &quot;MadgwickAHRS.lua&quot; script, an earlier implementation of &quot;IMU Tools for Maya&quot; is included that ships with a MEL ported version of Madgwick&#39;s IMU and AHRS algorithm. This MEL script includes a CSV file reading function that can load in external plain text formatted CSV formatted accelerometer and gyroscope keyframed data files. The IntertialTools.mel script and shelf tools work together to generate an animated Maya camera track that displays the GoPro video clip as an MP4 video based Imageplane that can be played back with Maya's timeline controls. An example of this script&#39;s output can be seen in the included &quot;IMU-Track-Maya-Project&quot; example that provides a video clip, CSV data files, and a completed &quot;IMU-Track-Example.ma&quot; Maya ASCII 2018 formatted (.ma) file. These files can be found at the following folder location on disk: `Reactor:/Deploy/Bin/KartaVR/IMU-Tools-for-Maya/`
 
-
-  #### For More Information About Camera Metadata ####  
+#### For More Information About Camera Metadata
 
   If you are a comp TD who would like find out how to extract the IMU metadata information from an MP4 movie, check out the GoPro GitHub page for the GPMF-Parser toolset:
 [https://github.com/gopro/gpmf-parser](https://github.com/gopro/gpmf-parser)

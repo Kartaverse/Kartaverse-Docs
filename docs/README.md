@@ -9,7 +9,7 @@
 ## <a name="overview"></a>Overview
 
 ![KartaVR](Images/kartavr_logo_256x120px.png)  
-**Version 5.7.7** - Released 2025-04-20  
+**Version 5.7.7** - Released 2025-04-25  
 
 "Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.
 

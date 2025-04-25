@@ -200,6 +200,63 @@ The example composite "Under The Bridge" shows how multi-view 360VR video stitch
 
 ![kvrWarpStitchUltra Under the Brdidge Example](Images/fuse-kvrWarpStitchUltra-under-the-bridge.jpg)
 
+## WarpStitch Tips
+
+When the Fusion viewer window is active and has the foreground user input focus, you can tap the TAB button on your keyboard to quickly cycle through the different overlay controls. This lets you switch between adjusting the Optical Frame Center, circular mask diameter, and the rectangular cropping values.
+
+If you copy one WarpStitch node, then use the Paste Instance option, you can then keep most of the controls linked across each of the panoramic views you are warping. Then you can use the Inspector view's "right-click > Deinstance" contextual menu item to individually unlink attributes you want to make unique per-view such as the "Optical Frame Center", and "Rotate Sphere > Pan" controls for the copied nodes. This is handy if you want to be able to eye-ball in values like the Mask Softness or Diagonal Field of View values across several fisheye images at the same time to refine your stitch.
+
+## Introduction to WarpStitch
+
+1. Use a Loader or MediaIn node in Fusion to import footage that was filmed with a circular fisheye lens. Select this node.
+
+2. With the Nodes view active, press the "Shift + Space" hotkey to display the Select Tool dialog. Type in "WarpStitch" and then press the "Add" button to insert a new KartaVR WarpStitch node into your composite. WarpStitch should now be connected to your Loader or MediaIn node.
+
+3. It is a good idea to insert an "AutoDomain" node into the composite right after a WarpStitch node, so Fusion will effortlessly handle the frame size and aspect ratio changes performed by WarpStitch. An AutoDomain node can be added using the "Shift + Space" hotkey to display the Select Tool dialog. Type in "AutoDomain" and then press the "Add" button.
+
+4. Select the WarpStitch node in your comp. In the Inspector window there is a "View Mode" ComboMenu control, which is at the top of the list of controls for the node. The "View Mode" ComboMenu lets you switch between seeing the "Final Result", the "Original Image", or a variety of diagnostic modes like "Initial Crop", "Rotated Image", "Vector Mask", "Masked Image", "Warped Image", and "Color Corrected Image" which are useful for inspecting the intermediate stages of internal data processing performed by the WarpStitch node.
+
+	There are four tabs present labeled "Lens", "Color", "Image", and "Settings".
+
+	The "Lens" tab provides the controls needed to adjust the warping process including:
+	- Defining the lens center with the "Optical Frame Center" control
+	- Modifying the original image's rotation is possible with the "Image Orientation >  Angle" control. It allows you to choose between 0, 90, 180, and 270 degree rotations.
+	- Applying vector masking to your imagery is done with the "Circular Fisheye Masking" / "Rectangular Masking" / "Split View Masking" controls
+	- Adjusting the FOV for the circular fisheye lens is done with the "Diagonal Field of View" control. A typical circular fisheye lens might have a 180 degree FOV.
+	- Rotation of the spherical image projection output is done via the Rotate Sphere controls which provide access to rotating the warped image via a set of "Tilt", "Pan" and "Roll" controls. If you wanted to rotate a panoramic image horizontally by 180 degrees you would set the Pan control to 180.
+
+	The "Color" tab provides the controls needed to perform basic per-camera view color corrections to help your footage better match up when blended. The Exposure, Gamma, Levels, and Output Levels controls allow you to adjust the overall brightness and contrast in the image along with the shadows and highlights. The Saturation and Vibrance controls allow you to make the colors "pop" and appear more vivid. The White Balance section provides Color Temperature and Tint controls which allow you to compensate for per-camera differences in the color of the lighting.
+
+	The "Image" tab allows you to adjust the image aspect ratio settings for the final warped image. Additionally, the "Output ST Map" checkbox tells the WarpStitch node to output a "UV Pass" warping template image called an "ST Map" which can be used to store a pre-computed image projection transform into an image's red and green color channels. The "Edge Settings > Edge" control can help fix seam artifacts.
+
+	The "Settings" tab allows you to assign your own intool scripting based "Frame Render Scripts", along with providing access to a pair of Edit Code buttons labeled "Edit Fuse" and "Reload Fuse" that can be used to manually tweak the default range of WarpStitch's user interface controls or to adjust any other aspect of the fuse's code.
+
+5. Switch back to the "Lens" tab.
+
+	Adjust the "Initial Crop > Optical Frame Center" control to place the onscreen "X" shaped onscreen viewer control in the center of the circular fisheye image. If you click in the Fusion viewer window so it has the user input focus, you can tap the TAB key several times to quickly toggle the active onscreen control widget so the "X" shaped onscreen viewer control is highlighted in red and can be dragged around visually with your cursor.
+
+	Note: If you are working with footage from a 1-piece panoramic camera that places both the front and back fisheye images inside the same image frame in a "SBS" side by side layout, you can typically start out by changing the "Optical Frame Center" value from "0.5" over to either "0.25" or "0.75" as an initial starting point before you would then refine the value further.
+
+	Change the "View Mode" to "Initial Crop".
+
+	The "Initial Crop > Frame Border Padding" slider can be used to help "uncrop" a circular fisheye image that has been captured on a 16:9 video sensor that would cut off part of the circular fisheye image frame area.
+
+	If your camera body was rotated when mounted on the panoramic camera rig, you can adjust the "Image Orientation > Angle" setting to correct for this view rotation. The "View Mode" control labeled "Rotated Image" lets you verify the image orientation adjustment is set as you'd expect so you can be sure you have the correct "upright" axis defined for the image before it is warped into a spherical image projection.
+
+6. Change the "View Mode" to "Masked Image" to see the circular masking applied to the imagery. To adjust the circular fisheye masking setting, you can use the Inspector and drag the slider for the "Vector Masking > Circular Fisheye Masking > Mask Diameter" control to line up with the border of your fisheye lens image data, or the circular shaped onscreen control handle can be used to resize the mask visually.
+
+	The "Vector Masking > Circular Fisheye Masking > Mask Softness" slider allows you to adjust how hard or soft you want the mask edge to appear. Additionally, you could set the "View Mode" to "Vector Mask" to see just the black/white masking output if you want to see the precise size of the mask used and its overall softness.
+
+7. The "Warped Image > Diagonal Field of View" control can be adjusted to change the FOV of the circular fisheye image. Typical wide angle fisheye lenses are somewhere in the range of 180 - 220 degree FOV. You need to change the "View Mode" control to "Warped Image" or "Final Result" to see the effects of the FOV modifications. The Rotate Sphere controls for Tilt, Pan, and Roll are used to adjust the placement of the fisheye image inside the final spherical image projection.
+
+8. Switch to the Color tab. This tab allows you to perform "Quick 'n Dirty" modifications to each of the camera views you are processing. This is a time saver if you need to apply small color tweaks. The "View Mode" control has a "Color Corrected Image" option that allows you to see the result of these changes. If you need to perform more complex color corrections you could always add a separate ColorCorrector node to the comp per-camera view.
+
+	Change the "View Mode" over to "Final Result" to see the effects of all the settings applied at once. This "Final Result" option is the setting WarpStitch should be left at when you are done with all your adjustments and want to look at the footage downstream in your composite.
+
+9. Repeat the main steps shown in sections 1-8 to set up each of the per-camera views you want to warp into a spherical image projection. For speed of adjustment consider using the copy/paste instance approach along side the Deinstance controls tip to rapidly deploy many near identical camera views.
+
+10. Connect each of the WarpStitch per-camera view processed composite branches together using either a series of Merge nodes chained together, or with a kvrMergeLayers node that supports blending multiple image input connections that are fed into the same node simultaneously.
+
 # Macro
 
 ## kvrDualFisheye

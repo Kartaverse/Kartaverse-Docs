@@ -55,7 +55,7 @@ The Image Source can be set to "Image", "URL", or "File".
 
 The Image Input control allows for the connection of image DataTypes to the node.
 
-The Output File text field allows you to define the filename of the generated asset created by the SwitchLight API. It is a zip file for when the Render Mode is set to "PBR Materials" and an image file when any of the other render modes are used. You are able to connect a Vonk Ultra "Text" input datatype to this attribute to create dynamic filenames. The Output File text field suports the use of Fusion PathMaps like "Comp:/" or "Temp:/" which are expanded automatically into absolute filepaths that are passed to cURL.
+The Output File text field allows you to define the filename of the generated asset created by the SwitchLight API. The result is a zip file when the Render Mode is set to "PBR Materials", and an image file when any of the other render modes are used. You are able to connect a Vonk Ultra "Text" input datatype to this attribute to create dynamic filenames. The Output File text field suports the use of Fusion PathMaps like "Comp:/" or "Temp:/" which are expanded automatically into absolute filepaths that are passed to cURL.
 
 The Overwrite checkbox allows you to choose if you want to allow the asset to be re-rendered if a file on disk exists with the name specified in the Output File control.
 

@@ -30,7 +30,19 @@ Several example Fusion comps are included to show the basic PBR texture creation
 
 ### kvrCreatePBR.comp
 
+Generate a PBR texture map set from greenscreen footage using the Beeble Switchlight API. The object is a silver mask that was photographed on an IKEA lazy-susan.
+
 ![kvrCreatePBR Example](Images/kvrCreatePBR.png)
+
+### MaterialX PBR v001.comp
+
+This example shows a PBR shader created using Beeble SwitchLight generated texture maps. The uShape node creates a polygon imageplane, and assigns the MaterialX based PBR shader named "BeebleShaderAlpha.mtlx". The uDomeLight provides ambient lighting from an HDRI texture map.
+
+![MaterialX PBR Example](Images/kvrCreatePBR_MaterialX_Comp_1.png)
+
+This is the relighting result from the PBR maps:
+
+![MaterialX PBR Example](Images/kvrCreatePBR_MaterialX_Comp_2.png)
 
 ## Fuse Reference Guide
 

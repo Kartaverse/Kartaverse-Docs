@@ -70,6 +70,7 @@
 	- [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata)
 	- [Camera Sensor Database](https://emberlightvfx.github.io/Camera-Sensor-Database/)
 	- [XR LED Panel Database](https://kartaverse.github.io/XR-LED-Panel-Database/)
+	- [Nusion for Fusion](https://andrewhazelden.github.io/NusionConverter/)
 	- [OpenDisplayXR](https://kartaverse.github.io/OpenDisplayXR/)
 	- [Domemaster3D](https://github.com/zicher3d-org/domemaster-stereo-shader)
 	- [Domemaster Photoshop Actions Pack](https://github.com/AndrewHazelden/Domemaster-Photoshop-Actions-Pack)

@@ -40,6 +40,12 @@ Learn how to encode next-gen MV-HEVC spatial video for playback on Apple Vision 
 
 @yt(PJWsscXmJiE,560px,317px,center)
 
+### Edit & Grade in Resolve Studio with Apple Vision Pro and Meta Quest Connectivity
+
+Learn how to edit and grade VR180 + 360VR video in DaVinci Resolve Studio 20 with live NDI previews on an Apple Vision Pro or Meta Quest HMD.
+
+@yt(iRFtkcSX5vg,560px,317px,center)
+
 ### Live Previews With Real-time STMap Warping and NDI Streaming
 
 Learn how to stream and live preview Canon R5C, R5 II, and RED V-Raptor X footage directly to the Meta Quest 3 or Meta Quest 3S in real-time 3D VR180 with this in-depth, step-by-step guide. This video covers everything you need to create a seamless 3D 180 live view in multiple VR headsets and VR180 livestream workflow with minimal latency—perfect for professional 3D 180 filmmaking and immersive live production setups. 

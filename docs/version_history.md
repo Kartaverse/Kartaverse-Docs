@@ -2,6 +2,10 @@
 
 ## Version History
 
+### 5.7.8 - 2025-05-29
+
+- Added a new "STMap Templates" atom package to Reactor. The Kartaverse STMap template media provides ready to use warping template images. These floating point 32-bit per channel EXR maps allow you to process dual fisheye VR180 camera footage without any intermediate temporary video files, or external tools being required.
+
 ### 5.7.7 - 2025-04-25
 
 - Kartaverse MultiView tools added. The MultiView nodes allow to you batch process volumetric camera array media inside of BMD Resolve/Fusion. This unlocks the capacity to create PBR texture maps, and do more with your multi-view stereo content.

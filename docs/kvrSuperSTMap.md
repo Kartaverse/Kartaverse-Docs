@@ -6,6 +6,11 @@ The "kvrSuperSTMap" Effects Template is the next-generation update for the STMap
 
 ![Controls.](Images/kvrSuperSTMap_Controls.png)
 
+Pre-made STMap images for VR180 footage processing, are available in the "KartaVP Example | STMap Templates" atom package in Reactor.
+
+If you want a fast way to build a new SBS 180VR STmap warping template, check out the Kartaverse [Lens Profiles](https://kartaverse.github.io/Reactor-Docs/#/com.AndrewHazelden.KartaVP.LensProfiles) atom package. Then use the bundled "kvrFisheyeStereo" node in the Fusion page to generate your fresh "camera calibrated" STMap image in mere moments.
+
+
 ## Open Source Software License
 
 - LGPL 3.0
@@ -17,6 +22,7 @@ The "kvrSuperSTMap" Effects Template is the next-generation update for the STMap
 - Reactor Atom Packages Used:
 	- STMapper
 	- KartaVR LensProfiles
+	- KartaVR STMap Templates
 
 ## Edit Page Usage
 
@@ -28,7 +34,8 @@ kvrSuperSTMap allows video editing timelines to apply image projection transform
 
 Add the "kvrSuperSTMap" effects template to a Resolve Edit page timeline clip. 
 
-In the Inspector page, you can then link in STMap warping template using the "ST Map Filename" filed. 
+In the Inspector page, you can then link in STMap warping template using the "ST Map Filename" filed.
+
 
 The stereo convergence properties can be refined with the X/Y Shift controls. This results in the left and right eye SBS views having the optical frame center adjusted as a pre-processing stage before the STMap warping stage happens. This allows for compensations of the floating optics that exist in a Canon EOS dual fisheye lens.
 

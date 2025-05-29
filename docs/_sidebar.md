@@ -17,7 +17,7 @@
 		- [Kartascript for Python](https://github.com/Kartaverse/Kartascript)
 	- Kartaverse Effects Templates:
 		- [kvrSuperSTMap](kvrSuperSTMap)
-   		- [STmapperInline](stmapperinline)
+		- [STmapperInline](stmapperinline)
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
 	- Immersive Workflows:

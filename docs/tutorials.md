@@ -11,6 +11,8 @@
 
 Nick Brazzi's [Spatial & Immersive Insights YouTube channel](https://youtube.com/@spatialinsights) has the newest and most up-to-date Kartaverse video tutorials that cover Canon EOS VR post-production workflows.
 
+### Kartaverse - VR Editing for Canon R5c - Part 1: Set Up and Edit Workflow
+
 @yt(VCLVpj4lI2c,560px,317px,center)
 
 ## Reality of Vision YouTube Videos

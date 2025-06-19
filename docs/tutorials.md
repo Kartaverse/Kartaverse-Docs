@@ -7,9 +7,9 @@
 - [33rd Frame Kartaverse Training Series Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hchg57vEEeFtEkGNiac7RFSx)
 - [Kartaverse Learning with Hugh Hou Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hcjStCDCyh_ysSqeRdSh6prl)
 
-## Nick Brazzi Spatial & Immersive Insights YouTube Videos
+## Nick Brazzi Spatial & Immersive Video Insights YouTube Videos
 
-Nick Brazzi's [Spatial & Immersive Insights YouTube channel](https://youtube.com/@spatialinsights) has the newest and most up-to-date Kartaverse video tutorials that cover Canon EOS VR post-production workflows.
+Nick Brazzi's [Spatial & Immersive Video Insights YouTube channel](https://youtube.com/@spatialinsights) has the newest and most up-to-date Kartaverse video tutorials that cover Canon EOS VR post-production workflows.
 
 ### Kartaverse - VR Editing for Canon R5c - Part 1: Set Up and Edit Workflow
 

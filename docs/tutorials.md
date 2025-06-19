@@ -2,7 +2,7 @@
 
 ## YouTube Playlists
 
-- [Kartaverse Learning with Nick Brazzi](https://youtube.com/playlist?list=PLVDcRvd92hcjXOUWo8Huef-6jDTNddFDp)
+- [Kartaverse Learning with Nick Brazzi Playlist](https://youtube.com/playlist?list=PLVDcRvd92hcjXOUWo8Huef-6jDTNddFDp)
 - [Kartaverse Learning with Reality of Vision Playlist](https://www.youtube.com/watch?v=3MBZwWTH-10&list=PLVDcRvd92hcjox3IMHXDDCvuNhX8nmm8k)
 - [33rd Frame Kartaverse Training Series Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hchg57vEEeFtEkGNiac7RFSx)
 - [Kartaverse Learning with Hugh Hou Playlist](https://www.youtube.com/playlist?list=PLVDcRvd92hcjStCDCyh_ysSqeRdSh6prl)

@@ -25,7 +25,7 @@ The Kartaverse "kvrPlane" fuse allows you to place a flat image into a 180VR, or
 
 ![kvrPlane Fuse](Images/fuse-kvrPlane.png)
 
-This node performs a "plane to sphere" style of conversion.
+This node performs a "plane to sphere" style of conversion. The kvrPlane node now supports full cross-platform usage with Metal/OpenCL/CUDA GPU compatibility.
 
 The node based layout is typically:
 
@@ -35,8 +35,11 @@ There are onscreen control handles in the viewer window which make it quick to p
 
 If you are working with non 1:1 aspect ratio source imagery, the "Resolution Gate Fit" control allows you to fit the imagery using either a "Stretch", "Width", or "Height" option. This is great if you want to place a small logo or other custom graphic element and not have to worry about the source image's dimensions and aspect ratio.
 
-Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
+## kvrPlane Image Resolution
 
+The kvrPlane node works with the idea that the plane image data is texture mapped to the "front" face of an imaginary cubemap surface. This means the plane at full width takes up a 90° FOV area.
+
+When the auto-resolution mode is used, the kvrPlane node takes the current image input resolution as the size of a 90° cubic face. So a 180° monoscopic output would be processed as two times the image input resolution, and a 180° SBS stereo output would be processed as four times the image input resolution. Also, a 360° monoscopic output would be processed as four times the image input resolution, and a 360° Over/Under stereo output would be processed as four times the image input resolution.
 
 # kvrCropStereo
 

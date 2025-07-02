@@ -2,6 +2,14 @@
 
 ## Version History
 
+### 5.81 - 2025-07-02
+
+- The "kvrPlane.fuse" has been updated to add support for CUDA/OpenCL GPUs. This makes the tool fully cross-platform compatible.
+
+- The Kartaverse MultiView "kvrCreatePBR.fuse" now works on Windows.
+
+- The Kartaverse Panotools data node "ptSaver" fuse now supports re-saving edited PTGui Pro compatible .pts files. This required the use of the "key order" parameter in the DK-JSON Lua library to match the ordered nature of PTGui JSON elements.
+
 ### 5.7.8 - 2025-05-29
 
 - Added a new "STMap Templates" atom package to Reactor. The Kartaverse STMap template media provides ready to use warping template images. These floating point 32-bit per channel EXR maps allow you to process dual fisheye VR180 camera footage without any intermediate temporary video files, or external tools being required.

@@ -17,7 +17,7 @@ The "kvrCubic" fuse allows you to combine individual face based 90° FOV cubic 
 
 ![kvrCubic Fuse](Images/fuse-kvrCubic.png)
 
-Note: At the moment, the 180VR and 360VR options only work on macOS systems with a Metal based GPU. Support for CUDA and OpenCL GPUs is under development now.
+The kvrCubic node now supports full cross-platform usage with Metal/OpenCL/CUDA GPU compatibility.
 
 # kvrPlane
 

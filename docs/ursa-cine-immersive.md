@@ -157,7 +157,9 @@ To preview the stereo 3D content, add an Anaglyph node after the MediaOut node.
 
 ## Closing Notes
 
-An editable "parametric workflow" was shown to help you become comfortable with the image processing steps required.
+An editable node-based "parametric workflow" was shown to help you become comfortable with the image processing steps required.
 
-Taking things further, it is possible to generate a custom STMap warping template for your specific BMD URSA Cine Immersive Camera. This extra step will help to dramatically accelerate the rendering process and reduce your render times. This is a topic for another guide.
+Taking things further, with the help of the "kvrSTMapGenerator" node it is possible to generate a custom STMap warping template for your specific BMD URSA Cine Immersive Camera. This extra step will help to dramatically accelerate the rendering process and reduce your render times. This is a topic for another guide.
+
+![STMapper](Images/URSA_Cine_STMapper.png)
 

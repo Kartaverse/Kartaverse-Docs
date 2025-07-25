@@ -21,6 +21,7 @@
 		- [Lens Profiles (SBS Fisheye Stereo)](kvrFisheyeStereo)
 		- [Dual Fisheye (Back to Back)](dualfisheye)
 	- Immersive Workflows:
+		- [BMD Ursa Cine Immersive 180VR Workflow](ursa-cine-immersive)
 		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
 	- Fusion Mini-Wiki:

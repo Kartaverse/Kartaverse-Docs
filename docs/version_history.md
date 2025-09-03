@@ -2,6 +2,11 @@
 
 ## Version History
 
+### 5.82 - 2025-09-03
+
+- PT Data nodes update with improved ptSTMap workflows
+- Vonk Ultra vTextRenderManager node allows vText nodes to add Fusion comp projects to the Fusion Studio render manager job queue.
+
 ### 5.81 - 2025-07-02
 
 - The "kvrPlane.fuse" has been updated to add support for CUDA/OpenCL GPUs. This makes the tool fully cross-platform compatible.

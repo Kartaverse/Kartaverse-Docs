@@ -24,6 +24,7 @@
 		- [BMD Ursa Cine Immersive 180VR Workflow](ursa-cine-immersive)
 		- [Mastering 180VR Stereo for AVP HMDs](Mastering-180VR-Stereo-for-AVP-HMDs)
 		- [Reframing an 8K VR Video](Reframing-an-8K-VR-Video)
+		- [Stabilizing Immersive Videos](stabilize)
 	- Fusion Mini-Wiki:
 		- [Getting Started With Nodes in Fusion](Getting-Started-With-Nodes-in-Fusion)
 		- [Using FFmpeg with Fusion Studio v20](ffmpeg)

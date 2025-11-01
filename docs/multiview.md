@@ -44,6 +44,18 @@ This is the relighting result from the PBR maps:
 
 ![MaterialX PBR Example](Images/kvrCreatePBR_MaterialX_Comp_2.png)
 
+@yt(m_pqUZLGgE4,560px,317px,center)
+
+### CookTorrance PBR v01.comp
+
+This example shows a PBR shader created using Beeble SwitchLight generated texture maps. Fusion's classic 3D workspace is used with the old-school Cook Torrance surface shader.
+
+![Cook Torrance PBR Example](Images/kvrCreatePBR_CookTorrance_Comp_1.png)
+
+This is the relighting result from the PBR maps:
+
+@yt(IfXEwLceuf4,560px,317px,center)
+
 ## Fuse Reference Guide
 
 For more information about the individual nodes check out the MultiView Fuse reference guide.

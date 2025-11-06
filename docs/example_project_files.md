@@ -1,6 +1,6 @@
 # <a name="examples"></a>Kartaverse Example Project Files
 
-Hosting for the Kartaverse project files and learning materials was made possible thanks to assistance from [KonceptVR](https://www.konceptvr.com/).
+A huge thank you to [KonceptVR](https://www.konceptvr.com/) for covering the hosting costs for the Kartaverse project files and learning materials! 😀
 
 ![KonceptVR](Images/KonceptVR-On-Black.jpeg ':size=160')
 

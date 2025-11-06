@@ -2,6 +2,7 @@
 - [Home](/)
 - **Kartaverse for DaVinci Resolve/Fusion**
 	- [Video Tutorials](tutorials)
+	- [Example Project Files](example_project_files)
 	- [Install Kartaverse using Reactor](install)
 		- [Reactor SPEED BOOST](reactor-speed-boost)
 	- Fuses:

@@ -9,11 +9,13 @@
 ## <a name="overview"></a>Overview
 
 ![KartaVR](Images/kartavr_logo_256x120px.png)  
-**Version 5.82** - Released 2025-11-01  
+**Version 5.82** - Released 2025-11-06  
 
 "Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows.
 
-Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software. Note: Resolve (free) v19.1 is no longer supported.
+Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
+
+Note: The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone) Package Manager allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
 
 -------------------------
 

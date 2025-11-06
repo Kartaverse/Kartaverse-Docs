@@ -4,6 +4,12 @@
 
 ### 5.82 - 2025-09-03
 
+- Added a new Kartaverse [example project files](example_project_files) webpage
+- Created a new kvrILPD macro that shows how Apple immersive style stitchless metadata tags can be used with a broader range of cameras. This macro ships with the "Kartaverse-ILPD-Immersive-Metadata.zip" download on the Kartaverse example project page.
+- Updated Reactor Standalone to Beta 36 which improves cross-platform support, including Windows OS code signing of the Reactor executable
+
+### 5.82 - 2025-09-03
+
 - PT Data nodes update with improved ptSTMap workflows
 - Vonk Ultra vTextRenderManager node allows vText nodes to add Fusion comp projects to the Fusion Studio render manager job queue.
 

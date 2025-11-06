@@ -10,7 +10,7 @@ Note: Resolve (Free) v19.0.3 is supported but later builds of Resolve (Free) v19
 
 # Installation
 
-Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor package manager](https://kartaverse.github.io/Reactor-Docs/#/reactor) for Resolve/Fusion. Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
+Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor Standalone package manager](https://github.com/Kartaverse/Reactor-Standalone). Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 

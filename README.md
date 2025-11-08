@@ -6,13 +6,15 @@ This is an academic research project exploring computational imaging techniques.
 
 Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
 
-Note: The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone) Package Manager allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
+Note: The new [Reactor Standalone Package Manager ](https://github.com/Kartaverse/Reactor-Standalone) allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
 
 # Installation
 
 Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor Standalone package manager](https://github.com/Kartaverse/Reactor-Standalone). Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
+
+![Reactor Standalone](https://kartaverse.github.io/Kartaverse-Docs/Images/reactor-standalone.png)
 
 # For More Information
 
@@ -22,9 +24,7 @@ The [Spatial Metadata GUI](https://github.com/Kartaverse/Spatial-Metadata) allow
 
 ## KartaVR for BMD Resolve Studio/Fusion Studio
 
-[Kartaverse for Fusion](https://kartaverse.github.io/Kartaverse-Docs/#/) provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, KartaVR can help you create it in XR! 
-
-Check out the [KartaVR video tutorials here](https://kartaverse.github.io/Kartaverse-Docs/#/tutorials).
+[Kartaverse for Fusion](https://kartaverse.github.io/Kartaverse-Docs/#/) provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, KartaVR can help you create it in XR! Check out the [KartaVR video tutorials here](https://kartaverse.github.io/Kartaverse-Docs/#/tutorials).
 
 ## Kartaverse for Houdini
 

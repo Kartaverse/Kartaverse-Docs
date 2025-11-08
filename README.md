@@ -6,7 +6,7 @@ This is an academic research project exploring computational imaging techniques.
 
 Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
 
-Note: Resolve (Free) v19.0.3 is supported but later builds of Resolve (Free) v19.1-20+ removed the "UI Manager" GUI scripting support which impacts KartaVR, the Reactor Package Manager, and many other Fusion community created tools.
+Note: The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone) Package Manager allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
 
 # Installation
 

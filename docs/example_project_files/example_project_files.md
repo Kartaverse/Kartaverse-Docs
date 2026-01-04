@@ -15,4 +15,4 @@ A huge thank you to [KonceptVR](https://www.konceptvr.com/) for covering the hos
 
 ## Learning Projects
 
-Details about each example project will be added here.
+Details about the example projects are available on the left sidebar.

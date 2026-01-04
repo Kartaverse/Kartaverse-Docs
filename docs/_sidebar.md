@@ -3,6 +3,7 @@
 - **Kartaverse for DaVinci Resolve/Fusion**
 	- [Video Tutorials](tutorials)
 	- [Example Project Files](example_project_files/example_project_files)
+		- [TouchDesigner Realtime Warping](example_project_files/TouchDesigner-RealTime-Warping/Readme)
 		- [BUCI SBS Stereo3D STMap](example_project_files/BUCI-SBS-Stereo3D-STMap/Readme)
 		- [ILPD Immersive Metadata](example_project_files/ILPD-Immersive-Metadata/Readme)
 		- [NewYork PYXIS 12K Camera VR180](example_project_files/NewYork-PYXIS-12K-Camera-VR180/Readme)
@@ -41,8 +42,6 @@
 	- Custom Commands:
 		- [Scratch2Fusion](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Fusion.md)
 		- [Scratch2Resolve](https://github.com/AndrewHazelden/Scratch2Fusion/blob/main/Docs/Scratch2Resolve.md)
-- **Kartaverse for TouchDesigner**
-	- [TouchDesigner Realtime Warping](TouchDesigner)
 - **Kartaverse for Houdini**
 	- [GitHub Project Page](https://kartaverse.github.io/Kartaverse-for-Houdini/)
 	- [Kartaverse Shelf Tools](https://kartaverse.github.io/Kartaverse-for-Houdini/#/shelf)

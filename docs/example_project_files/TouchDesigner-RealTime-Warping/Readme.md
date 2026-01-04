@@ -4,7 +4,7 @@
 
 The [Derivative TouchDesigner](https://derivative.ca/download) software does a great job of applying a pre-made STmap map warping template image in a way that works live and real-time. With a bit of effort to learn the workflow, you can use Kartaverse, or [PTGui Pro](https://ptgui.com/) to make the initial STMap template, that you then run inside of TouchDesigner.
 
-This is a great way to warp Canon R5C + RF 5.2mm dual fisheye imagery into a 180VR Side-by-Side layout. It does require you to have a custom STMap template image created beforehand (which the Kartaverse [kvrFisheyeStrereo](kvrFisheyeStereo) node can help create).
+This is a great way to warp Canon R5C + RF 5.2mm dual fisheye imagery into a 180VR Side-by-Side layout. It does require you to have a custom STMap template image created beforehand (which the Kartaverse [kvrFisheyeStrereo](https://kartaverse.github.io/Kartaverse-Docs/#/kvrFisheyeStereo) node can help create).
 
 ![TouchDesigner](Images/TouchDesigner_STmaps.png)
 
@@ -13,8 +13,6 @@ This is a great way to warp Canon R5C + RF 5.2mm dual fisheye imagery into a 180
 ### Canon R5C Real-time 180VR Warping with TouchDesigner + Kartaverse Made STMaps
 
 Here is a TouchDesigner example stitching project file that shows an approach to use Canon R5C dual fisheye content that is converted into 180VR output via an STMap in real-time. A vignetting masking image is applied on top, and the output is delivered via NewTek NDI IP video streaming to a preview monitor.
-
-[Canon_R5C_180VR_TouchDesigner_Project.zip](https://www.icloud.com/iclouddrive/015JOnhBstFpe_MoFxNsJmBhw#Canon%5FR5C%5F180VR%5FTouchDesigner%5FProject)
 
 ## TouchDesigner STMap Usage: 
 
@@ -101,10 +99,10 @@ To use the NDI In node, we need to change the the "Source Name" setting to "[Hos
 ## Extra Learning Resources
 
 **kvrFisheyeStereo**  
-Check out the Kartaverse [kvrFisheyeStereo](kvrFisheyeStereo) node that works in Resolve/Fusion. It provides a quick way to generate a 180VR SBS STMap warping template image that is calibrated to your exact camera lens.
+Check out the Kartaverse [kvrFisheyeStereo](https://kartaverse.github.io/Kartaverse-Docs/#/kvrFisheyeStereo) node that works in Resolve/Fusion. It provides a quick way to generate a 180VR SBS STMap warping template image that is calibrated to your exact camera lens.
 
 **kvrVignette**  
-Check out the Kartaverse [kvrVignette](fuses?id=kvrvignette) node that works in Resolve/Fusion. It allows you to create stereo 3D aware circular fisheye lens masking images.
+Check out the Kartaverse [kvrVignette](https://kartaverse.github.io/Kartaverse-Docs/#/fuses?id=kvrvignette) node that works in Resolve/Fusion. It allows you to create stereo 3D aware circular fisheye lens masking images.
 
 **STMap Guide**  
 For more information about ST Maps check out the article: [Google Docs | KartaVR Workflows | Creating ST Maps](https://docs.google.com/document/d/1lQ-wc9ucLJqj-HL7iKMNWA71klV5O1fk2-JicRB6gDY/edit?usp=sharing)

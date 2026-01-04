@@ -2,7 +2,10 @@
 - [Home](/)
 - **Kartaverse for DaVinci Resolve/Fusion**
 	- [Video Tutorials](tutorials)
-	- [Example Project Files](example_project_files)
+	- [Example Project Files](example_project_files/example_project_files)
+		- [BUCI SBS Stereo3D STMap](example_project_files/BUCI-SBS-Stereo3D-STMap/Readme)
+		- [ILPD Immersive Metadata](example_project_files/ILPD-Immersive-Metadata/Readme)
+		- [NewYork PYXIS 12K Camera VR180](example_project_files/NewYork-PYXIS-12K-Camera-VR180/Readme)
 	- [Install Kartaverse using Reactor](install)
 		- [Reactor SPEED BOOST](reactor-speed-boost)
 	- Fuses:

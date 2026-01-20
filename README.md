@@ -70,14 +70,6 @@ Kartaverse publishes an [open-source database for XR stage displays](https://kar
 
 The [Kartaverse repositories](https://github.com/Kartaverse) are available on GitHub.
 
-## Facebook Group
-
-Check out the [KartaVR Facebook Group](https://www.facebook.com/groups/kartavr) if you want to read the latest Kartaverse news, or talk directly with other  users.
-
-## Reddit Group
-
-Check out the [r/Kartaverse Reddit](https://www.reddit.com/r/Kartaverse/). This Reddit community is where you can ask technical questions about immersive media post-production, and get answers to all things KartaVR, Vonk Ultra, and XR related.
-
 ## Medium Blog
 
 The [Kartaverse Blog](https://medium.com/@andrewhazelden) is hosted on Medium.

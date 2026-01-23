@@ -8,6 +8,18 @@ Kartaverse makes it a breeze to accessibly and affordably create content for use
 
 Note: The new [Reactor Standalone Package Manager ](https://github.com/Kartaverse/Reactor-Standalone) allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
 
+# Kartaverse - End of Support
+
+As life happens, I need to move on and pause active development of KartaVR/Kartaverse. It was a nice project and had a surprisingly good adoption rate since my original "Domemaster Fusion Macros" were released in 2014.
+
+Since the toolset still includes some unique functionality that no one else provides, KartaVR can still be downloaded and installed using the Reactor Package Manager.
+
+At this point in time there are no plans to add additional functionality, or provide future updates or techincal support for Kartaverse.
+
+Cheers,  
+Andrew Hazelden  
+2026-01-23  
+
 # Installation
 
 Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed through the [Reactor Standalone package manager](https://github.com/Kartaverse/Reactor-Standalone). Install the Reactor package manager, and select the "Kartaverse" category on the left side of the Reactor GUI to access the tools.

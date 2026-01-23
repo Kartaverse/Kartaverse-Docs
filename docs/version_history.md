@@ -4,7 +4,7 @@
 
 ### 2026-01-23
 
-- Active development of KartaVR/Kartaverse ends. There are no plans to add additional functionality, or provide future updates or techincal support for Kartaverse.
+- Active development of KartaVR/Kartaverse ends. There are no plans to add additional functionality, or provide future updates or technical support for Kartaverse.
 
 ### 5.82 - 2025-09-03
 
@@ -1042,4 +1042,5 @@ Vonk Ultra Motion Graphics
 ### Version 1.0 Beta 1 - 2014-12-11
 
 - Initial release
+
 

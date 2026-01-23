@@ -6,6 +6,18 @@
 
 - Made in West Dover, Nova Scotia, Canada 🇨🇦
 
+## <a name="support"></a>Kartaverse - End of Support
+
+As life happens, I need to move on and pause active development of KartaVR/Kartaverse. It was a nice project and had a surprisingly good adoption rate since my original "Domemaster Fusion Macros" were released in 2014.
+
+Since the toolset still includes some unique functionality that no one else provides, KartaVR can still be downloaded and installed using the Reactor Package Manager.
+
+At this point in time there are no plans to add additional functionality, or provide future updates or techincal support for Kartaverse.
+
+Cheers,  
+Andrew Hazelden  
+2026-01-23  
+
 ## <a name="overview"></a>Overview
 
 ![KartaVR](Images/kartavr_logo_256x120px.png)  

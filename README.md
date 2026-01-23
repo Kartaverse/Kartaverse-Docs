@@ -1,13 +1,3 @@
-# About Kartaverse
-
-This is an academic research project exploring computational imaging techniques. Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
-
-"Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows. 
-
-Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
-
-Note: The new [Reactor Standalone Package Manager ](https://github.com/Kartaverse/Reactor-Standalone) allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
-
 # Kartaverse - End of Support
 
 As life happens, I need to move on and pause active development of KartaVR/Kartaverse. It was a nice project and had a surprisingly good adoption rate since my original "Domemaster Fusion Macros" were released in 2014.
@@ -19,6 +9,16 @@ At this point in time there are no plans to add additional functionality, or pro
 Cheers,  
 Andrew Hazelden  
 2026-01-23  
+
+# About Kartaverse
+
+This is an academic research project exploring computational imaging techniques. Kartaverse provides a post-production pipeline optimized for the immersive media sector. If you can imagine it, Kartaverse can help you create it in XR!
+
+"Karta" is the Swedish word for map. With KartaVR you can stitch, composite, retouch, and remap any kind of panoramic video: from any projection to any projection. This provides the essential tools for 360VR, panoramic video stitching, depthmap, lightfield, and fulldome image editing workflows. 
+
+Kartaverse makes it a breeze to accessibly and affordably create content for use with virtual reality HMDs (head mounted displays) and fulldome theatres by providing ready to go scripts, templates, plugins, and command-line tools that allow you to work efficiently with XR media. The toolset works inside of Blackmagic Design's powerful node based [Fusion Studio](https://www.blackmagicdesign.com/products/fusion) and [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/) software.
+
+Note: The new [Reactor Standalone Package Manager ](https://github.com/Kartaverse/Reactor-Standalone) allows Kartaverse to work with Resolve Free v15 - v20+, Resolve Studio v15 - v20+, and Fusion v9.0.2 to v20+. This dedicated standalone desktop application version of Reactor helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20.
 
 # Installation
 

@@ -4,7 +4,7 @@ As life happens, I need to move on and pause active development of KartaVR/Karta
 
 Since the toolset still includes some unique functionality that no one else provides, KartaVR can still be downloaded and installed using the Reactor Package Manager.
 
-At this point in time there are no plans to add additional functionality, or provide future updates or techincal support for Kartaverse.
+At this point in time there are no plans to add additional functionality, or provide future updates or technical support for Kartaverse.
 
 Cheers,  
 Andrew Hazelden  

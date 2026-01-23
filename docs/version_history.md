@@ -2,6 +2,10 @@
 
 ## Version History
 
+### 2026-01-23
+
+- Active development of KartaVR/Kartaverse ends. There are no plans to add additional functionality, or provide future updates or techincal support for Kartaverse.
+
 ### 5.82 - 2025-09-03
 
 - Added a new Kartaverse [example project files](example_project_files) webpage
@@ -1038,3 +1042,4 @@ Vonk Ultra Motion Graphics
 ### Version 1.0 Beta 1 - 2014-12-11
 
 - Initial release
+

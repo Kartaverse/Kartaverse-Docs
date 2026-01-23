@@ -33,5 +33,5 @@ Note: The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standal
 
 All trademarks, logos, and brand names are the property of their respective owners.
 
-Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2025. All rights reserved. KartaVR was formerly known as the "Domemaster Fusion Macros".
+Kartaverse/KartaVR is (C) Copyright Andrew Hazelden 2014-2026. All rights reserved. KartaVR was formerly known as the "Domemaster Fusion Macros".
 

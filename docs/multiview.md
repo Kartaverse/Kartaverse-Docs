@@ -13,7 +13,7 @@ The MultiView nodes allow to you batch process volumetric camera array media ins
 To run Kartaverse MultiView based workflows on your Resolve/Fusion system you will need the following tools:
 
 - [Beeble SwitchLight Account](https://www.switchlight.beeble.ai/) (With Active Credits)
-- Resolve Studio / BMD Fusion Studio v18.5-20+
+- Resolve Studio / BMD Fusion Studio v18.5-21+
 - [Reactor Package Manager](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=32&t=3067) (Free)
 - [Vonk Ultra Data Nodes](https://gitlab.com/AndrewHazelden/Vonk) (via Reactor)
 - Kartaverse MultiView Nodes (via Reactor)

@@ -22,13 +22,13 @@ A GitLab "Personal Access Token" allows you to avoid the GitLab usage limits tha
 
 If you go though the following 5-step process, Reactor will be able to use more concurrent download sockets when installing and updating atom packages. This results in a 10x faster experience when using Reactor.
 
-[h2]Step by Step[/h2]
+### Step by Step
 
-Step 1. [url=https://gitlab.com/users/sign_up]Register for a free GitLab account[/url]. GitLab is the service that hosts the Reactor package manager repository.
+Step 1. [Register for a free GitLab account](https://gitlab.com/users/sign_up). GitLab is the service that hosts the Reactor package manager repository.
 
 ![GitLab Signup](Images/gitlab-reactor-signup.png)
 
-Step 2. Open your [url=https://gitlab.com/-/user_settings/personal_access_tokens]GitLab account[/url] preferences and click on the "Access Token" sidebar link. Then click on the "Add new token" button at the top right corner of the webpage.
+Step 2. Open your [GitLab account](https://gitlab.com/-/user_settings/personal_access_tokens) preferences and click on the "Access Token" sidebar link. Then click on the "Add new token" button at the top right corner of the webpage.
 
 ![GitLab Sidebar](Images/gitlab-reactor-sidebar.png)
 

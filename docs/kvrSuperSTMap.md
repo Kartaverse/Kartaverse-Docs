@@ -17,7 +17,7 @@ If you want a fast way to build a new SBS 180VR STmap warping template, check ou
 
 ## Software Required
 
-- Resolve Studio or Fusion Studio v17-19+ 
+- Resolve Studio or Fusion Studio v17-21+ 
 - Reactor Package Manager + Kartaverse
 - Reactor Atom Packages Used:
 	- STMapper

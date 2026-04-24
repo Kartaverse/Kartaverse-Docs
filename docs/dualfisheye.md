@@ -10,7 +10,7 @@ The "kvrDualFisheye" Effects Template and example composites stitch together foo
 
 ## Software Required
 
-- Resolve Free or Resolve Studio or Fusion Studio v17-19+
+- Resolve Free or Resolve Studio or Fusion Studio v17-21+
 - Reactor Package Manager + Kartaverse
 - Kartaverse Fuses Used:
 	- kvrCropStereo

@@ -9,11 +9,11 @@ Kartaverse is a free open-source (GNU LGPL/GPL v3) toolset. It is distributed th
 
 Kartaverse/KartaVR can be used on personal and commercial projects at no cost. It can be installed, for free, on an unlimited number of computers and render nodes via the Reactor Package Manager. You can even install Reactor + Kartaverse on a shared NAS storage volume to be used across a local area network.
 
-Kartaverse works with Fusion Studio v9-19+, Fusion Render Node v9-20+, DaVinci Resolve (Free) v15-20+, and DaVinci Resolve Studio v15-20+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
+Kartaverse works with Fusion Studio v9-21+, Fusion Render Node v9-21+, DaVinci Resolve (Free) v15-21+, and DaVinci Resolve Studio v15-21+. It runs on Windows 10-11, macOS Monterey - Sonoma, and Linux 64-Bit RHEL 7+, CentOS 7+, and recent Ubuntu distributions.
 
 ## Reactor Standalone Package Manager
 
-The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone) Package Manager helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 20. Reactor Standalone runs as a standalone desktop program on macOS, Windows, and Linux.
+The new [Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone) Package Manager helps solve the UI manager scripting dependency issue that was present with Resolve Free v19.1 - 21. Reactor Standalone runs as a standalone desktop program on macOS, Windows, and Linux.
 
 
 ## Reactor Classic Package Manager
